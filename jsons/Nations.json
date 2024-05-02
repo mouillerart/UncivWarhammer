@@ -1,24 +1,70 @@
 [
-	// Spectator
+// Spectator
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
 	},
 	
-	// Nations
+// Nations
 	
-// Forces of Order
 	// Bretonnia
 	{
 		
 	},
-	// Dwarfs
+	// Dwarves
 	{
 		
 	},
 	// The Empire
 	{
+		"name": "Reikland",
+		"leaderName": "Emperor Karl Franz",
+		"adjective": ["Reiklanders"],
+		//"startBias": ["Fresh Water"],
+		//"preferredVictoryType": "Cultural",
+		"favoredReligion": "Cult of Sigmar",
+		"style": "Human",
+		
+		"startIntroPart1": "The Empire is the strongest, wealthiest and most famous realm in the Old World. Made up of independent provinces and city states, the Empire is ruled over by Elector Counts and the ultimate power; the Emperor Karl Franz. The Emperor's powerful armies form the bastion that keeps the marauding Orcs and forces of Chaos from overrunning the Old World.",
+		//"startIntroPart2": "...",
+		
+		//"declaringWar": "I can engage in this war without sacrificing morals. Can you?",
+		//"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
+		//"defeated": "No, I am not ready to leave my people. No!",
+		//"afterPeace": "Because of war, haven't we all been hurt?",
+		//"introduction": "I am Erish, and who are you, gentleman?",
+		
+		//"neutralHello": "You have my gratitude.",
+		//"hateHello": "Shame on you.",
+		//"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"outerColor": [105, 34,172],
+		"innerColor": [255,102,102],
+		//"uniqueName": "Valley of Rejuvenation",
+		//"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
+		//"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
+		//			"[{Military} {Land}] units gain the [Amphibious] promotion"], 
+		"cities": ["Altdorf","Kemperbad","Eilhart","Ubersreik","Helmgart","Castle Reikguard","Dunkelberg","Diesdorf","Frederheim","Glumund",
+			"Gluckshalt","Holthusen","Bögenhafen","Grünburg","Tallerhof","Stromdorf","Schädelheim","Prie","Stimmigen","Schluesselschloss",
+			"Schloss Drakenburg","Schilderheim","Rottfurt","Zahnstadt","Wittgendorf","Wörlin","Wheburg","Weissbruck"],
+		//"spyNames": ["Heba","Sukaesih","Ma'at","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
+		"civilopediaText": [
+			{"text": "When the High Elves left their great towers in the Old World, the land was abandoned to the Orcs, Goblins and savage Human tribes. In those distant times, the fathers of Men were nothing but fur-clad savages, barely distinguishable from Orcs in the eyes of the haughty Elves. It was the Dwarfs who recognised the potential of Humanity, first as trading partners, but eventually as allies against the Orcs that infested the land."},
+			{"text": "The Dwarfs taught the Human tribes the secrets of metallurgy and swordmaking and, as a result of trade and further Dwarf encouragement, primitive Men began to grow in strength and ambition. "},
+			{"text": "The many Human tribes remained divided until the time of Sigmar, the founder of the Empire and friend of the Dwarf king Kurgan Ironbeard. It was Sigmar who rescued Kurgan from the Orcs, and in honour of this valiant act the Dwarf king gave him the great warhammer Skull Splitter. For ever after the Emperor was known as Sigmar Heldenhammer and was accounted a true friend of the Dwarfs, the greatest honour a Dwarf can bestow. Sigmar united all the warring Human tribes under his rule and established the realm that is known today as the Empire."},
+			{"text": "Sigmar's day was over two thousand years ago and since that time the Empire has survived many long and arduous wars. It has suffered Orc and Goblin invasions, the devastations of the Vampire Counts, and the dreaded incursions of Chaos armies. It has also endured periods of rebellion and anarchy within its own borders."},
+			{"text": "In all that time there have been many weak and disastrous Emperors, such as Boris Goldgather, and also many great conquerors, such as Magnus the Pious."},
+			{"text": "Despite times of changing fortune, even during its long periods of disunity and division, the Empire has always maintained its sense of identity as one land and one people, under the spiritual, if not actual, leadership of Sigmar, who is now accorded the status of patron god of his ancient realm."},
+			{"text": "Today the Empire is the largest and most powerful of all the lands of Men. It stretches from the Grey Mountains and the borders of Bretonnia in the south to the Forest of Shadows and the land of Kislev in the north. Eastwards it is bounded by the Sea of Claws and the wilderness known as the Wasteland. Westwards the borderlands lie upon the foothills of the World's Edge Mountains."},
+			{"text": "Within the Empire's boundaries lie dark forests, mighty rivers and tall, forbidding mountains. For the most part these are wild and untamed, the refuge of evil creatures and brigands of all kinds. The real strength of the Empire lies in its sprawling cities and the lesser towns and farms that lie under their protection."},
+			{"text": "The Empire is a great commercial as well as military power, whose cities prosper in a new age of enlightenment and growth. In the busy markets, rich merchants jostle with scholars, and dour warriors rub shoulders with skilled artisans. In the deep harbours of Altdorf, ocean-going ships unload cargoes from all over the world. Altdorf is also the home of the Colleges of Magic, the foremost schools of sorcery in the Old World, and of the Imperial Zoo, which maintains a stable of many fantastic monstrous creatures."},
+			{"text": "The Emperor's armies come from the widespread lands of the Empire. As well as sturdy infantry and heavily armoured knights, the Emperor can call upon the marvellous inventions of the Engineers. These are men taught in the traditions of the Dwarf smiths by Dwarf refugees driven from their mountains and now settled in the Empire under the Emperor's protection. Huge cannons are forged in the city of Nuln, whilst ambitious inventors work away at engines powered by steam or alcohol and devices driven by clockwork."},
+			{"text": "Mankind has grown and prospered greatly since the decline of the Dwarfs and Elves. From humble beginnings Men have raised mighty nations to equal the civiliations of the older races. The greatest of these nations is the Empire, a land which stands upon the dawn of a new age of exploration and discovery. However, the growth and even survival of the Empire is by no means certain, for there are many perils that threaten its future, not least of which is the growing shadow of Chaos in the north. Such perils must be faced and overcome if Mankind is to flourish. But the greatest danger lies within, for even inside the Empire there are those who seek the aid of the Dark Gods of Chaos, who would trade the freedom of Man for a brief taste of power. Indeed, the witch hunters of the Emperor are kept almost as busy as the soldiers of its armies."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 		
 	},
 	// Grand Cathay
@@ -41,12 +87,112 @@
 	{
 		
 	},
-	// Tomb Kings
+	// Tomb Kings (Khemri)
 	{
 		
 	},
 	// Vampire Counts (Sylvania)
 	{
 		
+	},
+	// Dark Elves
+	{
+		
+	},
+	// Estalia
+	{
+		
+	},
+	// Tilea
+	{
+		
+	},
+	// Lhamia
+	{
+		
+	},
+	// Beastmen
+	{
+		
+	},
+	// Skaven
+	{
+		
+	},
+	// Chaos Dwarves
+	{
+		
+	},
+	// Norsca
+	{
+		
+	},
+	// Kurgan
+	{
+		
+	},
+	// Hung
+	{
+		
+	},
+	// Ind
+	{
+		
+	},
+	// Araby
+	{
+		
+	},
+	// Nippon
+	{
+		
+	},
+	// Lizardmen
+	{
+		
+	},
+	// Amazonia
+	{
+		
+	},
+	// Ironclaw Orcs
+	{
+		
+	},
+	// Badmoon Goblins
+	{
+		
+	},
+	// Hobgobelins
+	{
+		
+	},
+	// Ogre Kingdoms
+	{
+		
+	},
+	
+	
+// City-States
+	{
+		"name": "The Moot",
+		"adjective": ["Halflings"],
+		"cityStateType": "Cultural",
+		"style": "Human",
+		"uniques": ["Free [Spearman] appears <upon discovering [Bronze Working]>"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [255,153,255],
+		"cities": ["The Moot"],
+		"civilopediaText": [
+			{"text": "The Moot or the Mootland is an autonomous region governed by Halflings located between Averland and Stirland. Administrative autonomy was granted to the little folk by Ludwig the Fat in 1000 IC, during the Age of Three Emperors, after he decided it was about time to give them their own land to govern as they see fit. Ludwig's advisers at the time told him that he cannot possibly grant the Halflings this just because they had contributed to the Imperial cuisine. Nevertheless, Ludwig the Fat issued the edict that the Moot should be its own province and even be permitted an electoral vote (much to the consternation of his more conservative advisers.)"},
+			{"text": "The Moot is formed by a collection of villages, each one headed by an Elder. The Elders meet fairly frequently, called a District Moot, in a selected village which has been voted for by the Elders; such things as prestige and monthly yield is important in the voting process. Topics debated in a District Moot covers the harvest, which is one of the most important areas of discussion, how many fields should be left fallow, if any are flooded, as well as other crop rotation and fertility issues; where herds should be allowed to graze, if they are producing enough milk or not; whether the cheese is up to standard; the amount of pipe weed grown; and if there are any concerns over possible bandit activity. Before the District Moot the chair-halfling is elected by the Elders and this individual actually becomes an Imperial Elector with the power to vote for a new Emperor!"},
+			{"text": " District Moot is a sight to behold for it is a gigantic banquet where the village Elders smoke enormous amounts of pipe weed and drink ale by the gallon. For some Elders the attendance of a District Moot depends on the size of the banquet and what is being served. Some conservative Elders (those with strong Halfling traditions) will baulk if half a dozen extra helpings of meat pie are not forthcoming and won't attend. Often the local Electors, usually Averland and Stirland, will send emissaries to a District Moot to watch and take note of the proceedings (when politics is finally discussed after the first seven courses) because little do the Halflings know that they could have an influential say on Imperial politics. One of the Emperor's own Plenipotentiaries is always present at any District Moot, as whoever becomes an Imperial Elector from the assembled Halflings could prove to be an important associate and ally. The Emperor's Plenipotentiary will also keep an eye on any other officials sent by the Electors."},
+			{"text": "Although the Moot relies heavily on Imperial protection it does at least have its own militia, which the Count of Stirland in particular insists upon, to help with combating bandits in the region. Mostly they are a defensive force and not very well equipped to attack. The Halflings make great use of their culinary skills for homeland defence. Just as most Halflings are excellent cooks and can prepare delicious meals some can also prepare cocktails designed to actually harm a foe and even these ingredients are closely guarded secrets just like an old woman won't divulge the secrets of her recipe book. The cocktails are boiled by the cauldron load and contain ferociously hot spices, as well as peppermint herbs, firebalm, and even dabs of gunpowder. The mixture turns out to be quite a wicked brew and highly flammable, not to mention effective when launched from a catapult. Indeed, mixtures of this kind are very effective against goblinoids; apparently the hot spices and herbs play merry havoc with their fungus-like metabolism. This could be one of the reasons why bands of goblinoids aren't as much of a problem as perhaps they should be on the Moot's borders; the stench given off by the boiling brew is enough to put most creatures off from getting too close. This lethal, stinking concoction is reasonably harmless to a Halfling should one consume a portion (he or she may suffer from an hour or two of stomach pains and intermittent blasts of wind) but to a human it is far more unpleasant; this includes almost immediate unconsciousness and at least two weeks, or more, of diarrhoea."},
+			{"text": "In return for their Imperial vote, the Moot sends some of their finest cooks to the Imperial court and sends small groups of their foresters to serve for a time in the Imperial army. Halflings are not born warriors but they make competent bowmen and can make hardly a sound when wandering through undergrowth. This makes them ideal scouts although their use in any Imperial army is largely symbolic and few Empire generals want them in their army. Halflings in defence of their homes are determined and doughty fighters, however."}
+		]
 	}
 ]
