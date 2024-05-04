@@ -9,11 +9,28 @@
 	
 	// Bretonnia
 	{
-		
+		"name": "Bretonnia",
+		"leaderName": "Gilles Le Breton",
+		"adjective": ["Bretonnians"],
+		"outerColor": [105, 34,0],
+
+		"civilopediaText": [
+			{"text": "Bretonnia lies between the Grey Mountains and the Great Ocean in the lands which comprise part of the former domain of the Elves. The Elves once built ports and tall towers, palaces and pinnacles, to serve their colonies in Old World. For a while they prospered, their cities grew, and the inhabitants became wealthy as a result of trade with the Dwarfs and primitive Human tribes. When the Elves and Dwarfs went to war, the land was devastated by the opposing armies. Eventually, after many long years of fighting, the Elves sailed back into the west and abandoned the Old World altogether. The Dwarfs too gave up on the land beyond the mountains, and so the whole area was deserted and forgotten."},
+			{"text": "With the disappearance of the Elves and Dwarfs, the land was quickly overrun by Orcs, Goblins and the rough Human tribes who were almost as brutal in those far off days. For many hundreds of years the area remained divided between rival warlords, both green-skinned and Human, until the time of Gilles of the tribe of Bretonni. In his day the realm was united, and as one nation the Bretonnians succeeded in defeating and driving out the Orcs and Goblins. It is from this time that the Bretonnians date the creation of their kingdom, some 977 years after the time of Sigmar and the founding of the Empire. "},
+			{"text": "To this day the Knights of Bretonnia follow the chivalric traditions established in the time of Gilles le Breton. Gilles' vision of the Lady of the Lake on the eve of battle foretold of his holy purpose and ultimate destiny as king of Bretonnia. Since then the warriors of Bretonnia have pledged themselves to the service of the Lady of the Lake, and sought to uphold the knightly virtues in her name. By feat of arms a Knight may rise in esteem and become, by degrees, one of those marked by the goddess for her special honour. That reward is to drink, as Gilles le Breton once drank, from the Lady's Grail, as only those who are pure in heart and deed can do."},
+			{"text": "Bretonnia has grown into a powerful nation under the guidance of its king, the Lady of the Lake, and the code of honour under which its nobility conducts itself in peace and war. There are no other men whose martial prowess can equal the Knights of Bretonnia, dedicated as they are, body and soul, to the pursuit of excellence. Indeed, it is often said that the Knights of Bretonnia could conquer the world were it not for their vows which bind them to protect their own domain and shield the poor and innocent from unwarranted hostility."},
+			{"text": "Though a Knight's code of honour binds him to the protection of his land and people, there are still times when he finds himself bound for war in foreign lands. When the Sultan Jaffar of Araby invaded the lands of Estalia, the king of Bretonnia, at that time Louis the Righteous, raised a mighty army pledged to free Estalia from his evil grasp. During the Crusades which followed not only was Estalia freed but the Bretonnian king took the war to Araby itself and destroyed the empire of Jaffar. Filled with crusading zeal the Knights tore down the decadent palaces of the Sultan, burned many evil tomes from his library, and flung down the dark idols from his unholy temples."},
+			{"text": "Today the king of Bretonnia and his Knights form a bulwark against the growing evils of Chaos and the power of the Orcs, Goblins, Skaven and other monstrous creatures that threaten Mankind's survival. The Bretonnians are protected by their honour and by their strength of arms and, whilst they endure, the lands of Men remain safe from peril. If the Knights of Bretonnia were ever to fail in their sacred duties, then the Human race would surely be doomed."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+
 	},
-	// Dwarves
+	// Dwarfs
 	{
-		
+		"name": "Dwarfs"
 	},
 	// The Empire
 	{
@@ -107,7 +124,7 @@
 	{
 		
 	},
-	// Lhamia
+	// Lahmia
 	{
 		
 	},
