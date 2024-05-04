@@ -12,6 +12,7 @@
 		"name": "Bretonnia",
 		"leaderName": "Gilles Le Breton",
 		"adjective": ["Bretonnians"],
+		"favoredReligion": "Lady of the Lake",
 		"outerColor": [105, 34,0],
 
 		"civilopediaText": [
