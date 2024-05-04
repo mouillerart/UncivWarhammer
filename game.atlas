@@ -1,0 +1,118 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Beastmen
+  rotate: false
+  xy: 1046, 212
+  size: 210, 261
+  orig: 210, 261
+  offset: 0, 0
+  index: -1
+NationIcons/Bretonnia
+  rotate: false
+  xy: 4, 9
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Dark Elves
+  rotate: false
+  xy: 1475, 273
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Dwarfs
+  rotate: false
+  xy: 1683, 273
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Estalia
+  rotate: false
+  xy: 531, 15
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Hordes of Chaos
+  rotate: false
+  xy: 1891, 273
+  size: 123, 200
+  orig: 123, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Khemri
+  rotate: false
+  xy: 739, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Kislev
+  rotate: false
+  xy: 531, 223
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+NationIcons/Marienburg
+  rotate: false
+  xy: 947, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Norsca
+  rotate: false
+  xy: 1155, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Reikland
+  rotate: false
+  xy: 789, 212
+  size: 249, 261
+  orig: 249, 261
+  offset: 0, 0
+  index: -1
+NationIcons/Skaven
+  rotate: false
+  xy: 1562, 65
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Sylvania
+  rotate: false
+  xy: 1363, 4
+  size: 191, 200
+  orig: 191, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Moot
+  rotate: false
+  xy: 1264, 212
+  size: 203, 261
+  orig: 203, 261
+  offset: 0, 0
+  index: -1
+NationIcons/Tilea
+  rotate: false
+  xy: 4, 217
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Ulthuan
+  rotate: false
+  xy: 268, 40
+  size: 255, 433
+  orig: 255, 433
+  offset: 0, 0
+  index: -1
