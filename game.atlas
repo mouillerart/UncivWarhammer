@@ -1,125 +1,440 @@
 
 game.png
-size: 2048, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Beastmen
   rotate: false
-  xy: 1150, 57
+  xy: 631, 165
   size: 83, 100
   orig: 83, 100
   offset: 0, 0
   index: -1
 NationIcons/Bretonnia
   rotate: false
-  xy: 4, 9
+  xy: 479, 817
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Dark Elves
   rotate: false
-  xy: 1000, 273
+  xy: 687, 817
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Dwarfs
   rotate: false
-  xy: 1208, 273
+  xy: 895, 817
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Estalia
   rotate: false
-  xy: 1416, 273
+  xy: 1103, 817
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Hordes of Chaos
   rotate: false
-  xy: 917, 4
+  xy: 398, 65
   size: 123, 200
   orig: 123, 200
   offset: 0, 0
   index: -1
 NationIcons/Khemri
   rotate: false
-  xy: 1624, 273
+  xy: 1311, 817
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Kislev
   rotate: false
-  xy: 1152, 165
+  xy: 1459, 301
   size: 86, 100
   orig: 86, 100
   offset: 0, 0
   index: -1
 NationIcons/Marienburg
   rotate: false
-  xy: 1832, 273
+  xy: 1519, 817
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Norsca
   rotate: false
-  xy: 531, 6
+  xy: 1727, 817
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Reikland
   rotate: false
-  xy: 1048, 165
+  xy: 1355, 301
   size: 96, 100
   orig: 96, 100
   offset: 0, 0
   index: -1
 NationIcons/Skaven
   rotate: false
-  xy: 739, 4
+  xy: 267, 548
   size: 170, 200
   orig: 170, 200
   offset: 0, 0
   index: -1
 NationIcons/Sylvania
   rotate: false
-  xy: 1048, 57
+  xy: 529, 165
   size: 94, 100
   orig: 94, 100
   offset: 0, 0
   index: -1
 NationIcons/The Moot
   rotate: false
-  xy: 789, 212
+  xy: 268, 756
   size: 203, 261
   orig: 203, 261
   offset: 0, 0
   index: -1
 NationIcons/Tilea
   rotate: false
-  xy: 4, 217
+  xy: 4, 761
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Ulthuan
   rotate: false
-  xy: 268, 40
+  xy: 4, 320
   size: 255, 433
   orig: 255, 433
   offset: 0, 0
   index: -1
 ReligionIcons/Chaos Gods
   rotate: false
-  xy: 531, 214
+  xy: 4, 53
   size: 250, 259
   orig: 250, 259
+  offset: 0, 0
+  index: -1
+TechIcons/Archives
+  rotate: false
+  xy: 267, 412
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Awakening
+  rotate: false
+  xy: 267, 276
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Battle Magic
+  rotate: false
+  xy: 262, 140
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Black Arts
+  rotate: false
+  xy: 262, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Bretonnia
+  rotate: false
+  xy: 479, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Cannon
+  rotate: false
+  xy: 615, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Capital Punishment
+  rotate: false
+  xy: 751, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Cartography
+  rotate: false
+  xy: 887, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Cauldron
+  rotate: false
+  xy: 1023, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Chivalry
+  rotate: false
+  xy: 1159, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Chivalry2
+  rotate: false
+  xy: 1295, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Coal
+  rotate: false
+  xy: 1431, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Cold Ones
+  rotate: false
+  xy: 1567, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Conjuration
+  rotate: false
+  xy: 1703, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Craftsmanship
+  rotate: false
+  xy: 445, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Demonology
+  rotate: false
+  xy: 581, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Diplomacy
+  rotate: false
+  xy: 717, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Dragon Cult
+  rotate: false
+  xy: 853, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Dwarven Ingenuity
+  rotate: false
+  xy: 989, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Elementalism
+  rotate: false
+  xy: 1125, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Fishing
+  rotate: false
+  xy: 1261, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Grail
+  rotate: false
+  xy: 1397, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Iron Working
+  rotate: false
+  xy: 1533, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Irrigation
+  rotate: false
+  xy: 1669, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Laihtero
+  rotate: false
+  xy: 1839, 681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Logging
+  rotate: false
+  xy: 1805, 545
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Magic
+  rotate: false
+  xy: 403, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Magic2
+  rotate: false
+  xy: 539, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Medicine
+  rotate: false
+  xy: 675, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Monastic
+  rotate: false
+  xy: 811, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Monoliths
+  rotate: false
+  xy: 947, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Nature Lore
+  rotate: false
+  xy: 1083, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Ocean Faring
+  rotate: false
+  xy: 1219, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Ogre Kingdoms
+  rotate: false
+  xy: 1355, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Old World
+  rotate: false
+  xy: 1935, 917
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Orc
+  rotate: false
+  xy: 1491, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Pottery
+  rotate: false
+  xy: 1627, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Sanitation
+  rotate: false
+  xy: 1763, 409
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Skink
+  rotate: false
+  xy: 403, 273
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Slavery
+  rotate: false
+  xy: 539, 273
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Stone Working
+  rotate: false
+  xy: 675, 273
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Summoning
+  rotate: false
+  xy: 811, 273
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Tool Making
+  rotate: false
+  xy: 947, 273
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Vampirism
+  rotate: false
+  xy: 1083, 273
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Warpstone
+  rotate: false
+  xy: 1219, 273
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1

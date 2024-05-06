@@ -34,8 +34,9 @@
 		"innerColor": [255,102,102],
 		//"uniqueName": "Valley of Rejuvenation",
 		//"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
-		//"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
-		//			"[{Military} {Land}] units gain the [Amphibious] promotion"], 
+		"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
+					"Discover [Old World]", 
+					"[{Military} {Land}] units gain the [Drill] promotion"], 
 		"cities": ["Altdorf","Kemperbad","Eilhart","Ubersreik","Helmgart","Castle Reikguard","Dunkelberg","Diesdorf","Frederheim","Glumund",
 			"Gluckshalt","Holthusen","Bögenhafen","Grünburg","Tallerhof","Stromdorf","Schädelheim","Prie","Stimmigen","Schluesselschloss",
 			"Schloss Drakenburg","Schilderheim","Rottfurt","Zahnstadt","Wittgendorf","Wörlin","Wheburg","Weissbruck"],
@@ -86,6 +87,12 @@
 	{
 		"name": "Dwarfs",
 		"outerColor": [105, 34,0]
+	},
+	// Albion
+	{
+		"name": "Albion",
+		"outerColor": [105, 34,0]
+		
 	},
 	// Grand Cathay
 	{
@@ -257,7 +264,22 @@
 		]
 	}
 	/*,
+	// Marienburg
+	{
+		
+	}
+	,
 	// Lahmia
+	{
+		
+	}
+	,
+	// Border Princes: Citadelle Bouelia
+	{
+		
+	}
+	,
+	// Border Princes: Matorea
 	{
 		
 	}
