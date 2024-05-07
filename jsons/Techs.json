@@ -2,24 +2,81 @@
 	{
 		"columnNumber": 0,
 		"era": "Ancient age",
-		"techCost": 20,
+		"techCost": 20000,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Rise of Sigmar",
 				"row": 2,
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech"],
+				"quote": "Welcome to the Age of Sigmar!"
 			},
 			{
 				"name": "Old World",
-				"row": 4,
+				"row": 3,
+				"uniques": ["Unavailable","Cannot be hurried"],
 				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia"
 			},
 			{
-				"name": "Knightly Virtues",
+				"name": "Dwarven Ingenuity",
+				"row": 5,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to all dwarfs factions."
+			},
+			{
+				"name": "Undead Curse",
 				"row": 6,
-				"quote": "This is a free advance granted to Bretonnia"
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to all undead factions."
+			},
+			{
+				"name": "Norse Tradition",
+				"row": 7,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Norsca."
+			},
+			{
+				"name": "Arabyan Tradition",
+				"row": 8,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Araby and Ind."
+			},
+			{
+				"name": "Far East",
+				"row": 9,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Cathay, Nippon and Ungols."
+			},
+			{
+				"name": "Channeling",
+				"row": 10,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Ulthuan and Albion."
+			},
+			{
+				"name": "Forest Mastery",
+				"row": 11,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Wood Elves."
+			},
+			{
+				"name": "Cold Ones",
+				"row": 12,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Lustria."
+			},
+			{
+				"name": "Greenskin",
+				"row": 13,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Ironclaw Orcs and Crooked Moon Goblins."
+			},
+			{
+				"name": "Chaos",
+				"row": 14,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Beastmen, Hordes of Chaos, Chaos Dwarfs, Ironclaw Orcs and Crooked Moon Goblins."
 			}
 		]
 	},
@@ -262,6 +319,12 @@
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
+				"name": "Knightly Virtues",
+				"row": 4,
+				"uniques": ["Unavailable","Cannot be hurried"],
+				"quote": "This is a free advance granted to Bretonnia"
+			},
+			{
 				"name": "Chivalry",
 				"row": 5,
 				"prerequisites": ["Civil Service","Domestication"],
@@ -317,8 +380,14 @@
 				"quote": "'Astronomy's much more fun when you're not an astronomer.' - Brian Miller"
 			},
 			{
-				"name": "Acoustics",
+				"name": "Quest for Grail",
 				"row": 4,
+				"prerequisites": ["Knightly Virtues","Chivalry"],
+				"quote": "'That which is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
+			},
+			{
+				"name": "Acoustics",
+				"row": 3,
 				"prerequisites": ["Education","Chivalry"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},

@@ -1,0 +1,71 @@
+{
+	"name": "Global uniques", 
+	"uniques": [
+		"[-50]% growth [in all cities] <when between [-5] and [-1] Happiness>",
+		"[-75]% growth [in all cities] <when between [-10] and [-6] Happiness>",
+		"Nullifies Growth [in all cities] <when below [-10] Happiness>",
+		"[-33]% [Production] [in all cities] <when below [-10] Happiness>",
+		"[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+		"Cannot build [Settler] units <when below [-10] Happiness>",
+		"Rebel units may spawn <when below [-20] Happiness>",
+		
+		// Military mechanism
+		"[1] Movement point cost to embark <for [Air Terror] units>", 
+		"[1] Movement point cost to disembark <for [Air Terror] units>", 
+		"[1] Movement point cost to disembark <for [Air Balloon] units>", 
+		"New [Recon] units start with [10] Experience [in all cities]",
+		
+		// Heroes
+		"[+40]% Strength <for [The Heroes] units> <during the [Feudal age]>",	 			// 35,
+		"[+80]% Strength <for [The Heroes] units> <during the [Renaissance age]>", 			// 45,
+		"[+120]% Strength <for [The Heroes] units> <starting from the [Industrial age]>", 	// 55,
+		"[+80]% Strength <for [The Heroes] units> <during the [Prosperity age]>",		 	// 75,
+		"[+160]% Strength <for [The Heroes] units> <starting from the [Modern age]>",	 	// 95,
+		"Instantly provides [1] [Portal Limiter] <upon discovering [Agriculture] technology>",
+		"Provides [1] [Hero Limiter] <for [Major]>",
+		
+		//"[-33]% Strength <for [The Heroes] units> <for [City-States]>",
+		"[-30]% Strength <for [The Heroes] units> <during the [Feudal age]> <for [City-States]>",
+		"[-60]% Strength <for [The Heroes] units> <during the [Renaissance age]> <for [City-States]>",
+		"[-90]% Strength <for [The Heroes] units> <starting from the [Industrial age]> <for [City-States]>",
+		"[-60]% Strength <for [The Heroes] units> <during the [Prosperity age]> <for [City-States]>",
+		"[-120]% Strength <for [The Heroes] units> <starting from the [Modern age]> <for [City-States]>",
+		
+		// Player problems
+		//"Provides a [Zaghronk] in your first [4] cities for free <upon adopting [Tradition Complete]> <for [The Trolls]>", 
+		
+		// Natural Wonders mechanism
+		"[+1 Food] from every [Grassland] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Gold] from every [Grassland] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
+		"[+1 Food] from every [Plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Gold] from every [Plains] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
+		"[+1 Production] from every [Plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Tundra] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Food] from every [Desert] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Desert] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Lakes] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Gold] from every [Lakes] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
+		"[+1 Production] from every [Lakes] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 		
+		"[+1 Production] from every [Mountain] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Hill] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Gold] from every [Hill] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
+		//"[+1 Production] from every [Hill] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Forest] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Forest] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Jungle] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Jungle] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Marsh] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Food] from every [Oasis] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Oasis] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Flood plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
+		//"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>",
+		//"[+1 Food] from every [City center] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
+		
+		// Canal Engineer Limiter
+		"Instantly provides [7] [Canal Limiter] <upon gaining a [Canal Engineer] unit>", 
+		"Cannot build [Canal Engineer] units <when above [20] [Canal Limiter]>"
+		
+    ]
+}

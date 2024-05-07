@@ -12,7 +12,7 @@
 		"name": "Reikland",
 		"leaderName": "Emperor Karl Franz",
 		"adjective": ["Reiklanders"],
-		//"startBias": ["Fresh Water"],
+		"startBias": ["Fresh Water", "Forest"],
 		//"preferredVictoryType": "Cultural",
 		"favoredReligion": "Cult of Sigmar",
 		"style": "Human",
@@ -30,12 +30,13 @@
 		//"hateHello": "Shame on you.",
 		//"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"outerColor": [105, 34,172],
-		"innerColor": [255,102,102],
+		"outerColor": [204, 0,0],
+		"innerColor": [255,255,255],
 		//"uniqueName": "Valley of Rejuvenation",
 		//"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
-					"Discover [Old World]", 
+					"Starts with [Old World]",
+					"Notified of new Barbarian encampments",					
 					"[{Military} {Land}] units gain the [Drill] promotion"], 
 		"cities": ["Altdorf","Kemperbad","Eilhart","Ubersreik","Helmgart","Castle Reikguard","Dunkelberg","Diesdorf","Frederheim","Glumund",
 			"Gluckshalt","Holthusen","Bögenhafen","Grünburg","Tallerhof","Stromdorf","Schädelheim","Prie","Stimmigen","Schluesselschloss",
@@ -60,14 +61,18 @@
 		]
 		
 	},
-/*
 	// Bretonnia
 	{
 		"name": "Bretonnia",
 		"leaderName": "Gilles Le Breton",
 		"adjective": ["Bretonnians"],
 		"favoredReligion": "Lady of the Lake",
-		"outerColor": [105, 34,0],
+		"style": "Human",
+		"outerColor": [0, 0, 204],
+		"innerColor": [255, 255, 0],
+
+		"uniques": ["Starts with [Knightly Virtues]"], 
+		"cities": ["Couronne","Brionne","Bordeleaux","Mousillon","Quenelles","Lyonesse","L'Anguille","Gisoreux","Parravon","Lisounne","Montfort","Bastonne","Aquitaine","Artois","Vecreaux","Gaon","Chalons","Oisillon","Alencon","Poussenc","Montluc","Perrache","Jouinard","Vettard","Chambonnay","Carcassonne","Cuilieux","Glanborielle","Aubenas","Brusse","Yremy","Cixous","Larret","Clouseau","Brusse","Moutiers","Saint Leu","Antoch","Ferignac","Marguilles","Cavour"],
 
 		"civilopediaText": [
 			{"text": "Bretonnia lies between the Grey Mountains and the Great Ocean in the lands which comprise part of the former domain of the Elves. The Elves once built ports and tall towers, palaces and pinnacles, to serve their colonies in Old World. For a while they prospered, their cities grew, and the inhabitants became wealthy as a result of trade with the Dwarfs and primitive Human tribes. When the Elves and Dwarfs went to war, the land was devastated by the opposing armies. Eventually, after many long years of fighting, the Elves sailed back into the west and abandoned the Old World altogether. The Dwarfs too gave up on the land beyond the mountains, and so the whole area was deserted and forgotten."},
@@ -82,12 +87,109 @@
 			{"text": "..."}
 		]
 
-	},
+	}
+	,
 	// Dwarfs
 	{
 		"name": "Dwarfs",
-		"outerColor": [105, 34,0]
+		"leaderName": "High King Thorgrim Grudgebearer",
+		"adjective": ["Dwarfs"],
+		"startBias": ["Hill"],
+		"favoredReligion": "Ancestor Gods",
+		"style": "Dwarven",
+		"outerColor": [102, 178,255],
+		"innerColor": [255,255,255],
+
+		"uniques": ["Starts with [Dwarven Ingenuity]",
+			"[+10]% Strength <within [2] tiles of a [Mountain]>", 
+			"Land units may cross [Mountain] tiles after the first [Great Person] is earned"],
+
+		"cities": ["Karaz-a-Karak","Barak Varr","Karak Angazhar","Karak Azgaraz","Karak Bhufdar","Karak Eksfilaz","Karak Gantuk","Karak Grom","Karak Hirn","Karak Izor","Karak Kadrin","Karak Kaferkammaz","Karak Norn","Karak Ziflin","Zhufbar","Karak Azul"],
+
+		"civilopediaText": [
+			{"text": "The Dwarven Kingdom of old was prosperous and full of splendor and glory. The majority of the Dwarven strongholds have fallen, one by one, in the bitter wars with the Orcs, Goblins or Skaven, even now the remaining few Dwarf cities are under constant siege. These centuries of war have hardened the Dwarfs and moulded them into some of the finest warriors of the Old World. Always a stubborn race, the Dwarfs still cling to what remains of their Kingdom, and dream of one day reclaiming their own (and extracting a terrible vengeance!)"},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+
 	},
+	// Tomb Kings (Khemri)
+	{
+		"name": "Khemri",
+		"leaderName": "Settra the Imperishable",
+		"adjective": ["Tomb Kings"],
+		"startBias": ["Desert"],
+		"style": "Demonic",
+		"outerColor": [255, 205,0],
+		"innerColor": [0,0,0],
+
+		"uniques": ["Starts with [Undead Curse]",
+					"Free [Skeletal Warrior] appears <upon founding a city> <before the [Feudal age]>", 
+					"Free [Skeletal Champion] appears <upon founding a city> <starting from the [Feudal age]>",
+					"Gain a free [Burial Tomb] [in annexed cities]"],
+			"cities": ["Khemri","Zandri","Numas","Quatar","Bhagar","Lybaras","Rasetra","Zartek","Shurak","Asur","Samur","Kehbet","Sahkra","Laharaz","Axul","Kabahta","Kharba","Urukh","Rakashur","Tamlak","Tephis","Mezzareh","Axular","Isis","Neftis","Dinaz","Amhis","Bakhutan","Mutash","Tiftis","Shar"],
+
+		"civilopediaText": [
+			{"text": "The ancient realm of Nehekhara was once the greatest civilisation of Men in the world, but hundreds of years before the rise of Sigmar the treachery of the Great Necromancer, Nagash, almost destroyed and enslaved this mighty realm. Brought back to immortal unlife by arcane magic, the Tomb Kings of Nehekhara continue to lead their Undead armies, fighting to protect their mighty empire from the depredations of the lesser races and expand their dominion even further."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+		
+	},
+	// Kislev
+	{
+		"name": "Kislev",
+		"outerColor": [105, 34,0]
+		"leaderName": "Tzarina Katarin Bokha",
+		"adjective": ["Kislevites"],
+		"startBias": ["Tundra"],
+		"style": "Human",
+		"outerColor": [204, 255,255],
+		"innerColor": [0,0,0],
+
+		"uniques": ["Starts with [Old World]"], 
+		"cities": ["KISLEV","PRAAG","ERENGRAD","VOLKSGRAD","BELEV","KOBRIN","KRAKJUNOV","BOLGASGRAD","PATRAGRESK","PRESLAV","RAKHOV","OMENSK","ZILAIR","GDOV","CHAZASK","PINSK","MURMAGRAD","DUBNA","EGOREVSK","OLNZA","NYROB","YARANSK","TZESKAGRAD","KROVAS","SHATSK","SELKOV","CHUDOVO","NIDZICA","PECHORA","VOLKOLOMSK","CHERNOZAVTRA","OPULENSK","LUKOYANOV"],
+
+		"civilopediaText": [
+			{"text": "The land of Kislev lies to the north and east of the Empire. As one travels eastwards the dense forests give way to open steppes stretching to the foothills of the World Edge Mountains. Beyond these formidable peaks lie barren wastes inhabited by tribes of greenskins of which the wolf-borne Hobgoblin hordes are the most numerous. To the north lies the desolate boulder-strewn Troll Country and beyond regions blighted by Chaos. It is said that in Kislev the winters are long and harsh, snow lies deep over the land and enemies are never far away."},
+			{"text": "Kislevites are savage and uncouth then this is hardly surprising given the dangers that surround them. Throughout its history Kislev has been beset by terrible foes, Chaos to the north, Hobgoblins to the east, and Orcs and Goblins from the Worlds Edge Mountains."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+		
+	},
+	// Vampire Counts (Sylvania)
+	{
+		"name": "Sylvania",
+		"leaderName": "Count Mannfred von Carstein",
+		"adjective": ["Sylvanians"],
+		"outerColor": [255, 255,255],
+		"innerColor": [0,0,0],
+
+		"uniques": ["Starts with [Undead Curse]",
+			"May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
+			"Provides [4] [Vampiric Block]", 
+			"[{Military} {Land}] units gain the [Vampiric Touch] promotion",
+			"New [Dracula] units start with [-15] Experience [in all cities]", 
+			"Free [Dracula] appears <upon discovering [Quintessence Force]>"],
+		"cities": ["Drakenholf","Waldenhof","Swartzhafen","Leicheberg","Tempelhof","Nachthafen","Mikalsdorf","Naubonum","Thyrnau","Telfeuheim","Essenfurt","Stephansdorp","Egling","Rottfurt","Pfaffbach","Regrakhof","Siegfriedhof","Vanhaldenschloss","Vermisace","Dunkelburg","Rottefach","Grachling","Murringen","Miesenthal","Trutzeburg","Grabstatt","Motteburg","Griemeling","Moderholm"],
+
+		"civilopediaText": [
+			{"text": "The Vampire Counts are the immortal rulers of the evil Undead. Powerful and cruel beyond the comprehension of the living, they command armies of decaying Zombies, Skeletons, Wights and Ghouls to destroy the Old World. When a Vampire Counts army goes to war, entire graveyards give up their dead as the spirits of the fallen take up arms once more to fight under their unliving masters."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+		
+	}
+	/*,
 	// Albion
 	{
 		"name": "Albion",
@@ -106,33 +208,15 @@
 		"outerColor": [105, 34,0]
 		
 	},
-	// Kislev
-	{
-		"name": "Kislev",
-		"outerColor": [105, 34,0]
-		
-	},
 	// Lizardmen (Lustria)
 	{
 		"name": "Lustria",
 		"outerColor": [105, 34,0]
 		
 	},
-	// Wood Elves
+	// Wood Elves (Loren)
 	{
 		"name": "Wood Elves",
-		"outerColor": [105, 34,0]
-		
-	},
-	// Tomb Kings (Khemri)
-	{
-		"name": "Khemri",
-		"outerColor": [105, 34,0]
-		
-	},
-	// Vampire Counts (Sylvania)
-	{
-		"name": "Sylvania",
 		"outerColor": [105, 34,0]
 		
 	},
