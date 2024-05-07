@@ -14,21 +14,21 @@ Available:
 * Sylvania
 * Dwarfs
 * Khemri
-
-Planned:
-* Albion
 * Estalia
 * Tilea
 * Loren
 * Norsca
+* Ulthuan
+* Naggaroth
+* Skaven
+
+Planned:
+* Albion
 * Grand Cathay
 * Nippon
 * Ind
 * Araby
-* Ulthuan
-* Naggaroth
 * Chaos Dwarfs
-* Skaven
 * Ironclaw Orcs
 * Badmoon Goblins
 * Hobgobelins
@@ -49,7 +49,7 @@ City states
 
 ### Technologies
 Nations unique techs
-* Old World (Reiklang, Bretonnia, Kislev, Tilea, Estalia)
+* Old World (Reiklang, Kislev, Tilea, Estalia)
 * Knightly Virtues (Bretonnia)
 * Channeling (Albion, Ulthuan)
 * Dwarven Ingenuity (Dwarfs, Chaos Dwarfs)
