@@ -152,7 +152,7 @@
 		"innerColor": [0,0,0],
 
 		"uniques": ["Starts with [Old World]"], 
-		"cities": ["KISLEV","PRAAG","ERENGRAD","VOLKSGRAD","BELEV","KOBRIN","KRAKJUNOV","BOLGASGRAD","PATRAGRESK","PRESLAV","RAKHOV","OMENSK","ZILAIR","GDOV","CHAZASK","PINSK","MURMAGRAD","DUBNA","EGOREVSK","OLNZA","NYROB","YARANSK","TZESKAGRAD","KROVAS","SHATSK","SELKOV","CHUDOVO","NIDZICA","PECHORA","VOLKOLOMSK","CHERNOZAVTRA","OPULENSK","LUKOYANOV"],
+		"cities": ["Kislev","Praag","Erengrad","Volksgrad","Belev","Kobrin","Krakjunov","BOLGASGRAD","PATRAGRESK","PRESLAV","RAKHOV","OMENSK","ZILAIR","GDOV","CHAZASK","PINSK","MURMAGRAD","DUBNA","EGOREVSK","OLNZA","NYROB","YARANSK","TZESKAGRAD","KROVAS","SHATSK","SELKOV","CHUDOVO","NIDZICA","PECHORA","VOLKOLOMSK","CHERNOZAVTRA","OPULENSK","LUKOYANOV"],
 
 		"civilopediaText": [
 			{"text": "The land of Kislev lies to the north and east of the Empire. As one travels eastwards the dense forests give way to open steppes stretching to the foothills of the World Edge Mountains. Beyond these formidable peaks lie barren wastes inhabited by tribes of greenskins of which the wolf-borne Hobgoblin hordes are the most numerous. To the north lies the desolate boulder-strewn Troll Country and beyond regions blighted by Chaos. It is said that in Kislev the winters are long and harsh, snow lies deep over the land and enemies are never far away."},
@@ -189,138 +189,539 @@
 		]
 		
 	}
-	/*,
-	// Albion
-	{
-		"name": "Albion",
-		"outerColor": [105, 34,0]
-		
-	},
-	// Grand Cathay
-	{
-		"name": "Cathay",
-		"outerColor": [105, 34,0]
-		
-	},
+	,
 	// High Elves (Ulthuan)
 	{
 		"name": "Ulthuan",
+		"leaderName": "Caledor",
+		"adjective": ["High Elves"],
+		"startBias": ["Coast"],
+		"style": "Elven",
 		"outerColor": [105, 34,0]
 		
-	},
-	// Lizardmen (Lustria)
-	{
-		"name": "Lustria",
-		"outerColor": [105, 34,0]
-		
-	},
+		"uniques": ["Starts with [Channeling]",
+					"Enables embarkation for land units <starting from the [Ancient age]>", 
+					"Enables [All] units to enter ocean tiles <starting from the [Ancient age]>",
+					"Defense bonus when embarked <for [All] units>"],
+		"cities": ["Caledor","Eataine","Ellyrion","Avelorn","Saphery","Yvresse","Cothique","Chrace","Nagarythe","Tiranoc"],
+
+		"civilopediaText": [
+			{"text": "'Though our fair homeland is beset on all sides, we shall resist, as our forefathers did before us. In these dark times, as our tainted brethren ravage our shores, we stand defiant and shall emerge victorious. For we are the Asur, the true kin of Aenarion, and Ulthuan shall never fall.' - Prince Tyrion, Defender of Ulthuan"},
+			{"separator": true},
+			{"text": "An ancient and noble race, the High Elves have refined their martial skills and magical prowess over the centuries. As the uprimitive tribes of Man fought amongst themselves, the High Elves navigated the oceans and mapped the heavens. They have watched empires rise and fall, and ferociously repel all who seek to conquer their homeland."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Wood Elves (Loren)
 	{
-		"name": "Wood Elves",
+		"name": "Loren",
+		"leaderName": "Ariel",
+		"adjective": ["Wood Elves"],
+		"startBias": ["Forest"],
+		"style": "Elven",
 		"outerColor": [105, 34,0]
 		
-	},
-	// Dark Elves
-	{
-		"name": "Dark Elves",
-		"outerColor": [105, 34,0]
-		
-	},
+		"uniques": ["Starts with [Forest Mastery]"],
+		"cities": ["Athel Loren","Tor Lithanel","Torgovann","Cavaroc","Atylwyth","Cythral","Modryn","Talsyn","Wydrioth","Fyr Darric","Anmyr","Tirsyth","Arcwylon","Arranoc"],
+
+		"civilopediaText": [
+			{"text": "Long ago the High Elves abandoned their cities in the Old World to return to their island home of Ulthuan. Some, however, stubbornly stayed, unwilling to leave their forest behind. These are the ancestors of the Wood Elves, who still live in the enchanted forest of Athel Loren. Having tamed the wild beasts and befriended the strange Treemen and Dryads, a Wood Elf army is unlike any other. Adapting well to their surroundings, the Wood Elves have developed many new troop types ideal for protecting their land. To this day the sacred forest of Athel Loren has never been conquered."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Estalia
 	{
 		"name": "Estalia",
+		"leaderName": "Don",
+		"adjective": ["Estalians"],
+		"style": "Human",
 		"outerColor": [105, 34,0]
 		
-	},
+		"uniques": ["Starts with [Old World]"],
+		"cities": ["Magritta","Bilbali","Aguilas","Ubrique","Geulata","Larhgoz","Belmoz","Zaragoz","Vizeaya","Astorias","Montenas","Borgas","Graus","Muros","Ubrique","Los Cabos","Barboza","Almyria","Pajena","Javea","Almagora","Cebreros","Potes","Sitges"],
+
+		"civilopediaText": [
+			{"text": "Estalia is a hot, barren peninsula located west of Tilea and Bretonnia. Being isolated by water and the Abasko Mountains, Estalian people have little or no contact with the rest of the Old World. They live in constant struggle to keep their settlements alive. Skaven, orcs and goblins - all raid the area regularly, giving the Estalians no time to rest. Their greatest struggle came when the Sultan of Araby invaded the region at the suggestion of the Skaven. However, the other nations of Men in the Old World rallied to defend the Estalian people, and their sovereignty was preserved."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Tilea
 	{
 		"name": "Tilea",
+		"leaderName": "Borgio",
+		"adjective": ["Tileans"],
+		"style": "Human",
 		"outerColor": [105, 34,0]
 
-	},
-	// Beastmen
-	{
-		"name": "Beastmen",
-		"outerColor": [105, 34,0]
-		
-	},
-	// Skaven
-	{
-		"name": "Skaven",
-		"outerColor": [105, 34,0]
-		
-	},
-	// Chaos Dwarves
-	{
-		"name": "Chaos Dwarfs",
-		"outerColor": [105, 34,0]
+		"uniques": ["Starts with [Old World]"],
+		"cities": ["Remas","Tobaro","Luccini","Miragliano","Pavona","Sartosa","Trantio","Verezzo","Monte Castello"],
 
-	},
+		"civilopediaText": [
+			{"text": "Tilea stretches from the Appucini Mountains in the east to the Abasko Mountains in the west, curving around the Tilean sea and bordered by the Irrana Mountains in the north. The Apucinis shelter the Tileans from the lawless areas known as the Border Princes, or that is how the Tileans see it, at least. But the forest and the foothills are dangerous, harbouring many predatory beasts, not all of natural or earthly origin. There are Goblins, and brigands are a constant threat, maintaining strongholds high in the mountain valleys. Few Tileans would willingly travel into these areas, and few of those who do ever return. The inland states are mostly agricultural, growing crops and raising goat and sheep herds or grazing cattle. To the west, the Abasko Mountains reach right down to the sea, offering little room for settlement other than small fishing villages and a few goat-herding settlements high up in one of the hidden valleys."},
+			{"text": "In the northwest lies the foul Blighted Marshes, a lifeless area of shallow pools covered by a great swirling mist of foul gases and fed by innumerable stinking streams. The Marshes form countless miles of fetid, sluggish pools in which indescribable things slime and slither, it is a lightless land of mist and foul vapour, so repellent that humans avoid the area. The Marshes are home to pestilence and countless disease-carrying insects, but also to the arch-servants of Chaos, the Skaven, whose great monument to decay, the city of Skavenblight, stands crumbling amongst the stinking mire. The few that dare breath the city's name insist that it is but an evil legend."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Norsca
 	{
 		"name": "Norsca",
+		"leaderName": "Erik the Lost",
+		"adjective": ["Norsemen"],
+		"startBias": ["Tundra"],
+		"style": "Icemen",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Norse Tradition]"],
+		"cities": ["Skjold","Skraevold","Vinnskor","Aeslings","Bjornlings","Sarls","Graelings","Vargs","Skaelings","Baersonglings","Wyrmkin","Wolfclaw","Stormravens","Sortsvinaer"],
+
+		"civilopediaText": [
+			{"text": "'This cold land north of the Empire is the home of the fierce Vikings. It is a land of mountains, forests and snow, with few habitable places. People born here in this inhospitable land grow up tough or not at all. The mountains have permanent snow caps, and narrow fjords reach into the heart of the country, burrowing through the mountains, creating imposing views of breathtaking beauty. But the view is not the only thing that'll take your breath away. Here you'll find blood thirsty Trolls and Ogres, Giants and Goblins, all ready to take your life, given half a chance.' - excerpt from a lecture by Hans Furcht, Professor at the Zauber Entstellung, Altdorf"},
+			{"text": "Norsca is inhabited mostly by barbaric human tribes and dwarfs. They spend their whole lives drinking and fighting. Norsemen are known for their longships, horned helmets and considerably large population of giants"},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Dark Elves (Naggaroth)
+	{
+		"name": "Naggaroth",
+		"leaderName": "Witch King Malekith",
+		"adjective": ["Dark Elves"],
+		"startBias": ["Tundra"],
+		"style": "Elven",
+		"outerColor": [105, 34,0]
+		
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["Naggarond","Ghrond","Karond Kar","Har Ganeth","Hag Graef","Clar Karond","","","",""],
+
+		"civilopediaText": [
+			{"text": "'We shall strike down our foes with sharp steel and cold hearts. The weak die so that the strong prevail and none shall be spared. Then and only then will our enemies know the true meaning of fear' - Malekith, Witch King of Naggaroth."},
+			{"separator": true},
+			{"text": "Those are the elves that were driven from the Ulthuan centuries ago, after a horrible civil war. Dark Elves, or Drucchi, as they are known in the Elven tongue, are close kin to High Elves, except for being paler, due to environment of their new, dark and cold home."},
+			{"text": "Dark Elves, or Druchii as they call themselves, dwell in the realm of Naggaroth, the Land of Chill, far in the northern part of the New World. From their six menacing fortified cities, they march forth to enslave the free peoples of the Old World. The bulk of the Dark Elf army is made up of Spearmen & Warriors drawn from amongst the citizens of the Dark Elf cities. Sacrifices of blood are made in the name of Malekith the Witch King, and the bodies of slain victims litter the 9battlefields of their armies."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Skaven
+	{
+		"name": "Skaven",
+		"leaderName": "Thanquol",
+		"adjective": ["Skaven"],
+		"startBias": ["Tundra"],
+		"style": "Beastmen",
+		"outerColor": [105, 34,0]
+		
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["Skavenblight","Hell Pit","The Black Chasm","Crookback Mountain","Foul Peak","City of Pillars","Queekwell","Bonestash","Fester Spike","Putrid Stump","Under-Altdorf","Under-Delberz","Under-Middenheim","Under-Nuln","Under-Remas","Bitter Stink","Under-Mousillon"],
+
+		"civilopediaText": [
+			{"text": "The Skaven are a race of evil rat-men who inhabit the underground of the Warhammer world. They gnaw at the roots of civilisation, eternally scheming and preparing for the day when their uncountable hordes will overrun the surface world. The only thing that keeps them in check is the constant internal strife between the clans making up their society, but one day the Grey Seers, who speak for the Horned Rat himself, will unify them and lead them to inevitable victory."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	/*
+	,
+	// Albion
+	{
+		"name": "Albion",
+		"leaderName": "Agam Rund",
+		"adjective": ["Albioners"],
+		"startBias": ["Coast"],
+		"style": "Human",
+		"outerColor": [105, 34,0]
+		
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "The great island of Albion is situated between the Sea of Claws and the Middle Sea. It is a land shrouded by myths and mists, and the scholars of the Old World always write in their maps about Albion "Here Be Dragons" with bold red letters..."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Beastmen
+	{
+		"name": "Beastmen",
+		"leaderName": "Gorthor",
+		"adjective": ["Beastmen"],
+		"startBias": ["Jungle"],
+		"style": "Beastmen",
+		"outerColor": [105, 34,0]
+		
+		"uniques": ["Starts with [Chaos]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Deep within the dark and twisted forests dwell countless horrifying and deadly creatures – tainted beasts warped by Chaos. The Beastmen are a plague on the civilised races, preying on the weak and striking without warning in a rampage of killing and destruction before disappearing into the protective darkness of the wilderness. All manner of mutated and blood-hungry creatures join these raids – towering, nightmarish beasts whose whole existence centres on the rush of blood that comes during the slaughter."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Chaos Dwarves
+	{
+		"name": "Chaos Dwarfs",
+		"leaderName": "Astragoth",
+		"adjective": ["Chaos Dwarfs"],
+		"startBias": ["Tundra"],
+		"favoredReligion": "Chaos",
+		"style": "Dwarven",
+		"outerColor": [105, 34,0]
+
+		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "The Chaos Dwarfs are the evil rulers of the Dark Lands, a massive bleak region littered with ziggurats and forges that churn out untold tonnes of ashes across the land in the name of industry. They have enslaved numerous races, particularly the Greenskins, and have an alliance with the Hobgoblin Hegemony that more than makes up for their own slow characteristics. "},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Kurgan
 	{
 		"name": "Kurgan",
+		"leaderName": "Caledor",
+		"adjective": ["Kurgan"],
+		"startBias": ["Tundra"],
+		"style": "Human",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": ""},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	},
+	// Dolgans
+	{
+		"name": "Dolgan",
+		"leaderName": "Etzen",
+		"adjective": ["Dolgans"],
+		"startBias": ["Tundra"],
+		"style": "Human",
+		"outerColor": [105, 34,0]
+		
+		"uniques": [],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Dolgans represent the barbarian tribes dwelling in the tundra east of Kislev (they come from the same Gospodar culture). Dolgans spend most of their life on horseback, that is why their horse archers are valued all over the Old World, often hired by kislevite or imperial generals. Unlike most barbarian tribes, Dolgans are not chaotic, though the proximity to Chaos Wastes makes them vulnerable victims."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Hung
 	{
 		"name": "Hung",
+		"leaderName": "Caledor",
+		"outerColor": [105, 34,0]
+		"adjective": ["Hung"],
+		"startBias": ["Tundra"],
+		"style": "Human",
+		
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": ""},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	},
+	// Ungols
+	{
+		"name": "Ungols",
+		"leaderName": "Toghrul",
+		"adjective": ["Ungols"],
+		"startBias": ["Tundra"],
+		"style": "Human",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Far East]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Ungols are the riders of Northern Steppes. The Ungol horde conquered Kislev and Ostland (a part of The Empire), but was later assimilated into Gospodar culture."},
+			{"separator": true},
+			{"text": "The Ungols or Unkhol, are the nomadic people who make up the Ungol Empire.  This Empire spans the steppes of the Far East, and is the largest Empire to exist to date.  It's borders start to the West at the Hobgoblin Hegemony and the Mountains of Mourn, North to the frozen tundra and uninhabited forests, to the borders of Imperial Cathay, held off by the Emperor's Wall, to the South of the Kamalayan Mountains and the princes of Ind."},
+			{"text": "They are a tough and enduring people, battling not only their environment, but their enemies, to the East, South, and West. They believe that one day, the Great Khan will return, and lead them to final victory, when the world will be theirs. Their armies are the most seasoned and maneuverable in the world. If it wasn't for the Chaos Dwarf Citadels and their Hobgoblin servants to the West, and Imperial Cathay to the East, they would be unstoppable.  But between two numerous enemies, to each side, has hindered their greater ambition."},
+			{"text": "Despite their massive Empire, the culture is a nomadic one, with dispersed populations.  The men herd cattle, sheep, and goats, while the women cook and maintain the household. They were organized around a traditional tribal and clan order, but with the rise of the Khans, this has changed."},
+			{"text": "The Ungols are loyal to each other, and often adopt special relationships. A man is defined by his relationships with his friends, while a wife is defined by her role in the husband's household."},
+			{"text": "The Ungol are mounted archers, riding fast steeds, and firing torrents of barbed arrows at their enemy, but never close enough to engage in melee combat. They are unparalleled horseman, and masters of the bow. The Dolgans are closely related to the Ungols."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Ind
 	{
 		"name": "Ind",
+		"leaderName": "Akabar",
 		"outerColor": [105, 34,0]
+		"adjective": ["Indics"],
+		"startBias": ["Jungle"],
+		"style": "Human",
 		
+		"uniques": ["Starts with [Arabyan Tradition]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Kingdoms of Ind lie on a large peninsula between Imperial Cathay and the Darklands. The area is covered by dense primordial forest with occasional spots of dry land. The Mogul kings of Inja are brutal despots, full of greed for power and gold. Among people they are worshipped like gods. Indic elite infantry consist of the strongest men taken by the kings and trained into beasts. The Ind are said to worship One Thousand and One Gods in total."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Araby
 	{
 		"name": "Araby",
+		"leaderName": "Jaffar",
+		"adjective": ["Arabyans"],
+		"startBias": ["Desert","Oasis"],
+		"style": "Human",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Arabyan Tradition]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Araby is an arid region to the south of the Old World, populated by dark-skinned humans who worship a single god. They are known to wield dark powers, and are able to summon powerful spirits known as Djinni"},
+			{"text": "Araby is a huge empire composed of many theocratic Caliphates, ruled over by the Sultan of All Araby. Arabyan society is dominated by a religious fundamentalism and is not so technically advanced as that of the Old World. Around 1,000 years ago (in the year 1500, by Old World reckoning), Sultan Daryus-e Qabir launched a series of religious wars against the Old World, without any lasting successes. Legends dating from that time has coloured Old World attitudes to inhabitants of Araby, although there is a fair amount of trade between the two areas."},
+			{"text": "The Sultan of All Araby claims the whole Arabyan peninsula as belonging to the Empire of Araby. This claim is hardly a realistic claim. Most of the land is covered by hot deserts and dry shrubland. The population lies largely in the coastal cities or the towns and villages surrounding them. The main feature of the region is the Great Desert of Araby, a vast sea of sand taking up most of the interior of the peninsula. The desert is bordered by dry shrublands from the north-east to the south-west. In the north-west lies the Alzim mountains, a jagged line of rock clawing at the skies. Only on the highest peaks of this mountain-range can snow be found, though few travellers brave the perils of the perils of the mountains far enough to reach it. From these mountains flow the only true river of Araby, the Chewan-el Alzim, Son of Alzim. Rain falls in the mountains, making the lands to the west the most fertile of all Araby. Here are even dense jungles covering the area, known as the Land of Assassins."},
+			{"text": "West again, across the Shark Straits lie the fabled Sorcerers' Islands, where legend has it that the mighty Sorcerer Kings once ruled the whole of Araby and the lands beyond. Nothing remains of them except ruins of cities destroyed by some unfathomable cataclysm."},
+			{"text": "The coast winds south along the Arabyan Sea before swinging sharply east to the Gulf of Medes. The inner reaches of the gulf marks the end of the Arabyan peninsula, but the gulf is in effect Arabyan territory. The Arabyan outposts along the coast are the gateways to the wealth of the Southlands, and the Arabyan jealously defend what they consider theirs."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	},
+	// Grand Cathay
+	{
+		"name": "Cathay",
+		"leaderName": "Wu",
+		"adjective": ["Cathayans"],
+		"style": "Human",
+		"outerColor": [105, 34,0]
+		
+		"uniques": ["Starts with [Far East]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Imperial Cathay is known for its immerse size, unified priesthood and omnipresent bureaucracy."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Nippon
 	{
 		"name": "Nippon",
+		"leaderName": "Shogun Yoritomo Ieysau",
+		"outerColor": [105, 34,0]
+		"adjective": ["Nipponese"],
+		"startBias": ["Coast"],
+		"style": "Human",
+		
+		"uniques": ["Starts with [Far East]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Thousands of miles away from the Old World lies the island of Nippon, also known as the Land of the Rising Sun. The theoretical head of Nippon is the Emperor Takagura but far more powerful is the Shogun Yoritomo Ieysau, the country's military dictator. The Shogun came to power by defeating his rivals (with no small help from Marienburg guns) and overthrowing the puppet shogunate backed by the Emperor. Now Yoritomo rules the land with an iron grip and enforces strict edicts which forbid the lower classes from carrying weapons and ensures the obedience of the various provincial rulers or daimyo through the use of a complex network of spies as well as holding their wives and children in the capital city every two years. Nippon is the home of the warrior caste known as samurai, the highest rank of nobility in the land. They owe their allegiance to their master through pain of death. Then there are the martial artists and the sinister ninja."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	},
+	// Lizardmen (Slann)
+	{
+		"name": "Slann",
+		"leaderName": "Quizitec",
+		"adjective": ["Lizardmen"],
+		"startBias": ["Jungle"],
+		"style": "Lizardmen",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Cold Ones]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "The Lizardmen are an ancient race, created by the god-like beings known as the Old Ones to be the guardians of the Warhammer world. Their age-old civilization is based deep within the steaming jungles of Lustria and the Southlands, where their mighty temple-cities rise amid the ancient trees and cloying swamps. The bloated Slann Mage-Priests are masters of magic and the original servants of the Old Ones, and it is they who oversee the entire Lizardmen civilization, guiding it forwards. At the heart of the Lizardmen armies are the powerful Saurus, hulking reptilian warriors spawned solely for the purpose of war. They are revered as sacred warriors of the gods, and each temple-city has an army of them dwelling beneath the temples, ever ready to march against their foes."},
+			{"text": "In ages past, the Old Ones departed the world in an event of catastrophic consequence, known as the Fall, that dramatically altered the world and stranded their servants alone there. Without the guidance of their creator-gods, the Slann work to interpret the Great Plan that their masters were working towards and attempt to continue the cause, restoring the order that was present before the coming of Chaos. With cold, alien indifference, the Slann guide their armies towards the fulfillment of this plan, and mercilessly punish any who stand in the way of their sacred mission. "},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Amazonia
 	{
 		"name": "Amazonia",
+		"leaderName": "Helena",
 		"outerColor": [105, 34,0]
+		"adjective": ["Amazons"],
+		"startBias": ["Jungle"],
+		"style": "Human",
 
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "The Amazons are the most significant inhabitants of Lustrian jungles after the Slann. It is not known whether they are another experiment of the Old Slann, or as one of the myths says, that they are daughters of Valkyries left there centuries ago, after Norsemen's unsuccessful attempt to colonise Lustria."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Ironclaw Orcs
 	{
 		"name": "Ironclaw Orcs",
+		"leaderName": "Gorbad",
+		"adjective": ["Ironclaw Orcs"],
+		"favoredReligion": "Chaos",
+		"style": "Goblin",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "'I'm gonna stomp 'em to dust. I'm gonna grind their bones. I'm gonna pile 'em up inna big fire and roast 'em. I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left. An' den I'm gonna get really mean.' - Grimgor Ironhide, Black Orc Warboss"},
+			{"separator": true},
+			{"text": "The Orcs aren't a subtle race. They like war and are built for it. Their hugely muscled forms are almost immune to disease and can survive wounds that would be fatal for almost any other race. Couple this with their total disdain for any election campaign more subtle than a severe beating and you have an army of violent monsters led by the biggest and most psychotic of the lot."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Badmoon Goblins
 	{
 		"name": "Badmoon Goblins",
+		"leaderName": "Dork",
+		"adjective": ["Goblins"],
+		"favoredReligion": "Chaos",
+		"style": "Goblin",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "'I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.'"},
+			{"separator": true},
+			{"text": "In every forest and under every mountain lurk the warlike tribes of Greenskins - countless Orcs and Goblins who love nothing more than a good fight. Orcs and their smaller cousins, the Goblins, are ferocious raiders and relentless warriors whose ceaseless attacks are always threatening to engulf the entire Old World into eternal warfare."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Hobgobelins
 	{
 		"name": "Hobgobelins",
+		"leaderName": "Caledor",
+		"adjective": ["Hobgobelins"],
+		"favoredReligion": "Chaos",
+		"style": "Goblin",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": ""},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	// Ogre Kingdoms
 	{
 		"name": "Ogre Kingdoms",
+		"leaderName": "Caledor",
+		"adjective": ["Ogres"],
+		"favoredReligion": "Chaos",
+		"style": "Goblin",
 		"outerColor": [105, 34,0]
 		
+		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": ""},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	},
+	// Hordes of Chaos
+	{
+		"name": "Hordes of Chaos",
+		"leaderName": "Archaon",
+		"adjective": ["Hordes of Chaos"],
+		"favoredReligion": "Chaos",
+		"style": "Demonic",
+		"outerColor": [105, 34,0]
+		
+		"uniques": ["Starts with [Chaos]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "In the cold wastes of the north, the followers of the gods of Chaos gather in their thousands. Hordes of barbaric marauders and armour-clad warriors pour forth from the bleak wastelands to wage war against the soft-bellied wastrels who inhabit the rich lands of the south. Daemonic legions advance with them, proof that the Northmen are truly the favoured of the gods. There can be no bystanders in this eternal war, for the Dark Gods and their chosen servants will never rest until the world truly becomes a Realm of Chaos. "},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
 	},
 	
 */

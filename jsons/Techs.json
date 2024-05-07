@@ -15,7 +15,7 @@
 			{
 				"name": "Old World",
 				"row": 3,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Reikland]>","Only available <for [Kislev]>","Only available <for [^Tilea]>","Only available <for [Estalia]>"],
 				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia"
 			},
 			{
@@ -33,13 +33,13 @@
 			{
 				"name": "Norse Tradition",
 				"row": 7,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Norsca]>"],
 				"quote": "This is a free advance granted to Norsca."
 			},
 			{
 				"name": "Arabyan Tradition",
 				"row": 8,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Araby]>","Only available <for [Ind]>"],
 				"quote": "This is a free advance granted to Araby and Ind."
 			},
 			{
@@ -57,14 +57,14 @@
 			{
 				"name": "Forest Mastery",
 				"row": 11,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Loren]>"],
 				"quote": "This is a free advance granted to Wood Elves."
 			},
 			{
 				"name": "Cold Ones",
 				"row": 12,
-				"uniques": ["Unavailable","Cannot be hurried"],
-				"quote": "This is a free advance granted to Lustria."
+				"uniques": ["Only available <for [Slann]>"],
+				"quote": "This is a free advance granted to Slann."
 			},
 			{
 				"name": "Greenskin",
@@ -321,7 +321,7 @@
 			{
 				"name": "Knightly Virtues",
 				"row": 4,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Bretonnia]>"],
 				"quote": "This is a free advance granted to Bretonnia"
 			},
 			{
@@ -383,7 +383,7 @@
 				"name": "Quest for Grail",
 				"row": 4,
 				"prerequisites": ["Knightly Virtues","Chivalry"],
-				"quote": "'That which is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
+				"quote": "'That which 8is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
 			},
 			{
 				"name": "Acoustics",
