@@ -47,6 +47,17 @@ City states
 * Lahmia
 * Border Princes
 
+### Religions
+* The Old Ones
+* Cult of Sigmar
+* Lady of the Lake
+* Elven Gods
+* Ancestor Gods
+* Gork and Mork
+* Cult of the Horned Rat
+* Chaos Gods
+
+
 ### Technologies
 Nations unique techs
 * Old World (Reiklang, Kislev, Tilea, Estalia)
