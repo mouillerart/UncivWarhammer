@@ -197,7 +197,8 @@
 		"adjective": ["High Elves"],
 		"startBias": ["Coast"],
 		"style": "Elven",
-		"outerColor": [105, 34,0]
+		"outerColor": [6, 183, 186]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Channeling]",
 					"Enables embarkation for land units <starting from the [Ancient age]>", 
@@ -223,7 +224,8 @@
 		"adjective": ["Wood Elves"],
 		"startBias": ["Forest"],
 		"style": "Elven",
-		"outerColor": [105, 34,0]
+		"outerColor": [34, 139, 34]
+		"innerColor": [240, 255, 240],
 		
 		"uniques": ["Starts with [Forest Mastery]"],
 		"cities": ["Athel Loren","Tor Lithanel","Torgovann","Cavaroc","Atylwyth","Cythral","Modryn","Talsyn","Wydrioth","Fyr Darric","Anmyr","Tirsyth","Arcwylon","Arranoc"],
@@ -243,7 +245,8 @@
 		"leaderName": "Don",
 		"adjective": ["Estalians"],
 		"style": "Human",
-		"outerColor": [105, 34,0]
+		"outerColor": [209, 106, 10]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Old World]"],
 		"cities": ["Magritta","Bilbali","Aguilas","Ubrique","Geulata","Larhgoz","Belmoz","Zaragoz","Vizeaya","Astorias","Montenas","Borgas","Graus","Muros","Ubrique","Los Cabos","Barboza","Almyria","Pajena","Javea","Almagora","Cebreros","Potes","Sitges"],
@@ -263,7 +266,8 @@
 		"leaderName": "Borgio",
 		"adjective": ["Tileans"],
 		"style": "Human",
-		"outerColor": [105, 34,0]
+		"outerColor": [171, 151, 0]
+		"innerColor": [255, 0, 0],
 
 		"uniques": ["Starts with [Old World]"],
 		"cities": ["Remas","Tobaro","Luccini","Miragliano","Pavona","Sartosa","Trantio","Verezzo","Monte Castello"],
@@ -285,7 +289,8 @@
 		"adjective": ["Norsemen"],
 		"startBias": ["Tundra"],
 		"style": "Icemen",
-		"outerColor": [105, 34,0]
+		"outerColor": [97, 7, 145]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Norse Tradition]"],
 		"cities": ["Skjold","Skraevold","Vinnskor","Aeslings","Bjornlings","Sarls","Graelings","Vargs","Skaelings","Baersonglings","Wyrmkin","Wolfclaw","Stormravens","Sortsvinaer"],
@@ -308,6 +313,7 @@
 		"startBias": ["Tundra"],
 		"style": "Elven",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Channeling]"],
 		"cities": ["Naggarond","Ghrond","Karond Kar","Har Ganeth","Hag Graef","Clar Karond","","","",""],
@@ -331,9 +337,10 @@
 		"adjective": ["Skaven"],
 		"startBias": ["Tundra"],
 		"style": "Beastmen",
-		"outerColor": [105, 34,0]
+		"outerColor": [181, 101, 29]
+		"innerColor": [0, 255, 0],
 		
-		"uniques": ["Starts with [Channeling]"],
+		"uniques": ["Starts with [Underworld]"],
 		"cities": ["Skavenblight","Hell Pit","The Black Chasm","Crookback Mountain","Foul Peak","City of Pillars","Queekwell","Bonestash","Fester Spike","Putrid Stump","Under-Altdorf","Under-Delberz","Under-Middenheim","Under-Nuln","Under-Remas","Bitter Stink","Under-Mousillon"],
 
 		"civilopediaText": [
@@ -344,7 +351,106 @@
 			{"text": "..."}
 		]
 	}
-	/*
+	,
+	// Ogre Kingdoms
+	{
+		"name": "Ogre Kingdoms",
+		"leaderName": "Groth Onefinger",
+		"adjective": ["Ogres"],
+		"favoredReligion": "Chaos Gods",
+		"style": "Goblin",
+		"outerColor": [255, 140, 0]
+		"innerColor": [0,0,0],
+		
+		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"cities": ["Goldtooth Tribe","Thunderguts Tribe","Crossed Clubs","Sons of the Mountain","Feastmaster Tribe","Rock Skulls","Blood Guzzler","Ironskin Tribe","Lazarghs","Mountaineater Tribe","Eyebiter Tribe","Fleshgreeders","Sabreskin","Bulgers","Boulderclubs","Loose Tooth","Bloodmaw","Tribe of Shrewd Fulg","Slavetakers","Skulltakers","Bloody Fists","Suneaters","Angry Fist","Red Maw","Red Fist","Boulderbellies"],
+
+		"civilopediaText": [
+			{"text": "The Ogre Kingdoms are the rightful and sovereign domains of the large, brutish and always hungry mortal race of humanoids known as Ogres. Wandering tribes of Ogres can be found wrecking their way across the globe, erecting many strongholds and plundering far off and exotic lands the likes of which no man will ever see in their lifetime. Yet no matter how far away they may be, all Ogres refer to the scattered tribal kingdoms that dominate the slopes and river valleys of the Mountains of Mourn their rightful, hard-earned homeland. It is here, amongst the frozen peaks and blistering blizzards that mighty Tyrants rule over their own brutal kingdoms, warring amongst each other, looting, extorting and ransacking all before them as a tribute to their own gluttonous appetite and their ever-hungry god, the Great Maw."},
+			{"text": "They fight as thugs, bandits and mercenaries, their hulking numbers coming from a wide diversity of warmongering tribes scattered all across the Mountain range. They pick on the strong and the weak alike, battling mighty foes and powerful kingdoms many thousands of miles away all for the alluring promise of gold, plunder and meat.[2a] Even here, amongst the peaks where they hold claim to all, fearsome beast and mighty creatures dominate the dark corners of their realm, preying on all those who come to close. Yet such is the Ogres ferocious, stubborn and ever ravenous nature that they see these creatures not as a foe to cower and hide from, but as a challenge that needs to be brought down, crushed beneath their boot and eaten to fill their hungry bellies."},
+			{"text": "Armies have come and gone throughout the ages into the Mountains, but only the Ogres can truly claim to have conquered it all. It was the Ogres who brought down the mighty Sky-Titans of the upper Peaks, bringing their civilisation low and condemning their children into exile or enslavement.[1f] It is they who once claimed a mighty realm within the Great Steppes of the Far East, battling the ancient Grand Empire of Cathay for supremacy before the day came that their malevolent and ever-hungry God, the Great Maw punished the Ogres for their sins and brought about the Great Migration of their race.[1e] That was many thousands of years ago, and as the Ogres grow in numbers once more, the cycle of history is set to repeat itself. Should nothing stop them now, it is said that the Ogres will stop at nothing to devour every living thing within this ravaged world. "},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Ironclaw Orcs
+	{
+		"name": "Ironclaw Orcs",
+		"leaderName": "Gorbad",
+		"adjective": ["Ironclaw Orcs"],
+		"favoredReligion": "Chaos Gods",
+		"startBias": ["Hills"],
+		"style": "Goblin",
+		"outerColor": [1, 50, 32]
+		"innerColor": [0,0,0],
+		
+		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"cities": ["Iron Rock","Maad Dog Pass","Fire Mountain","Black Fire Pass","Krimson Killerz","Blue Face","White Orcs","White Skullz","Yellow Eye","Red Fangs"],
+
+		"civilopediaText": [
+			{"text": "'I'm gonna stomp 'em to dust. I'm gonna grind their bones. I'm gonna pile 'em up inna big fire and roast 'em. I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left. An' den I'm gonna get really mean.' - Grimgor Ironhide, Black Orc Warboss"},
+			{"separator": true},
+			{"text": "The Orcs aren't a subtle race. They like war and are built for it. Their hugely muscled forms are almost immune to disease and can survive wounds that would be fatal for almost any other race. Couple this with their total disdain for any election campaign more subtle than a severe beating and you have an army of violent monsters led by the biggest and most psychotic of the lot."},
+			{"text": "Before Gorbad Ironclaw's rise, the Ironclaw Orcs lived around the Iron Rock for many years, and their fortunes rose and fell with the accustomed regularity of Orc tribes. Their chief rival was the Broken Tooth Tribe, led by the notoriously huge and brutal Crusher Zogoth, who held the former Dwarf hold of Black Crag."},
+			{"text": "When Gorbad came to power, he led his tribe to carve out swathes of territory. From their impregnable base, Gorbad sent out warriors to overrun the Worlds Edge Mountains. Gorbad learned to annihilate rival leaders in as horrific and violent a way as possible. This often intimidated the rest of the mobs, who would then rush to join Gorbad's armies. The only powers that stood in the way of the Ironclaw Orcs were the Broken Tooths and the Dwarfs, who still wielded great power near their major strongholds."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Chaos Dwarves
+	{
+		"name": "Chaos Dwarfs",
+		"leaderName": "Astragoth Ironhand",
+		"adjective": ["Chaos Dwarfs"],
+		"startBias": ["Tundra"],
+		"favoredReligion": "Chaos Gods",
+		"style": "Dwarven",
+		"outerColor": [128, 0, 128]
+		"innerColor": [0,0,0],
+
+		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]"],
+		"cities": ["Zharr-Naggrund","Uzkulak","Gorgoth","Daemon's Stump","Black Fortress"],
+
+		"civilopediaText": [
+			{"text": "The Chaos Dwarfs are the evil rulers of the Dark Lands, a massive bleak region littered with ziggurats and forges that churn out untold tonnes of ashes across the land in the name of industry. They have enslaved numerous races, particularly the Greenskins, and have an alliance with the Hobgoblin Hegemony that more than makes up for their own slow characteristics. "},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Araby
+	{
+		"name": "Araby",
+		"leaderName": "Jaffar",
+		"adjective": ["Arabyans"],
+		"startBias": ["Desert","Oasis"],
+		"style": "Human",
+		"outerColor": [255, 255, 0]
+		"innerColor": [255,0,0],
+		
+		"uniques": ["Starts with [Arabyan Tradition]"],
+		"cities": ["Alhaka","Copher","Lashiek","Martek","Muktarhin"],
+
+		"civilopediaText": [
+			{"text": "Araby is an arid region to the south of the Old World, populated by dark-skinned humans who worship a single god. They are known to wield dark powers, and are able to summon powerful spirits known as Djinni"},
+			{"text": "Araby is a huge empire composed of many theocratic Caliphates, ruled over by the Sultan of All Araby. Arabyan society is dominated by a religious fundamentalism and is not so technically advanced as that of the Old World. Around 1,000 years ago (in the year 1500, by Old World reckoning), Sultan Daryus-e Qabir launched a series of religious wars against the Old World, without any lasting successes. Legends dating from that time has coloured Old World attitudes to inhabitants of Araby, although there is a fair amount of trade between the two areas."},
+			{"text": "The Sultan of All Araby claims the whole Arabyan peninsula as belonging to the Empire of Araby. This claim is hardly a realistic claim. Most of the land is covered by hot deserts and dry shrubland. The population lies largely in the coastal cities or the towns and villages surrounding them. The main feature of the region is the Great Desert of Araby, a vast sea of sand taking up most of the interior of the peninsula. The desert is bordered by dry shrublands from the north-east to the south-west. In the north-west lies the Alzim mountains, a jagged line of rock clawing at the skies. Only on the highest peaks of this mountain-range can snow be found, though few travellers brave the perils of the perils of the mountains far enough to reach it. From these mountains flow the only true river of Araby, the Chewan-el Alzim, Son of Alzim. Rain falls in the mountains, making the lands to the west the most fertile of all Araby. Here are even dense jungles covering the area, known as the Land of Assassins."},
+			{"text": "West again, across the Shark Straits lie the fabled Sorcerers' Islands, where legend has it that the mighty Sorcerer Kings once ruled the whole of Araby and the lands beyond. Nothing remains of them except ruins of cities destroyed by some unfathomable cataclysm."},
+			{"text": "The coast winds south along the Arabyan Sea before swinging sharply east to the Gulf of Medes. The inner reaches of the gulf marks the end of the Arabyan peninsula, but the gulf is in effect Arabyan territory. The Arabyan outposts along the coast are the gateways to the wealth of the Southlands, and the Arabyan jealously defend what they consider theirs."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}	/*
 	,
 	// Albion
 	{
@@ -354,6 +460,7 @@
 		"startBias": ["Coast"],
 		"style": "Human",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Channeling]"],
 		"cities": ["",""],
@@ -375,6 +482,7 @@
 		"startBias": ["Jungle"],
 		"style": "Beastmen",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Chaos]"],
 		"cities": ["",""],
@@ -388,27 +496,6 @@
 		]
 	}
 	,
-	// Chaos Dwarves
-	{
-		"name": "Chaos Dwarfs",
-		"leaderName": "Astragoth",
-		"adjective": ["Chaos Dwarfs"],
-		"startBias": ["Tundra"],
-		"favoredReligion": "Chaos",
-		"style": "Dwarven",
-		"outerColor": [105, 34,0]
-
-		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "The Chaos Dwarfs are the evil rulers of the Dark Lands, a massive bleak region littered with ziggurats and forges that churn out untold tonnes of ashes across the land in the name of industry. They have enslaved numerous races, particularly the Greenskins, and have an alliance with the Hobgoblin Hegemony that more than makes up for their own slow characteristics. "},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
 	// Kurgan
 	{
 		"name": "Kurgan",
@@ -417,9 +504,10 @@
 		"startBias": ["Tundra"],
 		"style": "Human",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Channeling]"],
-		"cities": ["",""],
+		"cities": ["KHORINAUN","VORSHGAR","KARRANNAZZARR","ULANGOR","ANANAR","DAIR","PHUUUNNAR","QUERZ","ULAUCH","FOLDH","ZANAR","HLEOCH","DUBHZ","DADEEH","RHANDH","QUUFF","OOAR","IRTLAK","DAAOAATH","AKUAAEUGG","NNUUOOO","EUIAR","DATHZHULDA","ZHUUSH","DADUAK","CHAKIR","THERABL","HHUUAK","ILPH","QOOERDE","UUGZ","ZZHIR","IRAOCOGYYBH","GZCHABL","QDAI","OWABLIR","DUANIL","ERANISSHHABL","ILDHEROOER","ZAOULAA","DHUL"],
 
 		"civilopediaText": [
 			{"text": ""},
@@ -428,84 +516,20 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	},
-	// Dolgans
-	{
-		"name": "Dolgan",
-		"leaderName": "Etzen",
-		"adjective": ["Dolgans"],
-		"startBias": ["Tundra"],
-		"style": "Human",
-		"outerColor": [105, 34,0]
-		
-		"uniques": [],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "Dolgans represent the barbarian tribes dwelling in the tundra east of Kislev (they come from the same Gospodar culture). Dolgans spend most of their life on horseback, that is why their horse archers are valued all over the Old World, often hired by kislevite or imperial generals. Unlike most barbarian tribes, Dolgans are not chaotic, though the proximity to Chaos Wastes makes them vulnerable victims."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
-	// Hung
-	{
-		"name": "Hung",
-		"leaderName": "Caledor",
-		"outerColor": [105, 34,0]
-		"adjective": ["Hung"],
-		"startBias": ["Tundra"],
-		"style": "Human",
-		
-		"uniques": ["Starts with [Channeling]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": ""},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
-	// Ungols
-	{
-		"name": "Ungols",
-		"leaderName": "Toghrul",
-		"adjective": ["Ungols"],
-		"startBias": ["Tundra"],
-		"style": "Human",
-		"outerColor": [105, 34,0]
-		
-		"uniques": ["Starts with [Far East]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "Ungols are the riders of Northern Steppes. The Ungol horde conquered Kislev and Ostland (a part of The Empire), but was later assimilated into Gospodar culture."},
-			{"separator": true},
-			{"text": "The Ungols or Unkhol, are the nomadic people who make up the Ungol Empire.  This Empire spans the steppes of the Far East, and is the largest Empire to exist to date.  It's borders start to the West at the Hobgoblin Hegemony and the Mountains of Mourn, North to the frozen tundra and uninhabited forests, to the borders of Imperial Cathay, held off by the Emperor's Wall, to the South of the Kamalayan Mountains and the princes of Ind."},
-			{"text": "They are a tough and enduring people, battling not only their environment, but their enemies, to the East, South, and West. They believe that one day, the Great Khan will return, and lead them to final victory, when the world will be theirs. Their armies are the most seasoned and maneuverable in the world. If it wasn't for the Chaos Dwarf Citadels and their Hobgoblin servants to the West, and Imperial Cathay to the East, they would be unstoppable.  But between two numerous enemies, to each side, has hindered their greater ambition."},
-			{"text": "Despite their massive Empire, the culture is a nomadic one, with dispersed populations.  The men herd cattle, sheep, and goats, while the women cook and maintain the household. They were organized around a traditional tribal and clan order, but with the rise of the Khans, this has changed."},
-			{"text": "The Ungols are loyal to each other, and often adopt special relationships. A man is defined by his relationships with his friends, while a wife is defined by her role in the husband's household."},
-			{"text": "The Ungol are mounted archers, riding fast steeds, and firing torrents of barbed arrows at their enemy, but never close enough to engage in melee combat. They are unparalleled horseman, and masters of the bow. The Dolgans are closely related to the Ungols."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
+	}
+	,
 	// Ind
 	{
 		"name": "Ind",
 		"leaderName": "Akabar",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		"adjective": ["Indics"],
 		"startBias": ["Jungle"],
 		"style": "Human",
 		
 		"uniques": ["Starts with [Arabyan Tradition]"],
-		"cities": ["",""],
+		"cities": [""],
 
 		"civilopediaText": [
 			{"text": "Kingdoms of Ind lie on a large peninsula between Imperial Cathay and the Darklands. The area is covered by dense primordial forest with occasional spots of dry land. The Mogul kings of Inja are brutal despots, full of greed for power and gold. Among people they are worshipped like gods. Indic elite infantry consist of the strongest men taken by the kings and trained into beasts. The Ind are said to worship One Thousand and One Gods in total."},
@@ -514,31 +538,8 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	},
-	// Araby
-	{
-		"name": "Araby",
-		"leaderName": "Jaffar",
-		"adjective": ["Arabyans"],
-		"startBias": ["Desert","Oasis"],
-		"style": "Human",
-		"outerColor": [105, 34,0]
-		
-		"uniques": ["Starts with [Arabyan Tradition]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "Araby is an arid region to the south of the Old World, populated by dark-skinned humans who worship a single god. They are known to wield dark powers, and are able to summon powerful spirits known as Djinni"},
-			{"text": "Araby is a huge empire composed of many theocratic Caliphates, ruled over by the Sultan of All Araby. Arabyan society is dominated by a religious fundamentalism and is not so technically advanced as that of the Old World. Around 1,000 years ago (in the year 1500, by Old World reckoning), Sultan Daryus-e Qabir launched a series of religious wars against the Old World, without any lasting successes. Legends dating from that time has coloured Old World attitudes to inhabitants of Araby, although there is a fair amount of trade between the two areas."},
-			{"text": "The Sultan of All Araby claims the whole Arabyan peninsula as belonging to the Empire of Araby. This claim is hardly a realistic claim. Most of the land is covered by hot deserts and dry shrubland. The population lies largely in the coastal cities or the towns and villages surrounding them. The main feature of the region is the Great Desert of Araby, a vast sea of sand taking up most of the interior of the peninsula. The desert is bordered by dry shrublands from the north-east to the south-west. In the north-west lies the Alzim mountains, a jagged line of rock clawing at the skies. Only on the highest peaks of this mountain-range can snow be found, though few travellers brave the perils of the perils of the mountains far enough to reach it. From these mountains flow the only true river of Araby, the Chewan-el Alzim, Son of Alzim. Rain falls in the mountains, making the lands to the west the most fertile of all Araby. Here are even dense jungles covering the area, known as the Land of Assassins."},
-			{"text": "West again, across the Shark Straits lie the fabled Sorcerers' Islands, where legend has it that the mighty Sorcerer Kings once ruled the whole of Araby and the lands beyond. Nothing remains of them except ruins of cities destroyed by some unfathomable cataclysm."},
-			{"text": "The coast winds south along the Arabyan Sea before swinging sharply east to the Gulf of Medes. The inner reaches of the gulf marks the end of the Arabyan peninsula, but the gulf is in effect Arabyan territory. The Arabyan outposts along the coast are the gateways to the wealth of the Southlands, and the Arabyan jealously defend what they consider theirs."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
+	}
+	,
 	// Grand Cathay
 	{
 		"name": "Cathay",
@@ -546,6 +547,7 @@
 		"adjective": ["Cathayans"],
 		"style": "Human",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Far East]"],
 		"cities": ["",""],
@@ -563,6 +565,7 @@
 		"name": "Nippon",
 		"leaderName": "Shogun Yoritomo Ieysau",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		"adjective": ["Nipponese"],
 		"startBias": ["Coast"],
 		"style": "Human",
@@ -586,6 +589,7 @@
 		"startBias": ["Jungle"],
 		"style": "Lizardmen",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Cold Ones]"],
 		"cities": ["",""],
@@ -604,6 +608,7 @@
 		"name": "Amazonia",
 		"leaderName": "Helena",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		"adjective": ["Amazons"],
 		"startBias": ["Jungle"],
 		"style": "Human",
@@ -618,37 +623,17 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	},
-	// Ironclaw Orcs
-	{
-		"name": "Ironclaw Orcs",
-		"leaderName": "Gorbad",
-		"adjective": ["Ironclaw Orcs"],
-		"favoredReligion": "Chaos",
-		"style": "Goblin",
-		"outerColor": [105, 34,0]
-		
-		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "'I'm gonna stomp 'em to dust. I'm gonna grind their bones. I'm gonna pile 'em up inna big fire and roast 'em. I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left. An' den I'm gonna get really mean.' - Grimgor Ironhide, Black Orc Warboss"},
-			{"separator": true},
-			{"text": "The Orcs aren't a subtle race. They like war and are built for it. Their hugely muscled forms are almost immune to disease and can survive wounds that would be fatal for almost any other race. Couple this with their total disdain for any election campaign more subtle than a severe beating and you have an army of violent monsters led by the biggest and most psychotic of the lot."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
+	}
+	,
 	// Badmoon Goblins
 	{
 		"name": "Badmoon Goblins",
 		"leaderName": "Dork",
 		"adjective": ["Goblins"],
-		"favoredReligion": "Chaos",
+		"favoredReligion": "Chaos Gods",
 		"style": "Goblin",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
 		"cities": ["",""],
@@ -668,9 +653,10 @@
 		"name": "Hobgobelins",
 		"leaderName": "Caledor",
 		"adjective": ["Hobgobelins"],
-		"favoredReligion": "Chaos",
+		"favoredReligion": "Chaos Gods",
 		"style": "Goblin",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
 		"cities": ["",""],
@@ -682,35 +668,17 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	},
-	// Ogre Kingdoms
-	{
-		"name": "Ogre Kingdoms",
-		"leaderName": "Caledor",
-		"adjective": ["Ogres"],
-		"favoredReligion": "Chaos",
-		"style": "Goblin",
-		"outerColor": [105, 34,0]
-		
-		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": ""},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
+	}
+	,
 	// Hordes of Chaos
 	{
 		"name": "Hordes of Chaos",
 		"leaderName": "Archaon",
 		"adjective": ["Hordes of Chaos"],
-		"favoredReligion": "Chaos",
+		"favoredReligion": "Chaos Gods",
 		"style": "Demonic",
 		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Chaos]"],
 		"cities": ["",""],
@@ -768,6 +736,78 @@
 	{
 		
 	}
+	,
+	// Dolgans
+	{
+		"name": "Dolgan",
+		"leaderName": "Etzen",
+		"adjective": ["Dolgans"],
+		"startBias": ["Tundra"],
+		"style": "Human",
+		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
+		
+		"uniques": [],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "Dolgans represent the barbarian tribes dwelling in the tundra east of Kislev (they come from the same Gospodar culture). Dolgans spend most of their life on horseback, that is why their horse archers are valued all over the Old World, often hired by kislevite or imperial generals. Unlike most barbarian tribes, Dolgans are not chaotic, though the proximity to Chaos Wastes makes them vulnerable victims."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	},
+	// Hung
+	{
+		"name": "Hung",
+		"leaderName": "Caledor",
+		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
+		"adjective": ["Hung"],
+		"startBias": ["Tundra"],
+		"style": "Human",
+		
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": ""},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Ungols
+	{
+		"name": "Ungols",
+		"leaderName": "Toghrul",
+		"adjective": ["Ungols"],
+		"startBias": ["Tundra"],
+		"style": "Human",
+		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
+		
+		"uniques": ["Starts with [Far East]"],
+		"cities": ["Norvard",""],
+
+		"civilopediaText": [
+			{"text": "Ungols are the riders of Northern Steppes. The Ungol horde conquered Kislev and Ostland (a part of The Empire), but was later assimilated into Gospodar culture."},
+			{"separator": true},
+			{"text": "The Ungols or Unkhol, are the nomadic people who make up the Ungol Empire.  This Empire spans the steppes of the Far East, and is the largest Empire to exist to date.  It's borders start to the West at the Hobgoblin Hegemony and the Mountains of Mourn, North to the frozen tundra and uninhabited forests, to the borders of Imperial Cathay, held off by the Emperor's Wall, to the South of the Kamalayan Mountains and the princes of Ind."},
+			{"text": "They are a tough and enduring people, battling not only their environment, but their enemies, to the East, South, and West. They believe that one day, the Great Khan will return, and lead them to final victory, when the world will be theirs. Their armies are the most seasoned and maneuverable in the world. If it wasn't for the Chaos Dwarf Citadels and their Hobgoblin servants to the West, and Imperial Cathay to the East, they would be unstoppable.  But between two numerous enemies, to each side, has hindered their greater ambition."},
+			{"text": "Despite their massive Empire, the culture is a nomadic one, with dispersed populations.  The men herd cattle, sheep, and goats, while the women cook and maintain the household. They were organized around a traditional tribal and clan order, but with the rise of the Khans, this has changed."},
+			{"text": "The Ungols are loyal to each other, and often adopt special relationships. A man is defined by his relationships with his friends, while a wife is defined by her role in the husband's household."},
+			{"text": "The Ungol are mounted archers, riding fast steeds, and firing torrents of barbed arrows at their enemy, but never close enough to engage in melee combat. They are unparalleled horseman, and masters of the bow. The Dolgans are closely related to the Ungols."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+
 	*/
 
 ]

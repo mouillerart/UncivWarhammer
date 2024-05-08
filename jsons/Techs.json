@@ -2,7 +2,7 @@
 	{
 		"columnNumber": 0,
 		"era": "Ancient age",
-		"techCost": 20000,
+		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -19,15 +19,21 @@
 				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia"
 			},
 			{
+				"name": "Underworld",
+				"row": 4,
+				"uniques": ["Only available <for [Skaven]>"],
+				"quote": "This is a free advance granted to Skaven"
+			},
+			{
 				"name": "Dwarven Ingenuity",
 				"row": 5,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Dwarfs]>","Only available <for [Chaos Dwarfs]>"],
 				"quote": "This is a free advance granted to all dwarfs factions."
 			},
 			{
 				"name": "Undead Curse",
 				"row": 6,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Khemri]>","Only available <for [Sylvania]>","Only available <for [Lahmia]>"],
 				"quote": "This is a free advance granted to all undead factions."
 			},
 			{
@@ -45,13 +51,13 @@
 			{
 				"name": "Far East",
 				"row": 9,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Cathay]>","Only available <for [Nippon]>","Only available <for [Ungols]>"],
 				"quote": "This is a free advance granted to Cathay, Nippon and Ungols."
 			},
 			{
 				"name": "Channeling",
 				"row": 10,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Ulthuan]>","Only available <for [Albion]>"],
 				"quote": "This is a free advance granted to Ulthuan and Albion."
 			},
 			{
@@ -69,13 +75,13 @@
 			{
 				"name": "Greenskin",
 				"row": 13,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Ironclaw Orcs]>","Only available <for [Badmoon Goblins]>","Only available <for [Hobgobelins]>","Only available <for [Ogre Kingdoms]>"],
 				"quote": "This is a free advance granted to Ironclaw Orcs and Crooked Moon Goblins."
 			},
 			{
 				"name": "Chaos",
 				"row": 14,
-				"uniques": ["Unavailable","Cannot be hurried"],
+				"uniques": ["Only available <for [Beastmen]>","Only available <for [Hordes of Chaos]>","Only available <for [Ironclaw Orcs]>","Only available <for [Badmoon Goblins]>","Only available <for [Hobgobelins]>","Only available <for [Ogre Kingdoms]>","Only available <for [Chaos Dwarfs]>"],
 				"quote": "This is a free advance granted to Beastmen, Hordes of Chaos, Chaos Dwarfs, Ironclaw Orcs and Crooked Moon Goblins."
 			}
 		]
