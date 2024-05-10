@@ -6,6 +6,10 @@
 An attempt to create a full mod (rulesets, map, graphics) of Warhammer for unciv.
 Modmod of Fantasia mixed with previous Civ3/Civ4 Warhammer extensions materials.
 
+### Maps
+* Old World
+![](./map-old-world.png)
+
 ### Nations 
 Available:
 * Reikland (The Empire)
@@ -26,25 +30,24 @@ Available:
 * Ironclaw Orcs
 * Ogre Kingdoms
 
-Planned:
-* Albion
-* Grand Cathay
-* Nippon
-* Ind
-* Badmoon Goblins
-* Hobgobelins
-* Beastmen
-* Hordes of Chaos
-* Ungols
-* Amazons
-* Lustria
-
 City states
 * Marienburg
 * The Moot
 * Lahmia
-* Border Princes
 * Dolgan
+
+Planned:
+* Badmoon Goblins
+* Beastmen
+* Hordes of Chaos
+* Ind
+* Grand Cathay
+* Nippon
+* Ungols
+* Amazons
+* Lustria
+* Albion
+* Border Princes
 * Kurgan
 * Hung
 
@@ -168,7 +171,7 @@ Nations unique techs (Ancient era)
 * Smithing: requires Iron Working. Allows Mastersmith, Forge of Vaul.
 * Gromril Smithing: requires Iron Working, Dwarven Ingenuity
 
-* Priesthood: requires Philosophy, Festivals, Ceremonial Burial. Allows The Sisters of Shallya (with Old World).
+* Priesthood: requires Philosophy, Festivals, Ceremonial Burial. Allows Temple, The Sisters of Shallya (with Old World).
 * Words of Salvation: requires Philosophy, Warrior Code. Allows Salvation Shrine.
 
 * High Magic: requires Raw Magic, Channeling. Allows White Tower.
@@ -204,10 +207,10 @@ Nations unique techs (Ancient era)
 
 * Winds of Magic: requires Philosophy, Raw Magic, True Dhar, High Magic, Loren Magic
 
-* Bloodlust of Khorne: requires Chaos, Corruption of Chaos
-* Slaanesh's Pleasures: requires Chaos, Corruption of Chaos
-* Gifts of the Plagued One: requires Chaos, Corruption of Chaos
-* Lore of Change: requires Chaos, Corruption of Chaos
+* Bloodlust of Khorne: requires Chaos, Corruption of Chaos. Allows The Cave of Skulls.
+* Slaanesh's Pleasures: requires Chaos, Corruption of Chaos. Allows The Six Circles of Seduction.
+* Gifts of the Plagued One: requires Chaos, Corruption of Chaos. Allows Grandfathers' Embrace.
+* Lore of Change: requires Chaos, Corruption of Chaos. Allows The Temple of Many Colors (with Priesthood).
 
 [//]: # (col 3)
 * Lore of Fire: requires Warfare, Winds of Magic. Allows The Bright Order.
@@ -219,7 +222,7 @@ Nations unique techs (Ancient era)
 * Lore of Beasts: requires Monster Taming, Winds of Magic. Allows The Amber Brotherhood.
 * Lore of Death: requires Ceremonial Burial, Winds of Magic. Allows The Amethyst Order.
 
-* Chaos Incursion: requires Bloodlust of Khorne, Slaanesh's Pleasures, Gifts of the Plagued One, Lore of Change. Allows Gateway.
+* Chaos Incursion: requires Bloodlust of Khorne, Slaanesh's Pleasures, Gifts of the Plagued One, Lore of Change. Allows Cauldron of Blood.
 
 #### Medieval
 [//]: # (col 1)
@@ -228,7 +231,7 @@ Nations unique techs (Ancient era)
 * Navigation: requires Sailing, Astrology. Allows Shipyard, Glittering Tower Lighthouse.
 * Education: requires Literature, Mathematics. Allows University (with Library)
 
-* The End Times: requires Chaos Incursion
+* The End Times: requires Chaos Incursion. Allows Lord of the End Times.
 
 [//]: # (col 2)
 * Machinery: requires Invention
