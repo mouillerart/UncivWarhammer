@@ -95,9 +95,40 @@
 		"techs": [
 			{
 				"name": "Agriculture",
-				"row": 6,
+				"row": 3,
 				"prerequisites": ["Rise of Sigmar"],
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
+			},
+			{
+				"name": "Sailing", //Fishing
+				"row": 4,
+				"prerequisites": ["Rise of Sigmar"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Trapping", //Hunting
+				"row": 5,
+				"prerequisites": ["Rise of Sigmar"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
+				"name": "Mysticism", //Hunting
+				"row": 6,
+				"prerequisites": ["Rise of Sigmar"],
+				"quote": ""
+			},
+			{
+				"name": "Insatiable Hunger",
+				"row": 12,
+				"prerequisites": ["Rise of Sigmar","Greenskin"],
+				"uniques": ["Only available <for [Ogre Kingdoms]>"],
+				"quote": "'The hungry flame sat in our guts...We ate the mountains to put it out... but the fire was still there...We climbed further still... We ate the Tall Ones' herds...Cavebeast was good meat... We climbed the peaks...Above the skies the giants dwell..'"
+			},
+			{
+				"name": "WAAGH!"
+				"row": 13,
+				"prerequisites": ["Rise of Sigmar","Greenskin"],
+				"quote": ""
 			}
 		]
 	},
@@ -115,16 +146,10 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Trapping",
-				"row": 5,
-				"prerequisites": ["Agriculture"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
-			},
-			{
 				"name": "Archery",
 				"cost": 45,
 				"row": 7,
-				"prerequisites": ["Agriculture"],
+				"prerequisites": ["Trapping"],
 				"quote": "'May the forces of evil become confused while your arrow is on its way to the target.' - George Carlin"
 			},
 			{
@@ -142,12 +167,7 @@
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
-			{
-				"name": "Sailing",
-				"row": 1,
-				"prerequisites": ["Pottery"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
-			},
+			
 			{
 				"name": "Calendar",
 				"row": 3,

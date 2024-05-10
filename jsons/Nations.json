@@ -716,16 +716,65 @@
 			{"text": "In return for their Imperial vote, the Moot sends some of their finest cooks to the Imperial court and sends small groups of their foresters to serve for a time in the Imperial army. Halflings are not born warriors but they make competent bowmen and can make hardly a sound when wandering through undergrowth. This makes them ideal scouts although their use in any Imperial army is largely symbolic and few Empire generals want them in their army. Halflings in defence of their homes are determined and doughty fighters, however."}
 		]
 	}
-	/*,
+	,
+	// Dolgans
+	{
+		"name": "Dolgan",
+		"adjective": ["Dolgans"],
+		"cityStateType": "Militaristic",
+		"style": "Human",
+		"uniques": ["Free [Luan] appears <upon discovering [Military Science]>"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Dolgan is willing to serve you!",
+		"outerColor": [ 20, 20,20],
+		"innerColor": [255,178,72],
+		"cities": ["Dolgan"],
+		"civilopediaText": [
+			{"text": "Dolgans represent the barbarian tribes dwelling in the tundra east of Kislev (they come from the same Gospodar culture). Dolgans spend most of their life on horseback, that is why their horse archers are valued all over the Old World, often hired by kislevite or imperial generals. Unlike most barbarian tribes, Dolgans are not chaotic, though the proximity to Chaos Wastes makes them vulnerable victims."}
+		]
+	}
+	,
 	// Marienburg
 	{
-		
+		"name": "Marienburg",
+		"adjective": ["Marienburgers"],
+		"cityStateType": "Maritime",
+		"style": "Human",
+		"uniques": ["Starts with [Pottery]"],
+
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [20, 20,20],
+		"innerColor": [10,162,60],
+		"cities": ["Marienburg"],
+		"civilopediaText": [
+			{"text": "'The business of Marienburg, is business.' —Director Jaan van de Kuypers of Marienburg"}
+		]
 	}
 	,
 	// Lahmia
 	{
+		"name": "Lahmia",
+		"adjective": ["Lahmians"],
+		"cityStateType": "Cultural",
+		"style": "Human",
+		"uniques": ["Starts with [Undead Curse]"],
 		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [255,153,153],
+		"cities": ["Lahmia"],
+		"civilopediaText": [
+			{"text": "Lahmia, once known as the strange and decadent 'City of the Dawn', today as 'The Cursed City', was an ancient city-state of the great Human realm of Nehekhara, now called the Land of the Dead"}
+		]
 	}
+		
+	/*
 	,
 	// Border Princes: Citadelle Bouelia
 	{
@@ -737,27 +786,6 @@
 		
 	}
 	,
-	// Dolgans
-	{
-		"name": "Dolgan",
-		"leaderName": "Etzen",
-		"adjective": ["Dolgans"],
-		"startBias": ["Tundra"],
-		"style": "Human",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
-		
-		"uniques": [],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "Dolgans represent the barbarian tribes dwelling in the tundra east of Kislev (they come from the same Gospodar culture). Dolgans spend most of their life on horseback, that is why their horse archers are valued all over the Old World, often hired by kislevite or imperial generals. Unlike most barbarian tribes, Dolgans are not chaotic, though the proximity to Chaos Wastes makes them vulnerable victims."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
 	// Hung
 	{
 		"name": "Hung",
