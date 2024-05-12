@@ -64,7 +64,7 @@ Planned:
 
 ### Technologies
 Common tech tree (eras)
-#### Ancient
+#### Ancient age
 [//]: # (col 1)
 * Rise of Sigmar (Starting Tech)
 Nations unique techs (Ancient era)
@@ -158,7 +158,7 @@ Nations unique techs (Ancient era)
 * Currency: requires Trade, Metal Casting, Lordship.
 * Feudalism: requires Lordship or Tyranny
 
-#### Classical
+#### Age of Magic
 [//]: # (col 1)
 * Bloodbowl: requires Trade, Brewing. Allows Bloodbowl Stadium (with Construction), Bloodweiser Stadium.
 
@@ -186,7 +186,7 @@ Nations unique techs (Ancient era)
 * Master of Fire: requires Elemental Magic
 * Master of Ice: requires Elemental Magic
 
-
+#### Age of Lore
 [//]: # (col 2)
 * Imperial roads: requires Roads, Construction, Civil Service
 * Guilds: requires Civil Service, Feudalism, Currency
