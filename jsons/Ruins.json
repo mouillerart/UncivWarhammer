@@ -70,7 +70,7 @@
 	{
 		"name": "discover a lost technology",
 		"notification": "We have discovered the lost technology of [techName] in the ruins!",
-		"uniques": ["[1] free random researchable Tech(s) from the [Classical age]", "Only available <before [50] turns>"],
+		"uniques": ["[1] free random researchable Tech(s) from the [Ancient age]", "Only available <before [50] turns>"],
 		"weight": 9,
 		"color": "#7f7fff"
 	},

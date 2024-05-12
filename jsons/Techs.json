@@ -8,7 +8,7 @@
 		"techs": [
 			{
 				"name": "Rise of Sigmar",
-				"row": 2,
+				"row": 1,
 				"uniques": ["Starting tech"],
 				"quote": "Welcome to the Age of Sigmar!"
 			},
@@ -19,10 +19,10 @@
 				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia"
 			},
 			{
-				"name": "Underworld",
+				"name": "Knightly Virtues",
 				"row": 4,
-				"uniques": ["Only available <for [Skaven]>"],
-				"quote": "This is a free advance granted to Skaven"
+				"uniques": ["Only available <for [Bretonnia]>"],
+				"quote": "This is a free advance granted to Bretonnia"
 			},
 			{
 				"name": "Dwarven Ingenuity",
@@ -79,8 +79,14 @@
 				"quote": "This is a free advance granted to Ironclaw Orcs and Crooked Moon Goblins."
 			},
 			{
-				"name": "Chaos",
+				"name": "Underworld",
 				"row": 14,
+				"uniques": ["Only available <for [Skaven]>","Gain an extra spy"],
+				"quote": "This is a free advance granted to Skaven"
+			},
+			{
+				"name": "Chaos",
+				"row": 15,
 				"uniques": ["Only available <for [Beastmen]>","Only available <for [Hordes of Chaos]>","Only available <for [Ironclaw Orcs]>","Only available <for [Badmoon Goblins]>","Only available <for [Hobgobelins]>","Only available <for [Ogre Kingdoms]>","Only available <for [Chaos Dwarfs]>"],
 				"quote": "This is a free advance granted to Beastmen, Hordes of Chaos, Chaos Dwarfs, Ironclaw Orcs and Crooked Moon Goblins."
 			}
@@ -100,34 +106,35 @@
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
 			},
 			{
-				"name": "Sailing", //Fishing
-				"row": 4,
+				"name": "Fishing",
+				"row": 1,
 				"prerequisites": ["Rise of Sigmar"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
-				"name": "Trapping", //Hunting
-				"row": 5,
+				"name": "Hunting",
+				"row": 7,
 				"prerequisites": ["Rise of Sigmar"],
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
-				"name": "Mysticism", //Hunting
-				"row": 6,
+				"name": "Mysticism",
+				"row": 10,
 				"prerequisites": ["Rise of Sigmar"],
+				"uniques":["Gain enough Faith for a Pantheon"],
 				"quote": ""
 			},
 			{
 				"name": "Insatiable Hunger",
 				"row": 12,
-				"prerequisites": ["Rise of Sigmar","Greenskin"],
+				"prerequisites": ["Greenskin"],
 				"uniques": ["Only available <for [Ogre Kingdoms]>"],
 				"quote": "'The hungry flame sat in our guts...We ate the mountains to put it out... but the fire was still there...We climbed further still... We ate the Tall Ones' herds...Cavebeast was good meat... We climbed the peaks...Above the skies the giants dwell..'"
 			},
 			{
 				"name": "WAAGH!"
 				"row": 13,
-				"prerequisites": ["Rise of Sigmar","Greenskin"],
+				"prerequisites": ["Greenskin"],
 				"quote": ""
 			}
 		]
@@ -136,238 +143,645 @@
 		"columnNumber": 2,
 		"era": "Ancient age",
 		"techCost": 35,
-		"buildingCost": 60,
+		"buildingCost": 50,
 		"wonderCost": 160,
 		"techs": [
 			{
-				"name": "Pottery",
+				"name": "Calendar",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
+			{
+				"name": "Brewing",
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
+			{
+				"name": "Crafting",
 				"row": 3,
 				"prerequisites": ["Agriculture"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"quote": ""
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 4,
+				"prerequisites": ["Agriculture","Hunting"],
+				"quote": ""
+			},
+			{
+				"name": "Herblore",
+				"row": 5,
+				"prerequisites": ["Hunting"],
+				"quote": ""
 			},
 			{
 				"name": "Archery",
 				"cost": 45,
-				"row": 7,
-				"prerequisites": ["Trapping"],
+				"row": 6,
+				"prerequisites": ["Hunting"],
 				"quote": "'May the forces of evil become confused while your arrow is on its way to the target.' - George Carlin"
 			},
 			{
-				"name": "Mining",
+				"name": "Warrior Code",
+				"row": 7,
+				"prerequisites": ["Hunting"],
+				"quote": ""
+			},
+			{
+				"name": "Chronicles",
+				"row": 8,
+				"prerequisites": ["Mysticism"],
+				"uniques": ["Enables Open Borders agreements"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Contemplation",
 				"row": 9,
-				"prerequisites": ["Agriculture"],
-				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+				"prerequisites": ["Mysticism"],
+				"quote": ""
+			},
+			{
+				"name": "Ceremonial Burial",
+				"row": 10,
+				"prerequisites": ["Mysticism"],
+				"quote": ""
+			},
+			{
+				"name": "Raw Magic",
+				"row": 11,
+				"prerequisites": ["Mysticism"],
+				"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
-		"era": "Classical age",
-		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"era": "Ancient age",
+		"techCost": 45,
+		"buildingCost": 60,
+		"wonderCost": 175,
 		"techs": [
-			
 			{
-				"name": "Calendar",
-				"row": 3,
-				"prerequisites": ["Pottery"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"name": "Astrology",
+				"row": 4,
+				"prerequisites": ["Calendar"],
+				"quote": ""
+			},
+			{
+				"name": "Roads",
+				"row": 2,
+				"prerequisites": ["Crafting"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
 				"name": "Masonry",
+				"row": 3,
+				"prerequisites": ["Crafting"],
+				"quote": ""
+			},
+			{
+				"name": "Trade",
+				"row": 1,
+				"prerequisites": ["Crafting"],
+				"quote": ""
+			},
+			{
+				"name": "Mining",
+				"row": 5,
+				"prerequisites": ["Crafting"],
+				"quote": ""
+			},
+			{
+				"name": "Horseback Riding",
+				"cost": 45,
+				"row": 6,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Tracking",
+				"row": 7,
+				"prerequisites": ["Animal Husbandry","Herblore"],
+				"quote": ""
+			},
+			{
+				"name": "Festivals",
+				"row": 8,
+				"prerequisites": ["Chronicles"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Philosophy",
 				"row": 9,
-				"prerequisites": ["Mining"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
+				"prerequisites": ["Chronicles","Contemplation"],
+				"quote": ""
+			},
+			{
+				"name": "Loren Magic",
+				"row": 11,
+				"uniques": ["Only available <for [Loren]>"],
+				"prerequisites": ["Raw Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Necromancy",
+				"row": 10,
+				"prerequisites": ["Ceremonial Burial","Raw Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Magic of the Horned Rat",
+				"row": 14,
+				"uniques": ["Only available <for [Skaven]>"],
+				"prerequisites": ["Raw Magic"],
+				"quote": ""
 			}
 		]
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical age",
-		"techCost": 105,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"era": "Ancient age",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Optics",
-				"cost": 95,
+				"name": "Mathematics",
+				"row": 2,
+				"prerequisites": ["Calendar","Masonry"],
+				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+			},			
+			{
+				"name": "Sailing",
 				"row": 1,
-				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
-			},
-			{
-				"name": "Writing",
-				"row": 3,
-				"prerequisites": ["Calendar"],
-				"uniques": ["Enables Open Borders agreements"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
-			},
-			{
-				"name": "Domestication",
-				"row": 5,
-				"prerequisites": ["Trapping"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
-			},
-			{
-				"name": "Mana Sensing",
-				"row": 6,
-				"prerequisites": ["Trapping"],
-				"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
-			},
-			{
-				"name": "The Wheel",
-				"row": 7,
-				"prerequisites": ["Trapping","Archery"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
-			},
-			{
-				"name": "Construction",
-				"row": 9,
-				"prerequisites": ["Masonry"],
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+				"prerequisites": ["Fishing","Trade"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
 				"name": "Bronze Working",
 				"cost": 95,
-				"row": 10,
+				"row": 5,
 				"prerequisites": ["Mining"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			},			
+			{
+				"name": "Nature Lore",
+				"row": 7,
+				"prerequisites": ["Tracking","Archery"],
+				"quote": ""
+			},			
+			{
+				"name": "Monster Taming",
+				"row": 6,
+				"prerequisites": ["Tracking","Horseback Riding"],
+				"quote": ""
 			}
 		]
 	},
 	{
 		"columnNumber": 5,
-		"era": "Heroic age",
-		"techCost": 185,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"era": "Ancient age",
+		"techCost": 65,
+		"buildingCost": 85,
+		"wonderCost": 200,
 		"techs": [
 			{
-				"name": "Philosophy",
+				"name": "Construction",
 				"row": 2,
-				"prerequisites": ["Writing"],
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
-			},
+				"prerequisites": ["Mathematics","Masonry","Bronze Working"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			},			
 			{
-				"name": "Poetry",
-				"row": 3,
-				"prerequisites": ["Writing"],
-				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
-			},
-			{
-				"name": "Arcane Magic",
-				"row": 6,
-				"prerequisites": ["Mana Sensing"],
-				"quote": "'One man's 'magic' is another man's engineering.' - Robert Heinlein"
-			},
-			{
-				"name": "Mathematics",
-				"row": 7,
-				"prerequisites": ["The Wheel"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
-			},
-			{
-				"name": "Iron Working",
-				"row": 10,
+				"name": "Metal Casting",
+				"row": 4,
 				"prerequisites": ["Bronze Working"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "Warfare",
+				"row": 5,
+				"prerequisites": ["Warrior Code","Bronze Working"],
+				"quote": ""
+			},			
+			{
+				"name": "Elemental Magic",
+				"row": 10,
+				"prerequisites": ["Nature Lore","Raw Magic"],
+				"quote": ""
 			}
 		]
 	},
 	{
 		"columnNumber": 6,
-		"era": "Heroic age",
-		"techCost": 300,
-		"buildingCost": 140,
-		"wonderCost": 350,
+		"era": "Ancient age",
+		"techCost": 75,
+		"buildingCost": 100,
+		"wonderCost": 220,
 		"techs": [
 			{
-				"name": "Theology",
+				"name": "Irrigation",
 				"row": 2,
-				"prerequisites": ["Philosophy","Poetry"],
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
-			},
+				"prerequisites": ["Construction"],
+				"quote": ""
+			},			
 			{
-				"name": "Civil Service",
+				"name": "Sanitation",
 				"row": 3,
-				"prerequisites": ["Philosophy","Poetry"],
-				"uniques": ["Enables Research agreements"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+				"prerequisites": ["Construction"],
+				"quote": ""
 			},
 			{
-				"name": "Wizardry",
-				"row": 6,
-				"prerequisites": ["Arcane Magic"],
-				"quote": "'We are all apprentices in a craft where no one ever becomes a master.' - Malory"
-			},
+				"name": "Alchemy",
+				"row": 5,
+				"prerequisites": ["Herblore","Metal Casting"],
+				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+			},			
 			{
-				"name": "Currency",
+				"name": "Iron Working",
 				"row": 7,
-				"prerequisites": ["Mathematics"],
-				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
-			},
+				"prerequisites": ["Metal Casting","Warfare"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			},			
 			{
-				"name": "Engineering",
+				"name": "Tyranny",
+				"row": 8,
+				"uniques":["Gain an extra spy"],
+				"prerequisites": ["Warfare"],
+				"quote": ""
+			},			
+			{
+				"name": "Lordship",
 				"row": 9,
-				"prerequisites": ["Mathematics","Construction"],
-				"uniques": ["Roads connect tiles across rivers"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
-			},
-			{
-				"name": "Metal Casting",
-				"row": 10,
-				"prerequisites": ["Mathematics","Iron Working"],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+				"prerequisites": ["Warfare"],
+				"quote": ""
 			}
 		]
 	},
 	{
 		"columnNumber": 7,
+		"era": "Ancient age",
+		"techCost": 90,
+		"buildingCost": 115,
+		"wonderCost": 235,
+		"techs": [
+			{
+				"name": "Stirrups",
+				"row": 7,
+				"prerequisites": ["Iron Working","Horseback Riding"],
+				"quote": ""
+			},			
+			{
+				"name": "Feudalism",
+				"row": 8,
+				"uniques":["Enables Defensive Pacts"],
+				"prerequisites": ["Tyranny"],
+				"quote": ""
+			},			
+			{
+				"name": "Currency",
+				"row": 9,
+				"prerequisites": ["Trade","Metal Casting","Lordship"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Age of Magic",
+		"techCost": 200,
+		"buildingCost": 130,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Bloodbowl",
+				"cost": 95,
+				"row": 1,
+				"prerequisites": ["Trade","Brewing"],
+				"quote": ""
+			},
+			{
+				"name": "Civil Service",
+				"row": 3,
+				"prerequisites": ["Currency"],
+				"uniques": ["Enables Research agreements"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Mercenary Contracts",
+				"row": 4,
+				"prerequisites": ["Currency"],
+				"uniques": ["Military Units gifted from City-States start with [5] XP","Militaristic City-States grant units [3] times as fast when you are at war with a common nation","May buy [Melee] units with [Gold] [in all cities]"],
+				"quote": ""
+			},
+			{
+				"name": "Chivalry",
+				"row": 5,
+				"prerequisites": ["Feudalism","Stirrups"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "Monster Breeding",
+				"row": 6,
+				"prerequisites": ["Monster Taming","Alchemy","Stirrups"],
+				"quote": ""
+			},
+			{
+				"name": "Smithing",
+				"row": 7,
+				"prerequisites": ["Iron Working"],
+				"quote": ""
+			},
+			{
+				"name": "Gromril Smithing",
+				"row": 8,
+				"prerequisites": ["Iron Working","Dwarven Ingenuity"],
+				"quote": ""
+			},
+			{
+				"name": "Priesthood",
+				"row": 9,
+				"prerequisites": ["Philosophy","Festivals","Ceremonial Burial"],
+				"quote": ""
+			},
+			{
+				"name": "Words of Salvation",
+				"row": 10,
+				"prerequisites": ["Philosophy","Warrior Code"],
+				"uniques":["When declaring friendship, both parties gain a [+20]% boost to great person generation"],
+				"quote": ""
+			},
+			{
+				"name": "High Magic",
+				"row": 11,
+				"prerequisites": ["Raw Magic","Channeling"],
+				"quote": ""
+			},
+			{
+				"name": "True Dhar",
+				"row": 12,
+				"prerequisites": ["Raw Magic","Chaos"],
+				"quote": ""
+			},
+			{
+				"name": "Corruption of Chaos",
+				"row": 13,
+				"prerequisites": ["Raw Magic","Philosophy"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Age of Magic",
+		"techCost": 240,
+		"buildingCost": 145,
+		"wonderCost": 275,
+		"techs": [
+			{
+				"name": "Rune Smithing",
+				"row": 7,
+				"prerequisites": ["Gromril Smithing"],
+				"quote": ""
+			},
+			{
+				"name": "Master of the Winds",
+				"row": 9,
+				"prerequisites": ["Elemental Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Master of the Earth",
+				"row": 10,
+				"prerequisites": ["Elemental Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Master of Water",
+				"row": 11,
+				"prerequisites": ["Elemental Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Master of Fire",
+				"row": 12,
+				"prerequisites": ["Elemental Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Master of Ice",
+				"row": 13,
+				"prerequisites": ["Elemental Magic"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Age of Lore",
+		"techCost": 300,
+		"buildingCost": 200,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Imperial roads",
+				"row": 3,
+				"prerequisites": ["Roads","Construction","Civil Service"],
+				"quote": ""
+			},
+			{
+				"name": "Guilds",
+				"row": 5,
+				"prerequisites": ["Civil Service","Feudalism","Currency"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "Knightly Orders",
+				"row": 8,
+				"prerequisites": ["Chivalry"],
+				"quote": ""
+			},
+			{
+				"name": "Tournaments",
+				"row": 9,
+				"prerequisites": ["Chivalry","Smithing"],
+				"quote": ""
+			},
+			{
+				"name": "Meteoric Iron",
+				"row": 6,
+				"prerequisites": ["Smithing"],
+				"quote": ""
+			},
+			{
+				"name": "Monster Bonding",
+				"row": 13,
+				"prerequisites": ["Monster Breeding","Nature Lore"],
+				"quote": ""
+			},
+			{
+				"name": "Literature",
+				"row": 14,
+				"prerequisites": ["Priesthood"],
+				"quote": ""
+			},
+			{
+				"name": "Monasticism",
+				"row": 15,
+				"prerequisites": ["Priesthood"],
+				"quote": ""
+			},
+			{
+				"name": "Fanaticism",
+				"row": 16,
+				"prerequisites": ["Priesthood","Tyranny"],
+				"quote": ""
+			},
+			{
+				"name": "Winds of Magic",
+				"row": 17,
+				"prerequisites": ["Philosophy","Raw Magic"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Age of Lore",
+		"techCost": 350,
+		"buildingCost": 250,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Grail Quest",
+				"row": 4,
+				"prerequisites": ["Knightly Virtues","Chivalry"],
+				"quote": "'That which 8is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
+			},
+			{
+				"name": "Bloodlust of Khorne",
+				"row": 6,
+				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"quote": ""
+			},
+			{
+				"name": "Slaanesh's Pleasures",
+				"row": 7,
+				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"quote": ""
+			},
+			{
+				"name": "Gifts of the Plagued One",
+				"row": 8,
+				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Change",
+				"row": 9,
+				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Fire",
+				"row": 11,
+				"prerequisites": ["Warfare","Winds of Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Life",
+				"row": 12,
+				"prerequisites": ["Nature Lore","Winds of Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Lights",
+				"row": 13,
+				"prerequisites": ["Mathematics","Winds of Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Heavens",
+				"row": 14,
+				"prerequisites": ["Astrology","Winds of Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Metals",
+				"row": 15,
+				"prerequisites": ["Metal Casting","Winds of Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Shadows",
+				"row": 16,
+				"prerequisites": ["Civil Service","Winds of Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Beasts",
+				"row": 17,
+				"prerequisites": ["Monster Taming","Winds of Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Lore of Death",
+				"row": 18,
+				"prerequisites": ["Ceremonial Burial","Winds of Magic"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Age of Lore",
+		"techCost": 400,
+		"buildingCost": 300,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Chaos Incursion",
+				"row": 7,
+				"prerequisites": ["Bloodlust of Khorne","Slaanesh's Pleasures","Gifts of the Plagued One","Lore of Change"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
 		"era": "Feudal age",
 		"techCost": 550,
 		"buildingCost": 185,
 		"wonderCost": 465,
 		"techs": [
 			{
+				"name": "Engineering",
+				"row": 2,
+				"prerequisites": ["Mathematics","Construction"],
+				"uniques": ["Roads connect tiles across rivers"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+			}
+			{
 				"name": "Compass",
 				"cost": 475,
 				"row": 1,
-				"prerequisites": ["Optics"],
+				"prerequisites": ["Astrology"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
 				"name": "Education",
 				"row": 3,
-				"prerequisites": ["Theology","Civil Service"],
+				"prerequisites": ["Priesthood","Civil Service"],
 				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
-				"name": "Knightly Virtues",
-				"row": 4,
-				"uniques": ["Only available <for [Bretonnia]>"],
-				"quote": "This is a free advance granted to Bretonnia"
-			},
-			{
-				"name": "Chivalry",
-				"row": 5,
-				"prerequisites": ["Civil Service","Domestication"],
-				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
-			},
-			{
 				"name": "Quintessence Force",
 				"row": 6,
-				"prerequisites": ["Wizardry","Currency"],
+				"prerequisites": ["Winds of Magic","Currency"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
-			},
-			{
-				"name": "Guilds",
-				"row": 7,
-				"prerequisites": ["Currency"],
-				"uniques": ["Enables conversion of city production to [Gold]"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
 				"name": "Machinery",
@@ -391,7 +805,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 14,
 		"era": "Feudal age",
 		"techCost": 850,
 		"buildingCost": 235,
@@ -404,12 +818,6 @@
 				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Astronomy's much more fun when you're not an astronomer.' - Brian Miller"
-			},
-			{
-				"name": "Quest for Grail",
-				"row": 4,
-				"prerequisites": ["Knightly Virtues","Chivalry"],
-				"quote": "'That which 8is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
 			},
 			{
 				"name": "Acoustics",
@@ -439,7 +847,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 15,
 		"era": "Renaissance age",
 		"techCost": 1300,
 		"buildingCost": 280,
@@ -474,17 +882,11 @@
 				"row": 8,
 				"prerequisites": ["Gunpowder"],
 				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
-			},
-			{
-				"name": "Alchemy",
-				"row": 9,
-				"prerequisites": ["Gunpowder"],
-				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			}
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 16,
 		"era": "Renaissance age",
 		"techCost": 1850,
 		"buildingCost": 320,
@@ -517,7 +919,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 17,
 		"era": "Industrial age",
 		"techCost": 3100,
 		"buildingCost": 400,
@@ -556,7 +958,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 18,
 		"era": "Industrial age",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -596,7 +998,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 19,
 		"era": "Prosperity age",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -629,7 +1031,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 20,
 		"era": "Prosperity age",
 		"techCost": 7700,
 		"buildingCost": 500,
@@ -663,7 +1065,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 21,
 		"era": "Modern age",
 		"techCost": 8800,
 		"buildingCost": 500,
@@ -702,7 +1104,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 22,
 		"era": "Modern age",
 		"techCost": 9500,
 		"buildingCost": 500,
@@ -731,7 +1133,7 @@
 		]
 	}
 	{
-		"columnNumber": 17,
+		"columnNumber": 23,
 		"era": "Future age",
 		"techCost": 11000,
 		"buildingCost": 700,

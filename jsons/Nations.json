@@ -20,11 +20,11 @@
 		"startIntroPart1": "The Empire is the strongest, wealthiest and most famous realm in the Old World. Made up of independent provinces and city states, the Empire is ruled over by Elector Counts and the ultimate power; the Emperor Karl Franz. The Emperor's powerful armies form the bastion that keeps the marauding Orcs and forces of Chaos from overrunning the Old World.",
 		//"startIntroPart2": "...",
 		
-		//"declaringWar": "I can engage in this war without sacrificing morals. Can you?",
-		//"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
-		//"defeated": "No, I am not ready to leave my people. No!",
-		//"afterPeace": "Because of war, haven't we all been hurt?",
-		//"introduction": "I am Erish, and who are you, gentleman?",
+		"declaringWar": "Now, we unite! To purge the evil that dare confront us! Follow me, and we will banish this darkness! I swear this as your Emperor!",
+		"attacked": "In the centuries I have been High King, our enemies have thought us weak, cowards hiding in the deepest, darkest places. Fools! Every wrong is recorded. Every slight against us, page after page, etched in blood! Clan Gurnisson! Karak Eight-Peaks! Josef Bugman!",
+		"defeated": "We die wielding our swords, for there is no better death for a warrior.",
+		"afterPeace": "Be at peace, for that is all I ever want.",
+		"introduction": "I am Karl Franz, and I was born into this world, just like you.",
 		
 		//"neutralHello": "You have my gratitude.",
 		//"hateHello": "Shame on you.",
@@ -71,6 +71,13 @@
 		"outerColor": [0, 0, 204],
 		"innerColor": [255, 255, 0],
 
+		//"declaringWar": "Now, we unite! To purge the evil that dare confront us! Follow me, and we will banish this darkness! I swear this as your Emperor!",
+		"attacked": "When the clarion call is sounded, I will ride out and fight in the name of liege and Lady, Whilst I draw breath the lands bequeathed unto me will remain untainted by evil. Honour is all. Chivalry is all.",
+		"defeated": "In the time of Bretonnia's greatest need, when it seems that all hope is gone, I shall return to aid you..",
+		//"afterPeace": "Be at peace, for that is all I ever want.",
+		//"introduction": "I am Karl Franz, and I was born into this world, just like you.",
+		
+
 		"uniques": ["Starts with [Knightly Virtues]"], 
 		"cities": ["Couronne","Brionne","Bordeleaux","Mousillon","Quenelles","Lyonesse","L'Anguille","Gisoreux","Parravon","Lisounne","Montfort","Bastonne","Aquitaine","Artois","Vecreaux","Gaon","Chalons","Oisillon","Alencon","Poussenc","Montluc","Perrache","Jouinard","Vettard","Chambonnay","Carcassonne","Cuilieux","Glanborielle","Aubenas","Brusse","Yremy","Cixous","Larret","Clouseau","Brusse","Moutiers","Saint Leu","Antoch","Ferignac","Marguilles","Cavour"],
 
@@ -102,6 +109,7 @@
 
 		"uniques": ["Starts with [Dwarven Ingenuity]",
 			"[+10]% Strength <within [2] tiles of a [Mountain]>", 
+			"Units ignore terrain costs when moving into any tile with Hills",
 			"Land units may cross [Mountain] tiles after the first [Great Person] is earned"],
 
 		"cities": ["Karaz-a-Karak","Barak Varr","Karak Angazhar","Karak Azgaraz","Karak Bhufdar","Karak Eksfilaz","Karak Gantuk","Karak Grom","Karak Hirn","Karak Izor","Karak Kadrin","Karak Kaferkammaz","Karak Norn","Karak Ziflin","Zhufbar","Karak Azul"],
@@ -172,6 +180,9 @@
 		"outerColor": [255, 255,255],
 		"innerColor": [0,0,0],
 
+		"declaringWar": "Surrender and serve me in life, or die and slave for me in death.",
+		"introduction": "Please, come in and join me for dinner. I can see from the way you dress, you are a man of exquisite... taste.",
+
 		"uniques": ["Starts with [Undead Curse]",
 			"May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
 			"Provides [4] [Vampiric Block]", 
@@ -227,7 +238,9 @@
 		"outerColor": [34, 139, 34]
 		"innerColor": [240, 255, 240],
 		
-		"uniques": ["Starts with [Forest Mastery]"],
+		"attacked": "Athel Loren shall not suffer the presence of Men, nor Orcs, nor Dwarfs, nor Beastmen. If a foe takes a single step upon such sacred soil, they shall not take another.",
+
+		"uniques": ["Starts with [Forest Mastery]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
 		"cities": ["Athel Loren","Tor Lithanel","Torgovann","Cavaroc","Atylwyth","Cythral","Modryn","Talsyn","Wydrioth","Fyr Darric","Anmyr","Tirsyth","Arcwylon","Arranoc"],
 
 		"civilopediaText": [
@@ -268,6 +281,8 @@
 		"style": "Human",
 		"outerColor": [171, 151, 0]
 		"innerColor": [255, 0, 0],
+
+		"afterPeace": "A small gesture can change destiny.",
 
 		"uniques": ["Starts with [Old World]"],
 		"cities": ["Remas","Tobaro","Luccini","Miragliano","Pavona","Sartosa","Trantio","Verezzo","Monte Castello"],
@@ -340,6 +355,10 @@
 		"outerColor": [181, 101, 29]
 		"innerColor": [0, 255, 0],
 		
+		"declaringWar": "Kill-Kill!",
+		"attacked": "Your doom is coming, man-things.",
+		"afterPeace": "Yes-yes Warlord - for a treaty-pledge of just 200 Slaves, 12 claws of warptokens, a Breeder and certain alliances and pledges, one of our very-very finest Clan Moulder Rat Ogres can be yours.",
+
 		"uniques": ["Starts with [Underworld]"],
 		"cities": ["Skavenblight","Hell Pit","The Black Chasm","Crookback Mountain","Foul Peak","City of Pillars","Queekwell","Bonestash","Fester Spike","Putrid Stump","Under-Altdorf","Under-Delberz","Under-Middenheim","Under-Nuln","Under-Remas","Bitter Stink","Under-Mousillon"],
 
@@ -387,6 +406,9 @@
 		"outerColor": [1, 50, 32]
 		"innerColor": [0,0,0],
 		
+		"declaringWar": "Get da Clans togevva....We’s goin to war!",
+		"attacked": "I'm gonna stomp 'em to dust. I'm gonna grind their bones. I'm gonna pile 'em up inna big fire and roast 'em. I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left. An' den I'm gonna get really mean.",
+
 		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
 		"cities": ["Iron Rock","Maad Dog Pass","Fire Mountain","Black Fire Pass","Krimson Killerz","Blue Face","White Orcs","White Skullz","Yellow Eye","Red Fangs"],
 
@@ -742,7 +764,7 @@
 		"adjective": ["Marienburgers"],
 		"cityStateType": "Maritime",
 		"style": "Human",
-		"uniques": ["Starts with [Pottery]"],
+		"uniques": ["Starts with [Sailing]"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Very well, this shall not be forgotten.",

@@ -2,13 +2,13 @@
 	{
 		"name": "Cultural",
 		"friendBonusUniques": [
-			"[+3 Culture] <before the [Heroic age]>",
-			"[+6 Culture] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+3 Culture] <before the [Age of Magic]>",
+			"[+6 Culture] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+13 Culture] <starting from the [Renaissance age]>"
 		],
 		"allyBonusUniques": [
-			"[+6 Culture] <before the [Heroic age]>",
-			"[+12 Culture] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+6 Culture] <before the [Age of Magic]>",
+			"[+12 Culture] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+26 Culture] <starting from the [Renaissance age]>",
 			"[+2 Culture] [in capital]"
 		],
@@ -42,14 +42,14 @@
 	{
 		"name": "Mercantile",
 		"friendBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"[+2 Happiness]"
 		],
 		"allyBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides a unique luxury"
 		],
@@ -58,14 +58,14 @@
 	{
 		"name": "Mercantile-Concordia",
 		"friendBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"[+2 Happiness]"
 		],
 		"allyBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Jewelry]"
 		],
@@ -74,14 +74,14 @@
 	{
 		"name": "Mercantile-Crotoa",
 		"friendBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"[+2 Happiness]"
 		],
 		"allyBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Honey]"
 		],
@@ -90,14 +90,14 @@
 	{
 		"name": "Mercantile-Frostwaste",
 		"friendBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"[+2 Happiness]"
 		],
 		"allyBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Ivory]"
 		],
@@ -106,14 +106,14 @@
 	{
 		"name": "Mercantile-Gahaldur",
 		"friendBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"[+2 Happiness]"
 		],
 		"allyBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Mithril]"
 		],
@@ -122,14 +122,14 @@
 	{
 		"name": "Mercantile-Tonthon",
 		"friendBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"[+2 Happiness]"
 		],
 		"allyBonusUniques": [
-			"[+2 Gold] <before the [Heroic age]>",
-			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+2 Gold] <before the [Age of Magic]>",
+			"[+4 Gold] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Porcelain]"
 		],
@@ -156,13 +156,13 @@
 	{
 		"name": "Religious",
 		"friendBonusUniques":  [
-			"[+3 Faith] <before the [Heroic age]>",
-			"[+6 Faith] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+3 Faith] <before the [Age of Magic]>",
+			"[+6 Faith] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+13 Faith] <starting from the [Renaissance age]>"
 		],
 		"allyBonusUniques":  [
-			"[+6 Faith] <before the [Heroic age]>",
-			"[+12 Faith] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+6 Faith] <before the [Age of Magic]>",
+			"[+12 Faith] <starting from the [Age of Magic]> <before the [Renaissance age]>",
 			"[+26 Faith] <starting from the [Renaissance age]>"
 		],
 		"color": [255,255,255]

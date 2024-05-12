@@ -140,8 +140,8 @@
 		"policies": [
 			{
 				"name": "Warrior Code",
-				"uniques": ["[2] free [Warrior] units appear <before the [Heroic age]>",
-							"[2] free [Spearman] units appear <starting from the [Heroic age]>",
+				"uniques": ["[2] free [Warrior] units appear <before the [Age of Magic]>",
+							"[2] free [Spearman] units appear <starting from the [Age of Magic]>",
 							"Free [Great General] appears"],
 				"row": 1,
 				"column": 1
@@ -189,7 +189,7 @@
 	},
 	{
 		"name": "Piety",
-		"era": "Classical age",
+		"era": "Age of Magic",
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 10,
@@ -302,7 +302,7 @@
 				"name": "Legacy Complete",
 				"uniques": ["[-10]% Culture cost of adopting new Policies", 
 							"[+3 Culture] from every [Landmark]", 
-							"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"],
+							"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Age of Magic]>"],
 			} 
 		]
 	},
@@ -418,8 +418,8 @@
 				"name": "Commerce Complete",
 				"uniques": ["[+1 Gold] from every [Trading post]", 
 							"[+100]% Gold from Great Merchant trade missions", 
-							"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>", 
-							"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"
+							"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Age of Magic]>", 
+							"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Age of Magic]>"
 				]
 			}
 		]
@@ -481,7 +481,7 @@
 			{
 				"name": "Rationalism Complete",
 				"uniques": ["[2] Free Technologies", 
-							"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"
+							"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Age of Magic]>"
 				]
 			}
 		]

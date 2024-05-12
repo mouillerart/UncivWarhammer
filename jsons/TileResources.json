@@ -86,7 +86,7 @@
 	{
 		"name": "Ley Line",
 		"resourceType": "Bonus",
-		"revealedBy": "Mana Sensing",
+		"revealedBy": "Raw Magic",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Flood plains","Hill","Tundra","Snow","Marsh"],
 		"faith": 1,
 		"improvement": "Beacon of Power",
@@ -123,7 +123,7 @@
 	{
 		"name": "Dragon's Egg",
 		"resourceType": "Strategic",
-		"revealedBy": "Compass",
+		"revealedBy": "Monster Taming",
 		"terrainsCanBeFoundOn": ["Hill","Jungle"],
 		"production": 1,
 		"improvement": "Taming",
@@ -140,7 +140,7 @@
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "Trapping",
+		"revealedBy": "Hunting",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",

@@ -22,7 +22,7 @@
         ]
     },
     {
-        "name": "Classical age",
+        "name": "Age of Magic",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -43,7 +43,7 @@
         ]
     },
     {
-        "name": "Heroic age",
+        "name": "Age of Lore",
         "researchAgreementCost": 250,
         "startingSettlerCount": 1,
         "startingWorkerCount": 1,

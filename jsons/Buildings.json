@@ -35,6 +35,113 @@
 			{"text": "A residence of a Parun, and the physical center of Pohala'a."}
 		]
 	},
+		{
+		"name": "Waystone",
+		"culture": 2,
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Mysticism]>"],
+		"requiredTech": "Channeling",
+		"civilopediaText": [
+			{"text": "A waystone, also called an Ogham Stone, a 'fay stone' or an 'elf stone' usually by Men, is a towering, rune-carved menhir crafted in ancient times by the Elves of Ulthuan that channel and redirects the Winds of Magic through an entire network of such artefacts"}
+		]
+	},
+	{
+		"name": "Old Ones Shrine",
+		"science": 1,
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Mysticism]>"],
+		"requiredTech": "Cold Ones",
+		"civilopediaText": [
+			{"text": "To those without Witchsight, the ancient, weathered waystones originally created and left by the Old Ones are now indistinguishable from ordinary standing stones."}
+		]
+	},
+	{
+		"name": "Elven Shrine",
+		"science": 1,
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Contemplation]>"],
+		"requiredTech": "Forest Mastery",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Immortality Shrine",
+		"science": 1,
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Ceremonial Burial]>"],
+		"requiredTech": "Undead Curse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Destruction Shrine",
+		"production": 2,
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Warrior Code]>"],
+		"requiredTech": "WAAGH!",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Chaos Shrine",
+		"production": 4,
+		"faith": 4,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Corruption of Chaos]>"],
+		"requiredTech": "Chaos",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Spirituality Shrine",
+		"science": 1,
+		"faith": 4,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Philosophy]>"],
+		"requiredTech": "Far East",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Salvation Shrine",
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Words of Salvation]>"],
+		"requiredTech": "Old World",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Shrine of the Holy Grail",
+		"happiness": 4,
+		"faith": 4,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Unbuildable <before discovering [Grail Quest]>"],
+		"requiredTech": "Knightly Virtues",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
 	{
 		"name": "Monument",
 		"culture": 2,
@@ -55,7 +162,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] [in this city] <after discovering [Writing]>", 
+		"uniques": ["[+1 Science] [in this city] <after discovering [Chronicles]>", 
 					"Destroyed when the city is captured"],
 		"civilopediaText": [
 			{"text": "An edifice with scripture, built to commemorate an important event and  accomplishment."}
@@ -81,7 +188,7 @@
 					"[+1 Food] from [Wheat] tiles [in this city]", 
 					"[+1 Food] from [Corn] tiles [in this city]", 
 					"[+1 Food] from [Citrus] tiles [in this city]"],
-		"requiredTech": "Pottery",
+		"requiredTech": "Agriculture",
 		"civilopediaText": [
 			{"text": "A building to store grain for human or animal (or both)."}
 		]
@@ -89,7 +196,7 @@
 	{
 		"name": "Frosten Granary",
 		"replaces": "Granary",
-		"uniqueTo": "Frostmorrow",
+		"uniqueTo": "Norsca",
 		"specialistSlots": {"Farmer": 2},
 		"food": 2,
 		"culture": 1,
@@ -101,7 +208,7 @@
 					"[+1 Food] from [Corn] tiles [in this city]", 
 					"[+1 Food] from [Citrus] tiles [in this city]",
 					"Unlock 2 Farmer specialist slot (+3 Food)"],
-		"requiredTech": "Pottery",
+		"requiredTech": "Agriculture",
 		"civilopediaText": [
 			{"text": "Not only for storing food, this building is equipped with a vertical planting system that can withstand the harsh cold."}
 		]
@@ -111,8 +218,8 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["Hidden when religion is disabled"],
-		"requiredTech": "Pottery",
+		"uniques": ["Unbuildable"],
+		"replacementTextForUniques": "Triggers first spirituality buildings",
 		"civilopediaText": [
 			{"text": "Sacred structure built to memorialize revered cultural icons or religious figures."}
 		]
@@ -122,7 +229,7 @@
 		"requiredNearbyImprovedResources": ["Mammoth","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trapping",
+		"requiredTech": "Monster Taming",
 		"civilopediaText": [
 			{"text": "A place where entertainments were held."}
 		]
@@ -142,7 +249,7 @@
 					"[+1 Production] from [Marble] tiles [in this city]", 
 					"[+1 Production] from [Obsidian] tiles [in this city]", 
 					"Provides [1] [Rune Stone] <after discovering [Magic Industrialization]>"],
-		"requiredTech": "Calendar",
+		"requiredTech": "Crafting",
 		"civilopediaText": [
 			{"text": "A place to learn, teach, and hone the art of stonemasonry."}
 		]
@@ -207,7 +314,7 @@
 		"maintenance": 1,
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Coast] tiles [in this city]", 
 					"[+1 Food] from [Ocean] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
-		"requiredTech": "Optics",
+		"requiredTech": "Sailing",
 		"civilopediaText": [
 			{"text": "A beacon on the shore to guide and warn sailor of dangerous rocks."}
 		]
@@ -219,15 +326,25 @@
 		"isWonder": true,
 		"uniques": ["Gain a free [Lighthouse] [in this city]", "Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>", 
 					"[+1] Sight <for [{Military} {Water}] units>"],
-		"requiredTech": "Optics",
+		"requiredTech": "Sailing",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
+	{
+		"name": "Elder Council",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Chronicles",
+		"civilopediaText": [
+			{"text": "To remind the writers of their knowledge and to pass it to the next generation."}
+		]
+	},
 	{
 		"name": "Paper Maker",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Writing",
+		"requiredTech": "Chronicles",
 		"civilopediaText": [
 			{"text": "To remind the writers of their knowledge and to pass it to the next generation."}
 		]
@@ -242,7 +359,7 @@
 		"uniques": ["[+2 Science] from each Trade Route", 
 					"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Wealth]> <in cities without a [Pillar of Faith]>", 
 					"Will not be displayed in Civilopedia"],
-		"requiredTech": "Writing"
+		"requiredTech": "Chronicles"
 	},
 	{
 		"name": "Sukamerta",
@@ -250,7 +367,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"requiredTech": "Writing",
+		"requiredTech": "Chronicles",
 		"uniques": ["Free Technology", "Gain a free [Paper Maker] [in this city]"],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
@@ -263,7 +380,7 @@
 					"[+1 Production] from [Cattle] tiles [in this city]",
 					"[+1 Production] from [Horses] tiles [in this city]",
 					"[+1 Production] from [Sheep] tiles [in this city]"],
-		"requiredTech": "Domestication",
+		"requiredTech": "Horseback Riding",
 		"civilopediaText": [
 			{"text": "Military barrack for cavalry units."}
 		]
@@ -280,7 +397,7 @@
 					"[+1 Production] from [Cattle] tiles [in this city]",
 					"[+1 Production] from [Horses] tiles [in this city]",
 					"[+1 Production] from [Sheep] tiles [in this city]"],
-		"requiredTech": "Domestication",
+		"requiredTech": "Horseback Riding",
 		"civilopediaText": [
 			{"text": "Generate cavalry units faster than normal Stable."}
 		]
@@ -292,7 +409,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel",
+		"requiredTech": "Roads",
 		"civilopediaText": [
 			{"text": "To turn grain into flour using water power."}
 		]
@@ -306,7 +423,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]", "[+1 Food] from [River] tiles [in this city]", "[+1 Faith] per [5] population [in this city]"],
-		"requiredTech": "The Wheel",
+		"requiredTech": "Roads",
 		"civilopediaText": [
 			{"text": "Blessing of nature, increase yield from river tiles and bonus faith for every 5 population."}
 		]
@@ -321,7 +438,7 @@
 		"uniques": ["[+10]% growth [in all cities]", 
 					"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Wealth]> <in cities without a [Pillar of Faith]>", 
 					"Will not be displayed in Civilopedia"],
-		"requiredTech": "The Wheel"
+		"requiredTech": "Roads"
 	},
 	{
 		"name": "Dai Palgum",
@@ -330,7 +447,7 @@
 		"uniques": ["Must be on [River]", "Gain a free [Water Mill] [in this city]", 
 					"[+1 Food, +1 Faith] from [River] tiles [in this city]", 
 					"Hidden when religion is disabled"],
-		"requiredTech": "The Wheel",
+		"requiredTech": "Roads",
 		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'"
 	},
 	{
@@ -425,7 +542,7 @@
 		"quote": "If Gurun, Seram, Tanjung Pura, Hary, Pahang, Dompo, Bali, Sunda, Palembang, Temasek, are all defeated, I will break my fast.' - Gajah Mada"
 	},
 	
-	// Heroic age
+	// Age of Magic
 	
 	// Column 5
 	{
@@ -466,7 +583,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]"],
-		"requiredTech": "Philosophy",
+		"requiredTech": "Priesthood",
 		"civilopediaText": [
 			{"text": "A religious building where the faithful can come together to worship."}
 		]
@@ -481,7 +598,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
 					"[+1 Culture] per [3] population [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Philosophy",
+		"requiredTech": "Priesthood",
 		"civilopediaText": [
 			{"text": "Pious Louvargians built this structure to worship and praise their Goddess."}
 		]
@@ -532,7 +649,7 @@
 		"isWonder": true,
 		"uniques": ["[+25]% [Culture] [in this city]", "[-25]% Culture cost of natural border growth [in all cities]", 
 					"[-25]% Gold cost of acquiring tiles [in all cities]"],
-		"requiredTech": "Poetry",
+		"requiredTech": "Contemplation",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
 	{
@@ -541,7 +658,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
-		"requiredTech": "Poetry",
+		"requiredTech": "Contemplation",
 		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra dinasty'  - Kalasan, translated by Santiko"
 	},
 	{
@@ -552,12 +669,12 @@
 		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
 					"[+25]% Great Person generation [in this city]", 
 					"Cost increases by [25] per owned city"],
-		"requiredTech": "Poetry"
+		"requiredTech": "Chronicles"
 	},
 	{
 		"name": "Mass Grave",
 		"replaces": "National Epic",
-		"uniqueTo": "Necropoleis",
+		"uniqueTo": "Khemri",
 		"cost": 150,
 		"culture": 2,
 		"faith": 2,
@@ -565,7 +682,7 @@
 		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
 					"[+25]% Great Person generation [in this city]", 
 					"[+8] population [in capital]"],
-		"requiredTech": "Poetry",
+		"requiredTech": "Ceremonial Burial",
 		"civilopediaText": [
 			{"text": "A burial site containing multiple corpses, usually resulting from a disaster, war, or crime. Mass graves are often created to quickly bury the dead for sanitation purposes, but may also be used in the aftermath of a famine, epidemic, or natural disaster."},
         ]
@@ -575,7 +692,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 30,
 		"uniques": ["Provides [1] [Magician]"],
-		"requiredTech": "Arcane Magic",
+		"requiredTech": "Winds of Magic",
 		"civilopediaText": [
             {"text": "Every great magician is a product of their mentor's best training."}
         ]
@@ -589,7 +706,7 @@
 		"science": 1,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Magician]", "Free [Adept] appears"],
-		"requiredTech": "Arcane Magic",
+		"requiredTech": "Winds of Magic",
 		"civilopediaText": [
             {"text": "A place where the witchdraen is trained. Equipped with protective facilities for the witchdraens during the Day of Awakening."}
         ]
@@ -667,7 +784,7 @@
 					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", 
 					"[+15]% Production when constructing [Monk] units [in this city]", 
 					"Destroyed when the city is captured"],
-		"requiredTech": "Theology",
+		"requiredTech": "Monasticism",
 		"civilopediaText": [
 			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
 		]
@@ -681,7 +798,7 @@
 		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
 					"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", 
 					"[2] free [Warrior Monk] units appear"],
-		"requiredTech": "Theology",
+		"requiredTech": "Monasticism",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
@@ -692,8 +809,8 @@
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", 
 					"Cost increases by [25] per owned city", "[+100]% Natural religion spread [in this city]", 
 					"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", 
-					"Hidden when religion is disabled", "Can only be built [in holy cities]"],
-		"requiredTech": "Theology",
+					"Hidden when religion is disabled", "Can only be built <in [in holy cities] cities>"],
+		"requiredTech": "Priesthood",
 		"isNationalWonder": true
 	},
 	{
@@ -731,7 +848,7 @@
 		"requiredNearbyImprovedResources": ["Ley Line"],
 		"hurryCostModifier": 10,
 		"uniques": ["[+1 Culture, +1 Faith] from [Ley Line] tiles [in this city]"],
-		"requiredTech": "Wizardry",
+		"requiredTech": "Winds of Magic",
 		"civilopediaText": [
 			{"text": "A place where Hero or people with magical affinity resides and hone their magical skill."}		]
 	},
@@ -743,12 +860,12 @@
 		"maintenance": 0,
 		"hurryCostModifier": 10,
 		"cost": 140,
-		"uniques": ["Research Arcane Magic vs Wizardry", 
+		"uniques": ["Research Winds of Magic vs Winds of Magic", 
 					"Can be built in all cities", 
 					"[+1 Culture, +1 Faith] from [Ley Line] tiles [in this city]", 
 					"[+1 Science] from [Ley Line] tiles [in this city]", 
 					"Provides [1] [Mutagen]"],
-		"requiredTech": "Arcane Magic",
+		"requiredTech": "Winds of Magic",
 		"civilopediaText": [
 			{"text": "The witcher schools are the organizations which train and equip witchers, the itinerant monster slayers. While schools differ in mindset and details of training, most of them teach equally professional hunters."}
 		]
@@ -757,7 +874,7 @@
 		"name": "Library of Grimoire",
 		"isWonder": true,
 		"uniques": ["[+15]% [Science] <in cities with a [Centre of Arcane]>", "Provides [1] [Magician]"],
-		"requiredTech": "Wizardry",
+		"requiredTech": "Winds of Magic",
 		"quote": "'I felt, as never before or since, as if I were stepping onto the rooftop of my being; onto some dimension of consciousness that I'd never visited before.' –Pico Iyer"
 	},
 	{
@@ -879,12 +996,12 @@
 		"faith": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["Research Theology vs Metal Casting", 
+		"uniques": ["Research Priesthood vs Metal Casting", 
 					"Can be built in all cities", 
 					"[+15]% Production when constructing [Land] units [in this city]",
 					"[+1 Production] from [Iron] tiles [in this city]"
 					"All newly-trained [{Military} {Land}] units [in this city] receive the [Unwavering Faith] promotion"],
-		"requiredTech": "Theology",
+		"requiredTech": "Priesthood",
 		"civilopediaText": [
             {"text": "A place where all knights are trained and are born anew, it is also a hotspot for repentance."}
         ]
@@ -1605,7 +1722,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Coffee] tiles [in this city]", "[+2 Gold] from [Tea] tiles [in this city]", 
 					"[+2 Gold] from [Wine] tiles [in this city]"],
-		"requiredTech": "Biology",
+		"requiredTech": "Brewing",
 		"civilopediaText": [
 			{"text": "A building dedicated to brew coffee, tea, and of course wine."}
 		]
@@ -1893,7 +2010,7 @@
 		"uniques": ["May buy [Mas Karebet] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Mas Karebet] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Mas Karebet for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
@@ -1907,7 +2024,7 @@
 		"uniques": ["May buy [Ken Arok] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Ken Arok] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Ken Arok for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
@@ -1921,7 +2038,7 @@
 		"uniques": ["May buy [Pandji] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Pandji] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Pandji for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
@@ -1935,7 +2052,7 @@
 		"uniques": ["May buy [Leonidas] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Leonidas] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Leonidas for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
@@ -1949,7 +2066,7 @@
 		"uniques": ["May buy [Siliwangi] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Siliwangi] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Siliwangi for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
@@ -1963,7 +2080,7 @@
 		"uniques": ["May buy [Zhuge Liang] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Zhuge Liang] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Zhuge Liang for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
@@ -1977,7 +2094,7 @@
 		"uniques": ["May buy [Jeanne d'Arc] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Jeanne d'Arc] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Jeanne d'Arc for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
@@ -1991,7 +2108,7 @@
 		"uniques": ["May buy [Gaius Duilius] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Gaius Duilius] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>", 
 					"Must be next to [Coast]"],
 		"replacementTextForUniques": "Unlock Gaius Duilius for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
@@ -2006,7 +2123,7 @@
 		"uniques": ["May buy [Themistocles] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Themistocles] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>", 
 					"Must be next to [Coast]"],
 		"replacementTextForUniques": "Unlock Themistocles for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
@@ -2026,7 +2143,7 @@
 					"Unsellable", 
 					"Will not be displayed in Civilopedia"],
 		"replacementTextForUniques": "Free Great Person",
-		"requiredTech": "Writing"
+		"requiredTech": "Chronicles"
 	},
 	{
 		"name": "Astana",
@@ -2055,7 +2172,7 @@
 	},
 	{
 		"name": "Raise General I",
-		"uniqueTo": "Necropoleis",
+		"uniqueTo": "Khemri",
 		"cost": 1,
 		"cityStrength": 1,
 		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [8] [Population]>",
@@ -2067,7 +2184,7 @@
 	},
 	{
 		"name": "Raise General II",
-		"uniqueTo": "Necropoleis",
+		"uniqueTo": "Khemri",
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General I",
@@ -2080,7 +2197,7 @@
 	},
 	{
 		"name": "Raise General III",
-		"uniqueTo": "Necropoleis",
+		"uniqueTo": "Khemri",
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General II",
@@ -2093,7 +2210,7 @@
 	},
 	{
 		"name": "Raise General IV",
-		"uniqueTo": "Necropoleis",
+		"uniqueTo": "Khemri",
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General III",
@@ -2106,7 +2223,7 @@
 	},
 	{
 		"name": "Raise General V",
-		"uniqueTo": "Necropoleis",
+		"uniqueTo": "Khemri",
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General IV",
