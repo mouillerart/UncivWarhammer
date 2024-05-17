@@ -13,7 +13,7 @@
 		"leaderName": "Emperor Karl Franz",
 		"adjective": ["Reiklanders"],
 		"startBias": ["Fresh Water", "Forest"],
-		//"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Cult of Sigmar",
 		"style": "Human",
 		
@@ -26,9 +26,9 @@
 		"afterPeace": "Be at peace, for that is all I ever want.",
 		"introduction": "I am Karl Franz, and I was born into this world, just like you.",
 		
-		//"neutralHello": "You have my gratitude.",
-		//"hateHello": "Shame on you.",
-		//"tradeRequest": "I offers you this exceptional proposition.",
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"outerColor": [204, 0,0],
 		"innerColor": [255,255,255],
@@ -36,6 +36,7 @@
 		//"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
 					"Starts with [Old World]",
+					"[+25]% Strength <vs [Beast] units>",
 					"Notified of new Barbarian encampments",					
 					"[{Military} {Land}] units gain the [Drill] promotion"], 
 		"cities": ["Altdorf","Kemperbad","Eilhart","Ubersreik","Helmgart","Castle Reikguard","Dunkelberg","Diesdorf","Frederheim","Glumund",
@@ -66,20 +67,26 @@
 		"name": "Bretonnia",
 		"leaderName": "Gilles Le Breton",
 		"adjective": ["Bretonnians"],
+		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Lady of the Lake",
 		"style": "Human",
 		"outerColor": [0, 0, 204],
 		"innerColor": [255, 255, 0],
 
-		//"declaringWar": "Now, we unite! To purge the evil that dare confront us! Follow me, and we will banish this darkness! I swear this as your Emperor!",
+		"declaringWar": "The knightly sons of Bretonnia ride to war once more, in pursuit of honour, glory, and land!",
 		"attacked": "When the clarion call is sounded, I will ride out and fight in the name of liege and Lady, Whilst I draw breath the lands bequeathed unto me will remain untainted by evil. Honour is all. Chivalry is all.",
 		"defeated": "In the time of Bretonnia's greatest need, when it seems that all hope is gone, I shall return to aid you..",
-		//"afterPeace": "Be at peace, for that is all I ever want.",
-		//"introduction": "I am Karl Franz, and I was born into this world, just like you.",
+		"afterPeace": "Be at peace, for that is all I ever want.",
+		"introduction": "By the will of the Lady of the Lake, beneficent deity of all Bretonnia, I welcome you.",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
 		
 
-		"uniques": ["Starts with [Knightly Virtues]"], 
-		"cities": ["Couronne","Brionne","Bordeleaux","Mousillon","Quenelles","Lyonesse","L'Anguille","Gisoreux","Parravon","Lisounne","Montfort","Bastonne","Aquitaine","Artois","Vecreaux","Gaon","Chalons","Oisillon","Alencon","Poussenc","Montluc","Perrache","Jouinard","Vettard","Chambonnay","Carcassonne","Cuilieux","Glanborielle","Aubenas","Brusse","Yremy","Cixous","Larret","Clouseau","Brusse","Moutiers","Saint Leu","Antoch","Ferignac","Marguilles","Cavour"],
+		"uniques": ["Starts with [Knightly Virtues]",
+					"When defeating a [Preachable] unit, earn [0] Gold and recruit it <with [100]% chance>"], 
+		"cities": ["Couronne","Brionne","Bordeleaux","Mousillon","Quenelles","Lyonesse","L'Anguille","Gisoreux","Parravon","Lisounne","Montfort","Bastonne","Aquitaine","Artois","Vecreaux","Gaon","Chalons","Oisillon","Alencon","Poussenc","Montluc","Perrache","Jouinard","Vettard","Chambonnay","Carcassonne","Cuilieux","Glanborielle","AubeTilea","Brusse","Yremy","Cixous","Larret","Clouseau","Brusse","Moutiers","Saint Leu","Antoch","Ferignac","Marguilles","Cavour"],
 
 		"civilopediaText": [
 			{"text": "Bretonnia lies between the Grey Mountains and the Great Ocean in the lands which comprise part of the former domain of the Elves. The Elves once built ports and tall towers, palaces and pinnacles, to serve their colonies in Old World. For a while they prospered, their cities grew, and the inhabitants became wealthy as a result of trade with the Dwarfs and primitive Human tribes. When the Elves and Dwarfs went to war, the land was devastated by the opposing armies. Eventually, after many long years of fighting, the Elves sailed back into the west and abandoned the Old World altogether. The Dwarfs too gave up on the land beyond the mountains, and so the whole area was deserted and forgotten."},
@@ -103,15 +110,26 @@
 		"adjective": ["Dwarfs"],
 		"startBias": ["Hill"],
 		"favoredReligion": "Ancestor Gods",
+		"preferredVictoryType": "Scientific",
 		"style": "Dwarven",
-		"outerColor": [102, 178,255],
+		"outerColor": [86, 151,216],
 		"innerColor": [255,255,255],
 
+		"declaringWar": "Hi ho hi, it's off to war we go...",
+		"attacked": "Not that I have anything against senseless violence, manling, but why exactly are you strangling that old man?",
+		"defeated": "No Rest until the Blood of Greenskins flows like Dark Ale upon the Earth!",
+		"afterPeace": "We sons of Grungni may have drunk deep from the bitter waters of misfortune, but we yet survive. Whilst a single Dwarf draws breath, we will fight the evils that assail us, and we will never, ever give up.",
+		"introduction": "Revere the ancestors, obey your king, bear your arms with pride, fear no foe, hate the Greenskin, mistrust the Elf, and you can do no wrong.",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 		"uniques": ["Starts with [Dwarven Ingenuity]",
 			"[+10]% Strength <within [2] tiles of a [Mountain]>", 
 			"Units ignore terrain costs when moving into any tile with Hills",
-			"Land units may cross [Mountain] tiles after the first [Great Person] is earned"],
-
+			"Land units may cross [Mountain] tiles after the first [Great Person] is earned",
+			"Comment [Units ending their turn on [Mountain] tiles take [15] damage]"],
 		"cities": ["Karaz-a-Karak","Barak Varr","Karak Angazhar","Karak Azgaraz","Karak Bhufdar","Karak Eksfilaz","Karak Gantuk","Karak Grom","Karak Hirn","Karak Izor","Karak Kadrin","Karak Kaferkammaz","Karak Norn","Karak Ziflin","Zhufbar","Karak Azul"],
 
 		"civilopediaText": [
@@ -133,6 +151,16 @@
 		"outerColor": [255, 205,0],
 		"innerColor": [0,0,0],
 
+		"declaringWar": "Lightning shall sunder the skies, the rivers will flow with blood and war will come to the land. The legions once more rise in eternal conquest...And death shall ride beside them",
+		"attacked": "Damnation awaits those who would disturb our rest! Here be the souls of those that are lost...",
+		"defeated": "This death is ours. We choose it. We deny you your victory.",
+		"afterPeace": "...",
+		"introduction": "Hello living people. Sooner or later, you'll be part of us.",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 		"uniques": ["Starts with [Undead Curse]",
 					"Free [Skeletal Warrior] appears <upon founding a city> <before the [Feudal age]>", 
 					"Free [Skeletal Champion] appears <upon founding a city> <starting from the [Feudal age]>",
@@ -159,7 +187,22 @@
 		"outerColor": [204, 255,255],
 		"innerColor": [0,0,0],
 
-		"uniques": ["Starts with [Old World]"], 
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "You will die, like your weakling father died. Soulless. Honorless. Weeping. Ashamed.",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"uniques": ["Starts with [Old World]",
+					"Gain [250] [Gold] <upon conquering a city>", 
+					"[+1] Movement <for [Military] units> <when at war>", 
+					"[+1] Sight <for [{Military} {Land}] units>", 
+					"Provides [1] [Horses]", 
+					"Free [Kalsharin] appears <upon discovering [Chivalry]> technology"],
 		"cities": ["Kislev","Praag","Erengrad","Volksgrad","Belev","Kobrin","Krakjunov","BOLGASGRAD","PATRAGRESK","PRESLAV","RAKHOV","OMENSK","ZILAIR","GDOV","CHAZASK","PINSK","MURMAGRAD","DUBNA","EGOREVSK","OLNZA","NYROB","YARANSK","TZESKAGRAD","KROVAS","SHATSK","SELKOV","CHUDOVO","NIDZICA","PECHORA","VOLKOLOMSK","CHERNOZAVTRA","OPULENSK","LUKOYANOV"],
 
 		"civilopediaText": [
@@ -180,15 +223,23 @@
 		"outerColor": [255, 255,255],
 		"innerColor": [0,0,0],
 
-		"declaringWar": "Surrender and serve me in life, or die and slave for me in death.",
 		"introduction": "Please, come in and join me for dinner. I can see from the way you dress, you are a man of exquisite... taste.",
+		"declaringWar": "Surrender and serve me in life, or die and slave for me in death.",
+		"attacked": "...",
+		"defeated": "Mark my words, they'll get us all in the end.",
+		"afterPeace": "...",
+		
+		"neutralHello": "You have my *eternal* gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 
 		"uniques": ["Starts with [Undead Curse]",
 			"May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
 			"Provides [4] [Vampiric Block]", 
 			"[{Military} {Land}] units gain the [Vampiric Touch] promotion",
 			"New [Dracula] units start with [-15] Experience [in all cities]", 
-			"Free [Dracula] appears <upon discovering [Quintessence Force]>"],
+			"Free [Dracula] appears <upon discovering [Quintessence Force]> technology"],
 		"cities": ["Drakenholf","Waldenhof","Swartzhafen","Leicheberg","Tempelhof","Nachthafen","Mikalsdorf","Naubonum","Thyrnau","Telfeuheim","Essenfurt","Stephansdorp","Egling","Rottfurt","Pfaffbach","Regrakhof","Siegfriedhof","Vanhaldenschloss","Vermisace","Dunkelburg","Rottefach","Grachling","Murringen","Miesenthal","Trutzeburg","Grabstatt","Motteburg","Griemeling","Moderholm"],
 
 		"civilopediaText": [
@@ -204,12 +255,23 @@
 	// High Elves (Ulthuan)
 	{
 		"name": "Ulthuan",
-		"leaderName": "Caledor",
+		"leaderName": "Aenarion",
 		"adjective": ["High Elves"],
 		"startBias": ["Coast"],
+		"favoredReligion": "Elven Gods",
 		"style": "Elven",
 		"outerColor": [6, 183, 186]
 		"innerColor": [0,0,0],
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Channeling]",
 					"Enables embarkation for land units <starting from the [Ancient age]>", 
@@ -235,12 +297,27 @@
 		"adjective": ["Wood Elves"],
 		"startBias": ["Forest"],
 		"style": "Elven",
+		"favoredReligion": "Elven Gods",
 		"outerColor": [34, 139, 34]
 		"innerColor": [240, 255, 240],
 		
 		"attacked": "Athel Loren shall not suffer the presence of Men, nor Orcs, nor Dwarfs, nor Beastmen. If a foe takes a single step upon such sacred soil, they shall not take another.",
+		"declaringWar": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 
-		"uniques": ["Starts with [Forest Mastery]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"uniques": ["Starts with [Forest Mastery]",
+					"Comment [Cannot [Remove Forest] except by Great Improvement]", 
+					"Comment [Cannot build [Lumber mill] improvement]", 
+					"Comment [May build [Plantation] improvement without removing Forest]", 
+					"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
+					"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
 		"cities": ["Athel Loren","Tor Lithanel","Torgovann","Cavaroc","Atylwyth","Cythral","Modryn","Talsyn","Wydrioth","Fyr Darric","Anmyr","Tirsyth","Arcwylon","Arranoc"],
 
 		"civilopediaText": [
@@ -255,14 +332,24 @@
 	// Estalia
 	{
 		"name": "Estalia",
-		"leaderName": "Don",
+		"leaderName": "Don Jose Paul",
 		"adjective": ["Estalians"],
 		"style": "Human",
 		"outerColor": [209, 106, 10]
 		"innerColor": [0,0,0],
 		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "God was real, and he hated us.",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 		"uniques": ["Starts with [Old World]"],
-		"cities": ["Magritta","Bilbali","Aguilas","Ubrique","Geulata","Larhgoz","Belmoz","Zaragoz","Vizeaya","Astorias","Montenas","Borgas","Graus","Muros","Ubrique","Los Cabos","Barboza","Almyria","Pajena","Javea","Almagora","Cebreros","Potes","Sitges"],
+		"cities": ["Magritta","Bilbali","Aguilas","Ubrique","Geulata","Larhgoz","Belmoz","Zaragoz","Vizeaya","Astorias","MonteTilea","Borgas","Graus","Muros","Ubrique","Los Cabos","Barboza","Almyria","Pajena","Javea","Almagora","Cebreros","Potes","Sitges"],
 
 		"civilopediaText": [
 			{"text": "Estalia is a hot, barren peninsula located west of Tilea and Bretonnia. Being isolated by water and the Abasko Mountains, Estalian people have little or no contact with the rest of the Old World. They live in constant struggle to keep their settlements alive. Skaven, orcs and goblins - all raid the area regularly, giving the Estalians no time to rest. Their greatest struggle came when the Sultan of Araby invaded the region at the suggestion of the Skaven. However, the other nations of Men in the Old World rallied to defend the Estalian people, and their sovereignty was preserved."},
@@ -279,11 +366,21 @@
 		"leaderName": "Borgio",
 		"adjective": ["Tileans"],
 		"style": "Human",
-		"outerColor": [171, 151, 0]
-		"innerColor": [255, 0, 0],
+		"outerColor": [196, 182, 76]
+		"innerColor": [178, 0, 0],
 
 		"afterPeace": "A small gesture can change destiny.",
 
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 		"uniques": ["Starts with [Old World]"],
 		"cities": ["Remas","Tobaro","Luccini","Miragliano","Pavona","Sartosa","Trantio","Verezzo","Monte Castello"],
 
@@ -300,13 +397,24 @@
 	// Norsca
 	{
 		"name": "Norsca",
-		"leaderName": "Erik the Lost",
+		"leaderName": "Ragnar",
 		"adjective": ["Norsemen"],
 		"startBias": ["Tundra"],
 		"style": "Icemen",
-		"outerColor": [97, 7, 145]
+		"outerColor": [128, 56, 167]
 		"innerColor": [0,0,0],
 		
+		"declaringWar": "We, most favoured of the gods, shall burn your lands, revel in your suffering, and destroy you. ",
+		"attacked": "Blood for the Blood God!",
+		"defeated": "Alas, now I am taking my father's hand.",
+		"afterPeace": "Is it the beginning of the end?",
+		"introduction": "The gods compel us to murder, but I do it freely!",
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+
 		"uniques": ["Starts with [Norse Tradition]"],
 		"cities": ["Skjold","Skraevold","Vinnskor","Aeslings","Bjornlings","Sarls","Graelings","Vargs","Skaelings","Baersonglings","Wyrmkin","Wolfclaw","Stormravens","Sortsvinaer"],
 
@@ -327,17 +435,35 @@
 		"adjective": ["Dark Elves"],
 		"startBias": ["Tundra"],
 		"style": "Elven",
-		"outerColor": [105, 34,0]
+		"outerColor": [135, 78,51]
 		"innerColor": [0,0,0],
 		
-		"uniques": ["Starts with [Channeling]"],
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "No... I have only begun.",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"uniques": ["[+2 Food, +1 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Mountain] tiles>", 
+					"Free [Settler] appears <upon discovering [Calendar] technology>", 
+					"Free [Warrior] appears <upon constructing [Courthouse]> <before discovering [Iron Working] technology>", 
+					"Free [Bladedancer] appears <upon constructing [Courthouse]> <after discovering [Iron Working] technology> <before discovering [Steel] technology>",
+					"Free [Longswordsman] appears <upon constructing [Courthouse]> <after discovering [Steel] technology> <before discovering [Gunpowder] technology>",
+					"Free [Musketman] appears <upon constructing [Courthouse]> <after discovering [Gunpowder] technology> <before discovering [Rifling] technology>",
+					"Free [Rifleman] appears <upon constructing [Courthouse]> <after discovering [Rifling] technology> <before discovering [Replaceable Parts] technology>",
+					"Free [Infantry] appears <upon constructing [Courthouse]> <after discovering [Replaceable Parts] technology> <before discovering [Lasers] technology>",
+					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <after discovering [Lasers] technology>"], 
 		"cities": ["Naggarond","Ghrond","Karond Kar","Har Ganeth","Hag Graef","Clar Karond","","","",""],
 
 		"civilopediaText": [
 			{"text": "'We shall strike down our foes with sharp steel and cold hearts. The weak die so that the strong prevail and none shall be spared. Then and only then will our enemies know the true meaning of fear' - Malekith, Witch King of Naggaroth."},
 			{"separator": true},
 			{"text": "Those are the elves that were driven from the Ulthuan centuries ago, after a horrible civil war. Dark Elves, or Drucchi, as they are known in the Elven tongue, are close kin to High Elves, except for being paler, due to environment of their new, dark and cold home."},
-			{"text": "Dark Elves, or Druchii as they call themselves, dwell in the realm of Naggaroth, the Land of Chill, far in the northern part of the New World. From their six menacing fortified cities, they march forth to enslave the free peoples of the Old World. The bulk of the Dark Elf army is made up of Spearmen & Warriors drawn from amongst the citizens of the Dark Elf cities. Sacrifices of blood are made in the name of Malekith the Witch King, and the bodies of slain victims litter the 9battlefields of their armies."},
+			{"text": "Dark Elves, or Druchii as they call themselves, dwell in the realm of Naggaroth, the Land of Chill, far in the northern part of the New World. From their six menacing fortified cities, they march forth to enslave the free peoples of the Old World. The bulk of the Dark Elf army is made up of Spearmen & Warriors drawn from amongst the citizens of the Dark Elf cities. Sacrifices of blood are made in the name of Malekith the Witch King, and the bodies of slain victims litter the battlefields of their armies."},
 			{"separator": true},
 			{"text": "Tips to play:"},
 			{"text": "..."},
@@ -348,16 +474,24 @@
 	// Skaven
 	{
 		"name": "Skaven",
-		"leaderName": "Thanquol",
+		"leaderName": "Skyre",
 		"adjective": ["Skaven"],
 		"startBias": ["Tundra"],
 		"style": "Beastmen",
+		"favoredReligion": "Cult of the Horned Rat",
 		"outerColor": [181, 101, 29]
 		"innerColor": [0, 255, 0],
 		
 		"declaringWar": "Kill-Kill!",
 		"attacked": "Your doom is coming, man-things.",
 		"afterPeace": "Yes-yes Warlord - for a treaty-pledge of just 200 Slaves, 12 claws of warptokens, a Breeder and certain alliances and pledges, one of our very-very finest Clan Moulder Rat Ogres can be yours.",
+		"defeated": "SKREEE -- address me as.... sleglord.",
+		"introduction": "Mik, mik kill things!",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 
 		"uniques": ["Starts with [Underworld]"],
 		"cities": ["Skavenblight","Hell Pit","The Black Chasm","Crookback Mountain","Foul Peak","City of Pillars","Queekwell","Bonestash","Fester Spike","Putrid Stump","Under-Altdorf","Under-Delberz","Under-Middenheim","Under-Nuln","Under-Remas","Bitter Stink","Under-Mousillon"],
@@ -376,12 +510,26 @@
 		"name": "Ogre Kingdoms",
 		"leaderName": "Groth Onefinger",
 		"adjective": ["Ogres"],
-		"favoredReligion": "Chaos Gods",
+		"favoredReligion": "Gork and Mork",
 		"style": "Goblin",
 		"outerColor": [255, 140, 0]
 		"innerColor": [0,0,0],
 		
-		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"declaringWar": "...",
+		"attacked": "I’ll feed you your own entrails!",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"uniques": ["Starts with [Greenskin]",
+					"[+10]% Strength <for [{Melee} {Land}] units>", 
+					"No movement cost to pillage <for [Land] units>", 
+					"[+20]% Strength for cities <when defending>", 
+					"Gain [10] Influence with a [Military] gift to a City-State"],
 		"cities": ["Goldtooth Tribe","Thunderguts Tribe","Crossed Clubs","Sons of the Mountain","Feastmaster Tribe","Rock Skulls","Blood Guzzler","Ironskin Tribe","Lazarghs","Mountaineater Tribe","Eyebiter Tribe","Fleshgreeders","Sabreskin","Bulgers","Boulderclubs","Loose Tooth","Bloodmaw","Tribe of Shrewd Fulg","Slavetakers","Skulltakers","Bloody Fists","Suneaters","Angry Fist","Red Maw","Red Fist","Boulderbellies"],
 
 		"civilopediaText": [
@@ -400,14 +548,22 @@
 		"name": "Ironclaw Orcs",
 		"leaderName": "Gorbad",
 		"adjective": ["Ironclaw Orcs"],
-		"favoredReligion": "Chaos Gods",
+		"favoredReligion": "Gork and Mork",
 		"startBias": ["Hills"],
 		"style": "Goblin",
-		"outerColor": [1, 50, 32]
+		"outerColor": [54, 101, 87]
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "Get da Clans togevva....We’s goin to war!",
 		"attacked": "I'm gonna stomp 'em to dust. I'm gonna grind their bones. I'm gonna pile 'em up inna big fire and roast 'em. I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left. An' den I'm gonna get really mean.",
+		"defeated": "The only good stunty is a dead stunty, and the only thing better than a dead stunty is a dyin' stunty who tells yer where to find 'is mates.",
+		"afterPeace": "Let 'em tell da King. Da east belongs to da Orcs. Da east belongs to Morglum. Da east is green.",
+		"introduction": "Stunties hide unnerground and pansy-elves hide in the trees. Thas why I prefers yer 'umans. They builds sorta 'ollow rocks wiht 'oles for comin' and goin' fru. They builds 'em on hills where you's have to climb a bit, but at least they's in the open, where a lad can get at 'em. So you can lob a few rocks at the walls, bash frew the holes, and get in there to nick all their gear, wivvout wunderin' if the roof is gonna fall on yer nut or if you's gonna fall off a branch. I like bashin' 'uman places. Only they don't call it bashin'; they calls it a seej.",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 
 		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
 		"cities": ["Iron Rock","Maad Dog Pass","Fire Mountain","Black Fire Pass","Krimson Killerz","Blue Face","White Orcs","White Skullz","Yellow Eye","Red Fangs"],
@@ -425,6 +581,40 @@
 		]
 	}
 	,
+	// Badmoon Goblins
+	{
+		"name": "Badmoon Goblins",
+		"leaderName": "Dork",
+		"adjective": ["Goblins"],
+		"favoredReligion": "Gork and Mork",
+		"startBias": ["Hills","Forest"],
+		"style": "Goblin",
+		"outerColor": [135, 78,51]
+		"innerColor": [0,0,0],
+		
+		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"cities": ["Crooked Moon","Moonjaw","Shifties","Red Eye","Burnin’ Face","Da Krawlas","Skull Crag","Yellow Eye","Dog Boyz","Creeping Death"],
+
+		"declaringWar": "I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.",
+		"attacked": "Boss 'o dem night goblins!",
+		"defeated": "Let me fink about it.... No!!!",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+
+		"civilopediaText": [
+			{"text": "In every forest and under every mountain lurk the warlike tribes of Greenskins - countless Orcs and Goblins who love nothing more than a good fight. Orcs and their smaller cousins, the Goblins, are ferocious raiders and relentless warriors whose ceaseless attacks are always threatening to engulf the entire Old World into eternal warfare."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Chaos Dwarves
 	{
 		"name": "Chaos Dwarfs",
@@ -433,9 +623,19 @@
 		"startBias": ["Tundra"],
 		"favoredReligion": "Chaos Gods",
 		"style": "Dwarven",
-		"outerColor": [128, 0, 128]
+		"outerColor": [153, 51, 153]
 		"innerColor": [0,0,0],
 
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]"],
 		"cities": ["Zharr-Naggrund","Uzkulak","Gorgoth","Daemon's Stump","Black Fortress"],
 
@@ -458,6 +658,18 @@
 		"outerColor": [255, 255, 0]
 		"innerColor": [255,0,0],
 		
+		"attacked": "May your souls be flayed by Djinn!",
+		"defeated": "Our lives were glorious. Our death is as much. We'll meet in St'oec.",
+		"introduction": "By the silver beard of Abdul ibn Ashid! What a surprise to meet you, stranger.",
+		"declaringWar": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+
 		"uniques": ["Starts with [Arabyan Tradition]"],
 		"cities": ["Alhaka","Copher","Lashiek","Martek","Muktarhin"],
 
@@ -472,45 +684,49 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	}	/*
-	,
-	// Albion
-	{
-		"name": "Albion",
-		"leaderName": "Agam Rund",
-		"adjective": ["Albioners"],
-		"startBias": ["Coast"],
-		"style": "Human",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
-		
-		"uniques": ["Starts with [Channeling]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "The great island of Albion is situated between the Sea of Claws and the Middle Sea. It is a land shrouded by myths and mists, and the scholars of the Old World always write in their maps about Albion "Here Be Dragons" with bold red letters..."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
 	}
 	,
-	// Beastmen
+	// Hordes of Chaos
 	{
-		"name": "Beastmen",
-		"leaderName": "Gorthor",
-		"adjective": ["Beastmen"],
-		"startBias": ["Jungle"],
-		"style": "Beastmen",
-		"outerColor": [105, 34,0]
+		"name": "Hordes of Chaos",
+		"leaderName": "Archaon",
+		"adjective": ["Hordes of Chaos"],
+		"favoredReligion": "Chaos Gods",
+		"preferredVictoryType": "Domination",
+		"style": "Demonic",
+		"outerColor": [135, 78,51]
 		"innerColor": [0,0,0],
 		
-		"uniques": ["Starts with [Chaos]"],
-		"cities": ["",""],
+		"declaringWar": "Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World. The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall.",
+		"defeated": "I am the Final Moment made flesh. I stand here on this mountain, and I will sit on this throne. I will be the axis upon which the wheel of change turns, and the world will drown in the light of unborn stars.",
+		"introduction": "I am Archaon, doom to my enemies, doom to all the world, doom to all the gods invested in that world.",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+
+		"uniques": ["Starts with [Chaos]",
+					"Enemy [Military] units must spend [1] extra movement points when inside your territory <if [Infernal Gate] is constructed>", 
+					"[+1 Happiness] from every [Barracks] <in cities with a [Infernal Gate]>", 
+					"[+1 Happiness] from every [Armory] <in cities with a [Infernal Gate]>", 
+					"[+1 Happiness] from every [Knight Academy] <in cities with a [Infernal Gate]>", 
+					"Gain a free [Black Hole] [in capital]", 
+					"[-1 Faith] from every [Portal] <before the [Age of Magic]>", 
+					"Cannot build [Infantry Hero] units", 
+					"Cannot build [Anti-Cav Hero] units", 
+					"Cannot build [Cavalry Hero] units", 
+					"Cannot build [Archery Hero] units", 
+					"Cannot build [Siege Hero] units", 
+					"Cannot build [Water Hero] units", 
+					"Cannot build [Melee Water Hero] units", 
+					"May buy [Archdemon Kor'vash] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Age of Magic]>"],
+		"cities": ["Inevitable City","Bastion Stair","Ebon Keep","Sands of Time","Horrorsong","Daemon Statue","Hatemarch","Strangled Gasp","Gaping Dark"],
 
 		"civilopediaText": [
-			{"text": "Deep within the dark and twisted forests dwell countless horrifying and deadly creatures – tainted beasts warped by Chaos. The Beastmen are a plague on the civilised races, preying on the weak and striking without warning in a rampage of killing and destruction before disappearing into the protective darkness of the wilderness. All manner of mutated and blood-hungry creatures join these raids – towering, nightmarish beasts whose whole existence centres on the rush of blood that comes during the slaughter."},
+			{"text": "In the cold wastes of the north, the followers of the gods of Chaos gather in their thousands. Hordes of barbaric marauders and armour-clad warriors pour forth from the bleak wastelands to wage war against the soft-bellied wastrels who inhabit the rich lands of the south. Daemonic legions advance with them, proof that the Northmen are truly the favoured of the gods. There can be no bystanders in this eternal war, for the Dark Gods and their chosen servants will never rest until the world truly becomes a Realm of Chaos. "},
 			{"separator": true},
 			{"text": "Tips to play:"},
 			{"text": "..."},
@@ -521,18 +737,29 @@
 	// Kurgan
 	{
 		"name": "Kurgan",
-		"leaderName": "Caledor",
+		"leaderName": "Kurgan",
 		"adjective": ["Kurgan"],
 		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
 		"style": "Human",
-		"outerColor": [105, 34,0]
+		"outerColor": [135, 78,51]
 		"innerColor": [0,0,0],
 		
-		"uniques": ["Starts with [Channeling]"],
-		"cities": ["KHORINAUN","VORSHGAR","KARRANNAZZARR","ULANGOR","ANANAR","DAIR","PHUUUNNAR","QUERZ","ULAUCH","FOLDH","ZANAR","HLEOCH","DUBHZ","DADEEH","RHANDH","QUUFF","OOAR","IRTLAK","DAAOAATH","AKUAAEUGG","NNUUOOO","EUIAR","DATHZHULDA","ZHUUSH","DADUAK","CHAKIR","THERABL","HHUUAK","ILPH","QOOERDE","UUGZ","ZZHIR","IRAOCOGYYBH","GZCHABL","QDAI","OWABLIR","DUANIL","ERANISSHHABL","ILDHEROOER","ZAOULAA","DHUL"],
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"uniques": ["Starts with [Chaos]"],
+		"cities": ["Khorinaun","Vorshgar","Karrannazzarr","Ulangor","Ananar","Dair","Phuuunnar","Querz","Ulauch","Foldh","Zanar","Hleoch","Dubhz","Dadeeh","Rhandh","Quuff   Ooar","Irtlak","Daaoaath","Akuaaeugg","Nnuuooo","Euiar","Dathzhulda","Zhuush","Daduak","Chakir","Therabl","Hhuuak","Ilph","Qooerde","Uugz","Zzhir","Iraocogyybh   Gzchabl","Qdai","Owablir","Duanil","Eranisshhabl","Ildherooer","Zaoulaa","Dhul"],
 
 		"civilopediaText": [
-			{"text": ""},
+			{"text": "The Kurgan are mighty, nomadic, copper-skinned Human horse-warriors who dwell under the shadow of Chaos, in the vast Eastern Steppes that border the Chaos Wastes of the north."},
 			{"separator": true},
 			{"text": "Tips to play:"},
 			{"text": "..."},
@@ -540,21 +767,39 @@
 		]
 	}
 	,
-	// Ind
+	// Beastmen
 	{
-		"name": "Ind",
-		"leaderName": "Akabar",
-		"outerColor": [105, 34,0]
+		"name": "Beastmen",
+		"leaderName": "Greysnarl",
+		"adjective": ["Beastmen"],
+		"startBias": ["Forest","Jungle"],
+		"style": "Beastmen",
+		"favoredReligion": "Chaos Gods",
+		"preferredVictoryType": "Domination",
+		"outerColor": [135, 78,51]
 		"innerColor": [0,0,0],
-		"adjective": ["Indics"],
-		"startBias": ["Jungle"],
-		"style": "Human",
 		
-		"uniques": ["Starts with [Arabyan Tradition]"],
-		"cities": [""],
+		"declaringWar": "We fight, we kill, one day we win. One day soon!",
+		"attacked": "You -- if you lucky, we eat you, make you into part of us, make you better than you, stronger than any of you, stronger than all of you.",
+		"defeated": "I am the Final Moment made flesh. I stand here on this mountain, and I will sit on this throne. I will be the axis upon which the wheel of change turns, and the world will drown in the light of unborn stars.",
+		"afterPeace": "Horde come back soon.",
+		"introduction": "Tduigu-Uis.",
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+
+		"uniqueName": "Rage of the Beast",
+		"uniques": ["Starts with [Chaos]",
+					"[+50]% Golden Age length", 
+					"[+10]% Strength <for [All] units> <during a Golden Age>", 
+					"[+15]% [Science] <during a Golden Age>", 
+					"Gain a free [Sulong's Training] [in capital] <after discovering [Bronze Working]>"],
+		"cities": ["Akhash","Gorthor","Tzeen","Shaabhekh","Slaa","Khar","Fuib"],
 
 		"civilopediaText": [
-			{"text": "Kingdoms of Ind lie on a large peninsula between Imperial Cathay and the Darklands. The area is covered by dense primordial forest with occasional spots of dry land. The Mogul kings of Inja are brutal despots, full of greed for power and gold. Among people they are worshipped like gods. Indic elite infantry consist of the strongest men taken by the kings and trained into beasts. The Ind are said to worship One Thousand and One Gods in total."},
+			{"text": "Deep within the dark and twisted forests dwell countless horrifying and deadly creatures – tainted beasts warped by Chaos. The Beastmen are a plague on the civilised races, preying on the weak and striking without warning in a rampage of killing and destruction before disappearing into the protective darkness of the wilderness. All manner of mutated and blood-hungry creatures join these raids – towering, nightmarish beasts whose whole existence centres on the rush of blood that comes during the slaughter."},
 			{"separator": true},
 			{"text": "Tips to play:"},
 			{"text": "..."},
@@ -571,8 +816,18 @@
 		"outerColor": [105, 34,0]
 		"innerColor": [0,0,0],
 		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
 		"uniques": ["Starts with [Far East]"],
-		"cities": ["",""],
+		"cities": ["Weijin","Nan-Gau","Shang-Yang","Shang Wu","Fu-Chow","Fu-Hung","Nan Chu","Heyang","Wang","Shuang Hsi"],
 
 		"civilopediaText": [
 			{"text": "Imperial Cathay is known for its immerse size, unified priesthood and omnipresent bureaucracy."},
@@ -581,16 +836,129 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	},
+	}
+	,
+	// Amazonia
+	{
+		"name": "Amazonia",
+		"leaderName": "Penthesilea",
+		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
+		"adjective": ["Amazons"],
+		"startBias": ["Jungle"],
+		"style": "Human",
+
+		"declaringWar": "I am the hunter and you are my prey.",
+		"attacked": "We will defend the sacred sites to the last blood.",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "Oh. First men since Rothnikson. Welcome to the Sisterhood.",
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+
+		"uniques": ["Starts with [Forest Mastery]"],
+		"cities": ["Genaina","Tlaxtlan","Xahutec","Tlax","Huatl","Quetza","Axlotl","Itza","Chaqua","Pahuax","Hexoatl"],
+
+		"civilopediaText": [
+			{"text": "The Amazons are the most significant inhabitants of Lustrian jungles after the Slann. It is not known whether they are another experiment of the Old Slann, or as one of the myths says, that they are daughters of Valkyries left there centuries ago, after Norsemen's unsuccessful attempt to colonise Lustria."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
+	// Albion
+	{
+		"name": "Albion",
+		"leaderName": "Agam Rund",
+		"adjective": ["Albioners"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"style": "Human",
+		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
+		
+		"declaringWar": "I appeal to Commandment Five: you will defend the weak who cannot defend themselves, against any and all unlawful oppressors.",
+		"attacked": "I appeal to Commandment Seven: you will bravely bear arms for Albion against its enemies, under the command of its king and his appointed generals.",
+		"afterPeace": "Commandment Ten, you will be courteous and mild even with those you do not love, and will resist all wrath which is not righteous",
+		"introduction": "Do respect the Commandments of the Code of Agam Rund.",
+		"declaringWar": "...",
+		"attacked": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+
+		"uniques": ["Starts with [Channeling]"],
+		"cities": ["",""],
+
+		"civilopediaText": [
+			{"text": "The great island of Albion is situated between the Sea of Claws and the Middle Sea. It is a land shrouded by myths and mists, and the scholars of the Old World always write in their maps about Albion 'Here Be Dragons' with bold red letters..."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	/*
+	,
+	// Ind
+	{
+		"name": "Ind",
+		"leaderName": "Akabar",
+		"outerColor": [105, 34,0]
+		"innerColor": [0,0,0],
+		"adjective": ["Indics"],
+		"startBias": ["Jungle"],
+		"style": "Human",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"uniques": ["Starts with [Arabyan Tradition]"],
+		"cities": [""],
+
+		"civilopediaText": [
+			{"text": "Kingdoms of Ind lie on a large peninsula between Imperial Cathay and the Darklands. The area is covered by dense primordial forest with occasional spots of dry land. The Mogul kings of Inja are brutal despots, full of greed for power and gold. Among people they are worshipped like gods. Indic elite infantry consist of the strongest men taken by the kings and trained into beasts. The Ind are said to worship One Thousand and One Gods in total."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Nippon
 	{
 		"name": "Nippon",
-		"leaderName": "Shogun Yoritomo Ieysau",
+		"leaderName": "Takagura",
 		"outerColor": [105, 34,0]
 		"innerColor": [0,0,0],
 		"adjective": ["Nipponese"],
 		"startBias": ["Coast"],
 		"style": "Human",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Far East]"],
 		"cities": ["",""],
@@ -606,12 +974,23 @@
 	// Lizardmen (Slann)
 	{
 		"name": "Slann",
-		"leaderName": "Quizitec",
+		"leaderName": "Kroak",
 		"adjective": ["Lizardmen"],
 		"startBias": ["Jungle"],
 		"style": "Lizardmen",
+		"favoredReligion": "The Old Ones",
 		"outerColor": [105, 34,0]
 		"innerColor": [0,0,0],
+		
+		"declaringWar": "The Warm-bloods dare to meddle at the Fallen Gates. The Great Purpose does not allow for mercy!",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "There are many paths to order and knowledge; may the Old Ones guide us",
+		"introduction": "...",
+
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Cold Ones]"],
 		"cities": ["",""],
@@ -624,61 +1003,27 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	},
-	// Amazonia
-	{
-		"name": "Amazonia",
-		"leaderName": "Helena",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
-		"adjective": ["Amazons"],
-		"startBias": ["Jungle"],
-		"style": "Human",
-
-		"uniques": ["Starts with [Channeling]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "The Amazons are the most significant inhabitants of Lustrian jungles after the Slann. It is not known whether they are another experiment of the Old Slann, or as one of the myths says, that they are daughters of Valkyries left there centuries ago, after Norsemen's unsuccessful attempt to colonise Lustria."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
 	}
 	,
-	// Badmoon Goblins
-	{
-		"name": "Badmoon Goblins",
-		"leaderName": "Dork",
-		"adjective": ["Goblins"],
-		"favoredReligion": "Chaos Gods",
-		"style": "Goblin",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
-		
-		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "'I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.'"},
-			{"separator": true},
-			{"text": "In every forest and under every mountain lurk the warlike tribes of Greenskins - countless Orcs and Goblins who love nothing more than a good fight. Orcs and their smaller cousins, the Goblins, are ferocious raiders and relentless warriors whose ceaseless attacks are always threatening to engulf the entire Old World into eternal warfare."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
 	// Hobgobelins
 	{
 		"name": "Hobgobelins",
 		"leaderName": "Caledor",
 		"adjective": ["Hobgobelins"],
-		"favoredReligion": "Chaos Gods",
+		"favoredReligion": "Gork and Mork",
 		"style": "Goblin",
 		"outerColor": [105, 34,0]
 		"innerColor": [0,0,0],
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "...",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
 		"cities": ["",""],
@@ -692,27 +1037,6 @@
 		]
 	}
 	,
-	// Hordes of Chaos
-	{
-		"name": "Hordes of Chaos",
-		"leaderName": "Archaon",
-		"adjective": ["Hordes of Chaos"],
-		"favoredReligion": "Chaos Gods",
-		"style": "Demonic",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
-		
-		"uniques": ["Starts with [Chaos]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "In the cold wastes of the north, the followers of the gods of Chaos gather in their thousands. Hordes of barbaric marauders and armour-clad warriors pour forth from the bleak wastelands to wage war against the soft-bellied wastrels who inhabit the rich lands of the south. Daemonic legions advance with them, proof that the Northmen are truly the favoured of the gods. There can be no bystanders in this eternal war, for the Dark Gods and their chosen servants will never rest until the world truly becomes a Realm of Chaos. "},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	},
 	
 */
 	
@@ -745,7 +1069,7 @@
 		"adjective": ["Dolgans"],
 		"cityStateType": "Militaristic",
 		"style": "Human",
-		"uniques": ["Free [Luan] appears <upon discovering [Military Science]>"],
+		"uniques": ["Free [Luan] appears <upon discovering [Military Science] technology>"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -794,6 +1118,22 @@
 		"civilopediaText": [
 			{"text": "Lahmia, once known as the strange and decadent 'City of the Dawn', today as 'The Cursed City', was an ancient city-state of the great Human realm of Nehekhara, now called the Land of the Dead"}
 		]
+	}
+	,
+	// Free City of Sartosa
+	{
+		"name": "Sartosa",
+		"adjective": ["Pirates"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		"uniques": ["[+1] Movement <for [{Military} {Water}] units>"],
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
+		"attacked": "We are no strangers to war.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [221,170,113],
+		"cities": ["Sartosa"]
 	}
 		
 	/*

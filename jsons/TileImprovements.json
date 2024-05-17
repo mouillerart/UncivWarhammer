@@ -151,7 +151,7 @@
 	},
 	{
 		"name": "Rainee's Plantation",
-		"uniqueTo": "Rain Forest",
+		"uniqueTo": "Loren",
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
@@ -421,7 +421,7 @@
 	// Civilization unique improvements
 	{
 		"name": "Lodepit",
-		"uniqueTo": "'Nkuhanea",
+		"uniqueTo": "Dwarfs",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
@@ -439,7 +439,7 @@
 	},
 	{
 		"name": "Sacred Grove",
-		"uniqueTo": "Sulvana",
+		"uniqueTo": "Loren",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"production": 1,
@@ -460,7 +460,7 @@
 	},
 	{
 		"name": "Ulu Wae",
-		"uniqueTo": "Marunesia",
+		"uniqueTo": "Ind",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"gold": 1,
 		"techRequired": "Sailing",
@@ -475,7 +475,7 @@
 	},
 	{
 		"name": "Staerie",
-		"uniqueTo": "Twin Mountain",
+		"uniqueTo": "Chaos Dwarfs",
 		"terrainsCanBeBuiltOn": ["Mountain"],
 		"science": 1,
 		"turnsToBuild": 7,
@@ -490,7 +490,7 @@
 	},
 	{
 		"name": "Dhab Hunter Camp",
-		"uniqueTo": "Smeheng",
+		"uniqueTo": "Araby",
 		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
 		"food": 2,
 		"culture": 1,
@@ -501,7 +501,7 @@
 					"Pillaging this improvement yields approximately [+8 Gold]"],
 		"shortcutKey": "C",
 		"civilopediaText": [
-			{"text": "A settlement along the Karionam river, which is used by the Smeheng people to gather food, mainly from desert animals, and collect water."},
+			{"text": "A settlement along the Karionam river, which is used by the Araby people to gather food, mainly from desert animals, and collect water."},
 			{"text": "Dhab Hunter Camp can not be be built next to each other."}
 		]
 	},
@@ -537,7 +537,7 @@
 	},
 	{
 		"name": "Coffin",
-		"uniqueTo": "Morlovia",
+		"uniqueTo": "Sylvania",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Hill"],
 		"turnsToBuild": 4,
 		"techRequired": "Engineering",
@@ -550,7 +550,7 @@
 	},
 	{
 		"name": "Blessed Farm",
-		"uniqueTo": "Louvargia",
+		"uniqueTo": "Bretonnia",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 1,
 		"turnsToBuild": 7,
@@ -559,12 +559,12 @@
 					"Pillaging this improvement yields approximately [+8 Gold]"],
 		"shortcutKey": "F",
 		"civilopediaText": [
-			{"text": "A farm that received a blessing from Inua, the Tundra Goddess, a gift from her to the Louvargians."}
+			{"text": "A farm that received a blessing from Inua, the Tundra Goddess, a gift from her to the Bretonnians."}
 		]
 	},
 	{
 		"name": "Matter Transmuter",
-		"uniqueTo": "First Order",
+		"uniqueTo": "Naggaroth",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 2,
 		"science": 3,
@@ -576,12 +576,12 @@
 					"Tile provides yield without assigned population",
 					"Pillaging this improvement yields approximately [+12 Gold, +2 Science]"],
 		"civilopediaText": [
-			{"text": "A place where the alchemists of First Order ponder, study, and conduct experiments of changing one matter into another."}
+			{"text": "A place where the alchemists of Naggaroth ponder, study, and conduct experiments of changing one matter into another."}
 		]
 	},
 	{
-		"name": "Meka-Monastery",
-		"uniqueTo": "Machinia",
+		"name": "Meka-MoTileatery",
+		"uniqueTo": "Dwarfs",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 2,
 		"faith": 4,
@@ -596,7 +596,7 @@
 	},
 	{
 		"name": "Kyber Foundry",
-		"uniqueTo": "Machinia",
+		"uniqueTo": "Dwarfs",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 3,
 		"production": 1,
@@ -612,7 +612,7 @@
 	},
 	{
 		"name": "Oracle Monument",
-		"uniqueTo": "Arxia",
+		"uniqueTo": "Ulthuan",
 		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
 		"faith": 3,
 		"turnsToBuild": 7,
@@ -623,13 +623,13 @@
 					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "O",
 		"civilopediaText": [
-			{"text": "A tall monument where the oracles, or the Ephor, resides and foretold the future of the Arxian and the probable victory of their army in the future war."}
+			{"text": "A tall monument where the oracles, or the Ephor, resides and foretold the future of the Ulthuann and the probable victory of their army in the future war."}
 			{"text": "Apart from fortune-telling, the oracles also sell information to the commoners and sometimes sell good luck charms."}
 		]
 	},
 	{
 		"name": "Sacred Cove",
-		"uniqueTo": "The Shinso",
+		"uniqueTo": "Loren",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 1,
 		"gold": 1,

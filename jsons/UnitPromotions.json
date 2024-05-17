@@ -912,7 +912,7 @@
 	
 	// Universal Skills
 	{
-		"name": "Devout", // Great Monastery
+		"name": "Devout", // Great MoTileatery
 		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
 	},
 	{
@@ -949,16 +949,16 @@
 	
 	// Unique Skills
 	{
-		"name": "Dominion Patrol", // Eldariya
+		"name": "Dominion Patrol", // Reikland
 		"uniques": ["[+1] Movement <in [Friendly Land] tiles>", 
 					"[+1] Sight <in [Friendly Land] tiles>"]
 	},
 	{
-		"name": "Highly Trained", // Eldariya
+		"name": "Highly Trained", // Reikland
 		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>"]
 	},
 	{
-		"name": "Water Creature", // Almuria
+		"name": "Water Creature", // Ulthuan
 		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>", 
 					"[+15]% Strength <when fighting in [Coastal] tiles>", 
 					"May attack when embarked", 
@@ -976,31 +976,31 @@
 		"uniques": ["[+25]% Strength <when attacking> <when above [95] HP>"]
 	},
 	{
-		"name": "Plunderer", // Torakj
+		"name": "Plunderer", // Ironclaw Orcs
 		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]
 	},
 	{
-		"name": "Fight Howl", // Torakj, Townfolk
+		"name": "Fight Howl", // Ironclaw Orcs, Badmoon Goblins
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
-		"name": "[Realm Patrol] ability", // Smeheng
+		"name": "[Realm Patrol] ability", // Nippon
 		"uniques": ["[+1] Movement <in [Friendly Land] tiles>"]
 	},
 	{
-		"name": "Ignore terrain cost", // Cavegoa
+		"name": "Ignore terrain cost", // Ogre Kingdoms
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
-		"name": "Elusive", // Ilythiir
+		"name": "Elusive", // Skaven
 		"uniques": ["May withdraw before melee ([50]%)"]
 	},
 	{
-		"name": "Vampiric Touch", // Morlovia
+		"name": "Vampiric Touch", // Sylvania
 		"uniques": ["Heals [15] damage if it kills a unit"]
 	},
 	{
-		"name": "Slow Learner", // Morlovia
+		"name": "Slow Learner", // Sylvania
 		"uniques": ["[-50]% XP gained from combat"]
 	},
 	{
@@ -1013,76 +1013,76 @@
 					"[+10]% Strength <when defending>"]
 	},
 	{
-		"name": "Kiss", // The Order of Witcher
+		"name": "Kiss", // Reikland
 		"uniques": ["Damage is ignored when determining unit Strength"]
 	},
 	{
-		"name": "Kiss", // The Order of Witcher
+		"name": "Kiss", // Reikland
 		"uniques": ["Damage is ignored when determining unit Strength"]
 	},
 	{
-		"name": "Beast Hunter", // The Order of Witcher
+		"name": "Beast Hunter", // Reikland
 		"uniques": ["Gain [50] [Gold] <upon defeating a [Beast] unit>"]
 	},
 	{
-		"name": "Evangelize Belief", // Sanctum Regalia
+		"name": "Evangelize Belief", // Estalia
 		"uniques": ["Can Spread Religion <for [4] movement> <once>", 
 					"Removes other religions when spreading religion",
 					"Religious Unit"]
 	},
 	{
-		"name": "Unwavering Faith", // Sanctum Regalia
+		"name": "Unwavering Faith", // Estalia
 		"uniques": ["Damage is ignored when determining unit Strength"]
 	},
 	{
-		"name": "Trawl", // Marunesia
+		"name": "Trawl", // Ind
 		"uniques": ["Can instantly construct a [Ulu Wae] improvement <by consuming this unit>"]
 	},
 	{
-		"name": "Qigong", // Tianwu
+		"name": "Qigong", // Cathay
 		"uniques": ["[+1] Movement"]
 	},
 	{
-		"name": "Quick Study", // Thorin
+		"name": "Quick Study", // Dwarfs
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
-		"name": "Reactive Armor", // Thorin
+		"name": "Reactive Armor", // Dwarfs
 		"uniques": ["May withdraw before melee ([66]%)"]
 	},
 	{
-		"name": "[Laskar] ability", // Nas
+		"name": "[Laskar] ability", // Tilea
 		"uniques": ["[+25]% Strength <vs [Sword] units>", 
 					"[+25]% Strength <vs [Gunpowder] units>"]
 	},
 	{
-		"name": "[Entilon] ability", // Rain Forest
+		"name": "[Entilon] ability", // Beastmen
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", 
 					"[+33]% Strength <when fighting in [Jungle] tiles>"]
 	},
 	{
-		"name": "[Lich] ability", // Necropoleis
+		"name": "[Lich] ability", // Khemri
 		"uniques": ["Damage is ignored when determining unit Strength"]
 	},
 	{
-		"name": "Troll's Skin", // The Trolls
+		"name": "Troll's Skin", // Ogre Kingdoms
 		"uniques": ["[+20]% Strength <when defending>"]
 	},
 	{
-		"name": "[Alessia] ability", // Sulvana
+		"name": "[Alessia] ability", // Kislev
 		"uniques": ["[+1] additional attacks per turn", 
 					"Can move after attacking"]
 	},
 	{
-		"name": "Bloodbath", // Urush
+		"name": "Bloodbath", // Hordes of Chaos
 		"uniques": ["Heals [10] damage if it kills a unit"],
 	},
 	{
-		"name": "Seductive Submission", // Red Moon
+		"name": "Seductive Submission", // Hordes of Chaos
 		"uniques": ["May capture killed [Land] units"]
 	},
 	{
-		"name": "Snowman", // Frostmorrow
+		"name": "Snowman", // Norsca
 		"uniques": ["[+1] Movement <in [Tundra] tiles>", "Double movement in [Snow]"]
 	},
 	{
@@ -1092,7 +1092,7 @@
 	
 	
 	/*{
-		"name": "Life Treasure", // Tianwu
+		"name": "Life Treasure", // Cathay
 		"uniques": ["Access to life treasure skill"]
 	},
 	{

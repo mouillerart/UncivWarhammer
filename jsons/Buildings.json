@@ -59,6 +59,7 @@
 			{"text": "To those without Witchsight, the ancient, weathered waystones originally created and left by the Old Ones are now indistinguishable from ordinary standing stones."}
 		]
 	},
+	
 	{
 		"name": "Elven Shrine",
 		"science": 1,
@@ -132,11 +133,11 @@
 	},
 	{
 		"name": "Shrine of the Holy Grail",
-		"happiness": 4,
+		"happiness": 2,
 		"faith": 4,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["Unbuildable <before discovering [Grail Quest]>"],
+		"uniques": ["Unbuildable <before discovering [Mysticism]>"],
 		"requiredTech": "Knightly Virtues",
 		"civilopediaText": [
 			{"text": ""}
@@ -184,7 +185,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
-					"[+1 Food] from [Bananas] tiles [in this city]", 
+					"[+1 Food] from [BanaTilea] tiles [in this city]", 
 					"[+1 Food] from [Wheat] tiles [in this city]", 
 					"[+1 Food] from [Corn] tiles [in this city]", 
 					"[+1 Food] from [Citrus] tiles [in this city]"],
@@ -203,7 +204,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
-					"[+1 Food] from [Bananas] tiles [in this city]", 
+					"[+1 Food] from [BanaTilea] tiles [in this city]", 
 					"[+1 Food] from [Wheat] tiles [in this city]", 
 					"[+1 Food] from [Corn] tiles [in this city]", 
 					"[+1 Food] from [Citrus] tiles [in this city]",
@@ -351,7 +352,7 @@
 	},
 	{
 		"name": "Pillar of Learning",
-		"uniqueTo": "The Shinso",
+		"uniqueTo": "Cathay",
 		"cost": 250,
 		"science": "4",
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -388,7 +389,7 @@
 	{
 		"name": "Cashier Stable", 
 		"replaces": "Stable",
-		"uniqueTo": "Thorin",
+		"uniqueTo": "Dwarfs",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
@@ -430,7 +431,7 @@
 	},
 	{
 		"name": "Pillar of Life",
-		"uniqueTo": "The Shinso",
+		"uniqueTo": "Cathay",
 		"cost": 250,
 		"food": "4",
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -463,7 +464,7 @@
 	{
 		"name": "Arena of Blood",
 		"replaces": "Colosseum",
-		"uniqueTo": "Ilythiir",
+		"uniqueTo": "Skaven",
 		"maintenance": 0,
 		"happiness": 2,
 		"hurryCostModifier": 25,
@@ -522,7 +523,7 @@
 	{
 		"name": "Sulong's Training",
 		"replaces": "Barracks",
-		"uniqueTo": "Townfolk",
+		"uniqueTo": "Badmoon Goblins",
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -560,7 +561,7 @@
 	},
 	{
 		"name": "Crypt of the Unliving",
-		"uniqueTo": "Eldariya",
+		"uniqueTo": "Reikland",
 		"replaces": "Pyramid",
 		"cityStrength": 7,
 		"cityHealth": 50,
@@ -591,36 +592,36 @@
 	{
 		"name": "Hymn House",
 		"replaces": "Temple",
-		"uniqueTo": "Louvargia",
+		"uniqueTo": "Bretonnia",
 		"faith": 2,
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Shrine of the Holy Grail",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
 					"[+1 Culture] per [3] population [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Priesthood",
 		"civilopediaText": [
-			{"text": "Pious Louvargians built this structure to worship and praise their Goddess."}
+			{"text": "Pious Bretonnia built this structure to worship and praise their Goddess."}
 		]
 	},
 	{
 		"name": "Infernal Gate",
 		"replaces": "Temple",
-		"uniqueTo": "Urush",
+		"uniqueTo": "Hordes of Chaos",
 		"faith": 2,
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Chaos Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
 					"[+25]% Production when constructing [{Military} {Land}] units [in this city]"],
 		"requiredTech": "Philosophy",
 		"civilopediaText": [
-			{"text": "The only way to enter and leave hell is through this scary gate. The gate used by Zorgorath to summon his armies from the netherworld."}
+			{"text": "The only way to enter and leave hell is through this scary gate. The gate used by Archaon to summon his armies from the netherworld."}
 		]
 	},
 	{
 		"name": "Pillar of Faith",
-		"uniqueTo": "The Shinso",
+		"uniqueTo": "Cathay",
 		"cost": 250,
 		"faith": "4",
 		"greatPersonPoints": {"Great Artist": 1},
@@ -659,7 +660,7 @@
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Contemplation",
-		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra dinasty'  - Kalasan, translated by Santiko"
+		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra diTileaty'  - Kalasan, translated by Santiko"
 	},
 	{
 		"name": "National Epic",
@@ -699,7 +700,7 @@
 	},
 	{
 		"name": "Draen Sanctuary",
-		"uniqueTo": "Red Moon",
+		"uniqueTo": "Hordes of Chaos",
 		"replaces": "Academy of Magic",
 		"food": 1,
 		"faith": 1,
@@ -751,7 +752,7 @@
 	},
 	{
 		"name": "Pillar of Wealth",
-		"uniqueTo": "The Shinso",
+		"uniqueTo": "Cathay",
 		"cost": 250,
 		"gold": "4",
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -773,7 +774,7 @@
 	},
 	// Column 6
 	{
-		"name": "Monastery",
+		"name": "MoTileatery",
 		"happiness": 1,
 		"requiredBuilding": "Shrine",
 		"maintenance": 1,
@@ -784,21 +785,21 @@
 					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", 
 					"[+15]% Production when constructing [Monk] units [in this city]", 
 					"Destroyed when the city is captured"],
-		"requiredTech": "Monasticism",
+		"requiredTech": "MoTileaticism",
 		"civilopediaText": [
 			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
 		]
 	},
 	{
-		"name": "Great Monastery",
+		"name": "Great MoTileatery",
 		"culture": 2,
 		"faith": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
+		"uniques": ["Gain a free [MoTileatery] [in this city]", "Hidden when religion is disabled",
 					"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", 
 					"[2] free [Warrior Monk] units appear"],
-		"requiredTech": "Monasticism",
+		"requiredTech": "MoTileaticism",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
@@ -855,7 +856,7 @@
 	{
 		"name": "Witcher School",
 		"replaces": "Centre of Arcane",
-		"uniqueTo": "The Order of Witchers",
+		"uniqueTo": "Reikland",
 		"production": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 10,
@@ -891,7 +892,7 @@
 	{
 		"name": "Posha",
 		"replaces": "Market",
-		"uniqueTo": "Cavegoa",
+		"uniqueTo": "Ogre Kingdoms",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 10,
@@ -938,7 +939,7 @@
 	{
 		"name": "Zaghronk", // Blak Speech: Pit of mountain
 		"replaces": "Aqueduct",
-		"uniqueTo": "The Trolls",
+		"uniqueTo": "Ogre Kingdoms",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]", 
@@ -965,7 +966,7 @@
 	{
 		"name": "Threesed",
 		"replaces": "Workshop",
-		"uniqueTo": "Rain Forest",
+		"uniqueTo": "Beastmen",
 		"production": 0,
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
@@ -992,7 +993,7 @@
 	{
 		"name": "The Foundry",
 		"replaces": "Forge",
-		"uniqueTo": "Sanctum Regalia",
+		"uniqueTo": "Estalia",
 		"faith": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
@@ -1059,7 +1060,7 @@
 	{
 		"name": "Sect",
 		"replaces": "Public School",
-		"uniqueTo": "Tianwu",
+		"uniqueTo": "Cathay",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 15},
@@ -1087,7 +1088,7 @@
 	{
 		"name": "Alchemical Society",
 		"replaces": "Public School",
-		"uniqueTo": "Vedic",
+		"uniqueTo": "Dwarfs",
 		"maintenance": 3,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 15},
@@ -1116,7 +1117,7 @@
 	{
 		"name": "Ancient Citadel",
 		"replaces": "Castle",
-		"uniqueTo": "Nas",
+		"uniqueTo": "Tilea",
 		"science": 3,
 		"cityStrength": 10,
 		"cityHealth": 30,
@@ -1124,7 +1125,21 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Chivalry",
 		"civilopediaText": [
-			{"text": "A citadel used by Malakar, Saeth's general, to fire Fury. After Saeth's death, the citadel used by Nas to study dark magic, to create its counter."}
+			{"text": "A citadel used by Malakar, Saeth's general, to fire Fury. After Saeth's death, the citadel used by Tilea to study dark magic, to create its counter."}
+		]
+	},
+	{
+		"name": "Abbey of the Grail",
+		"replaces": "Castle",
+		"uniqueTo": "Bretonnia",
+		"faith": 3,
+		"cityStrength": 10,
+		"cityHealth": 30,
+		"hurryCostModifier": 30,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Chivalry",
+		"civilopediaText": [
+			{"text": "Known as Abbeys of the Grail, these chapels may contain so many valuable relics that they require defences in the manner of a castle and several Hermit Knights to guard them. In addition, the chapel may attract a small number of female recluses known as Damoiselles du Grail, who seek to devote themselves to the Lady of the Lake."}
 		]
 	},
 	{
@@ -1136,7 +1151,7 @@
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill] promotion",
 					"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Quintessence Force",
-		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
+		"quote": "'Justice is an uTileasailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	{
 		"name": "Information Market",
@@ -1165,7 +1180,7 @@
 	{
 		"name": "Gulddin's Treasury",
 		"replaces": "National Treasury",
-		"uniqueTo": "Twin Mountain",
+		"uniqueTo": "Dwarfs",
 		"cost": 150,
 		"gold": 8,
 		"culture": 1,
@@ -1253,7 +1268,7 @@
 	},
 	{
 		"name": "Royal Inventor's Assembly",
-		"uniqueTo": "Dwargon",
+		"uniqueTo": "Reikland",
 		"replaces": "Ironworks",
 		"cost": 150,
 		"production": 8,
@@ -1294,7 +1309,7 @@
 	},
 	{
 		"name": "Tinkerer's Depot",
-		"uniqueTo": "Dwargon",
+		"uniqueTo": "Dwarfs",
 		"replaces": "Observatory",
 		"maintenance": 0,
 		"hurryCostModifier": 15,
@@ -1324,7 +1339,7 @@
 	{
 		"name": "Butlaghua",
 		"replaces": "Composer Hall",
-		"uniqueTo": "Sulvana",
+		"uniqueTo": "Kislev",
 		"culture": 5,
 		"specialistSlots": {"Artist": 1},
 		"greatPersonPoints": {"Great Artist": 1},
@@ -1334,7 +1349,7 @@
 		"requiredTech": "Acoustics",
 		"uniques": ["Generates 1 Great Artist Point", "Destroyed when the city is captured"],
 		"civilopediaText": [
-            {"text": "As beautiful as its resident, Sulvana's art isn't something to be underestimated."}
+            {"text": "As beautiful as its resident, Kislev's art isn't something to be underestimated."}
         ]
 	},
 	{
@@ -1387,7 +1402,7 @@
 	{
 		"name": "Mollen Sawa",
 		"replaces": "Bank",
-		"uniqueTo": "Niranna",
+		"uniqueTo": "Nippon",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
@@ -1912,6 +1927,169 @@
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	
+	// Tree-specific wonders and buildings
+	
+	// Monuments of the Old Ones
+	{
+		"name": "Pyramid of the World Serpent",
+		"isWonder": true,
+		"faith": 1,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Nature Lore]>"],
+		"requiredTech": "Cold Ones",
+		"civilopediaText": [
+			{"text": "The Pyramid is sacred to the god Sotek and is a place of holy pilgrimage for the cold-blooded inhabitants of Lustria. Each year, great heaps of treasure and magical artefacts are offered to the Serpent God and legend has it that the pyramid contains an artefact rumoured to give the bearer power over the beasts of the jungle."}
+		]
+	},
+	{
+		"name": "Monument of the Moon",
+		"isWonder": true,
+		"faith": 1,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
+		"requiredTech": "Cold Ones",
+		"civilopediaText": [
+			{"text": "Rearing up from the coast of the Isthmus of Lustria, the Monument of the Moon is a tall, dread icon of fear, said to be built atop a long-dead necromancer's tomb. What riches or perils await beneath the deathly spire and in the catacombs will only be found by those with the courage to face their worst nightmares.",
+			{"text":"Such an atmosphere of terror saturates this place that every battle in this territory is fought in near darkness."}
+		]
+	},
+	{
+		"name": "Temple of Constellations",
+		"isWonder": true,
+		"faith": 1,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Elemental Magic]>"],
+		"requiredTech": "Cold Ones",
+		"civilopediaText": [
+			{"text": "The mysterious Temple of Constellations has all manner of arcane and mystical symbols carved into its walls. Battles fought here are particularly perilous for combatants due to incessant lightning storms that surround the temple"}
+		]
+	},
+	
+	// Sagas
+	{
+		"name": "Sigmar's Saga",
+		"isWonder": true,
+		"culture": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Chronicles]>","Free Technology"],
+		"requiredTech": "Old World",
+		"civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Revelation of the Lady",
+		"isWonder": true,
+		"faith": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Priesthood]>","Gain a free [Founder] belief"],
+		"requiredTech": "Knightly Virtues",
+		"civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Mosque of Ormuzd",
+		"isWonder": true,
+		"faith": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Priesthood]>"],
+		"requiredTech": "Arabyan Tradition",
+		"civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "The Kong Miao",
+		"isWonder": true,
+		"science": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Philosophy]>"],
+		"requiredTech": "Far East",
+		"civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Pyramid of Eternal Life",
+		"isWonder": true,
+		"science": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
+		"requiredTech": "Undead Curse",
+		"civilopediaText": [
+			{"text": "..."}
+		]
+	},
+	{
+		"name": "Word of the Old Ones",
+		"isWonder": true,
+		"faith": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Chronicles]>"],
+		"requiredTech": "Cold Ones",
+		"civilopediaText": [
+			{"text": "The Marks of the Old Ones are a series of vast geometric symbols carved deep into the ground found in the jungles of central Lustria, each describing the stylised form of a creature of the jungle. From the ground, the Marks of the Old Ones appear as perfectly engineered earthworks, but their true form is said only to be visible to the eyes of the gods. No mortal who walks upon the surface of the Known World could ever perceive the patterns, and some say they are intended only to be seen by the enigmatic Old Ones themselves."}
+		]
+	},
+	{
+		"name": "Shrine of Asuryan",
+		"isWonder": true,
+		"faith": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Contemplation]>"],
+		"requiredTech": "Channeling",
+		"civilopediaText": [
+			{"text": "The Shrine of Asuryan, an annual destination of the Phoenix King, is located on the Island of Flame due north of Lothern, and is considered both the holiest place on Ulthuan, and the safest. It is also here that those born of Aenarion's Line are tested for the Curse that plagues his descendants."}
+		]
+	},
+	{
+		"name": "The Oak of Ages",
+		"isWonder": true,
+		"faith": 4,
+		"science": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Raw Magic]>","Empire enters golden age"],
+		"requiredTech": "Forest Mastery",
+		"civilopediaText": [
+			{"text": "The Oak is described as an immensly massive tree, more akin to a mountain made out of root and branch and not entirely anchored in the world of flesh. Its roots were bottomless deep, giving home to spirits of the departed. Its trunk was the world, with oceans, mountains and deserts spiralling around each other in an endless dance of death and rebirth. Its crown, rather than containing leaves, bore the heavens, with daemons and gods cavorting in its branches."}
+		]
+	},
+	{
+		"name": "The Great Book of Grudges",
+		"isWonder": true,
+		"science": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Chronicles]>"],
+		"requiredTech": "Dwarven Ingenuity",
+		"civilopediaText": [
+			{"text": "The Great Book of Grudges (also known as the Dammaz Kron in the Dwarf language) is an ancient book passed down through the ages from one Dwarfen High King to the next. It is essentially a record of all the terrible wrongs and treacherous deeds ever perpetrated against the Dwarf race, amounting to a very detailed recorded history of the Dwarfs."}
+		]
+	},
+	{
+		"name": "Cauldron of Blood",
+		"isWonder": true,
+		"faith": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
+		"requiredTech": "Chaos",
+		"civilopediaText": [
+			{"text": "A Cauldron of Blood is an ancient artefact of the long-gone days when the gods walked the earth. It is a gift from Khaine, the Lord of Murder, and within it lies the secret of eternal youth and beauty. A bride of Khaine may bathe in the blood-filled Cauldron, and it renews her vitality and youth. The few Cauldrons that have survived the millennia are kept at the great temple of Ghrond, guarded by the High Priestesses of the Cult. One may be brought out to battle, but only in times of great bloodshed when the Witch Elf sect fights in strength."}
+		]
+	},
+	{
+		"name": "Council of Thirteen",
+		"isWonder": true,
+		"faith": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Chronicles]>"],
+		"requiredTech": "Underworld",
+		"civilopediaText": [
+			{"text": "The insidious Council of Thirteen is the nefarious body comprised of twelve of the most powerful Skaven clan lords that rules over the Skaven Under-Empire. Its eponymous thirteenth member is symbolically the Horned Rat. Its mortal members are known as the 'Lords of Decay'."}
+		]
+	},
+
+	
 	// Diplomatic Victory
 	{
 		"name": "The Round Table",
@@ -1996,7 +2174,7 @@
 	{
 		"name": "Black Hole",
 		"replaces": "Portal",
-		"uniqueTo": "Urush",
+		"uniqueTo": "Hordes of Chaos",
 		"uniques": ["Unbuildable", "Unsellable"],
 		"replacementTextForUniques": "Unbuildable",
 		"civilopediaText": [
@@ -2004,28 +2182,28 @@
 		]
 	},
 	{
-		"name": "Mas Karebet Portal",
+		"name": "Aragand Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Mas Karebet] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Aragand] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Mas Karebet] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Aragand] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Mas Karebet for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Aragand for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
 	},
 	{
-		"name": "Ken Arok Portal",
+		"name": "Ungrim Ironfist Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Ken Arok] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Ungrim Ironfist] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Ken Arok] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Ungrim Ironfist] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Ken Arok for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Ungrim Ironfist for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
@@ -2060,17 +2238,18 @@
         ]
 	},
 	{
-		"name": "Siliwangi Portal",
+		"name": "Louen Leoncoeur Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Siliwangi] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Louen Leoncoeur] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Siliwangi] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Louen Leoncoeur] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Siliwangi for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Louen Leoncoeur for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
-			{"text":"This building only available in Capital."}
+			{"text":"Rise Sir Louen, land-knight, slayer of monsters and bane of the dead. You have spirit I thought long lost to this land. I dub thee Louen Leoncoeur, Heart of the Lion."
+			"texte":"This building only available in Capital."}
         ]
 	},
 	{
@@ -2088,44 +2267,44 @@
         ]
 	},
 	{
-		"name": "Jeanne Portal",
+		"name": "Borgio Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Jeanne d'Arc] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Borgio d'Arc] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Jeanne d'Arc] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Borgio d'Arc] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Jeanne d'Arc for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Borgio d'Arc for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
 	},
 	{
-		"name": "Gaius Portal",
+		"name": "Wulfrik Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Gaius Duilius] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Wulfrik the Wanderer] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Gaius Duilius] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Wulfrik the Wanderer] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>", 
 					"Must be next to [Coast]"],
-		"replacementTextForUniques": "Unlock Gaius Duilius for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Wulfrik the Wanderer for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
 	},
 	{
-		"name": "Themistocles Portal",
+		"name": "Silenna Starguided Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Themistocles] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Silenna Starguided] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Themistocles] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Silenna Starguided] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>", 
 					"Must be next to [Coast]"],
-		"replacementTextForUniques": "Unlock Themistocles for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Silenna Starguided for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
@@ -2135,7 +2314,7 @@
 	// Unique Ability related
 	{
 		"name": "Door of Prosperity",
-		"uniqueTo": "The Shinso",
+		"uniqueTo": "Cathay",
 		"cost": 1,
 		"cityHealth": 5,
 		"uniques": ["Free Great Person", 
@@ -2147,7 +2326,7 @@
 	},
 	{
 		"name": "Astana",
-		"uniqueTo": "Thallin",
+		"uniqueTo": "Araby",
 		"cityStrength": 1,
 		"uniques": ["[-25]% Unhappiness from [Population] [in this city]", 
 					"Unbuildable", "Unsellable", 
@@ -2157,7 +2336,7 @@
 	},
 	{
 		"name": "Kampong Aer",
-		"uniqueTo": "Marunesia",
+		"uniqueTo": "Ind",
 		"happiness": 1,
 		"cost": 1,
 		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whales"],
@@ -2236,7 +2415,7 @@
 	},
 	{
 		"name": "Path of Sword",
-		"uniqueTo": "Tianwu",
+		"uniqueTo": "Cathay",
 		"cost": 1,
 		"cityStrength": 1,
 		"uniques": ["Only available <in cities with a [Palace]> <in cities without a [Path of Spear]>", 
@@ -2266,7 +2445,7 @@
 	},
 	{
 		"name": "Path of Spear",
-		"uniqueTo": "Tianwu",
+		"uniqueTo": "Cathay",
 		"cost": 1,
 		"cityStrength": 1,
 		"uniques": ["Only available <in cities with a [Palace]> <in cities without a [Path of Sword]>", 
@@ -2291,7 +2470,7 @@
 	},
 	{
 		"name": "Andarass (1 gold - 1 science)",
-		"uniqueTo": "Vedic",
+		"uniqueTo": "Ind",
 		"science": 1,
 		"maintenance": 1,
 		"cost": 1,
@@ -2301,7 +2480,7 @@
 	},
 	{
 		"name": "Andarass (2 gold - 2 science)",
-		"uniqueTo": "Vedic",
+		"uniqueTo": "Ind",
 		"science": 2,
 		"maintenance": 2,
 		"cost": 5,
@@ -2312,7 +2491,7 @@
 	},
 	{
 		"name": "Andarass (3 gold - 3 science)",
-		"uniqueTo": "Vedic",
+		"uniqueTo": "Ind",
 		"science": 3,
 		"maintenance": 3,
 		"cost": 9,
@@ -2322,7 +2501,7 @@
 	},
 	{
 		"name": "Andarass (4 gold - 4 science)",
-		"uniqueTo": "Vedic",
+		"uniqueTo": "Ind",
 		"science": 4,
 		"maintenance": 4,
 		"cost": 15,
@@ -2332,7 +2511,7 @@
 	},
 	{
 		"name": "FWFreePop",
-		"uniqueTo": "'Nkuhanea",
+		"uniqueTo": "Skaven",
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", 

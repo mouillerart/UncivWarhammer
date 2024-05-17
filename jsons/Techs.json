@@ -109,7 +109,7 @@
 				"name": "Fishing",
 				"row": 1,
 				"prerequisites": ["Rise of Sigmar"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"quote": "'He who commands the sea has command of everything.' - Silenna Starguided"
 			},
 			{
 				"name": "Hunting",
@@ -350,7 +350,7 @@
 			{
 				"name": "Construction",
 				"row": 2,
-				"prerequisites": ["Mathematics","Masonry","Bronze Working"],
+				"prerequisites": ["Mathematics","Bronze Working"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			},			
 			{
@@ -593,7 +593,7 @@
 			{
 				"name": "Guilds",
 				"row": 5,
-				"prerequisites": ["Civil Service","Feudalism","Currency"],
+				"prerequisites": ["Civil Service","Feudalism"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
@@ -628,7 +628,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Monasticism",
+				"name": "MoTileaticism",
 				"row": 15,
 				"prerequisites": ["Priesthood"],
 				"quote": ""
@@ -759,7 +759,7 @@
 			{
 				"name": "Engineering",
 				"row": 2,
-				"prerequisites": ["Mathematics","Construction"],
+				"prerequisites": ["Construction"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			}

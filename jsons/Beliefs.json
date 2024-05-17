@@ -197,7 +197,7 @@
 	{
         "name": "Religious Center",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Monastery] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Happiness] from every [MoTileatery] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
         "name": "Religious Community",

@@ -20,7 +20,7 @@
 	{
 		"name": "Tavari Worker",
 		"replaces": "Worker",
-		"uniqueTo": "Cavegoa",
+		"uniqueTo": "Ogre Kingdoms",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 48,
@@ -33,7 +33,7 @@
 	{
 		"name": "Rain Worker",
 		"replaces": "Worker",
-		"uniqueTo": "Rain Forest",
+		"uniqueTo": "Beastmen",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 60,
@@ -84,7 +84,7 @@
 	{
 		"name": "Siren",
 		"unitType": "Civilian Water",
-		"uniqueTo": "Almuria",
+		"uniqueTo": "Ulthuan",
 		"replaces": "Work Boats",
 		"movement": 4,
 		"cost": 25,
@@ -170,7 +170,7 @@
 	{
 		"name": "Adept",
 		"unitType": "Mage",
-		"uniqueTo": "Red Moon",
+		"uniqueTo": "Hordes of Chaos",
 		"replaces": "Ranger",
 		"movement": 2,
 		"strength": 10,
@@ -235,7 +235,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
@@ -246,12 +246,12 @@
 	{
 		"name": "Mink",
 		"unitType": "Sword",
-		"uniqueTo": "Townfolk",
+		"uniqueTo": "Badmoon Goblins",
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 44,
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
 					"Heals [15] damage if it kills a unit", 
@@ -283,7 +283,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"uniques": ["Preachable"],
 		"attackSound": "nonmetalhit"
@@ -304,7 +304,7 @@
 	{
 		"name": "Divine Order",
 		"unitType": "Sword",
-		"uniqueTo": "Louvargia",
+		"uniqueTo": "Estalia",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 14,
@@ -386,7 +386,7 @@
 	},
 	{
 		"name": "Bladedancer",
-		"uniqueTo": "Ilythiir",
+		"uniqueTo": "Skaven",
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -418,7 +418,7 @@
 	},
 	{
 		"name": "Axeman",
-		"uniqueTo": "Twin Mountain",
+		"uniqueTo": "Dwarfs",
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -463,7 +463,7 @@
 		"name": "Rakshasa",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
-		"uniqueTo": "Erhab",
+		"uniqueTo": "Araby",
 		"movement": 3,
 		"strength": 22,
 		"cost": 120,
@@ -482,7 +482,7 @@
 	{
 		"name": "Iron Templar",
 		"unitType": "Sword",
-		"uniqueTo": "Machinia",
+		"uniqueTo": "Chaos Dwarfs",
 		"replaces": "Longswordsman",
 		"movement": 2,
 		"strength": 24,
@@ -560,7 +560,7 @@
 		"name": "Entilon",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
-		"uniqueTo": "Rain Forest",
+		"uniqueTo": "Beastmen",
 		"movement": 2,
 		"strength": 35,
 		"cost": 300,
@@ -670,7 +670,7 @@
 		"name": "Elite Spearman",
 		"unitType": "Anti-Cav",
 		"replaces": "Pikeman",
-		"uniqueTo": "Malus",
+		"uniqueTo": "Tilea",
 		"movement": 2,
 		"strength": 17,
 		"cost": 90,
@@ -812,7 +812,7 @@
 		"name": "Kalsharin",
 		"unitType": "Mounted",
 		"replaces": "Knight",
-		"uniqueTo": "Thorin",
+		"uniqueTo": "Kislev",
 		"movement": 4,
 		"strength": 20,
 		"cost": 135,
@@ -828,6 +828,88 @@
 		"civilopediaText": [
 			{"text": "Knight with withdrawal ability and without city attacking penalty."}
 		]
+	},
+	{
+		"name": "Knight Errant",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "The young sons of noble Bretonnian families must prove themselves in battle to earn their spurs."}
+		]
+	},
+	{
+		"name": "Knight of the Realm",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 30,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Should they survive to become fully honoured knights, knights errant are granted their own small landed estate to govern, called a knight's fee or tithe, and are obligated to defend that estate and Bretonnia should they be called to muster."}
+		]
+	},
+	{
+		"name": "Questing Knight",
+		"unitType": "Mounted",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Knightly Orders",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Grail Knight",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "These are brave individuals, revered as the land's most dedicated and selfless heroes. They willingly renounce all titles and worldly possessions, so to journey unto faraway lands, all in hopes of being deemed worthy by the Lady to become a blessed Grail Knight"}
+		]
+
+	},
+	{
+		"name": "Grail Knight",
+		"unitType": "Cavalry Hero",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 55,
+		"cost": 225,
+		"requiredTech": "Grail Quest",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "hese are the most powerful and revered individuals in all of Bretonnia, if not the entire human world, second only to the Lady in influence. They are considered living saints who represent the fearsome might and power of Bretonnia and answer only to the Lady herself; the rightful king of the realm can only be chosen from within their holy order"}
+		]
+
 	},
 	{
 		"name": "Laskar",
@@ -854,7 +936,7 @@
 	{
 		"name": "Dullahan",
 		"unitType": "Mounted",
-		"uniqueTo": "Urg",
+		"uniqueTo": "Kurgan",
 		"replaces": "Knight",
 		"range": 1,
 		"movement": 5,
@@ -898,7 +980,7 @@
 		"promotions": ["Intimidation","Bloodbath"],
 		"attackSound": "horse",
 		"civilopediaText": [
-			{"text": "A three-headed hound used by Urush to march on war. Its appearance often scare those weak and unfaithful troops."}
+			{"text": "A three-headed hound used by Hordes of Chaos to march on war. Its appearance often scare those weak and unfaithful troops."}
 		]
 	},
 	{
@@ -1043,7 +1125,7 @@
 	{
 		"name": "Realm Patrol",
 		"unitType": "Archery",
-		"uniqueTo": "Smeheng",
+		"uniqueTo": "Nippon",
 		"replaces": "Composite Bowman",
 		"movement": 2,
 		"strength": 9,
@@ -1062,7 +1144,7 @@
 	{
 		"name": "Onmyouji",
 		"unitType": "Mage",
-		"uniqueTo": "The Shinso",
+		"uniqueTo": "Cathay",
 		"replaces": "Composite Bowman",
 		"movement": 2,
 		"strength": 13,
@@ -1520,7 +1602,7 @@
 	{
 		"name": "Homunculus",
 		"unitType": "Construct",
-		"uniqueTo": "Vedic",
+		"uniqueTo": "Albion",
 		"replaces": "Adamantite Golem",
 		"movement": 3,
 		"strength": 35,
@@ -1557,7 +1639,7 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 55,
-		"requiredTech": "Horseback Riding",
+		"requiredTech": "Nature Lore",
 		"obsoleteTech": "Acoustics",
 		"upgradesTo": "Educated Beast Tamer",
 		"uniques": ["May capture killed [Slime] units <with [50]% chance>", 
@@ -2071,7 +2153,7 @@
 	},
 	{
 		"name": "Hydra",
-		"uniqueTo": "Almuria",
+		"uniqueTo": "Ulthuan",
 		"replaces": "Kraken",
 		"unitType": "Water Terror",
 		"movement": 6,
@@ -2176,7 +2258,7 @@
 	},
 	{
 		"name": "Orichalcum Golem",
-		"uniqueTo": "Dwargon",
+		"uniqueTo": "Chaos Dwarfs",
 		"unitType": "Construct",
 		"movement": 2,
 		"strength": 20,
@@ -2199,7 +2281,7 @@
 	},
 	{
 		"name": "Orichalcum Golem Mk. II",
-		"uniqueTo": "Dwargon",
+		"uniqueTo": "Chaos Dwarfs",
 		"unitType": "Construct",
 		"movement": 2,
 		"strength": 32,
@@ -2219,7 +2301,7 @@
 	},
 	{
 		"name": "Orichalcum Golem Mk. III",
-		"uniqueTo": "Dwargon",
+		"uniqueTo": "Chaos Dwarfs",
 		"unitType": "Construct",
 		"movement": 2,
 		"strength": 40,
@@ -2239,7 +2321,7 @@
 	{
 		"name": "Orichalcum Golem Omega",
 		"unitType": "Construct",
-		"uniqueTo": "Dwargon",
+		"uniqueTo": "Chaos Dwarfs",
 		"movement": 2,
 		"strength": 60,
 		"cost": 390,
@@ -2256,7 +2338,7 @@
 	
 	// Heroes
 	{
-		"name": "Mas Karebet",
+		"name": "Aragand",
 		"unitType": "Infantry Hero",
 		"movement": 2,
 		"strength": 24,
@@ -2264,13 +2346,13 @@
 		"promotions": ["Great Generals II"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
-					"Only available <if [Mas Karebet Portal] is constructed>", 
+					"Only available <if [Aragand Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Ken Arok",
+		"name": "Ungrim Ironfist",
 		"unitType": "Infantry Hero",
 		"movement": 2,
 		"strength": 22,
@@ -2278,7 +2360,7 @@
 		"promotions": ["Great Generals I","Tortoise"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
-					"Only available <if [Ken Arok Portal] is constructed>", 
+					"Only available <if [Ungrim Ironfist Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
@@ -2291,13 +2373,13 @@
 		"requiredResource": "Hero Limiter",
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
-					"Only available <if [Pandji Portal] is constructed>", 
+					"Only available <if [Leonidas Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Siliwangi",
+		"name": "Louen Leoncoeur",
 		"unitType": "Cavalry Hero",
 		"movement": 5,
 		"strength": 23,
@@ -2307,7 +2389,7 @@
 					"Limited to [1] per Civilization", 
 					"Can move after attacking", 
 					"No defensive terrain bonus", 
-					"Only available <if [Siliwangi Portal] is constructed>", 
+					"Only available <if [Louen Leoncoeur Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "horse"
@@ -2346,7 +2428,7 @@
 		"attackSound": "crossbow"
 	},
 	{
-		"name": "Jeanne d'Arc",
+		"name": "Borgio the Besieger",
 		"unitType": "Siege Hero",
 		"movement": 2,
 		"strength": 20,
@@ -2357,13 +2439,13 @@
 					"Limited to [1] per Civilization", 
 					"No defensive terrain bonus", 
 					"Must set up to ranged attack", 
-					"Only available <if [Jeanne Portal] is constructed>", 
+					"Only available <if [Borgio Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Themistocles",
+		"name": "Silenna Starguided",
 		"unitType": "Melee Water Hero", // Melee Water
 		"movement": 4,
 		"strength": 24,
@@ -2373,13 +2455,13 @@
 					"Limited to [1] per Civilization", 
 					"Uncapturable", 
 					"May withdraw before melee ([33]%)", 
-					"Only available <if [Themistocles Portal] is constructed>", 
+					"Only available <if [Silenna Starguided Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable, May withdraw before melee (33%)",
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Gaius Duilius",
+		"name": "Wulfrik the Wanderer",
 		"unitType": "Water Hero", 	// Ranged Water
 		"movement": 4,
 		"strength": 18,
@@ -2390,7 +2472,7 @@
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
 					"Uncapturable", 
-					"Only available <if [Gaius Portal] is constructed>", 
+					"Only available <if [Wulfrik Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
@@ -2532,7 +2614,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Machinia",
 		"replaces": "Great Prophet",
-		"uniques": ["Can instantly construct a [Meka-Monastery] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
+		"uniques": ["Can instantly construct a [Meka-MoTileatery] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
 					"Can instantly construct a [Kyber Foundry] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
 					"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>", 
 					"Removes other religions when spreading religion", 
@@ -2587,7 +2669,7 @@
 	{
 		"name": "Skroth",
 		"unitType": "Civilian",
-		"uniqueTo": "Urg",
+		"uniqueTo": "Khemri",
 		"replaces": "Great General",
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", 
 					"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
@@ -2596,7 +2678,7 @@
 					"Unbuildable", "Uncapturable",],
 		"movement": 5,
 		"civilopediaText": [
-			{"text": "An Urg warlord, commanding a skralar of tens of thousand of wight and zombies. Every Skroth can ride an undead animal, but not every undead who can ride is a Skroth."}
+			{"text": "An Khemri warlord, commanding a skralar of tens of thousand of wight and zombies. Every Skroth can ride an undead animal, but not every undead who can ride is a Skroth."}
 		]
 	},
 	{
@@ -3024,8 +3106,8 @@
 		"replacementTextForUniques": ".",
 		"civilopediaText": [
 			{"text": "Each civilization in Fantasia may only summon 2 Hero(es)."},
-			{"text": "The first Hero is available by selecting the Portal according to the desired Hero (except Urush)"},
-			{"text": "Urush can't summon Hero, but gain access to summon Archdemon Kor'vash. Thus, Urush's Hero already defined."},
+			{"text": "The first Hero is available by selecting the Portal according to the desired Hero (except Hordes of Chaos)"},
+			{"text": "Hordes of Chaos can't summon Hero, but gain access to summon Archdemon Kor'vash. Thus, Hordes of Chaos's Hero already defined."},
 			{"text": "The second Hero is available after constructing The Esplumoir, which will provide Mage Hero: Merlin."},
 			{"text": "Every Hero gets the same talent: Bonus vs Air Terror 25%, Bonus vs Water Terror 25%, Bonus vs Mythical Beast 100%."},
 			{"text": "In addition, each Hero inherit talent from his class."},
