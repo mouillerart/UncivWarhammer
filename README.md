@@ -8,7 +8,11 @@ Modmod of Fantasia mixed with previous Civ3/Civ4 Warhammer extensions materials.
 
 ### Maps
 * Old World
+
 ![](./map-old-world.png)
+
+* Warhammer world
+![](./map-wh-world.png)
 
 ### Nations 
 Available:
@@ -23,12 +27,22 @@ Available:
 * Tilea
 * Loren
 * Norsca
+* Albion
 * Ulthuan
 * Naggaroth
 * Skaven
 * Chaos Dwarfs
 * Ironclaw Orcs
 * Ogre Kingdoms
+* Badmoon Goblins
+* Beastmen
+* Hordes of Chaos
+* Kurgan
+* Ind
+* Cathay
+* Nippon
+* Amazons
+* Lustria
 
 City states
 * Marienburg
@@ -37,18 +51,8 @@ City states
 * Dolgan
 
 Planned:
-* Badmoon Goblins
-* Beastmen
-* Hordes of Chaos
-* Ind
-* Grand Cathay
-* Nippon
-* Ungols
-* Amazons
-* Lustria
-* Albion
 * Border Princes
-* Kurgan
+* Ungols
 * Hung
 
 ### Religions
@@ -195,7 +199,7 @@ Nations unique techs (Ancient era)
 * Grail Quest: requires Chivalry, Knightly Virtues. Allows Shrine of the Holy Grail.
 
 * Tournaments: requires Smithing, Chivalry. Allows Joust Arena (with Knightly Virtues).
-* Monasticism: requires Priesthood. Allows Monastery.
+* MoTileaticism: requires Priesthood. Allows MoTileatery.
 
 * Meteoric Iron: requires Smithing
 
