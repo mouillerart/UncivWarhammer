@@ -256,6 +256,17 @@
 		]
 	},
 	{
+		"name": "Graveyard",
+		"happiness": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [""],
+		"requiredTech": "Ceremonial Burial",
+		"civilopediaText": [
+			{"text": "A place to mourn the dead."}
+		]
+	},
+	{
 		"name": "Aknamuki",
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
@@ -515,7 +526,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]"],
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Warrior Code",
 		"civilopediaText": [
 			{"text": "A place for a country's professional soldier, provides shelter, food, training, and medical facilities."}
 		]
@@ -528,7 +539,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]"],
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Warrior Code",
 		"civilopediaText": [
 			{"text": "A method to control one's emotion and power, created by Raflar Sulong, a beastman, for beastmen."}
 		]
@@ -539,7 +550,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Only available <after adopting [Honor]>", "[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Warrior Code",
 		"quote": "If Gurun, Seram, Tanjung Pura, Hary, Pahang, Dompo, Bali, Sunda, Palembang, Temasek, are all defeated, I will break my fast.' - Gajah Mada"
 	},
 	
@@ -884,7 +895,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Currency",
+		"requiredTech": "Trade",
 		"civilopediaText": [
 			{"text": "A place where exchange or transaction of goods and services held."}
 		]
@@ -899,7 +910,7 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["[+1 Food] from [Grassland] tiles [in this city]", 
 					"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]"],
-		"requiredTech": "Currency",
+		"requiredTech": "Trade",
 		"civilopediaText": [
 			{"text": "The Goans invented high grading, or selective harvesting, of grass, fish, and other water resources for the better of life."}
 		]

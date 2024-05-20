@@ -45,7 +45,7 @@
 		//"spyNames": ["Heba","Sukaesih","Ma'at","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
 		"civilopediaText": [
 			{"text": "When the High Elves left their great towers in the Old World, the land was abandoned to the Orcs, Goblins and savage Human tribes. In those distant times, the fathers of Men were nothing but fur-clad savages, barely distinguishable from Orcs in the eyes of the haughty Elves. It was the Dwarfs who recognised the potential of Humanity, first as trading partners, but eventually as allies against the Orcs that infested the land."},
-			{"text": "The Dwarfs taught the Human tribes the secrets of metallurgy and swordmaking and, as a result of trade and further Dwarf encouragement, primitive Men began to grow in strength and ambition. "},
+			{"text": "The [Dwarfs] taught the Human tribes the secrets of metallurgy and swordmaking and, as a result of trade and further Dwarf encouragement, primitive Men began to grow in strength and ambition. "},
 			{"text": "The many Human tribes remained divided until the time of Sigmar, the founder of the Empire and friend of the Dwarf king Kurgan Ironbeard. It was Sigmar who rescued Kurgan from the Orcs, and in honour of this valiant act the Dwarf king gave him the great warhammer Skull Splitter. For ever after the Emperor was known as Sigmar Heldenhammer and was accounted a true friend of the Dwarfs, the greatest honour a Dwarf can bestow. Sigmar united all the warring Human tribes under his rule and established the realm that is known today as the Empire."},
 			{"text": "Sigmar's day was over two thousand years ago and since that time the Empire has survived many long and arduous wars. It has suffered Orc and Goblin invasions, the devastations of the Vampire Counts, and the dreaded incursions of Chaos armies. It has also endured periods of rebellion and anarchy within its own borders."},
 			{"text": "In all that time there have been many weak and disastrous Emperors, such as Boris Goldgather, and also many great conquerors, such as Magnus the Pious."},
@@ -85,12 +85,12 @@
 		
 
 		"uniques": ["Starts with [Knightly Virtues]",
-					"When defeating a [Preachable] unit, earn [0] Gold and recruit it <with [100]% chance>"], 
+					"When defeating a [Preachable] unit, earn [0] Gold and recruit it <with [25]% chance>"], 
 		"cities": ["Couronne","Brionne","Bordeleaux","Mousillon","Quenelles","Lyonesse","L'Anguille","Gisoreux","Parravon","Lisounne","Montfort","Bastonne","Aquitaine","Artois","Vecreaux","Gaon","Chalons","Oisillon","Alencon","Poussenc","Montluc","Perrache","Jouinard","Vettard","Chambonnay","Carcassonne","Cuilieux","Glanborielle","AubeTilea","Brusse","Yremy","Cixous","Larret","Clouseau","Brusse","Moutiers","Saint Leu","Antoch","Ferignac","Marguilles","Cavour"],
 
 		"civilopediaText": [
 			{"text": "Bretonnia lies between the Grey Mountains and the Great Ocean in the lands which comprise part of the former domain of the Elves. The Elves once built ports and tall towers, palaces and pinnacles, to serve their colonies in Old World. For a while they prospered, their cities grew, and the inhabitants became wealthy as a result of trade with the Dwarfs and primitive Human tribes. When the Elves and Dwarfs went to war, the land was devastated by the opposing armies. Eventually, after many long years of fighting, the Elves sailed back into the west and abandoned the Old World altogether. The Dwarfs too gave up on the land beyond the mountains, and so the whole area was deserted and forgotten."},
-			{"text": "With the disappearance of the Elves and Dwarfs, the land was quickly overrun by Orcs, Goblins and the rough Human tribes who were almost as brutal in those far off days. For many hundreds of years the area remained divided between rival warlords, both green-skinned and Human, until the time of Gilles of the tribe of Bretonni. In his day the realm was united, and as one nation the Bretonnians succeeded in defeating and driving out the Orcs and Goblins. It is from this time that the Bretonnians date the creation of their kingdom, some 977 years after the time of Sigmar and the founding of the Empire. "},
+			{"text": "With the disappearance of the Elves and [Dwarfs], the land was quickly overrun by Orcs, Goblins and the rough Human tribes who were almost as brutal in those far off days. For many hundreds of years the area remained divided between rival warlords, both green-skinned and Human, until the time of Gilles of the tribe of Bretonni. In his day the realm was united, and as one nation the Bretonnians succeeded in defeating and driving out the Orcs and Goblins. It is from this time that the Bretonnians date the creation of their kingdom, some 977 years after the time of Sigmar and the founding of the Empire. "},
 			{"text": "To this day the Knights of Bretonnia follow the chivalric traditions established in the time of Gilles le Breton. Gilles' vision of the Lady of the Lake on the eve of battle foretold of his holy purpose and ultimate destiny as king of Bretonnia. Since then the warriors of Bretonnia have pledged themselves to the service of the Lady of the Lake, and sought to uphold the knightly virtues in her name. By feat of arms a Knight may rise in esteem and become, by degrees, one of those marked by the goddess for her special honour. That reward is to drink, as Gilles le Breton once drank, from the Lady's Grail, as only those who are pure in heart and deed can do."},
 			{"text": "Bretonnia has grown into a powerful nation under the guidance of its king, the Lady of the Lake, and the code of honour under which its nobility conducts itself in peace and war. There are no other men whose martial prowess can equal the Knights of Bretonnia, dedicated as they are, body and soul, to the pursuit of excellence. Indeed, it is often said that the Knights of Bretonnia could conquer the world were it not for their vows which bind them to protect their own domain and shield the poor and innocent from unwarranted hostility."},
 			{"text": "Though a Knight's code of honour binds him to the protection of his land and people, there are still times when he finds himself bound for war in foreign lands. When the Sultan Jaffar of Araby invaded the lands of Estalia, the king of Bretonnia, at that time Louis the Righteous, raised a mighty army pledged to free Estalia from his evil grasp. During the Crusades which followed not only was Estalia freed but the Bretonnian king took the war to Araby itself and destroyed the empire of Jaffar. Filled with crusading zeal the Knights tore down the decadent palaces of the Sultan, burned many evil tomes from his library, and flung down the dark idols from his unholy temples."},
@@ -187,11 +187,11 @@
 		"outerColor": [204, 255,255],
 		"innerColor": [0,0,0],
 
-		"declaringWar": "...",
-		"attacked": "...",
+		"declaringWar": "You're slow. We're fast.",
+		"attacked": "Today we fight for Kislev! Today we fight for her lost sons and daughters, for her proud mothers and fathers!",
 		"defeated": "You will die, like your weakling father died. Soulless. Honorless. Weeping. Ashamed.",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"afterPeace": "Never trust a man who is afraid to lose his temper.",
+		"introduction": "Ursun woke me to keep this world safe. I intent to do so!",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -225,9 +225,9 @@
 
 		"introduction": "Please, come in and join me for dinner. I can see from the way you dress, you are a man of exquisite... taste.",
 		"declaringWar": "Surrender and serve me in life, or die and slave for me in death.",
-		"attacked": "...",
+		"attacked": "It will be a bloodbath. How delicious.",
 		"defeated": "Mark my words, they'll get us all in the end.",
-		"afterPeace": "...",
+		"afterPeace": "Let's have a banquet to celebrate.",
 		
 		"neutralHello": "You have my *eternal* gratitude.",
 		"hateHello": "Shame on you.",
@@ -260,14 +260,14 @@
 		"startBias": ["Coast"],
 		"favoredReligion": "Elven Gods",
 		"style": "Elven",
-		"outerColor": [6, 183, 186]
+		"outerColor": [6, 183, 186],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "...",
 		"attacked": "...",
-		"defeated": "...",
+		"defeated": "I am offering myself as a sacrifice to save my people when the gods have rejected all others.",
 		"afterPeace": "...",
-		"introduction": "...",	
+		"introduction": "I am Aenarion the Defender, the blessed Phoenix King of Asuryan.",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -295,10 +295,10 @@
 		"name": "Loren",
 		"leaderName": "Ariel",
 		"adjective": ["Wood Elves"],
-		"startBias": ["Forest"],
+		"startBias": ["Forest","Avoid Hills","Avoid Coast"],
 		"style": "Elven",
 		"favoredReligion": "Elven Gods",
-		"outerColor": [34, 139, 34]
+		"outerColor": [34, 139, 34],
 		"innerColor": [240, 255, 240],
 		
 		"attacked": "Athel Loren shall not suffer the presence of Men, nor Orcs, nor Dwarfs, nor Beastmen. If a foe takes a single step upon such sacred soil, they shall not take another.",
@@ -335,7 +335,7 @@
 		"leaderName": "Don Jose Paul",
 		"adjective": ["Estalians"],
 		"style": "Human",
-		"outerColor": [209, 106, 10]
+		"outerColor": [209, 106, 10],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "...",
@@ -366,7 +366,7 @@
 		"leaderName": "Borgio",
 		"adjective": ["Tileans"],
 		"style": "Human",
-		"outerColor": [196, 182, 76]
+		"outerColor": [196, 182, 76],
 		"innerColor": [178, 0, 0],
 
 		"afterPeace": "A small gesture can change destiny.",
@@ -374,7 +374,6 @@
 		"declaringWar": "...",
 		"attacked": "...",
 		"defeated": "...",
-		"afterPeace": "...",
 		"introduction": "...",	
 		
 		"neutralHello": "You have my gratitude.",
@@ -401,7 +400,7 @@
 		"adjective": ["Norsemen"],
 		"startBias": ["Tundra"],
 		"style": "Icemen",
-		"outerColor": [128, 56, 167]
+		"outerColor": [128, 56, 167],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "We, most favoured of the gods, shall burn your lands, revel in your suffering, and destroy you. ",
@@ -435,7 +434,7 @@
 		"adjective": ["Dark Elves"],
 		"startBias": ["Tundra"],
 		"style": "Elven",
-		"outerColor": [135, 78,51]
+		"outerColor": [128, 0, 128],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "...",
@@ -479,7 +478,7 @@
 		"startBias": ["Tundra"],
 		"style": "Beastmen",
 		"favoredReligion": "Cult of the Horned Rat",
-		"outerColor": [181, 101, 29]
+		"outerColor": [181, 101, 29],
 		"innerColor": [0, 255, 0],
 		
 		"declaringWar": "Kill-Kill!",
@@ -512,7 +511,7 @@
 		"adjective": ["Ogres"],
 		"favoredReligion": "Gork and Mork",
 		"style": "Goblin",
-		"outerColor": [255, 140, 0]
+		"outerColor": [255, 140, 0],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "...",
@@ -551,7 +550,7 @@
 		"favoredReligion": "Gork and Mork",
 		"startBias": ["Hills"],
 		"style": "Goblin",
-		"outerColor": [54, 101, 87]
+		"outerColor": [54, 101, 87],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "Get da Clans togevva....We’s goin to war!",
@@ -589,7 +588,7 @@
 		"favoredReligion": "Gork and Mork",
 		"startBias": ["Hills","Forest"],
 		"style": "Goblin",
-		"outerColor": [135, 78,51]
+		"outerColor": [135, 78,51],
 		"innerColor": [0,0,0],
 		
 		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
@@ -599,7 +598,7 @@
 		"attacked": "Boss 'o dem night goblins!",
 		"defeated": "Let me fink about it.... No!!!",
 		"afterPeace": "...",
-		"introduction": "...",	
+		"introduction": "We'z Gobbos!!!",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -623,7 +622,7 @@
 		"startBias": ["Tundra"],
 		"favoredReligion": "Chaos Gods",
 		"style": "Dwarven",
-		"outerColor": [153, 51, 153]
+		"outerColor": [153, 51, 153],
 		"innerColor": [0,0,0],
 
 		"declaringWar": "...",
@@ -655,7 +654,7 @@
 		"adjective": ["Arabyans"],
 		"startBias": ["Desert","Oasis"],
 		"style": "Human",
-		"outerColor": [255, 255, 0]
+		"outerColor": [255, 255, 0],
 		"innerColor": [255,0,0],
 		
 		"attacked": "May your souls be flayed by Djinn!",
@@ -694,7 +693,7 @@
 		"favoredReligion": "Chaos Gods",
 		"preferredVictoryType": "Domination",
 		"style": "Demonic",
-		"outerColor": [135, 78,51]
+		"outerColor": [135, 78,51],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World. The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall.",
@@ -742,7 +741,7 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 		"style": "Human",
-		"outerColor": [135, 78,51]
+		"outerColor": [139, 0, 0],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "...",
@@ -776,7 +775,7 @@
 		"style": "Beastmen",
 		"favoredReligion": "Chaos Gods",
 		"preferredVictoryType": "Domination",
-		"outerColor": [135, 78,51]
+		"outerColor": [135, 78,51],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "We fight, we kill, one day we win. One day soon!",
@@ -813,8 +812,8 @@
 		"leaderName": "Wu",
 		"adjective": ["Cathayans"],
 		"style": "Human",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
+		"outerColor": [255, 192, 203],
+		"innerColor": [75, 0, 130],
 		
 		"declaringWar": "...",
 		"attacked": "...",
@@ -838,12 +837,46 @@
 		]
 	}
 	,
+	// Lizardmen (Slann)
+	{
+		"name": "Slann",
+		"leaderName": "Kroak",
+		"adjective": ["Lizardmen"],
+		"startBias": ["Jungle"],
+		"style": "Lizardmen",
+		"favoredReligion": "The Old Ones",
+		"outerColor": [0, 139, 139],
+		"innerColor": [0,0,0],
+		
+		"declaringWar": "The Warm-bloods dare to meddle at the Fallen Gates. The Great Purpose does not allow for mercy!",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "There are many paths to order and knowledge; may the Old Ones guide us",
+		"introduction": "Kroak! Who are you?",
+
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"uniques": ["Starts with [Cold Ones]"],
+		"cities": ["Itza","Hexoatl","Tlaxtlan","Xlanhuapec","Axlotl","Huatl","Oyxl","Zlatlan","Pahuax","Tlanxla","Xahutec","Tlax","Chaqua","Quetza","Xhotl","Chupayotl","Spektazuma","Hualotl","Qu'ittax","Subatuun","Kaiax","Xlanzec, the City of Outsiders"],
+
+		"civilopediaText": [
+			{"text": "The Lizardmen are an ancient race, created by the god-like beings known as the Old Ones to be the guardians of the Warhammer world. Their age-old civilization is based deep within the steaming jungles of Lustria and the Southlands, where their mighty temple-cities rise amid the ancient trees and cloying swamps. The bloated Slann Mage-Priests are masters of magic and the original servants of the Old Ones, and it is they who oversee the entire Lizardmen civilization, guiding it forwards. At the heart of the Lizardmen armies are the powerful Saurus, hulking reptilian warriors spawned solely for the purpose of war. They are revered as sacred warriors of the gods, and each temple-city has an army of them dwelling beneath the temples, ever ready to march against their foes."},
+			{"text": "In ages past, the Old Ones departed the world in an event of catastrophic consequence, known as the Fall, that dramatically altered the world and stranded their servants alone there. Without the guidance of their creator-gods, the Slann work to interpret the Great Plan that their masters were working towards and attempt to continue the cause, restoring the order that was present before the coming of Chaos. With cold, alien indifference, the Slann guide their armies towards the fulfillment of this plan, and mercilessly punish any who stand in the way of their sacred mission. "},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Amazonia
 	{
 		"name": "Amazonia",
 		"leaderName": "Penthesilea",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
+		"outerColor": [144, 238, 144],
+		"innerColor": [75, 0, 130],
 		"adjective": ["Amazons"],
 		"startBias": ["Jungle"],
 		"style": "Human",
@@ -860,7 +893,7 @@
 		
 
 		"uniques": ["Starts with [Forest Mastery]"],
-		"cities": ["Genaina","Tlaxtlan","Xahutec","Tlax","Huatl","Quetza","Axlotl","Itza","Chaqua","Pahuax","Hexoatl"],
+		"cities": ["Genaina","Tlaxtlan settlement","Xahutec settlement","Tlax settlement","Huatl settlement","Quetza settlement","Axlotl settlement","Itza settlement","Chaqua settlement","Pahuax settlement","Hexoatl settlement"],
 
 		"civilopediaText": [
 			{"text": "The Amazons are the most significant inhabitants of Lustrian jungles after the Slann. It is not known whether they are another experiment of the Old Slann, or as one of the myths says, that they are daughters of Valkyries left there centuries ago, after Norsemen's unsuccessful attempt to colonise Lustria."},
@@ -906,13 +939,12 @@
 			{"text": "..."}
 		]
 	}
-	/*
 	,
 	// Ind
 	{
 		"name": "Ind",
 		"leaderName": "Akabar",
-		"outerColor": [105, 34,0]
+		"outerColor": [153, 50, 204],
 		"innerColor": [0,0,0],
 		"adjective": ["Indics"],
 		"startBias": ["Jungle"],
@@ -929,7 +961,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Arabyan Tradition]"],
-		"cities": [""],
+		"cities": ["City of Spires","Delehi","Culicuta","Cindraprashta","City of Tor Elasor","Sakali","Mahanaga","Shambani Foothills","Dwaraka","Janasthana","Purushapura","The Eye of the Tiger","Bhojapur","Kusavati","Ayodhya","Kosala","Tower of Stars","Tower of the Sun"],
 
 		"civilopediaText": [
 			{"text": "Kingdoms of Ind lie on a large peninsula between Imperial Cathay and the Darklands. The area is covered by dense primordial forest with occasional spots of dry land. The Mogul kings of Inja are brutal despots, full of greed for power and gold. Among people they are worshipped like gods. Indic elite infantry consist of the strongest men taken by the kings and trained into beasts. The Ind are said to worship One Thousand and One Gods in total."},
@@ -944,7 +976,7 @@
 	{
 		"name": "Nippon",
 		"leaderName": "Takagura",
-		"outerColor": [105, 34,0]
+		"outerColor": [119, 136, 153],
 		"innerColor": [0,0,0],
 		"adjective": ["Nipponese"],
 		"startBias": ["Coast"],
@@ -952,8 +984,8 @@
 		
 		"declaringWar": "...",
 		"attacked": "...",
-		"defeated": "...",
-		"afterPeace": "...",
+		"defeated": "Even monkeys sometimes fall from the trees.",
+		"afterPeace": "Victory is ever in your grasp – even if you fail to achieve it.",
 		"introduction": "...",	
 		
 		"neutralHello": "You have my gratitude.",
@@ -961,7 +993,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Far East]"],
-		"cities": ["",""],
+		"cities": ["Tokaguchi","Hyudo","Makudo","Kiroshima","Tokaido","Kumano","Izumo","Okakama","Kumayama","Yamanashi","Shoto","Sado"],
 
 		"civilopediaText": [
 			{"text": "Thousands of miles away from the Old World lies the island of Nippon, also known as the Land of the Rising Sun. The theoretical head of Nippon is the Emperor Takagura but far more powerful is the Shogun Yoritomo Ieysau, the country's military dictator. The Shogun came to power by defeating his rivals (with no small help from Marienburg guns) and overthrowing the puppet shogunate backed by the Emperor. Now Yoritomo rules the land with an iron grip and enforces strict edicts which forbid the lower classes from carrying weapons and ensures the obedience of the various provincial rulers or daimyo through the use of a complex network of spies as well as holding their wives and children in the capital city every two years. Nippon is the home of the warrior caste known as samurai, the highest rank of nobility in the land. They owe their allegiance to their master through pain of death. Then there are the martial artists and the sinister ninja."},
@@ -970,40 +1002,8 @@
 			{"text": "..."},
 			{"text": "..."}
 		]
-	},
-	// Lizardmen (Slann)
-	{
-		"name": "Slann",
-		"leaderName": "Kroak",
-		"adjective": ["Lizardmen"],
-		"startBias": ["Jungle"],
-		"style": "Lizardmen",
-		"favoredReligion": "The Old Ones",
-		"outerColor": [105, 34,0]
-		"innerColor": [0,0,0],
-		
-		"declaringWar": "The Warm-bloods dare to meddle at the Fallen Gates. The Great Purpose does not allow for mercy!",
-		"attacked": "...",
-		"defeated": "...",
-		"afterPeace": "There are many paths to order and knowledge; may the Old Ones guide us",
-		"introduction": "...",
-
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
-		"tradeRequest": "I offers you this exceptional proposition.",
-		
-		"uniques": ["Starts with [Cold Ones]"],
-		"cities": ["",""],
-
-		"civilopediaText": [
-			{"text": "The Lizardmen are an ancient race, created by the god-like beings known as the Old Ones to be the guardians of the Warhammer world. Their age-old civilization is based deep within the steaming jungles of Lustria and the Southlands, where their mighty temple-cities rise amid the ancient trees and cloying swamps. The bloated Slann Mage-Priests are masters of magic and the original servants of the Old Ones, and it is they who oversee the entire Lizardmen civilization, guiding it forwards. At the heart of the Lizardmen armies are the powerful Saurus, hulking reptilian warriors spawned solely for the purpose of war. They are revered as sacred warriors of the gods, and each temple-city has an army of them dwelling beneath the temples, ever ready to march against their foes."},
-			{"text": "In ages past, the Old Ones departed the world in an event of catastrophic consequence, known as the Fall, that dramatically altered the world and stranded their servants alone there. Without the guidance of their creator-gods, the Slann work to interpret the Great Plan that their masters were working towards and attempt to continue the cause, restoring the order that was present before the coming of Chaos. With cold, alien indifference, the Slann guide their armies towards the fulfillment of this plan, and mercilessly punish any who stand in the way of their sacred mission. "},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
 	}
+	/*
 	,
 	// Hobgobelins
 	{
@@ -1151,15 +1151,15 @@
 	// Hung
 	{
 		"name": "Hung",
-		"leaderName": "Caledor",
+		"leaderName": "Bjarke Black Raider",
 		"outerColor": [105, 34,0]
 		"innerColor": [0,0,0],
 		"adjective": ["Hung"],
 		"startBias": ["Tundra"],
 		"style": "Human",
 		
-		"uniques": ["Starts with [Channeling]"],
-		"cities": ["",""],
+		"uniques": ["Starts with [Far East]"],
+		"cities": ["Aghols","Chi-An","Dreaded Wo","Kuj","Man-Chu","Mung","Tu-Ka","Wei-Tu","Yin"],
 
 		"civilopediaText": [
 			{"text": ""},
@@ -1199,5 +1199,21 @@
 	}
 
 	*/
-
+,
+	
+	
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,10,10],
+		"style": "Barbarians",
+		"uniques": ["Can only heal by pillaging", 
+					"[Recon] units gain the [No Suicide] promotion", 
+					"[Sword] units gain the [No Suicide] promotion", 
+					"[Gunpowder] units gain the [No Suicide] promotion", 
+					"[Anti-Cav] units gain the [No Suicide] promotion", 
+					"[Armored] units gain the [No Suicide] promotion", 
+					"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
+	}
 ]
