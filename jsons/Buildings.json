@@ -785,7 +785,7 @@
 	},
 	// Column 6
 	{
-		"name": "MoTileatery",
+		"name": "Monastery",
 		"happiness": 1,
 		"requiredBuilding": "Shrine",
 		"maintenance": 1,
@@ -796,21 +796,21 @@
 					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", 
 					"[+15]% Production when constructing [Monk] units [in this city]", 
 					"Destroyed when the city is captured"],
-		"requiredTech": "MoTileaticism",
+		"requiredTech": "Monasticism",
 		"civilopediaText": [
 			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
 		]
 	},
 	{
-		"name": "Great MoTileatery",
+		"name": "Great Monastery",
 		"culture": 2,
 		"faith": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [MoTileatery] [in this city]", "Hidden when religion is disabled",
+		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
 					"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", 
 					"[2] free [Warrior Monk] units appear"],
-		"requiredTech": "MoTileaticism",
+		"requiredTech": "Monasticism",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
@@ -2281,11 +2281,11 @@
 		"name": "Borgio Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Borgio d'Arc] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Borgio] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Borgio d'Arc] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Borgio] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Borgio d'Arc for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Borgio for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}

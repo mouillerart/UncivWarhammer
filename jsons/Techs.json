@@ -317,6 +317,7 @@
 				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Fishing","Trade"],
+				"uniques": ["Enables embarkation for land units"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
@@ -628,7 +629,7 @@
 				"quote": ""
 			},
 			{
-				"name": "MoTileaticism",
+				"name": "Monasticism",
 				"row": 15,
 				"prerequisites": ["Priesthood"],
 				"quote": ""

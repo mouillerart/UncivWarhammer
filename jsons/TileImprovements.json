@@ -580,7 +580,7 @@
 		]
 	},
 	{
-		"name": "Meka-MoTileatery",
+		"name": "Meka-Monastery",
 		"uniqueTo": "Dwarfs",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 2,

@@ -292,7 +292,7 @@
 			{
 				"name": "Spiritual Tolerance",
 				"uniques": ["Free Social Policy", 
-							"[+1 Culture] from every [MoTileatery]", 
+							"[+1 Culture] from every [Monastery]", 
 							"[+1 Happiness] from every [Composer Hall]"],
 				"requires": ["Wisdom"],
 				"row": 3,

@@ -2614,7 +2614,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Machinia",
 		"replaces": "Great Prophet",
-		"uniques": ["Can instantly construct a [Meka-MoTileatery] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
+		"uniques": ["Can instantly construct a [Meka-Monastery] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
 					"Can instantly construct a [Kyber Foundry] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
 					"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>", 
 					"Removes other religions when spreading religion", 

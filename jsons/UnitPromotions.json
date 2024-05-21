@@ -912,7 +912,7 @@
 	
 	// Universal Skills
 	{
-		"name": "Devout", // Great MoTileatery
+		"name": "Devout", // Great Monastery
 		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
 	},
 	{
