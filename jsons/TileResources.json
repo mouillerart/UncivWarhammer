@@ -1,7 +1,7 @@
 [	
 	// Bonus resources
 	{
-		"name": "BanaTilea",
+		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,

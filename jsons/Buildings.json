@@ -185,7 +185,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
-					"[+1 Food] from [BanaTilea] tiles [in this city]", 
+					"[+1 Food] from [Bananas] tiles [in this city]", 
 					"[+1 Food] from [Wheat] tiles [in this city]", 
 					"[+1 Food] from [Corn] tiles [in this city]", 
 					"[+1 Food] from [Citrus] tiles [in this city]"],
@@ -204,7 +204,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
-					"[+1 Food] from [BanaTilea] tiles [in this city]", 
+					"[+1 Food] from [Bananas] tiles [in this city]", 
 					"[+1 Food] from [Wheat] tiles [in this city]", 
 					"[+1 Food] from [Corn] tiles [in this city]", 
 					"[+1 Food] from [Citrus] tiles [in this city]",
@@ -1993,7 +1993,7 @@
 		"isWonder": true,
 		"faith": 4,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Priesthood]>","Gain a free [Founder] belief"],
+		"uniques": ["Unbuildable <before discovering [Priesthood]>","Gain a free [Follower] belief"],
 		"requiredTech": "Knightly Virtues",
 		"civilopediaText": [
 			{"text": "..."}
