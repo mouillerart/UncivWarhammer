@@ -235,6 +235,32 @@
 			{"text": "A place where entertainments were held."}
 		]
 	},
+
+    // Magic buildings
+	{
+		"name": "Wizards' Guild",
+		"uniques": ["Provides [1] [Magician]","[+50]% [Science] [in this city]"],
+		"requiredTech": "Elemental Magic",
+		"requiredBuilding": "Elder Council",
+		"civilopediaText": [
+			{"text": "The [Wizards' Guild] increases scientific research by 50%. You must have an Elder Council in the city in order to build a Wizards' Guild."}
+		]
+	},
+	{
+		"name": "Wind Mastery",
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", 
+					 "[+1] Movement <for [{Water}] units>"],
+		"requiredTech": "Master of the Winds",
+		"quote": "'I rose from marsh mud, algae, equisetum, willows, sweet green, noisy birds and frogs' ― Lorine Niedecker",
+		"civilopediaText": [
+			{"text": "The movement rate of all naval units is increased by one."},
+			{"text": "[Wind Mastery] may be built only in a coastal city with a Wizards' Guild."}
+		]
+
+	},
+	
 	
 	// Classical age
 	
@@ -1984,6 +2010,7 @@
 		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Chronicles]>","Free Technology"],
 		"requiredTech": "Old World",
+		"requiredBuilding": "Paper Maker",
 		"civilopediaText": [
 			{"text": "..."}
 		]
@@ -1993,8 +2020,9 @@
 		"isWonder": true,
 		"faith": 4,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Priesthood]>","Gain a free [Follower] belief"],
-		"requiredTech": "Knightly Virtues",
+		"uniques": ["Gain a free [Follower] belief"],
+		"requiredTech": "Priesthood",
+		"requiredBuilding": "Shrine of the Holy Grail",
 		"civilopediaText": [
 			{"text": "..."}
 		]
@@ -2026,8 +2054,9 @@
 		"isWonder": true,
 		"science": 4,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
+		"uniques": ["Unbuildable <before discovering [Necromancy]>","[+25]% [Food] [in all cities]"],
 		"requiredTech": "Undead Curse",
+		"requiredBuilding": "Immortality Shrine",
 		"civilopediaText": [
 			{"text": "..."}
 		]
@@ -2062,6 +2091,7 @@
 		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Raw Magic]>","Empire enters golden age"],
 		"requiredTech": "Forest Mastery",
+		"requiredBuilding": "Elven Shrine",
 		"civilopediaText": [
 			{"text": "The Oak is described as an immensly massive tree, more akin to a mountain made out of root and branch and not entirely anchored in the world of flesh. Its roots were bottomless deep, giving home to spirits of the departed. Its trunk was the world, with oceans, mountains and deserts spiralling around each other in an endless dance of death and rebirth. Its crown, rather than containing leaves, bore the heavens, with daemons and gods cavorting in its branches."}
 		]
@@ -2073,6 +2103,7 @@
 		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Chronicles]>"],
 		"requiredTech": "Dwarven Ingenuity",
+		"requiredBuilding": "Paper Maker",
 		"civilopediaText": [
 			{"text": "The Great Book of Grudges (also known as the Dammaz Kron in the Dwarf language) is an ancient book passed down through the ages from one Dwarfen High King to the next. It is essentially a record of all the terrible wrongs and treacherous deeds ever perpetrated against the Dwarf race, amounting to a very detailed recorded history of the Dwarfs."}
 		]
@@ -2084,6 +2115,7 @@
 		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
 		"requiredTech": "Chaos",
+		"requiredBuilding": "Chaos Shrine",
 		"civilopediaText": [
 			{"text": "A Cauldron of Blood is an ancient artefact of the long-gone days when the gods walked the earth. It is a gift from Khaine, the Lord of Murder, and within it lies the secret of eternal youth and beauty. A bride of Khaine may bathe in the blood-filled Cauldron, and it renews her vitality and youth. The few Cauldrons that have survived the millennia are kept at the great temple of Ghrond, guarded by the High Priestesses of the Cult. One may be brought out to battle, but only in times of great bloodshed when the Witch Elf sect fights in strength."}
 		]
@@ -2123,56 +2155,68 @@
 	
 	// Religious buildings
 	{
-		"name": "Uclaidhari",
+		"name": "Shrine of the Ancient Gods",
 		"cost": 0,
 		"faith": 1,
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "[+5]% [Food] [in this city]", "Hidden when religion is disabled"]
 	},
 	{
-		"name": "Rugudeia",
+		"name": "Shrine of the Elder",
 		"cost": 0,
 		"culture": 1,
 		"faith": 1,
+		"science": 1,
 		"happiness": 1,
 		"uniques": ["Unbuildable", "[10]% Food is carried over after population increases [in this city]", "Hidden when religion is disabled"]
 	},
 	{
-		"name": "Airukaya",
+		"name": "Shrine of the End Times",
 		"cost": 0,
 		"culture": 2,
-		"faith": 3,
-		"happiness": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"science": 2,
+		"faith": 2,
+		"uniques": ["Unbuildable", "All newly-trained [Sword] units [in this city] receive the [Bloodbath] promotion", "Hidden when religion is disabled"]
 	},
 	{
-		"name": "Ucruzaki",
+		"name": "Shrine of the Old Faith",
 		"cost": 0,
-		"culture": 2,
+		"food": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "All newly-trained [Recon] units [in this city] receive the [Ranger] promotion", "Hidden when religion is disabled"]
 	},
 	{
-		"name": "Claehym",
+		"name": "Shrine of Ursun",
 		"cost": 0,
+		"culture": 1,
 		"faith": 1,
+		"production": 1,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "[+15]% [Gold] [in this city]", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "All newly-trained [Mounted] units [in this city] receive the [Depredation] promotion", "Hidden when religion is disabled"]
 	},
 	
 	// Hero Summoner
 	{
-		"name": "The Esplumoir",
+		"name": "Castle Drachenfels",
 		"faith": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["May buy [Merlin] units for [100] [Faith] [in all cities] at an increasing price ([100])", 
-					"Free [Merlin] appears"],
-		"replacementTextForUniques": "Unlock Merlin for 100 Faith at an increasing price of 100",
+		"uniques": ["May buy [Constant Drachenfels] units for [100] [Faith] [in all cities] at an increasing price ([100])", 
+					"Free [Constant Drachenfels] appears"],
+		"replacementTextForUniques": "Unlock Constant Drachenfels for 100 Faith at an increasing price of 100",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
-		"requiredTech": "Machinery"
+		"requiredTech": "Necromancy"
+	},
+	{
+		"name": "Revive Vlad von Carstein",
+		"uniqueTo": "Sylvania",
+		"isWonder": true,
+		"uniques": ["Free [Vlad von Carstein] appears"],
+		"replacementTextForUniques": "Unlock Vlad von Carstein for 100 Faith at an increasing price of 100",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+		"requiredTech": "Quintessence Force"
 	},
 	{
 		"name": "Portal",
@@ -2281,9 +2325,9 @@
 		"name": "Borgio Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Borgio] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Borgio the Besieger] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Borgio] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Borgio the Besieger] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Borgio for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar"

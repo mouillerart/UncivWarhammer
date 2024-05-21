@@ -154,6 +154,36 @@
 	},
 	
 	{
+		"name": "Militaristic-Lahmian",
+		"friendBonusUniques": [
+			"Provides military units every ≈[20] turns", 
+			"[+4]% Production when constructing [Walls] buildings [in all cities]",
+			"[+4]% Production when constructing [Castle] buildings [in all cities]",
+			"[+4]% Production when constructing [Arsenal] buildings [in all cities]"
+		],
+		"allyBonusUniques": [
+			"Provides military units every ≈[17] turns"
+			"[+4]% Production when constructing [Walls] buildings [in all cities]",
+			"[+4]% Production when constructing [Castle] buildings [in all cities]",
+			"[+4]% Production when constructing [Arsenal] buildings [in all cities]",
+			"May buy [Skeletal Champion] units for [200] [Faith] [in all cities]"
+		],
+		"color": [255,0,0]
+	},
+	
+	{
+		"name": "Mercantile-Moot",
+		"friendBonusUniques": [
+			"Provides military units every ≈[20] turns", 
+			"Allied City-States provide [Food] equal to [5]% of what they produce for themselves"		],
+		"allyBonusUniques": [
+			"Provides military units every ≈[17] turns",
+			"Allied City-States provide [Food] equal to [15]% of what they produce for themselves",
+			"Provides [3] [Halfling]"
+		],
+		"color": [255,0,0]
+	},
+	{
 		"name": "Religious",
 		"friendBonusUniques":  [
 			"[+3 Faith] <before the [Age of Magic]>",

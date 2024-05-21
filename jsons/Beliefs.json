@@ -217,29 +217,29 @@
     },
 	
 	{
-        "name": "Uclaidhari",
+        "name": "Shrine of the Ancient Gods",
         "type": "Follower",
-        "uniques": ["May buy [Uclaidhari] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Shrine of the Ancient Gods] buildings with [Faith] [in cities following this religion]"]
     },
 	{
-        "name": "Rugudeia",
+        "name": "Shrine of the Elder",
         "type": "Follower",
-        "uniques": ["May buy [Rugudeia] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Shrine of the Elder] buildings with [Faith] [in cities following this religion]"]
     },
 	{
-        "name": "Airukaya",
+        "name": "Shrine of the End Times",
         "type": "Follower",
-        "uniques": ["May buy [Airukaya] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Shrine of the End Times] buildings with [Faith] [in cities following this religion]"]
     },
 	{
-        "name": "Ucruzaki",
+        "name": "Shrine of the Old Faith",
         "type": "Follower",
-        "uniques": ["May buy [Ucruzaki] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Shrine of the Old Faith] buildings with [Faith] [in cities following this religion]"]
     },
 	{
-        "name": "Claehym",
+        "name": "Shrine of Ursun",
         "type": "Follower",
-        "uniques": ["May buy [Claehym] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Shrine of Ursun] buildings with [Faith] [in cities following this religion]"]
     },
     
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////    

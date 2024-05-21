@@ -201,8 +201,7 @@
 					"Gain [250] [Gold] <upon conquering a city>", 
 					"[+1] Movement <for [Military] units> <when at war>", 
 					"[+1] Sight <for [{Military} {Land}] units>", 
-					"Provides [1] [Horses]", 
-					"Free [Kalsharin] appears <upon discovering [Chivalry]> technology"],
+					"Provides [1] [Horses]"],
 		"cities": ["Kislev","Praag","Erengrad","Volksgrad","Belev","Kobrin","Krakjunov","BOLGASGRAD","PATRAGRESK","PRESLAV","RAKHOV","OMENSK","ZILAIR","GDOV","CHAZASK","PINSK","MURMAGRAD","DUBNA","EGOREVSK","OLNZA","NYROB","YARANSK","TZESKAGRAD","KROVAS","SHATSK","SELKOV","CHUDOVO","NIDZICA","PECHORA","VOLKOLOMSK","CHERNOZAVTRA","OPULENSK","LUKOYANOV"],
 
 		"civilopediaText": [
@@ -235,11 +234,10 @@
 		
 
 		"uniques": ["Starts with [Undead Curse]",
-			"May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
+			"May buy [Vampire] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
 			"Provides [4] [Vampiric Block]", 
 			"[{Military} {Land}] units gain the [Vampiric Touch] promotion",
-			"New [Dracula] units start with [-15] Experience [in all cities]", 
-			"Free [Dracula] appears <upon discovering [Quintessence Force]> technology"],
+			"New [Vampire] units start with [-15] Experience [in all cities]"],
 		"cities": ["Drakenholf","Waldenhof","Swartzhafen","Leicheberg","Tempelhof","Nachthafen","Mikalsdorf","Naubonum","Thyrnau","Telfeuheim","Essenfurt","Stephansdorp","Egling","Rottfurt","Pfaffbach","Regrakhof","Siegfriedhof","Vanhaldenschloss","Vermisace","Dunkelburg","Rottefach","Grachling","Murringen","Miesenthal","Trutzeburg","Grabstatt","Motteburg","Griemeling","Moderholm"],
 
 		"civilopediaText": [
@@ -434,7 +432,7 @@
 		"adjective": ["Dark Elves"],
 		"startBias": ["Tundra"],
 		"style": "Elven",
-		"outerColor": [128, 0, 128],
+		"outerColor": [153, 51, 153],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "...",
@@ -449,13 +447,13 @@
 		
 		"uniques": ["[+2 Food, +1 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Mountain] tiles>", 
 					"Free [Settler] appears <upon discovering [Calendar] technology>", 
-					"Free [Warrior] appears <upon constructing [Courthouse]> <before discovering [Iron Working] technology>", 
-					"Free [Bladedancer] appears <upon constructing [Courthouse]> <after discovering [Iron Working] technology> <before discovering [Steel] technology>",
-					"Free [Longswordsman] appears <upon constructing [Courthouse]> <after discovering [Steel] technology> <before discovering [Gunpowder] technology>",
-					"Free [Musketman] appears <upon constructing [Courthouse]> <after discovering [Gunpowder] technology> <before discovering [Rifling] technology>",
-					"Free [Rifleman] appears <upon constructing [Courthouse]> <after discovering [Rifling] technology> <before discovering [Replaceable Parts] technology>",
-					"Free [Infantry] appears <upon constructing [Courthouse]> <after discovering [Replaceable Parts] technology> <before discovering [Lasers] technology>",
-					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <after discovering [Lasers] technology>"], 
+					"Free [Warrior] appears <upon constructing [Courthouse]> <upon discovering [Warrior Caste] technology>", 
+					"Free [Bladedancer] appears <upon constructing [Courthouse]> <upon discovering [Iron Working] technology>",
+					"Free [Longswordsman] appears <upon constructing [Courthouse]> <upon discovering [Steel] technology>",
+					"Free [Musketman] appears <upon constructing [Courthouse]> <upon discovering [Gunpowder] technology>",
+					"Free [Rifleman] appears <upon constructing [Courthouse]> <upon discovering [Rifling] technology>",
+					"Free [Infantry] appears <upon constructing [Courthouse]> <upon discovering [Replaceable Parts] technology>",
+					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <upon discovering [Lasers] technology>"], 
 		"cities": ["Naggarond","Ghrond","Karond Kar","Har Ganeth","Hag Graef","Clar Karond","","","",""],
 
 		"civilopediaText": [
@@ -741,7 +739,7 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 		"style": "Human",
-		"outerColor": [139, 0, 0],
+		"outerColor": [162, 51, 51],
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "...",
@@ -912,7 +910,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 		"style": "Human",
-		"outerColor": [105, 34,0]
+		"outerColor": [135, 78,51]
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "I appeal to Commandment Five: you will defend the weak who cannot defend themselves, against any and all unlawful oppressors.",
@@ -1044,7 +1042,7 @@
 	{
 		"name": "The Moot",
 		"adjective": ["Halflings"],
-		"cityStateType": "Cultural",
+		"cityStateType": "Mercantile-Moot",
 		"style": "Human",
 		"uniques": ["Free [Spearman] appears <upon discovering [Bronze Working] technology>"],
 		
@@ -1105,7 +1103,7 @@
 	{
 		"name": "Lahmia",
 		"adjective": ["Lahmians"],
-		"cityStateType": "Cultural",
+		"cityStateType": "Militaristic-Lahmian",
 		"style": "Human",
 		"uniques": ["Starts with [Undead Curse]"],
 		
@@ -1134,6 +1132,40 @@
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [221,170,113],
 		"cities": ["Sartosa"]
+	}
+	,
+	// Zombie Pirates
+	{
+		"name": "Zombie Pirates",
+		"adjective": ["Zombies"],
+		"cityStateType": "Militaristic",
+		"style": "Demonic",
+		"startBias": ["Coast"],
+		"uniques": ["[+1] Movement <for [{Military} {Melee}] units> <in [{Marsh}] tiles>"],
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
+		"attacked": "We are no strangers to war.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [221,170,113],
+		"cities": ["Vampire Coast"]
+	}
+	,
+	// Citadel of Dusk
+	{
+		"name": "Citadel of Dusk",
+		"adjective": ["Pirates"],
+		"cityStateType": "Militaristic",
+		"style": "Elven",
+		"startBias": ["Coast"],
+		"uniques": ["[+1] Sight <for [{Military} {Water}] units>"],
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
+		"attacked": "We are no strangers to war.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [221,170,113],
+		"cities": ["Citadel of Dusk"]
 	}
 		
 	/*

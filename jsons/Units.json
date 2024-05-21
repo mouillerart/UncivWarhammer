@@ -76,8 +76,8 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>",
+		"requiredTech": "Fishing",
+		"uniques": ["Cannot enter ocean tiles <upon discovering [Astronomy]> technology",
 					"May create improvements on water resources",
 					"Uncapturable"]
 	},
@@ -151,12 +151,48 @@
 		]
 	},
 	{
+		"name": "Halfling Scout",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"requiredTech": "Warrior Code",
+		"requiredResource": "Halfling",
+		"upgradesTo": "Halfling Ranger",
+		"obsoleteTech": "Mass Media",
+		"uniques": ["Invisible to non-adjacent units",
+					"May enter foreign tiles without open borders",
+					"May upgrade to [Halfling Ranger] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A more discrete scout."}
+		]
+	},
+	{
 		"name": "Ranger",
 		"unitType": "Recon",
 		"movement": 2,
 		"strength": 11,
 		"cost": 55,
 		"requiredTech": "Monster Taming",
+		"upgradesTo": "Pathfinder",
+		"obsoleteTech": "Mass Media",
+		"uniques": ["[+1] Movement <in [Forest] tiles>", 
+					"[+1] Movement <in [Jungle] tiles>",
+					"May upgrade to [Crossbowman] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Stronger recon unit, specialized for scouting on wooded terrain."}
+		]
+	},
+	{
+		"name": "Halfling Ranger",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 11,
+		"cost": 55,
+		"requiredTech": "Monster Taming",
+		"requiredResource": "Halfling",
 		"upgradesTo": "Pathfinder",
 		"obsoleteTech": "Mass Media",
 		"uniques": ["[+1] Movement <in [Forest] tiles>", 
@@ -244,7 +280,7 @@
 		]
 	},
 	{
-		"name": "Mink",
+		"name": "Night Goblin",
 		"unitType": "Sword",
 		"uniqueTo": "Badmoon Goblins",
 		"replaces": "Warrior",
@@ -366,7 +402,7 @@
 	{
 		"name": "Fanatic",
 		"unitType": "Sword",
-		"uniqueTo": "Arxia",
+		"uniqueTo": "Reikland",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 16,
@@ -376,12 +412,12 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 10,
-		"uniques": ["[+10]% Strength when stacked with [Traon General]", 
+		"uniques": ["[+10]% Strength when stacked with [Empire General]", 
 					"Preachable"],
 		"promotions": ["Impetus"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "Also referred to as Traon Fanatics, are warriors who idolize Traon Generals, and become very strong when around them."}
+			{"text": "Also referred to as Empire Fanatics, are warriors who idolize Empire Generals, and become very strong when around them."}
 		]
 	},
 	{
@@ -1409,7 +1445,7 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 125,
-		"requiredTech": "Quintessence Force",
+		"requiredTech": "Elemental Magic",
 		"obsoleteTech": "Enlightenment",
 		"upgradesTo": "Arch-Wizard",
 		"requiredResource": "Magician",
@@ -1427,7 +1463,7 @@
 		"movement": 3,
 		"strength": 24,
 		"cost": 160,
-		"requiredTech": "Quintessence Force",
+		"requiredTech": "Elemental Magic",
 		"requiredResource": "Mutagen",
 		//"promotions": ["Kiss"],
 		"promotions": ["Beast Hunter"],
@@ -2241,7 +2277,7 @@
 		]
 	},
 	{
-		"name": "Dracula",
+		"name": "Vlad von Carstein",
 		"unitType": "Vampire",
 		"uniqueTo": "Sylvania",
 		"movement": 2,
@@ -2249,11 +2285,10 @@
 		"uniques": ["Unbuildable", 
 					"Can build [Coffin] improvements on tiles", 
 					"[+5] HP when healing <in [Coffin] tiles>", 
-					"[-50]% Strength <when fighting in [Desert] tiles>", 
-					"Preachable"],
+					"[-50]% Strength <when fighting in [Desert] tiles>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Dracula can heal faster in Coffin and become weak when fighting in Desert."}
+			{"text": "Vlad von Carstein can heal faster in Coffin and become weak when fighting in Desert."}
 		]
 	},
 	{
@@ -2492,7 +2527,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Merlin",
+		"name": "Constant Drachenfels",
 		"unitType": "Mage Hero",
 		"movement": 2,
 		"strength": 22,
@@ -2500,7 +2535,7 @@
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
 					"Never appears as a Barbarian unit", 
-					"Only available <if [The Esplumoir] is constructed>"],
+					"Only available <if [Castle Drachenfels] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -2682,9 +2717,9 @@
 		]
 	},
 	{
-		"name": "Traon General",
+		"name": "Empire General",
 		"unitType": "Civilian",
-		"uniqueTo": "Arxia",
+		"uniqueTo": "Reikland",
 		"replaces": "Great General"
 		"uniques": ["[+30]% Strength bonus for [Military] units within [1] tiles", 
 					"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
@@ -2693,7 +2728,7 @@
 					"Unbuildable", "Uncapturable"],
 		"movement": 2,
 		"civilopediaText": [
-			{"text": "To become Traon General, an Arxian warrior must perform tremendous feats of bravery, daring and martial valor, as well as being ruthless and canny enough to avoid the machinations of his enemies and rivals."}
+			{"text": "To become Empire General, an Reiklander warrior must perform tremendous feats of bravery, daring and martial valor, as well as being ruthless and canny enough to avoid the machinations of his enemies and rivals."}
 		]
 	},
 	{
@@ -3108,10 +3143,10 @@
 			{"text": "Each civilization in Fantasia may only summon 2 Hero(es)."},
 			{"text": "The first Hero is available by selecting the Portal according to the desired Hero (except Hordes of Chaos)"},
 			{"text": "Hordes of Chaos can't summon Hero, but gain access to summon Archdemon Kor'vash. Thus, Hordes of Chaos's Hero already defined."},
-			{"text": "The second Hero is available after constructing The Esplumoir, which will provide Mage Hero: Merlin."},
+			{"text": "The second Hero is available after constructing Castle Drachenfels, which will provide Mage Hero: Constant Drachenfels."},
 			{"text": "Every Hero gets the same talent: Bonus vs Air Terror 25%, Bonus vs Water Terror 25%, Bonus vs Mythical Beast 100%."},
 			{"text": "In addition, each Hero inherit talent from his class."},
-			{"text": "For example Merlin inherit talent: Bonus attack vs cities 50%, Bonus attack vs Construct 25%."},
+			{"text": "For example Constant Drachenfels inherit talent: Bonus attack vs cities 50%, Bonus attack vs Construct 25%."},
 			{"text": "Special case for Archdemon Kor'vash, which inherit talent: Bonus attack vs Mage 33%."},
 			{"separator": true}
 		]

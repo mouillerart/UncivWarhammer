@@ -625,6 +625,16 @@
         ]
 	},
 	{
+		"name": "Halfling",
+		"resourceType": "Luxury",
+		"gold": 2,
+		//"uniques": ["Can only be created by Mercantile City-States","Not shown on world screen"],
+		"civilopediaText": [
+            {"text":"Halflings available when you allied with The Moot."}
+        ]
+
+	},
+	{
 		"name": "Porcelain",
 		"resourceType": "Luxury",
 		"gold": 2,
