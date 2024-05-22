@@ -47,9 +47,11 @@ Available:
 
 City states
 * Marienburg
-* The Moot
+* The Moot (provides halflings)
 * Lahmia
 * Dolgan
+* Zombie Pirates
+* Citadel of Dusk
 
 Planned:
 * Border Princes
