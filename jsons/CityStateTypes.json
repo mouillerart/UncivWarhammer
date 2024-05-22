@@ -154,7 +154,7 @@
 	},
 	
 	{
-		"name": "Militaristic-Lahmian",
+		"name": "Mercantile-Lahmian",
 		"friendBonusUniques": [
 			"Provides military units every ≈[20] turns", 
 			"[+4]% Production when constructing [Walls] buildings [in all cities]",
@@ -166,7 +166,7 @@
 			"[+4]% Production when constructing [Walls] buildings [in all cities]",
 			"[+4]% Production when constructing [Castle] buildings [in all cities]",
 			"[+4]% Production when constructing [Arsenal] buildings [in all cities]",
-			"May buy [Skeletal Champion] units for [200] [Faith] [in all cities]"
+			"Provides [3] [Pinnacle]"
 		],
 		"color": [255,0,0]
 	},

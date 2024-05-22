@@ -2001,6 +2001,35 @@
 			{"text": "The mysterious Temple of Constellations has all manner of arcane and mystical symbols carved into its walls. Battles fought here are particularly perilous for combatants due to incessant lightning storms that surround the temple"}
 		]
 	},
+
+	{
+		"name": "Bugman's Brewery",
+		"isWonder": true,
+		"happiness": 2,
+		"gold": 2,
+		"isWonder": true,
+		"uniques": [""],
+		"requiredTech": "Brewing",
+		"civilopediaText": [
+			{"text": "Bugman's Brewery is a brewing community founded by a Dwarf master brewer, Josef Bugman."}
+		]
+	},
+	{
+		"name": "The Great Voyage",
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniqueTo": "Norsca",
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", 
+					 "[+2] Movement <for [{Water}] units>",
+					 "Free [Longship] appears <every [20] turns>"],
+		"requiredTech": "Compass",
+		"quote": "'' ― ",
+		"civilopediaText": [
+			{"text": "The movement rate of all naval units is increased by two. Additionally, a city with The Great Voyage wonder produces a new Longship every twenty turns."},
+			{"text": "The Great Voyage may be built only in a coastal city."}
+		]
+
+	},
 	
 	// Sagas
 	{

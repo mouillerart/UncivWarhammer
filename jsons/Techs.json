@@ -658,7 +658,7 @@
 			{
 				"name": "Grail Quest",
 				"row": 4,
-				"prerequisites": ["Knightly Virtues","Chivalry"],
+				"prerequisites": ["Knightly Virtues","Knightly Orders"],
 				"quote": "'That which 8is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
 			},
 			{

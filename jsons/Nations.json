@@ -31,7 +31,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"outerColor": [204, 0,0],
-		"innerColor": [255,255,255],
+		"innerColor": [0,0,0],
 		//"uniqueName": "Valley of Rejuvenation",
 		//"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
@@ -71,7 +71,7 @@
 		"favoredReligion": "Lady of the Lake",
 		"style": "Human",
 		"outerColor": [0, 0, 204],
-		"innerColor": [255, 255, 0],
+		"innerColor": [0, 0, 204],
 
 		"declaringWar": "The knightly sons of Bretonnia ride to war once more, in pursuit of honour, glory, and land!",
 		"attacked": "When the clarion call is sounded, I will ride out and fight in the name of liege and Lady, Whilst I draw breath the lands bequeathed unto me will remain untainted by evil. Honour is all. Chivalry is all.",
@@ -259,7 +259,7 @@
 		"favoredReligion": "Elven Gods",
 		"style": "Elven",
 		"outerColor": [6, 183, 186],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		
 		"declaringWar": "...",
 		"attacked": "...",
@@ -510,7 +510,7 @@
 		"favoredReligion": "Gork and Mork",
 		"style": "Goblin",
 		"outerColor": [255, 140, 0],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		
 		"declaringWar": "...",
 		"attacked": "I’ll feed you your own entrails!",
@@ -549,7 +549,7 @@
 		"startBias": ["Hills"],
 		"style": "Goblin",
 		"outerColor": [54, 101, 87],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		
 		"declaringWar": "Get da Clans togevva....We’s goin to war!",
 		"attacked": "I'm gonna stomp 'em to dust. I'm gonna grind their bones. I'm gonna pile 'em up inna big fire and roast 'em. I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left. An' den I'm gonna get really mean.",
@@ -562,7 +562,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 
-		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"uniques": ["Starts with [Greenskin]"],
 		"cities": ["Iron Rock","Maad Dog Pass","Fire Mountain","Black Fire Pass","Krimson Killerz","Blue Face","White Orcs","White Skullz","Yellow Eye","Red Fangs"],
 
 		"civilopediaText": [
@@ -586,10 +586,10 @@
 		"favoredReligion": "Gork and Mork",
 		"startBias": ["Hills","Forest"],
 		"style": "Goblin",
-		"outerColor": [135, 78,51],
-		"innerColor": [0,0,0],
+		"outerColor": [230,185,26],
+		"innerColor": [255,255,255],
 		
-		"uniques": ["Starts with [Greenskin]","Starts with [Chaos]"],
+		"uniques": ["Starts with [Greenskin]"],
 		"cities": ["Crooked Moon","Moonjaw","Shifties","Red Eye","Burnin’ Face","Da Krawlas","Skull Crag","Yellow Eye","Dog Boyz","Creeping Death"],
 
 		"declaringWar": "I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.",
@@ -621,7 +621,7 @@
 		"favoredReligion": "Chaos Gods",
 		"style": "Dwarven",
 		"outerColor": [153, 51, 153],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 
 		"declaringWar": "...",
 		"attacked": "...",
@@ -692,7 +692,7 @@
 		"preferredVictoryType": "Domination",
 		"style": "Demonic",
 		"outerColor": [135, 78,51],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		
 		"declaringWar": "Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World. The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall.",
 		"defeated": "I am the Final Moment made flesh. I stand here on this mountain, and I will sit on this throne. I will be the axis upon which the wheel of change turns, and the world will drown in the light of unborn stars.",
@@ -740,7 +740,7 @@
 		"preferredVictoryType": "Domination",
 		"style": "Human",
 		"outerColor": [162, 51, 51],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		
 		"declaringWar": "...",
 		"attacked": "...",
@@ -774,7 +774,7 @@
 		"favoredReligion": "Chaos Gods",
 		"preferredVictoryType": "Domination",
 		"outerColor": [135, 78,51],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		
 		"declaringWar": "We fight, we kill, one day we win. One day soon!",
 		"attacked": "You -- if you lucky, we eat you, make you into part of us, make you better than you, stronger than any of you, stronger than all of you.",
@@ -910,8 +910,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 		"style": "Human",
-		"outerColor": [135, 78,51]
-		"innerColor": [0,0,0],
+		"outerColor": [105,159,105]
+		"innerColor": [211,180,60],
 		
 		"declaringWar": "I appeal to Commandment Five: you will defend the weak who cannot defend themselves, against any and all unlawful oppressors.",
 		"attacked": "I appeal to Commandment Seven: you will bravely bear arms for Albion against its enemies, under the command of its king and his appointed generals.",
@@ -943,7 +943,7 @@
 		"name": "Ind",
 		"leaderName": "Akabar",
 		"outerColor": [153, 50, 204],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		"adjective": ["Indics"],
 		"startBias": ["Jungle"],
 		"style": "Human",
@@ -975,7 +975,7 @@
 		"name": "Nippon",
 		"leaderName": "Takagura",
 		"outerColor": [119, 136, 153],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		"adjective": ["Nipponese"],
 		"startBias": ["Coast"],
 		"style": "Human",
@@ -1103,7 +1103,7 @@
 	{
 		"name": "Lahmia",
 		"adjective": ["Lahmians"],
-		"cityStateType": "Militaristic-Lahmian",
+		"cityStateType": "Mercantile-Lahmian",
 		"style": "Human",
 		"uniques": ["Starts with [Undead Curse]"],
 		

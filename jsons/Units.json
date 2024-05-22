@@ -1862,6 +1862,21 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Longship",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Norsca",
+		"replaces": "Galleass",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Zeal Galleass", 
 		"unitType": "Ranged Water",
 		"uniqueTo": "Araby",
@@ -2289,6 +2304,18 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Vlad von Carstein can heal faster in Coffin and become weak when fighting in Desert."}
+		]
+	},
+	{
+		"name": "Lahmian Vampire",
+		"unitType": "Vampire",
+		"requiredResource": "Pinnacle",
+		"movement": 2,
+		"strength": 20,
+		"uniques": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
 		]
 	},
 	{
