@@ -77,7 +77,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Fishing",
-		"uniques": ["Cannot enter ocean tiles <upon discovering [Astronomy]> technology",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]> technology",
 					"May create improvements on water resources",
 					"Uncapturable"]
 	},
@@ -829,12 +829,12 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Knight",
+		"name": "Light Knight",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
-		"requiredTech": "Chivalry",
+		"requiredTech": "Stirrups",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
@@ -868,7 +868,7 @@
 	{
 		"name": "Knight Errant",
 		"unitType": "Mounted",
-		"replaces": "Knight",
+		"replaces": "Light Knight",
 		"uniqueTo": "Bretonnia",
 		"movement": 4,
 		"strength": 20,
@@ -887,12 +887,96 @@
 		]
 	},
 	{
+		"name": "Amazon Jaguar",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Amazonia",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Ranger"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Wolf Rider",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Badmoon Goblins",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Highlander"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Dark Rider",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Naggaroth",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Highlander"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Skeleton Rider",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Khemri",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Highlander"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
 		"name": "Knight of the Realm",
 		"unitType": "Mounted",
-		"replaces": "Cavalry",
+		"replaces": "Knight",
 		"uniqueTo": "Bretonnia",
 		"movement": 4,
-		"strength": 30,
+		"strength": 24,
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -905,6 +989,111 @@
 		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": "Should they survive to become fully honoured knights, knights errant are granted their own small landed estate to govern, called a knight's fee or tithe, and are obligated to defend that estate and Bretonnia should they be called to muster."}
+		]
+	},
+	{
+		"name": "Silverhelms",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Ulthuan",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Chaos Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Cold Ones Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Slann",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Black Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Sylvania",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Boar Boyz",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Badmoon Goblins",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
 		]
 	},
 	{
@@ -924,6 +1113,80 @@
 		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": "These are brave individuals, revered as the land's most dedicated and selfless heroes. They willingly renounce all titles and worldly possessions, so to journey unto faraway lands, all in hopes of being deemed worthy by the Lady to become a blessed Grail Knight"}
+		]
+	},
+	{
+		"name": "Knight Panther",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 36,
+		"cost": 225,
+		"requiredTech": "Knightly Orders",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Unbuildable", "Only available <if [The Knights Panther] is constructed>", 
+					"Can move after attacking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+
+	},
+	{
+		"name": "Knight of the White Wolf",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Knightly Orders",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Unbuildable", "Only available <if [Order of the White Wolf] is constructed>", 
+					"Can move after attacking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+
+	},
+	{
+		"name": "Knight of the Fiery Heart",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+		"cost": 225,
+		"requiredTech": "Knightly Orders",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Unbuildable", "Only available <if [Order of the Fiery Heart] is constructed>", 
+					"Can move after attacking",
+					"No defensive terrain bonus",
+					"[+25]% Strength <when attacking>"
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+
+	},
+	{
+		"name": "Ranger-Templar",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Knightly Orders",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Unbuildable", "Only available <if [The Brotherhood of the Bear] is constructed>", 
+					"Can move after attacking",
+					"[+1] Movement <in [Forest] tiles>", 
+					"[+1] Movement <in [Hill] tiles>", 
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
 		]
 
 	},
@@ -948,12 +1211,31 @@
 
 	},
 	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"[-33]% Strength <vs cities> <when attacking>", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
 		"name": "Laskar",
 		"replaces": "Knight",
 		"uniqueTo": "Kislev",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 20,
+		"strength": 24,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -2310,6 +2592,7 @@
 		"name": "Lahmian Vampire",
 		"unitType": "Vampire",
 		"requiredResource": "Pinnacle",
+		"requiredTech": "Necromancy",
 		"movement": 2,
 		"strength": 20,
 		"uniques": ["Ignore terrain cost"],

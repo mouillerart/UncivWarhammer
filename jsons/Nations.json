@@ -31,7 +31,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"outerColor": [204, 0,0],
-		"innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		//"uniqueName": "Valley of Rejuvenation",
 		//"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
@@ -71,7 +71,7 @@
 		"favoredReligion": "Lady of the Lake",
 		"style": "Human",
 		"outerColor": [0, 0, 204],
-		"innerColor": [0, 0, 204],
+		"innerColor": [255, 255, 255],
 
 		"declaringWar": "The knightly sons of Bretonnia ride to war once more, in pursuit of honour, glory, and land!",
 		"attacked": "When the clarion call is sounded, I will ride out and fight in the name of liege and Lady, Whilst I draw breath the lands bequeathed unto me will remain untainted by evil. Honour is all. Chivalry is all.",
@@ -1073,7 +1073,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "What a fine battle! Dolgan is willing to serve you!",
 		"outerColor": [ 20, 20,20],
-		"innerColor": [255,178,72],
+		"innerColor": [255,255,255],
 		"cities": ["Dolgan"],
 		"civilopediaText": [
 			{"text": "Dolgans represent the barbarian tribes dwelling in the tundra east of Kislev (they come from the same Gospodar culture). Dolgans spend most of their life on horseback, that is why their horse archers are valued all over the Old World, often hired by kislevite or imperial generals. Unlike most barbarian tribes, Dolgans are not chaotic, though the proximity to Chaos Wastes makes them vulnerable victims."}
@@ -1092,7 +1092,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [20, 20,20],
-		"innerColor": [10,162,60],
+		"innerColor": [255,255,255],
 		"cities": ["Marienburg"],
 		"civilopediaText": [
 			{"text": "'The business of Marienburg, is business.' —Director Jaan van de Kuypers of Marienburg"}
@@ -1111,7 +1111,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
 		"outerColor": [ 20, 20, 20],
-		"innerColor": [255,153,153],
+		"innerColor": [255,255,255],
 		"cities": ["Lahmia"],
 		"civilopediaText": [
 			{"text": "Lahmia, once known as the strange and decadent 'City of the Dawn', today as 'The Cursed City', was an ancient city-state of the great Human realm of Nehekhara, now called the Land of the Dead"}
@@ -1130,7 +1130,7 @@
 		"attacked": "We are no strangers to war.",
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [ 20, 20, 20],
-		"innerColor": [221,170,113],
+		"innerColor": [255,255,255],
 		"cities": ["Sartosa"]
 	}
 	,
@@ -1147,7 +1147,7 @@
 		"attacked": "We are no strangers to war.",
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [ 20, 20, 20],
-		"innerColor": [221,170,113],
+		"innerColor": [255,255,255],
 		"cities": ["Vampire Coast"]
 	}
 	,
@@ -1164,7 +1164,7 @@
 		"attacked": "We are no strangers to war.",
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [ 20, 20, 20],
-		"innerColor": [221,170,113],
+		"innerColor": [255,255,255],
 		"cities": ["Citadel of Dusk"]
 	}
 		

@@ -2028,8 +2028,67 @@
 			{"text": "The movement rate of all naval units is increased by two. Additionally, a city with The Great Voyage wonder produces a new Longship every twenty turns."},
 			{"text": "The Great Voyage may be built only in a coastal city."}
 		]
-
 	},
+	
+	// Knightly orders
+	{
+		"name": "The Knights Panther",
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["Free [Knight Panther] appears <every [6] turns>"],
+		"uniqueName": "The Knights Panther automatically produce Knight Panther. You need horses in the city to build it",
+		"requiredTech": "Knightly Orders",
+		"requiredResource": "Horses",
+		"quote": "'I swear before Sigmar and Ulric, and in the witness of this company here gathered, to serve the ancient and noble Order of the Knights Panther truly and faithfully unto death, observing the Laws of the Order: to serve and protect Graf Boris Todbringer, his family, his legitimate successors and his appointed officers with my life; to render full and unquestioning service to my superiors in the Order and to those they appoint over me; never to suffer any person or thing bearing the mark of Chaos to live while there is breath in my body. The Order has my oath, which only death may break. Let all here present bear witness' ― Oath of the Knights Panther",
+		"civilopediaText": [
+			{"text": "The Knights Panther, along with the Knights of the White Wolf, are considered to be the most powerful of all the Knightly Orders. Even if this is in question they are certainly one of the most, if not the most, ancient Knightly Order, tracing their existence back to the wars against Araby nearly a thousand years ago. Knights from all over the Old World joined in the war against the Sultans of Araby, driving their armies from the south of Estalia and carrying the battle to Araby itself. The returning Knights brought back much plunder from the Sultans' Palaces, including gold and silver, precious gems, silks, furs, and many exotic animals the like of which had never been seen before in the Old World. Some of the most amazing and beautiful creatures were the panthers, liberated from the pleasure gardens of Istrabul. They created such an abiding impression to the jubilant crowds cheering the return of the crusaders, in seeing some of the Knights parading them attached to gold chains, that the Order of the Knights Panther was founded. In time the creatures died but their fur would be used for saddle cloths or trimming for fur cloaks, reinforcing the new Order's unique character and reminding everyone of their victories in Araby. Today the original panthers and even their hides have long gone, but the memory of the Arabyan wars is maintained in every Panther's raiment by wearing the hide of any spotted creature they can find and the panther emblem emblazoned on their shields."},
+			{"text": Although the crusades are distant memory the Knights Panther today stand for the preservation of racial purity in The Empire and are dedicated to the annihilation of all mutants and any kind of Chaos taint. They have a substantial presence in the staunchly Ulrican cities of Middenheim and Talabheim and can be seen on many public occasions. There exists a friendly rivalry with the Knights of the White Wolf (another pro-Ulric Order of Knights). The Knights Panther consider their battle tactics rather crude while at the same time the Knights of the White Wolf consider the Panthers to be too interested in keeping their armoured suits highly polished than indulging in serious martial training."}
+		]
+	},
+	{
+		"name": "Order of the White Wolf",
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["Free [Knight of the White Wolf] appears <every [6] turns>"],
+		"uniqueName": "The Order of the White Wolf automatically produces a Knight of the White Wolf every six turns. You need furs in the city to build it.",
+		"requiredTech": "Knightly Orders",
+		"requiredResource": "Furs",
+		"quote": "'Old White Wolf will sniff you out, Old White Wolf with braided hair, Old White Wolf will hunt you down, Old White Wolf will rip and tear!' -Middenheimer children's rhyme.",
+		"civilopediaText": [
+			{"text": "The Order of the White Wolf was founded in Middenheim following a string of victorious battles against Chaos. The survivors of these battles decided to found a chivalric order sworn to fight Chaos, and they chose the name of White Wolves after the city of Middenheim, also known as the City of the White Wolf. Today the Order is arguably the most numerous of all the Knightly Orders, although the Knights Panther may dispute this."},
+			{"text": "In keeping with the traditions of how their forebears fought and defeated Chaos, the Knights of the White Wolf only fight with large, two-handed mauls and never wear helmets or carry shields. In fact in battle they fight with little finesse, which is so in keeping with the other Knightly Orders who sometimes label them as barbarians or berzerkers. Indeed in Kislev, where Ulric is a prominent religion and where the Order has subsequently spread, the White Wolves are nothing but berzerkers - indifferent to tactics but impressive in hand-to-hand combat."},
+			{"text": "The White Wolves may not care for wearing helmets or carrying shields but they do wear suits of plate armour and mantles of wolf skin. Their banner was carried at the battle of Middenheim itself and was said to have been dipped in the blood of a daemon the White Wolves' forebears slew, endowing it with magical properties."}
+		]
+	},
+	{
+		"name": "Order of the Fiery Heart",
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["Free [Knight of the Fiery Heart] appears <every [5] turns>"],
+		"uniqueName": "The Order of the Fiery Heart automatically produces a Knight of the Fiery Heart every five turns. You need incense in the city to build it.",
+		"requiredTech": "Knightly Orders",
+		"requiredResource": "Incense",
+		"quote": "'' ― ",
+		"civilopediaText": [
+			{"text": "The Order of the Fiery Heart is a Knightly Order dedicated to Sigmar and to the annihilation of all goblinoids. Their long and glorious history dates back to the civil wars when the cult of Sigmar was outlawed in Talabecland. They were formed to ensure the safety of the persecuted priests, and other devout followers of Sigmar, who were hunted down and executed by overzealous Ulricans due to the proclamation by Empress Ottilia (during the Age of Three Emperors) that all followers of Sigmar's Cult were heretics. During this time many temples of Sigmar were desecrated, giving the fledgling order of templar-knights much to do."},
+			{"text": "Today the Order of the Fiery Heart still upholds Sigmar's interests, ensuring that the Grand Theogonist and the two Arch-Lectors keep their powers, and the order still has an enduring antipathy with followers of Ulric (principally the cult's priest and templars) due to acts inflicted on Sigmar's followers in the Age of Three Emperors. Open confrontation between the Knights of Sigmar and Ulric are not common but at the same time they are not rare. In these instances a jousting competition usually settles any differences at that particular moment in time."}
+		]
+	},
+	{
+		"name": "The Brotherhood of the Bear",
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniqueTo": "Kislev",
+		"uniques": ["Free [Ranger-Templar] appears <every [6] turns>"],
+		"uniqueName": "The Brotherhood of the Bear automatically produces a Ranger-Templar of Taal every six turns.",
+		"requiredTech": "Knightly Orders",
+		"quote": "'' ― ",
+		"civilopediaText": [
+			{"text": "The worship of Taal is still very strong in Kislev. The Brotherhood of the Bear is an order of Ranger-Templars dedicated to the God of Nature and Wild Places. It is an order which specialises in skirmish actions in forests and rough terrain. They ensure that isolated settlements are safe from incursions of Beastmen and some even venture into the Taiga (an extremely dangerous stretch of coniferous forest to the north of Kislev) where they use their skills to destroy entire warbands of Chaos, using ingenious traps and their knowledge of the area to lead them into fatal ambushes. It is important that the Ranger-Templars undergo these periodic raids into the Taiga to stem the tide of Chaos incursions into the sparsely populated Translynsk and to prevent warbands from penetrating into Kislev itself. Aside from hunting Beastmen in the forests, the Brotherhood of the Bear also strives to protect places sacred to Taal. The Brotherhood has friendly relations with the White Wolves and sometimes they join forces in order to eradicate a particularly large Chaos force."},
+			{"text": "The Ranger-Templars of the Brotherhood of the Bear do not wear the traditional plate armour suits synonymous with other orders, they favour animal skins and tough hides to act as a kind of armour. This rather rustic, outdoor appearance may mistake them for common rangers by non-Kislevite people, which is not surprising considering the Brotherhood is virtually unknown outside Kislev. Only people with dealings with the Cult of Taal in the north and east of The Empire may have heard of the Order."}
+		]
+	},
+
 	
 	// Sagas
 	{
