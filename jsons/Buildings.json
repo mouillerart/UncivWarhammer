@@ -260,6 +260,69 @@
 		]
 
 	},
+	{
+		"name": "Aqshy",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Fire",
+		"civilopediaText": [
+			{"text": "Aqshy, the Lore of Fire, also called the Seventh Lore and known in Grand Cathay as the Burning Winds or the Elemental Wind of Fire, is the Red Wind of Magic, and it is the coalesence within the Aethyr of the emotional experience and abstract of passion among mortals in its widest possible sense. It is the projection into the Aethyr of the emotions of brashness, courage, and enthusiasm. It is also an expression of the mortal feelings of warmth and heat that is often felt in a state of high emotion."},
+			{"text": "The Magisters of the Bright Order study the Lore of Fire, also called pyromancy. Spells woven from Aqshy are aggressive, destructive, and vigorous, and the Red Magisters' spells range from simple but effective fiery blasts and flame-balls, to the summoning of massive infernos that engulf entire detachments of troops."},
+			{"text": "[Fireball] may be built after building Agshy."}
+		]
+	},
+	{
+		"name": "Azyr",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Heavens",
+		"uniques": ["[+4 Science] [in this city]", 
+					"Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "Azyr, the Lore of Heavens, also called the Fourth Lore and known in Grand Cathay as the Meteor Winds or the Elemental Wind of Stone, is the Blue Wind of Magic, and it is said to be a manifestation within the Aethyr of mortals' capability to be inspired and to seek that which is out of reach. "},
+			{"text": "As Azyr blows from the timeless realms of the Aethyr across the distant sky, it supposedly appears as a clouded window through which Azyr's Magisters can predict certain events, apparently by the manner in which the permanent celestial bodies are distorted by the drifting cloud of Azyr's impermanent and temporally distorting blue light."}
+		]
+	},
+	{
+		"name": "Chamon",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Metals",
+		"uniques": ["[+10 Gold] [in this city]", 
+					"Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "Chamon, the Lore of Metal, also called the Second Lore and known in Grand Cathay as the Iron Winds or the Elemental Wind of Metal, is the Yellow Wind of Magic, and it is a manifestation within the Aethyr of the abstract and reality of logic, the mortal desire to quantify, the mortal desire and need to learn and instruct, and the wish to implement learning to practical or tangible ends as embodied. "},
+			{"text": "Also known as alchemy and transmutancy, the magic, or spellcraft, of the Golden Order mostly involves manipulating metals, though they also have many spells to help with their studies and promote rationality. It's generally believed that the Gold Magisters can create gold from nothing; some claim to have seen them do it, but the Magister Alchemists of the Golden Order deny this."}
+		]
+	},
+	{
+		"name": "Ghur",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Beasts",
+		"uniques": ["All newly-trained [Recon] units [in this city] receive the [Pet Command] promotion"],
+		"civilopediaText": [
+			{"text": "Ghur, the Lore of Beasts, and the Eighth Lore and known in Grand Cathay as the Elemental Wind of Wood, is the Brown Wind of Magic, which is the manifestation within the Aethyr of the wild and bestial spirit of the mortal world and its animal inhabitants. Ghur is used by the feral Human wizards of the Amber Order, also known as 'shamans', to shape spells of beastcraft and communion with the creatures of the wild."},
+			{"text": "Ghur's Magisters have embraced the savage Brown Wind of Magic, allowing them to have control over all manner of wild beasts and even communicate with them. Amber Magisters can also call upon the attributes of various spirits of the wild and are able to summon the strength of the bear, the swiftness of the hare, the eyesight of an eagle, and the heightened senses of smell and hearing of the wolf. Amber Wizards are said to be able to shape-shift, travelling on the paws or wings of wild creatures and birds if they so desire. "}
+		]
+	},
+	{
+		"name": "The Bright College",
+		"cost": 750,
+		"isWonder": true,
+		"uniques": ["Free [Fireball] appears <every [20] turns>"],
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Fire",
+		"civilopediaText": [
+			{"text": "The Bright College is set within a substantial area of burned-out ruins in Altdorf's lower-class East End. The cause of the fire is one of the great, gossiped-about mysteries of Altdorf. Some blame a cataclysmically faulty enchantment attempted at the college. Others blame the destruction on some heretical cult or other, while others still claim that the destruction is the result of the counterstrike of the college's defensive enchantments against an attack. Grey Patriarch Reiner Starke secretly suspects it may have really been the result of a battle between a deranged Amethyst Wizard and the patriarch of that order.[1e] In any case, the story that an individual believes tells a great deal about that person's attitude towards Magisters. Whatever the cause, the cataclysm devastated many buildings and is said to have left their charred shells haunted."},
+			{"text": "The Magisters of the Bright Order study the Lore of Fire, also called pyromancy. Spells woven from Aqshy are aggressive, destructive, and vigorous, and the Red Magisters' spells range from simple but effective fiery blasts and flame-balls, to the summoning of massive infernos that engulf entire detachments of troops."},
+			{"text": "[Fireball] may be built after building Agshy."}
+		]
+	},
 	
 	
 	// Classical age

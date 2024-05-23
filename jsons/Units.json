@@ -2300,6 +2300,36 @@
 					"Consumes [1] [Rune Stone]"],
 		"attackSound": "missile"
 	},
+
+	// Spells
+	{
+		"name": "Fireblast",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 2,
+		"cost": 55,
+		"requiredTech": "Master of Fire",
+		"uniques": ["Nuclear weapon of Strength [1]", 
+					"Blast radius [0]"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Fireball",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 4,
+		"cost": 200,
+		"requiredTech": "Lore of Fire",
+		"uniques": ["Nuclear weapon of Strength [1]", 
+					"Blast radius [0]", 
+					"Only available <if [Aqshy] is constructed>"],
+		"attackSound": "missile"
+	},
+
 	
 	// Carrier
 	{
