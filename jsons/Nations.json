@@ -148,13 +148,14 @@
 		"adjective": ["Tomb Kings"],
 		"startBias": ["Desert"],
 		"style": "Demonic",
+		"favoredReligion": "Nehekharan Pantheon",
 		"outerColor": [255, 205,0],
 		"innerColor": [0,0,0],
 
 		"declaringWar": "Lightning shall sunder the skies, the rivers will flow with blood and war will come to the land. The legions once more rise in eternal conquest...And death shall ride beside them",
 		"attacked": "Damnation awaits those who would disturb our rest! Here be the souls of those that are lost...",
 		"defeated": "This death is ours. We choose it. We deny you your victory.",
-		"afterPeace": "...",
+		"afterPeace": "You'll live a bit more then.",
 		"introduction": "Hello living people. Sooner or later, you'll be part of us.",	
 		
 		"neutralHello": "You have my gratitude.",
@@ -261,11 +262,11 @@
 		"outerColor": [6, 183, 186],
 		"innerColor": [255,255,255],
 		
-		"declaringWar": "...",
-		"attacked": "...",
+		"declaringWar": "The Gods demand your death.",
+		"attacked": "For five thousand years we have defended our shores from all who would conquer us. You shall not pass!",
 		"defeated": "I am offering myself as a sacrifice to save my people when the gods have rejected all others.",
-		"afterPeace": "...",
-		"introduction": "I am Aenarion the Defender, the blessed Phoenix King of Asuryan.",	
+		"afterPeace": "We embrace a new future.",
+		"introduction": "I am Aenarion the Defender, the blessed Phoenix King of Asuryan. We, the Asur, are a noble people, our long and proud history stretching back to a time when Men were still fur-clad savages.",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -273,9 +274,9 @@
 		
 		"uniques": ["Starts with [Channeling]",
 					"Enables embarkation for land units <starting from the [Ancient age]>", 
-					"Enables [All] units to enter ocean tiles <starting from the [Ancient age]>",
+					"Enables [All] units to enter ocean tiles <starting from the [Age of Magic]>",
 					"Defense bonus when embarked <for [All] units>"],
-		"cities": ["Caledor","Eataine","Ellyrion","Avelorn","Saphery","Yvresse","Cothique","Chrace","Nagarythe","Tiranoc"],
+		"cities": ["Avelorn","Eataine","Caledor","Ellyrion","Saphery","Yvresse","Cothique","Chrace","Nagarythe","Tiranoc"],
 
 		"civilopediaText": [
 			{"text": "'Though our fair homeland is beset on all sides, we shall resist, as our forefathers did before us. In these dark times, as our tainted brethren ravage our shores, we stand defiant and shall emerge victorious. For we are the Asur, the true kin of Aenarion, and Ulthuan shall never fall.' - Prince Tyrion, Defender of Ulthuan"},
@@ -300,13 +301,13 @@
 		"innerColor": [240, 255, 240],
 		
 		"attacked": "Athel Loren shall not suffer the presence of Men, nor Orcs, nor Dwarfs, nor Beastmen. If a foe takes a single step upon such sacred soil, they shall not take another.",
-		"declaringWar": "...",
-		"defeated": "...",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"declaringWar": "You've been charged with tree-cutting. This is war.",
+		"defeated": "The woods will still whisper!",
+		"afterPeace": "Let's spread the flowers of peace.",
+		"introduction":"I wish your kind would find your proper place in the world, then all would be better.",	
 		
 		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
+		"hateHello": "All the branches you break, the leaves and vines you tread on, will rise up in anger and punish you for your insolence.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 
@@ -336,11 +337,11 @@
 		"outerColor": [209, 106, 10],
 		"innerColor": [0,0,0],
 		
-		"declaringWar": "...",
-		"attacked": "...",
+		"declaringWar": "Our mother of battle, she who keeps our blades keen, who keeps our shields ready, and our armour strong, grant us the grace to know our enemies, and the honour to stand against them, and the strength to defeat them.",
+		"attacked": ""I will parry your prima attacks on my three-quarters radial, and take zeh high ground. With just a fifty-three inch reach, you can't win this fight using a cutting blade. Not with such a poor stance, senor.",
 		"defeated": "God was real, and he hated us.",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"afterPeace": "The sword is not the answer to every military problem, for even the mightiest of swords will miss its mark if the opponent is wise enough not to wait around to get slain.",
+		"introduction": "Hola, we're Estalians. We'd love duelling with you.",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -369,10 +370,10 @@
 
 		"afterPeace": "A small gesture can change destiny.",
 
-		"declaringWar": "...",
-		"attacked": "...",
-		"defeated": "...",
-		"introduction": "...",	
+		"declaringWar": "Ey stupido. You're weak.",
+		"attacked": "De smarta-alek words for our castillos is dat dey remain a treat to communications. Dis is right. Anda iffa you don't get the letters from home, howa you gonna know how your mama is?",
+		"defeated": "We're wava the white flag!",
+		"introduction": "There issa plenty of mercenaries in our lands. Use dem or dey may killa you.",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -435,11 +436,11 @@
 		"outerColor": [153, 51, 153],
 		"innerColor": [0,0,0],
 		
-		"declaringWar": "...",
-		"attacked": "...",
+		"declaringWar": "We will never forget that which has been taken from us. Ulthuan belongs to me. If it takes a thousand years, ten thousand years, I will claim my rightful place as king. I am the son of Aenarion. It is my destiny.",
+		"attacked": "We shall strike down our foe with sharp steel and cold hearts. The weak die so that the strong shall be spared. Then and only then will our enemies know the true meaning of fear.",
 		"defeated": "No... I have only begun.",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"afterPeace": "Next time all of Ulthuan will be ours. Next time we will succeed. Next time victory will be inevitable.",
+		"introduction": "I am Malekith! Son of Aenarion, the daemons’ bane. Hear my name and know me, the rightful king of the elves!",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -512,11 +513,11 @@
 		"outerColor": [255, 140, 0],
 		"innerColor": [255,255,255],
 		
-		"declaringWar": "...",
+		"declaringWar": "Lunch time!",
 		"attacked": "I’ll feed you your own entrails!",
-		"defeated": "...",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"defeated": "*gargl*",
+		"afterPeace": "Next time we'll have a meal with you.",
+		"introduction": "Hello. We are hungry. Could we have you for dinner?",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -595,7 +596,7 @@
 		"declaringWar": "I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.",
 		"attacked": "Boss 'o dem night goblins!",
 		"defeated": "Let me fink about it.... No!!!",
-		"afterPeace": "...",
+		"afterPeace": "We'll fink dat over. Or not.",
 		"introduction": "We'z Gobbos!!!",	
 		
 		"neutralHello": "You have my gratitude.",
@@ -623,11 +624,11 @@
 		"outerColor": [153, 51, 153],
 		"innerColor": [255,255,255],
 
-		"declaringWar": "...",
-		"attacked": "...",
-		"defeated": "...",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"declaringWar": "My youngest Zharrling will be 5 years of age tomorrow, so we're giving him a birthday party for him and 20 of his friends. I'll be needing some slaves for the youngsters to play with as party favors.",
+		"attacked": "I will use Hashut's Blood to free me of this curse! Stone will return to flesh and then I shall fashion a throne at the top of Zhar-Naggrund, from which I'll will rule forever in the Great Bull's name.",
+		"defeated": "Where was Grimnir when our warriors were dying?",
+		"afterPeace": "One day there will be a reckoning and it will be the Sons of the Father of Darkness who will have the victory, not the weak willed spawn of the pathetic Ancestor Gods.",
+		"introduction": "We do what we must to survive. We’ve made many concessions and thrown our lots in with the Greenskins, but as their masters, not as slaves. Of course, our values would never have been compromised had it not been for the betrayal of the past.",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -660,7 +661,6 @@
 		"introduction": "By the silver beard of Abdul ibn Ashid! What a surprise to meet you, stranger.",
 		"declaringWar": "...",
 		"afterPeace": "...",
-		"introduction": "...",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",

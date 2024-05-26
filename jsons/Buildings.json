@@ -304,10 +304,67 @@
 		"isNationalWonder": true,
 		"requiredBuilding": "Wizards' Guild",
 		"requiredTech": "Lore of Beasts",
-		"uniques": ["All newly-trained [Recon] units [in this city] receive the [Pet Command] promotion"],
+		"uniques": ["All newly-trained [Recon] units [in this city] receive the [Pet Command] promotion", 
+					"Destroyed when the city is captured"],
 		"civilopediaText": [
 			{"text": "Ghur, the Lore of Beasts, and the Eighth Lore and known in Grand Cathay as the Elemental Wind of Wood, is the Brown Wind of Magic, which is the manifestation within the Aethyr of the wild and bestial spirit of the mortal world and its animal inhabitants. Ghur is used by the feral Human wizards of the Amber Order, also known as 'shamans', to shape spells of beastcraft and communion with the creatures of the wild."},
 			{"text": "Ghur's Magisters have embraced the savage Brown Wind of Magic, allowing them to have control over all manner of wild beasts and even communicate with them. Amber Magisters can also call upon the attributes of various spirits of the wild and are able to summon the strength of the bear, the swiftness of the hare, the eyesight of an eagle, and the heightened senses of smell and hearing of the wolf. Amber Wizards are said to be able to shape-shift, travelling on the paws or wings of wild creatures and birds if they so desire. "}
+		]
+	},
+	{
+		"name": "Ghyran",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Life",
+		"uniques": ["[+4 Food] [<in [in all cities] cities>]", 
+					"Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "Ghyran, the Lore of Life, also called the Third Lore and known in Grand Cathay as the Storm Winds or the Elemental Wind of Water, is the Green Wind of Magic often described by Imperial Magisters as the embodiment of the Aethyr's momentum towards growth and the need to nourish and be nourished. Ghyran is the Aethyr's echo and mirror of fertility and the nurturing aspects of mortal life. This brimming energy has granted the spells powered by Ghyran their title as the 'Lore of Life'."},
+			{"text": "Jade Magic, or the spellcraft of the Lore of Life -- also known as 'druid lore' or 'animism' -- comprises spells that concern themselves with the change of the seasons, agriculture, fertility, growth, soil, earth, and water. These spells are powered by the Green Wind of Magic, Ghyran, which has inspired many hedge wizards and petty magickers in the past, including the much fabled Elementalists (of water and earth), and of course druidism. All of these clumsy gropings at Ghyran's power can now find themselves perfected and made manifest in the Lore of Life as taught by the Jade Order."},
+			{"text": "Druids can make dead earth fertile, cure blights, encourage fertility in Humans and beasts, and it is even whispered that they can cause wild and unstoppable growth of creatures and plants if they so wish. Yet these Magisters also have the ability to control flows of water and the very earth beneath their feet. In battle, Jade Magisters can call forth steaming geysers in the ranks of their enemies and even cause the earth to split under their feet."}
+		]
+	},
+	{
+		"name": "Hysh",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Lights",
+		"uniques": ["[+20]% Great Person generation [in this city]", 
+					"Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "Hysh, the Lore of Light, also called the First Lore and known in Grand Cathay as the Elemental Wind of Light, is the White Wind of Magic, a magical force of illumination and holy radiance. It is the Aethyric manifestation of light, and the abstract, metaphysical concepts light sometimes represents to mortals, like moral enlightenment and spiritual purity."},
+			{"text": "Hysh has many potent applications, in healing, protection, and the banishment of evil -- such as Chaos Daemons. The Magisters of the Light Order -- or 'Hierophants', as they prefer to be known -- are among the most disciplined of wizards, and the most obstinate foes of Chaos."},
+			{"text": "Spells of illumination fall into two sub-categories: those of actual illumination (as in the creation of dazzling lights and so on) and the illumination of the mind, such as the ability to inspire or see through falsehoods. Hierophants are renowned for their mastery of light and brightness, and they are said to be able to bend any kind of luminance to their will in almost any way."}
+		]
+	},
+	{
+		"name": "Shyish",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Death",
+		"uniques": ["All newly-trained [Melee] units [in this city] receive the [Death's Messenger] promotion", 
+					"Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "Shyish, also called the Lore of Death, Spirit Lore and the Sixth Lore and known in Grand Cathay as the Spirit Winds or the Elemental Wind of Spirit, is the Purple Wind of Magic and the embodiment within the Aethyr of mortals' certainty of the passage of time and conception of the inevitability of death for all living things. It is the most mysterious and terrible of all the wholesome forms of magic practiced by Men. "},
+			{"text": "It is true that Magisters of the Amethyst Order have power over the dead and the power to cause death. They can steal the soul of their enemy or suck away their life, leaving nought but a flesh and blood husk. These Magisters are reputed to even be able to see spirits and souls as they travel between the mortal world and the next and are said to be able to communicate with them, after a fashion. "},
+			{"text": "The most powerful amongst the Magisters of Shyish are rumoured to be able to contact the spirit world and whatever remains of the souls of the dead that exist within the Aethyr. These spirits may sometimes be encouraged to speak through Shyish's Magisters, for they have a degree of mastery over spirits both benign and otherwise -- although this ability ends, or so they say, when that soul is embraced or devoured, respectively, by one of the many gods of Mankind or the Daemons of Chaos. "}
+		]
+	},
+	{
+		"name": "Ulgu",
+		"cost": 750,
+		"isNationalWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"requiredTech": "Lore of Shadows",
+		"uniques": ["All newly-trained [Battle Recon] units [in this city] receive the [Camouflage] promotion", 
+					"Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "Ulgu, the Lore of Shadow, also called the Fifth Lore and known in Grand Cathay as the Elemental Wind of Darkness, is the Grey Wind of Magic, and one which is the Aethyr's embodiment of and reaction to the emotional experience among mortals of being lost or confused. This Wind of Magic is full of unseen depths, plots, shadows, and illusion. Grey Wizards weave Ulgu into elaborate spells that wreathe them in its mysterious presence. This Lore of Shadows contains spells of darkness, invisibility, shadowy death, and panicked bewilderment."},
+			{"text": "It is true that Magisters of the Amethyst Order have power over the dead and the power to cause death. They can steal the soul of their enemy or suck away their life, leaving nought but a flesh and blood husk. These Magisters are reputed to even be able to see spirits and souls as they travel between the mortal world and the next and are said to be able to communicate with them, after a fashion. "},
+			{"text": "The most powerful amongst the Magisters of Shyish are rumoured to be able to contact the spirit world and whatever remains of the souls of the dead that exist within the Aethyr. These spirits may sometimes be encouraged to speak through Shyish's Magisters, for they have a degree of mastery over spirits both benign and otherwise -- although this ability ends, or so they say, when that soul is embraced or devoured, respectively, by one of the many gods of Mankind or the Daemons of Chaos. "}
 		]
 	},
 	{
@@ -2224,11 +2281,34 @@
 		]
 	},
 	{
+		"name": "White Tower of Hoeth",
+		"isWonder": true,
+		"science": 10,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Literature]>","[2] Free Technologies"],
+		"requiredTech": "Channeling",
+		"civilopediaText": [
+			{"text": "The White Tower of Hoeth was to be the Scholar-King's greatest contribution to the rebirth of Ulthuan: a citadel of sorcery and scholarship, where the wisdom of the four corners of the world would be gathered, and grimoires of the most potent spells would be enshrined. For a thousand years, the Elves raised this vast sky-reaching structure, harnessing the secrets of artificer and mage in equal measure with every stone that was laid. Craftsmen laboured for nearly a millennium on intricate carvings. The tower was woven round with spells of illusion and warding to protect this treasured knowledge"}
+		]
+	},
+	{
+		"name": "The Book of Days",
+		"isWonder": true,
+		"culture": 4,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before discovering [Literature]>","[2] Free Technologies"],
+		"requiredTech": "Channeling",
+		"requiredBuilding": "Paper Maker",
+		"civilopediaText": [
+			{"text": "As work on the White Tower progressed, Bel-Korhadris founded the order of Loremasters who would be both the guardians and pupils of the knowledge assembled within. Every discipline, from warfare and sorcery to alchemy and astromancy, was to be studied. many famed scholars and sorcerers gathered at Hoeth, and such an exchange of knowledge occurred as had not been seen before, and has not been seen since. In the shadow of the needle-pointed spire, thousands of the wisest philosophers debated their knowledge. Within the library, a cadre of Loremasters began to inscribe the Book of Days, the great history of the Elven people on which all future histories would be based.."}
+		]
+	},
+	{
 		"name": "Shrine of Asuryan",
 		"isWonder": true,
-		"faith": 4,
+		"faith": 10,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Contemplation]>"],
+		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears <every [20] turns>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
 			{"text": "The Shrine of Asuryan, an annual destination of the Phoenix King, is located on the Island of Flame due north of Lothern, and is considered both the holiest place on Ulthuan, and the safest. It is also here that those born of Aenarion's Line are tested for the Curse that plagues his descendants."}
