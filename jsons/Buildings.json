@@ -44,7 +44,7 @@
 		"uniques": ["Unbuildable <before discovering [Mysticism]>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
-			{"text": "A waystone, also called an Ogham Stone, a 'fay stone' or an 'elf stone' usually by Men, is a towering, rune-carved menhir crafted in ancient times by the Elves of Ulthuan that channel and redirects the Winds of Magic through an entire network of such artefacts"}
+			{"text": "A waystone, also called an Ogham Stone, a 'fay stone' or an 'elf stone' usually by Men, is a Towering, rune-carved menhir crafted in ancient times by the Elves of Ulthuan that channel and redirects the Winds of Magic through an entire network of such artefacts"}
 		]
 	},
 	{
@@ -91,7 +91,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": ["Unbuildable <before discovering [Warrior Code]>"],
-		"requiredTech": "WAAGH!",
+		"requiredTech": "WAAGH",
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -248,7 +248,7 @@
 	},
 	{
 		"name": "Wind Mastery",
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", 
 					 "[+1] Movement <for [{Water}] units>"],
@@ -295,7 +295,7 @@
 					"Destroyed when the city is captured"],
 		"civilopediaText": [
 			{"text": "Chamon, the Lore of Metal, also called the Second Lore and known in Grand Cathay as the Iron Winds or the Elemental Wind of Metal, is the Yellow Wind of Magic, and it is a manifestation within the Aethyr of the abstract and reality of logic, the mortal desire to quantify, the mortal desire and need to learn and instruct, and the wish to implement learning to practical or tangible ends as embodied. "},
-			{"text": "Also known as alchemy and transmutancy, the magic, or spellcraft, of the Golden Order mostly involves manipulating metals, though they also have many spells to help with their studies and promote rationality. It's generally believed that the Gold Magisters can create gold from nothing; some claim to have seen them do it, but the Magister Alchemists of the Golden Order deny this."}
+			{"text": "Also known as Alchemy and transmutancy, the magic, or spellcraft, of the Golden Order mostly involves manipulating metals, though they also have many spells to help with their studies and promote rationality. It's generally believed that the Gold Magisters can create gold from nothing; some claim to have seen them do it, but the Magister Alchemists of the Golden Order deny this."}
 		]
 	},
 	{
@@ -375,9 +375,93 @@
 		"requiredBuilding": "Wizards' Guild",
 		"requiredTech": "Lore of Fire",
 		"civilopediaText": [
-			{"text": "The Bright College is set within a substantial area of burned-out ruins in Altdorf's lower-class East End. The cause of the fire is one of the great, gossiped-about mysteries of Altdorf. Some blame a cataclysmically faulty enchantment attempted at the college. Others blame the destruction on some heretical cult or other, while others still claim that the destruction is the result of the counterstrike of the college's defensive enchantments against an attack. Grey Patriarch Reiner Starke secretly suspects it may have really been the result of a battle between a deranged Amethyst Wizard and the patriarch of that order.[1e] In any case, the story that an individual believes tells a great deal about that person's attitude towards Magisters. Whatever the cause, the cataclysm devastated many buildings and is said to have left their charred shells haunted."},
+			{"text": "The Bright College is set within a substantial area of burned-out ruins in Altdorf's lower-class East End. The cause of the fire is one of the Great, gossiped-about mysteries of Altdorf. Some blame a cataclysmically faulty enchantment attempted at the college. Others blame the destruction on some heretical cult or other, while others still claim that the destruction is the result of the counterstrike of the college's defensive enchantments against an attack. Grey Patriarch Reiner Starke secretly suspects it may have really been the result of a battle between a deranged Amethyst Wizard and the patriarch of that order.[1e] In any case, the story that an individual believes tells a Great deal about that person's attitude towards Magisters. Whatever the cause, the cataclysm devastated many buildings and is said to have left their charred shells haunted."},
 			{"text": "The Magisters of the Bright Order study the Lore of Fire, also called pyromancy. Spells woven from Aqshy are aggressive, destructive, and vigorous, and the Red Magisters' spells range from simple but effective fiery blasts and flame-balls, to the summoning of massive infernos that engulf entire detachments of troops."},
 			{"text": "[Fireball] may be built after building Agshy."}
+		]
+	},
+	{
+		"name": "The Amber College",
+		"cost": 750,
+		"isWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lore of Beasts",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Amethyst College",
+		"cost": 750,
+		"isWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lore of Death",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Celestial College",
+		"cost": 750,
+		"isWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lore of Heavens",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Gold College",
+		"cost": 750,
+		"isWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lore of Metals",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Grey College",
+		"cost": 750,
+		"isWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lore of Shadows",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Jade College",
+		"cost": 750,
+		"isWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lore of Life",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Light Order",
+		"cost": 750,
+		"isWonder": true,
+		"requiredBuilding": "Wizards' Guild",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lore of Lights",
+		"civilopediaText": [
+			{"text": ""}
 		]
 	},
 	
@@ -414,7 +498,7 @@
 	},
 	{
 		"name": "Aknamuki",
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must have an owned [Marsh] within [3] tiles", "[+2 Food, +3 Science, +3 Production] from [Marsh] tiles [in this city]", 
 					"[+2 Gold] from [Truffles] tiles [in this city]"],
@@ -425,7 +509,7 @@
 		"name": "Gerude",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged] units [in all cities]"],
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.'  - Robert Louis Stevenson"
@@ -443,7 +527,7 @@
 	},
 	{
 		"name": "Fortified Walls",
-		"uniqueTo": "Malus",
+		"uniqueTo": "Dwarfs",
 		"replaces": "Walls",
 		"cityStrength": 10,
 		"cityHealth": 25,
@@ -458,7 +542,7 @@
 	{
 		"name": "Bondowoso",
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Only available <after adopting [Liberty]>", "[-25]% construction time for [All] improvements", "[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
@@ -480,12 +564,12 @@
 	{
 		"name": "The Great Lighthouse",
 		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Lighthouse] [in this city]", "Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>", 
 					"[+1] Sight <for [{Military} {Water}] units>"],
 		"requiredTech": "Sailing",
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+		"quote": "'They that go down to the sea in ships, that do business in Great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
 	{
 		"name": "Elder Council",
@@ -512,7 +596,7 @@
 		"uniqueTo": "Cathay",
 		"cost": 250,
 		"science": "4",
-		"greatPersonPoints": {"Great Scientist": 1},
+		"GreatPersonPoints": {"Great Scientist": 1},
 		"isNationalWonder": true,
 		"uniques": ["[+2 Science] from each Trade Route", 
 					"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Wealth]> <in cities without a [Pillar of Faith]>", 
@@ -523,7 +607,7 @@
 		"name": "Sukamerta",
 		"science": 3,
 		"culture": 1,
-		"greatPersonPoints": {"Great Scientist": 1},
+		"GreatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Chronicles",
 		"uniques": ["Free Technology", "Gain a free [Paper Maker] [in this city]"],
@@ -591,7 +675,7 @@
 		"uniqueTo": "Cathay",
 		"cost": 250,
 		"food": "4",
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
 		"uniques": ["[+10]% growth [in all cities]", 
 					"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Wealth]> <in cities without a [Pillar of Faith]>", 
@@ -600,7 +684,7 @@
 	},
 	{
 		"name": "Dai Palgum",
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must be on [River]", "Gain a free [Water Mill] [in this city]", 
 					"[+1 Food, +1 Faith] from [River] tiles [in this city]", 
@@ -644,7 +728,7 @@
 	{
 		"name": "Sacred Dance",
 		"replaces": "The Great Colosseum",
-		"uniqueTo": "Erhab",
+		"uniqueTo": "Araby",
 		"cost": 150,
 		"happiness": 5,
 		"culture": 5,
@@ -660,7 +744,7 @@
 	{
 		"name": "Brahula",
 		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Provides a sum of gold each time you spend a Great Person", "[+2 Gold] from [Marble] tiles [in this city]", 
 					"[+2 Gold] from [Stone] tiles [in this city]", "[+2 Gold] from [Obsidian] tiles [in this city]"],
@@ -691,9 +775,9 @@
 		]
 	},
 	{
-		"name": "Bubrah Tikus",
+		"name": "Border Princes",
 		"culture": 2,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Only available <after adopting [Honor]>", "[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Warrior Code",
@@ -762,6 +846,21 @@
 		]
 	},
 	{
+		"name": "Immortality Temple",
+		"replaces": "Temple",
+		"uniqueTo": "Khemri",
+		"faith": 2,
+		"requiredBuilding": "Immortality Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
+					"[+1 Food] per [3] population [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Priesthood",
+		"civilopediaText": [
+			{"text": "Pious Bretonnia built this structure to worship and praise their Goddess."}
+		]
+	},
+	{
 		"name": "Infernal Gate",
 		"replaces": "Temple",
 		"uniqueTo": "Hordes of Chaos",
@@ -781,7 +880,7 @@
 		"uniqueTo": "Cathay",
 		"cost": 250,
 		"faith": "4",
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"isNationalWonder": true,
 		"uniques": ["[+1 Faith] from [Land] tiles [in all cities] <with [1] to [6] neighboring [Mountain] tiles>", 
 					"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Wealth]>", 
@@ -803,17 +902,17 @@
 	{
 		"name": "'Ndragheta",
 		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 2},
+		"GreatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"uniques": ["[+25]% [Culture] [in this city]", "[-25]% Culture cost of natural border growth [in all cities]", 
 					"[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "Contemplation",
-		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+		"quote": "'The temple is like no other building in the world. It has Towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
 	{
 		"name": "Kalacha",
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Contemplation",
@@ -852,11 +951,11 @@
 		"uniques": ["Provides [1] [Magician]"],
 		"requiredTech": "Winds of Magic",
 		"civilopediaText": [
-            {"text": "Every great magician is a product of their mentor's best training."}
+            {"text": "Every Great magician is a product of their mentor's best training."}
         ]
 	},
 	{
-		"name": "Draen Sanctuary",
+		"name": "Khorne Sanctuary",
 		"uniqueTo": "Hordes of Chaos",
 		"replaces": "Academy of Magic",
 		"food": 1,
@@ -884,7 +983,7 @@
 	{
 		"name": "Porta Alchemica",
 		"replaces": "Courthouse",
-		"uniqueTo": "First Order",
+		"uniqueTo": "Naggaroth",
 		"maintenance": 0,
 		"specialistSlots": {"Alchemist": 1},
 		"cost": 125,
@@ -894,12 +993,12 @@
 					"Comment [Unlock Alchemica specialist slot (+2 Science, +2 Gold, +2 Production)]",
 					"Never destroyed when the city is captured", "Unsellable"],
 		"civilopediaText": [
-            {"text": "By teaching the native people about alchemy, First Order increases the chances of finding hidden geniuses."}
+            {"text": "By teaching the native people about Alchemy, Naggaroth increases the chances of finding hidden geniuses."}
         ]
 	},
 	{
 		"name": "Cetho Lighyn",
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"food": 8,
 		"culture": 1,
 		"isWonder": true,
@@ -912,7 +1011,7 @@
 		"uniqueTo": "Cathay",
 		"cost": 250,
 		"gold": "4",
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isNationalWonder": true,
 		"uniques": ["[+1 Gold] from every [Market]", 
 					"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Life]> <in cities without a [Pillar of Faith]>", 
@@ -951,7 +1050,7 @@
 		"name": "Great Monastery",
 		"culture": 2,
 		"faith": 3,
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
 					"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", 
@@ -994,7 +1093,7 @@
 	},
 	{
 		"name": "Ker'sai",
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Lakes]", "[+2 Gold, +1 Production] from [Lakes] tiles [in this city]"],
 		"requiredTech": "Civil Service",
@@ -1047,6 +1146,17 @@
 		]
 	},
 	{
+		"name": "Carnival",
+		"happiness": 2,
+		"specialistSlots": {"Artist": 2},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Festivals",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
 		"name": "Posha",
 		"replaces": "Market",
 		"uniqueTo": "Ogre Kingdoms",
@@ -1070,15 +1180,15 @@
 					"[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Currency",
 		"civilopediaText": [
-			{"text": "An institution that creates, and distribute currency for fair trades."}
+			{"text": "An institution that creates, and distribute currency for fair Trades."}
 		]
 	},
 	{
-		"name": "Kad'Hall",
+		"name": "Fleetport of Terror",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", 
+		"GreatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Must be next to [Desert]", "Must be next to [Coast]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles [in this city]", 
 					"[+6 Culture] <after discovering [Navigation]>"],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...'  - Indiana Jones"
@@ -1088,7 +1198,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Engineering",
+		"requiredTech": "Sanitation",
 		"civilopediaText": [
 			{"text": "A system for moving water from one location to another location, usually to irrigate crops."}
 		]
@@ -1168,7 +1278,7 @@
 		"name": "Rheog Baddan",
 		"culture": 1,
 		"happiness": 4,
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["[+50]% Golden Age length"],
 		"requiredTech": "Metal Casting",
@@ -1184,7 +1294,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
-					"Connects trade routes over water", "Must be next to [Coast]"],
+					"Connects Trade routes over water", "Must be next to [Coast]"],
 		"requiredTech": "Compass",
 		"civilopediaText": [
             {"text": "A body of water sheltered by natural or artificial barriers to protect boat and ships."}
@@ -1195,7 +1305,7 @@
 		"cost": 400,
 		"culture": 1,
 		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Harbor] [in this city]", "Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
 		"requiredTech": "Compass",
@@ -1268,7 +1378,7 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Chivalry",
 		"civilopediaText": [
-			{"text": "A building designed to protect a military force, civilian, and sometimes a civilization's ruler from its enemies."}
+			{"text": "A building designed to protect a Military force, civilian, and sometimes a civilization's ruler from its enemies."}
 		]
 	},
 	{
@@ -1282,7 +1392,7 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Chivalry",
 		"civilopediaText": [
-			{"text": "A citadel used by Malakar, Saeth's general, to fire Fury. After Saeth's death, the citadel used by Tilea to study dark magic, to create its counter."}
+			{"text": "A citadel used by Malakar, Saeth's general, to fire Fury. After Saeth's death, the citadel used by Tilea to study True Dhar, to create its counter."}
 		]
 	},
 	{
@@ -1302,7 +1412,7 @@
 	{
 		"name": "Ulick Myne",
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill] promotion",
@@ -1354,7 +1464,7 @@
 	{
 		"name": "Mountain of Loneliness",
 		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"GreatPersonPoints": {"Great Merchant": 2},
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+25]% [Gold] from Trade Routes", "Must have an owned [Mountain] within [2] tiles"],
@@ -1445,11 +1555,11 @@
 		"name": "Jagaddhita",
 		"culture": 3,
 		"happiness": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"requiredTech": "Steel",
 		"uniques": ["[+1 Happiness] per [2] social policies adopted"],
-		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
+		"quote": "'Architecture has recorded the Great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 	},
 	// Column 8
 	{
@@ -1477,7 +1587,7 @@
 					"[+1 Science] from [Mine] tiles [in this city]"],
 		"requiredTech": "Astronomy",
 		"civilopediaText": [
-			{"text": "In addition to observing terrestrial, marine, or celestial events, this building is a residence for dwarven tinkerer to study and mess around with their invention."}
+			{"text": "In addition to observing terrestrial, marine, or celestial events, this building is a residence for dwarven tinkerer to study and mess around with their Machinery."}
 		]
 	},
 	{
@@ -1499,7 +1609,7 @@
 		"uniqueTo": "Kislev",
 		"culture": 5,
 		"specialistSlots": {"Artist": 1},
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Pyramid",
 		"maintenance": 0,
@@ -1535,7 +1645,7 @@
 		]
 	},
 	{
-		"name": "The Great Watchtower",
+		"name": "The Great WatchTower",
 		"cost": 700,
 		"culture": 2,
 		"cityStrength": 10,
@@ -1575,7 +1685,7 @@
 		"name": "Maso Commune",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Loans and Saving",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
@@ -1583,7 +1693,7 @@
 	{
 		"name": "Bath Gate",
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"GreatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["Free [Great General] appears", "Free [Great Admiral] appears"],
 		"requiredTech": "Gunpowder",
@@ -1606,7 +1716,7 @@
 	{
 		"name": "Order of Maesters",
 		"culture": 2,
-		"greatPersonPoints": {"Great Scientist": 3},
+		"GreatPersonPoints": {"Great Scientist": 3},
 		"specialistSlots": {"Inventor": 1},
 		"isWonder": true,
 		"uniques": ["[+50]% [Food] from City-States", "Military Units gifted from City-States start with [+15] XP", 
@@ -1640,7 +1750,7 @@
 	{
 		"name": "God's Messenger Monument",
 		"culture": 3,
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Free [Great Artist] appears", 
 					"Free [Great Merchant] appears", 
@@ -1716,7 +1826,7 @@
 	},
 	{
 		"name": "Glaciruptor",
-		"greatPersonPoints": {"Great Scientist": 1,"Great Engineer": 1},
+		"GreatPersonPoints": {"Great Scientist": 1,"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Tundra]", "[+1 Production] from [Tundra] tiles [in this city]", 
 					"[+2 Science] from [Snow] tiles [in this city]"], 
@@ -1760,7 +1870,7 @@
 		"name": "Platinum Star",
 		"culture": 1,
 		"happiness": 4,
-		"greatPersonPoints": {"Great Scientist": 2},
+		"GreatPersonPoints": {"Great Scientist": 2},
 		"specialistSlots": {"Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Free [Great Scientist] appears", "Empire enters golden age", "Must be next to [Coast]", "Free [Watcher] appears"],
@@ -1781,11 +1891,11 @@
 	{
 		"name": "Yimasp An'a",
 		"culture": 1,
-		"greatPersonPoints": {"Great Scientist": 2},
+		"GreatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
 		"uniques": ["Science gained from research agreements [+50]%", "Must not be on [Hill]"],
 		"requiredTech": "Scientific Theory",
-		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
+		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible Tower of the past that Longing leans and beckons.' - James Russell Lowell"
 	},
 	{
 		"name": "Quality Seeds Station",
@@ -1818,7 +1928,7 @@
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science",
 		"civilopediaText": [
-			{"text": "An institution dedicated to train the art of war including rigorous physical training and courses in command, strategy, logistics and other military subjects."}
+			{"text": "An institution dedicated to train the art of war including rigorous physical training and courses in command, strategy, logistics and other Military subjects."}
 		]
 	},
 	{
@@ -1853,7 +1963,7 @@
 	{
 		"name": "Fog of Klabautermann",
 		"production": 5,
-		"greatPersonPoints": {"Great Artist": 1},
+		"GreatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "All newly-trained [Water] units [in this city] receive the [Medic] promotion"],
 		"requiredTech": "Archaeology",
@@ -1937,7 +2047,7 @@
 		"happiness": 2,
 		"culture": 4,
 		"gold": 6,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
 					"Must have an owned [Mountain] within [2] tiles"],
@@ -1981,7 +2091,7 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Replaceable Parts",
 		"civilopediaText": [
-			{"text": "Military area that contains everything needed to keep the military unit in fighting trim, including training grounds, officers' quarters and enlisted barracks, armories, supply depots, transport equipment, hospitals, and so forth."}
+			{"text": "Military area that contains everything needed to keep the Military unit in fighting trim, including training grounds, officers' quarters and enlisted barracks, armories, supply depots, transport equipment, hospitals, and so forth."}
 		]
 	},
 	{
@@ -2019,17 +2129,17 @@
 		"cost": 1000,
 		"culture": 1,
 		"gold": 4,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"GreatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
 		"uniques": ["Free [Great Scientist] appears"],
 		"requiredTech": "Computers",
-		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+		"quote": "'To achieve Great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
 	{
 		"name": "Epsilon Army",
 		"isWonder": true,
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"GreatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
@@ -2095,7 +2205,7 @@
 		"uniques": ["Unbuildable <before discovering [Nature Lore]>"],
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [
-			{"text": "The Pyramid is sacred to the god Sotek and is a place of holy pilgrimage for the cold-blooded inhabitants of Lustria. Each year, great heaps of treasure and magical artefacts are offered to the Serpent God and legend has it that the pyramid contains an artefact rumoured to give the bearer power over the beasts of the jungle."}
+			{"text": "The Pyramid is sacred to the god Sotek and is a place of holy pilgrimage for the cold-blooded inhabitants of Lustria. Each year, Great heaps of treasure and magical artefacts are offered to the Serpent God and legend has it that the pyramid contains an artefact rumoured to give the bearer power over the beasts of the jungle."}
 		]
 	},
 	{
@@ -2136,7 +2246,7 @@
 	},
 	{
 		"name": "The Great Voyage",
-		"greatPersonPoints": {"Great Merchant": 1},
+		"GreatPersonPoints": {"Great Merchant": 1},
 		"uniqueTo": "Norsca",
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", 
@@ -2153,25 +2263,25 @@
 	// Knightly orders
 	{
 		"name": "The Knights Panther",
-		"greatPersonPoints": {"Great General": 1},
+		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight Panther] appears <every [6] turns>"],
+		"uniques": ["Free [Knight Panther] appears <every [6] turns>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Knights Panther automatically produce Knight Panther. You need horses in the city to build it",
-		"requiredTech": "Knightly Orders",
+		"requiredTech": "Old World",
 		"requiredResource": "Horses",
 		"quote": "'I swear before Sigmar and Ulric, and in the witness of this company here gathered, to serve the ancient and noble Order of the Knights Panther truly and faithfully unto death, observing the Laws of the Order: to serve and protect Graf Boris Todbringer, his family, his legitimate successors and his appointed officers with my life; to render full and unquestioning service to my superiors in the Order and to those they appoint over me; never to suffer any person or thing bearing the mark of Chaos to live while there is breath in my body. The Order has my oath, which only death may break. Let all here present bear witness' ― Oath of the Knights Panther",
 		"civilopediaText": [
 			{"text": "The Knights Panther, along with the Knights of the White Wolf, are considered to be the most powerful of all the Knightly Orders. Even if this is in question they are certainly one of the most, if not the most, ancient Knightly Order, tracing their existence back to the wars against Araby nearly a thousand years ago. Knights from all over the Old World joined in the war against the Sultans of Araby, driving their armies from the south of Estalia and carrying the battle to Araby itself. The returning Knights brought back much plunder from the Sultans' Palaces, including gold and silver, precious gems, silks, furs, and many exotic animals the like of which had never been seen before in the Old World. Some of the most amazing and beautiful creatures were the panthers, liberated from the pleasure gardens of Istrabul. They created such an abiding impression to the jubilant crowds cheering the return of the crusaders, in seeing some of the Knights parading them attached to gold chains, that the Order of the Knights Panther was founded. In time the creatures died but their fur would be used for saddle cloths or trimming for fur cloaks, reinforcing the new Order's unique character and reminding everyone of their victories in Araby. Today the original panthers and even their hides have long gone, but the memory of the Arabyan wars is maintained in every Panther's raiment by wearing the hide of any spotted creature they can find and the panther emblem emblazoned on their shields."},
-			{"text": Although the crusades are distant memory the Knights Panther today stand for the preservation of racial purity in The Empire and are dedicated to the annihilation of all mutants and any kind of Chaos taint. They have a substantial presence in the staunchly Ulrican cities of Middenheim and Talabheim and can be seen on many public occasions. There exists a friendly rivalry with the Knights of the White Wolf (another pro-Ulric Order of Knights). The Knights Panther consider their battle tactics rather crude while at the same time the Knights of the White Wolf consider the Panthers to be too interested in keeping their armoured suits highly polished than indulging in serious martial training."}
+			{"text": "Although the crusades are distant memory the Knights Panther today stand for the preservation of racial purity in The Empire and are dedicated to the annihilation of all mutants and any kind of Chaos taint. They have a substantial presence in the staunchly Ulrican cities of Middenheim and Talabheim and can be seen on many public occasions. There exists a friendly rivalry with the Knights of the White Wolf (another pro-Ulric Order of Knights). The Knights Panther consider their battle tactics rather crude while at the same time the Knights of the White Wolf consider the Panthers to be too interested in keeping their armoured suits highly polished than indulging in serious martial training."}
 		]
 	},
 	{
 		"name": "Order of the White Wolf",
-		"greatPersonPoints": {"Great General": 1},
+		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight of the White Wolf] appears <every [6] turns>"],
+		"uniques": ["Free [Knight of the White Wolf] appears <every [6] turns>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Order of the White Wolf automatically produces a Knight of the White Wolf every six turns. You need furs in the city to build it.",
-		"requiredTech": "Knightly Orders",
+		"requiredTech": "Old World",
 		"requiredResource": "Furs",
 		"quote": "'Old White Wolf will sniff you out, Old White Wolf with braided hair, Old White Wolf will hunt you down, Old White Wolf will rip and tear!' -Middenheimer children's rhyme.",
 		"civilopediaText": [
@@ -2182,11 +2292,11 @@
 	},
 	{
 		"name": "Order of the Fiery Heart",
-		"greatPersonPoints": {"Great General": 1},
+		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight of the Fiery Heart] appears <every [5] turns>"],
+		"uniques": ["Free [Knight of the Fiery Heart] appears <every [5] turns>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Order of the Fiery Heart automatically produces a Knight of the Fiery Heart every five turns. You need incense in the city to build it.",
-		"requiredTech": "Knightly Orders",
+		"requiredTech": "Old World",
 		"requiredResource": "Incense",
 		"quote": "'' ― ",
 		"civilopediaText": [
@@ -2196,12 +2306,12 @@
 	},
 	{
 		"name": "The Brotherhood of the Bear",
-		"greatPersonPoints": {"Great General": 1},
+		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
 		"uniqueTo": "Kislev",
-		"uniques": ["Free [Ranger-Templar] appears <every [6] turns>"],
+		"uniques": ["Free [Ranger-Templar] appears <every [6] turns>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Brotherhood of the Bear automatically produces a Ranger-Templar of Taal every six turns.",
-		"requiredTech": "Knightly Orders",
+		"requiredTech": "Old World",
 		"quote": "'' ― ",
 		"civilopediaText": [
 			{"text": "The worship of Taal is still very strong in Kislev. The Brotherhood of the Bear is an order of Ranger-Templars dedicated to the God of Nature and Wild Places. It is an order which specialises in skirmish actions in forests and rough terrain. They ensure that isolated settlements are safe from incursions of Beastmen and some even venture into the Taiga (an extremely dangerous stretch of coniferous forest to the north of Kislev) where they use their skills to destroy entire warbands of Chaos, using ingenious traps and their knowledge of the area to lead them into fatal ambushes. It is important that the Ranger-Templars undergo these periodic raids into the Taiga to stem the tide of Chaos incursions into the sparsely populated Translynsk and to prevent warbands from penetrating into Kislev itself. Aside from hunting Beastmen in the forests, the Brotherhood of the Bear also strives to protect places sacred to Taal. The Brotherhood has friendly relations with the White Wolves and sometimes they join forces in order to eradicate a particularly large Chaos force."},
@@ -2263,6 +2373,7 @@
 		"science": 4,
 		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Necromancy]>","[+25]% [Food] [in all cities]"],
+		"uniqueTo": "Khemri",
 		"requiredTech": "Undead Curse",
 		"requiredBuilding": "Immortality Shrine",
 		"civilopediaText": [
@@ -2288,7 +2399,7 @@
 		"uniques": ["Unbuildable <before discovering [Literature]>","[2] Free Technologies"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
-			{"text": "The White Tower of Hoeth was to be the Scholar-King's greatest contribution to the rebirth of Ulthuan: a citadel of sorcery and scholarship, where the wisdom of the four corners of the world would be gathered, and grimoires of the most potent spells would be enshrined. For a thousand years, the Elves raised this vast sky-reaching structure, harnessing the secrets of artificer and mage in equal measure with every stone that was laid. Craftsmen laboured for nearly a millennium on intricate carvings. The tower was woven round with spells of illusion and warding to protect this treasured knowledge"}
+			{"text": "The White Tower of Hoeth was to be the Scholar-King's Greatest contribution to the rebirth of Ulthuan: a citadel of sorcery and scholarship, where the wisdom of the four corners of the world would be gathered, and grimoires of the most potent spells would be enshrined. For a thousand years, the Elves raised this vast sky-reaching structure, harnessing the secrets of artificer and mage in equal measure with every stone that was laid. Craftsmen laboured for nearly a millennium on intricate carvings. The Tower was woven round with spells of illusion and warding to protect this treasured knowledge"}
 		]
 	},
 	{
@@ -2300,7 +2411,7 @@
 		"requiredTech": "Channeling",
 		"requiredBuilding": "Paper Maker",
 		"civilopediaText": [
-			{"text": "As work on the White Tower progressed, Bel-Korhadris founded the order of Loremasters who would be both the guardians and pupils of the knowledge assembled within. Every discipline, from warfare and sorcery to alchemy and astromancy, was to be studied. many famed scholars and sorcerers gathered at Hoeth, and such an exchange of knowledge occurred as had not been seen before, and has not been seen since. In the shadow of the needle-pointed spire, thousands of the wisest philosophers debated their knowledge. Within the library, a cadre of Loremasters began to inscribe the Book of Days, the great history of the Elven people on which all future histories would be based.."}
+			{"text": "As work on the White Tower progressed, Bel-Korhadris founded the order of Loremasters who would be both the guardians and pupils of the knowledge assembled within. Every discipline, from warfare and sorcery to Alchemy and astromancy, was to be studied. many famed scholars and sorcerers gathered at Hoeth, and such an exchange of knowledge occurred as had not been seen before, and has not been seen since. In the shadow of the needle-pointed spire, thousands of the wisest philosophers debated their knowledge. Within the Library, a cadre of Loremasters began to inscribe the Book of Days, the Great history of the Elven people on which all future histories would be based.."}
 		]
 	},
 	{
@@ -2348,7 +2459,7 @@
 		"requiredTech": "Chaos",
 		"requiredBuilding": "Chaos Shrine",
 		"civilopediaText": [
-			{"text": "A Cauldron of Blood is an ancient artefact of the long-gone days when the gods walked the earth. It is a gift from Khaine, the Lord of Murder, and within it lies the secret of eternal youth and beauty. A bride of Khaine may bathe in the blood-filled Cauldron, and it renews her vitality and youth. The few Cauldrons that have survived the millennia are kept at the great temple of Ghrond, guarded by the High Priestesses of the Cult. One may be brought out to battle, but only in times of great bloodshed when the Witch Elf sect fights in strength."}
+			{"text": "A Cauldron of Blood is an ancient artefact of the long-gone days when the gods walked the earth. It is a gift from Khaine, the Lord of Murder, and within it lies the secret of eternal youth and beauty. A bride of Khaine may bathe in the blood-filled Cauldron, and it renews her vitality and youth. The few Cauldrons that have survived the millennia are kept at the Great temple of Ghrond, guarded by the High Priestesses of the Cult. One may be brought out to battle, but only in times of Great bloodshed when the Witch Elf sect fights in strength."}
 		]
 	},
 	{
@@ -2369,7 +2480,7 @@
 		"name": "The Round Table",
 		"isWonder": true,
 		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1,"Great Engineer": 1,"Great Merchant": 1,"Great Scientist": 1},
+		"GreatPersonPoints": {"Great Artist": 1,"Great Engineer": 1,"Great Merchant": 1,"Great Scientist": 1},
 		"requiredTech": "Radar",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
@@ -2432,7 +2543,7 @@
 	{
 		"name": "Castle Drachenfels",
 		"faith": 1,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"GreatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["May buy [Constant Drachenfels] units for [100] [Faith] [in all cities] at an increasing price ([100])", 
 					"Free [Constant Drachenfels] appears"],
@@ -2806,6 +2917,605 @@
 					//"Automatically built in all cities where it is buildable", 
 					"[+1] population [in this city]"]
 	},
+	
+	
+// todo	
+	{
+		"name": "Joust",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Tournaments",
+		"requiredResource": "Horses",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Dark Convent",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "True Dhar",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "White Tower",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "High Magic",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Eternal Tower Wood",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Loren Magic",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Coven",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Raw Magic",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Breeding Pit",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Monster Breeding",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Archery Range",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archery",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Bowyer",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Machinery",
+		"requiredBuilding": "Archery Range",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Siege Workshop",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Mathematics",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Cannon Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Metallurgy",
+		"requiredBuilding": "Siege Workshop",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Shipyard",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Navigation",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Drydock",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Steel",
+		"requiredBuilding": "Shipyard",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Wheelwright",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Warfare",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Mastersmith",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Smithing",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Vaul Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Smithing",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Rune Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Smithing",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Inquisition",
+		"isWonder": true,
+		"uniqueTo": "Estalia",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Fanaticism",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Tribunal",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Fanaticism",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "City Walls",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Construction",
+		"requiredBuilding": "Walls",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "High Walls",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Engineering",
+		"requiredBuilding": "City Walls",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Castle",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lordship",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Citadel",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Engineering",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Herbalist",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Herblore",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Academy",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Philosophy",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Black Library",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Literature",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Black Pyramid",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Necromancy",
+		"requiredBuilding": "Pyramid of Eternal Life",
+		"uniques": ["[2] Free Technologies"],
+		"civilopediaText": [
+			{"text": "Grants two Civilization Advances as soon as completed. May be built only if [Pyramid of Eternal Life] is built in the same city."}
+		]
+	},
+	{
+		"name": "Blood Bowl",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Bloodbowl",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Bloodweiser Stadium",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Bloodbowl",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Governor's Manor",
+		"maintenance": 1,
+		"uniqueTo": "Sylvania",
+		"hurryCostModifier": 0,
+		"requiredTech": "Lordship",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Dungeon",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Tyranny",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Floating Gardens",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Irrigation",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Gallow",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Tyranny",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Gateway",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Chaos Incursion",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Glittering Tower Lighthouse",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Navigation",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Gnome's Workshop",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Machinery",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Great Bastion",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Great Bazaar",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Trade",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Great Forge",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Steel",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Grocer",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Guilds",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Harbor",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Sailing",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Heroic Epic",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Warrior Code",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Inn",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Trade",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Laboratory",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Alchemy",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Library",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Literature",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Arabyan Madrassa",
+		"maintenance": 1,
+		"uniqueTo": "Araby",
+		"replaces": "Library",
+		"hurryCostModifier": 0,
+		"requiredTech": "Literature",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Military Academy",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Military Science",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Lordship",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Observatory",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Astronomy",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Palace of the Wizard Calif",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Elemental Magic",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Philosopher's Stone",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Alchemy",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Sewer",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Sanitation",
+		"requiredBuilding": "Aqueduct",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Silk Route",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Silk",
+		"civilopediaText": [
+			{"text": "The Silk Route increases tax revenue allocated to the treasury by 50% and causes its city to produce one extra commerce in every square that already produces at least one."}
+		]
+	},
+	{
+		"name": "The Spice Road",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Spices",
+		"civilopediaText": [
+			{"text": "The Spice Road increases tax revenue allocated to the treasury by 50% and causes its city to produce one extra commerce in every square that already produces at least one."}
+		]
+	},
+	{
+		"name": "Slaughterhouse",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Guilds",
+		"requiredResource": "Cattle",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Spy Network",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Civil Service",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Tanner",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Animal Husbandry",
+		"requiredNearbyImprovedResources": ["Furs","Deer"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Tailor",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Crafting",
+		"requiredNearbyImprovedResources": ["Cotton","Dyes","Furs","Silk","Sheep"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Tavern",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Brewing",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Theatre",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Literature",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The War Academy",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Military Science",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "University",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Sisters of Shallya",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Priesthood",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+
 	{
 		"name": "~limiter",
 		"uniques": ["Unbuildable", "Unsellable", 

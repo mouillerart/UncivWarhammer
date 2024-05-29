@@ -3,7 +3,23 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-	},
+	}
+	,
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,10,10],
+		"style": "Barbarians",
+		"uniques": ["Can only heal by pillaging", 
+					"[Recon] units gain the [No Suicide] promotion", 
+					"[Sword] units gain the [No Suicide] promotion", 
+					"[Gunpowder] units gain the [No Suicide] promotion", 
+					"[Anti-Cav] units gain the [No Suicide] promotion", 
+					"[Armored] units gain the [No Suicide] promotion", 
+					"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
+	}
+	,
 	
 // Nations
 	
@@ -152,7 +168,7 @@
 		"outerColor": [255, 205,0],
 		"innerColor": [0,0,0],
 
-		"declaringWar": "Lightning shall sunder the skies, the rivers will flow with blood and war will come to the land. The legions once more rise in eternal conquest...And death shall ride beside them",
+		"declaringWar": "Lightning shall sunder the skies, the rivers will flow with blood and war will come to the land. The legions once more rise in eternal conquest...And death shall ride beside them.",
 		"attacked": "Damnation awaits those who would disturb our rest! Here be the souls of those that are lost...",
 		"defeated": "This death is ours. We choose it. We deny you your victory.",
 		"afterPeace": "You'll live a bit more then.",
@@ -338,7 +354,7 @@
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "Our mother of battle, she who keeps our blades keen, who keeps our shields ready, and our armour strong, grant us the grace to know our enemies, and the honour to stand against them, and the strength to defeat them.",
-		"attacked": ""I will parry your prima attacks on my three-quarters radial, and take zeh high ground. With just a fifty-three inch reach, you can't win this fight using a cutting blade. Not with such a poor stance, senor.",
+		"attacked": "I will parry your prima attacks on my three-quarters radial, and take zeh high ground. With just a fifty-three inch reach, you can't win this fight using a cutting blade. Not with such a poor stance, senor.",
 		"defeated": "God was real, and he hated us.",
 		"afterPeace": "The sword is not the answer to every military problem, for even the mightiest of swords will miss its mark if the opponent is wise enough not to wait around to get slain.",
 		"introduction": "Hola, we're Estalians. We'd love duelling with you.",	
@@ -659,8 +675,8 @@
 		"attacked": "May your souls be flayed by Djinn!",
 		"defeated": "Our lives were glorious. Our death is as much. We'll meet in St'oec.",
 		"introduction": "By the silver beard of Abdul ibn Ashid! What a surprise to meet you, stranger.",
-		"declaringWar": "...",
-		"afterPeace": "...",
+		"declaringWar": "Al Muktar!",
+		"afterPeace": "I will be using my lamp of the Djinn for the next two wishes. Hopefully they will not be against you.",
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -696,9 +712,9 @@
 		
 		"declaringWar": "Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World. The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall.",
 		"defeated": "I am the Final Moment made flesh. I stand here on this mountain, and I will sit on this throne. I will be the axis upon which the wheel of change turns, and the world will drown in the light of unborn stars.",
+		"attacked": "You're attacking us? It's not the end of the world. Yet.",
 		"introduction": "I am Archaon, doom to my enemies, doom to all the world, doom to all the gods invested in that world.",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"afterPeace": "Peace is not the absence of chaos.",
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -742,11 +758,11 @@
 		"outerColor": [162, 51, 51],
 		"innerColor": [255,255,255],
 		
-		"declaringWar": "...",
-		"attacked": "...",
-		"defeated": "...",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"declaringWar": "We are the prophets, we are the servants, we are the warriors of Tchar, and we will destroy you.",
+		"attacked": "Don't you know thatt it is better to take your own life than to fall into the hands of the Kurgan?",
+		"defeated": "Everything has an end. We had so much fun pillaging the temples and the shrines and slaying the Priests and virgins.",
+		"afterPeace": "There is nothing if there isn't war",
+		"introduction": "You may call us heathens, savages or even brutes, but we are closest to the gods. We see their work in all things. And we do not create new, seemly gods to conform with our hopes for the world.",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -804,37 +820,6 @@
 		]
 	}
 	,
-	// Grand Cathay
-	{
-		"name": "Cathay",
-		"leaderName": "Wu",
-		"adjective": ["Cathayans"],
-		"style": "Human",
-		"outerColor": [255, 192, 203],
-		"innerColor": [75, 0, 130],
-		
-		"declaringWar": "...",
-		"attacked": "...",
-		"defeated": "...",
-		"afterPeace": "...",
-		"introduction": "...",	
-		
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
-		"tradeRequest": "I offers you this exceptional proposition.",
-		
-		"uniques": ["Starts with [Far East]"],
-		"cities": ["Weijin","Nan-Gau","Shang-Yang","Shang Wu","Fu-Chow","Fu-Hung","Nan Chu","Heyang","Wang","Shuang Hsi"],
-
-		"civilopediaText": [
-			{"text": "Imperial Cathay is known for its immerse size, unified priesthood and omnipresent bureaucracy."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
-		]
-	}
-	,
 	// Lizardmen (Slann)
 	{
 		"name": "Slann",
@@ -847,8 +832,8 @@
 		"innerColor": [0,0,0],
 		
 		"declaringWar": "The Warm-bloods dare to meddle at the Fallen Gates. The Great Purpose does not allow for mercy!",
-		"attacked": "...",
-		"defeated": "...",
+		"attacked": "At the time of the three hundredth cycle of this world, the two moons shall unite and summon forth the Rodent God and his evil spawn to deliver plague and pestilence upon the land named Lustria.",
+		"defeated": "Amid the darkness and horror of a world splintering apart, the armies of the true creators, we who were ancient at the dawn of time, won't march forth once more.",
 		"afterPeace": "There are many paths to order and knowledge; may the Old Ones guide us",
 		"introduction": "Kroak! Who are you?",
 
@@ -881,8 +866,8 @@
 
 		"declaringWar": "I am the hunter and you are my prey.",
 		"attacked": "We will defend the sacred sites to the last blood.",
-		"defeated": "...",
-		"afterPeace": "...",
+		"defeated": "Men, men, men.",
+		"afterPeace": "you'll have to clean this up. We won't do it for you.",
 		"introduction": "Oh. First men since Rothnikson. Welcome to the Sisterhood.",
 		
 		"neutralHello": "You have my gratitude.",
@@ -913,13 +898,11 @@
 		"outerColor": [105,159,105]
 		"innerColor": [211,180,60],
 		
-		"declaringWar": "I appeal to Commandment Five: you will defend the weak who cannot defend themselves, against any and all unlawful oppressors.",
-		"attacked": "I appeal to Commandment Seven: you will bravely bear arms for Albion against its enemies, under the command of its king and his appointed generals.",
+		"declaringWar": "Defend the weak who cannot defend themselves, against any and all unlawful oppressors.",
+		"attacked": "Bravely bear arms for Albion against its enemies, under the command of its king and his appointed generals.",
 		"afterPeace": "Commandment Ten, you will be courteous and mild even with those you do not love, and will resist all wrath which is not righteous",
+		"defeated": "We're vanishing, but remember: stand firm against the temptations of Daemons of Chaos and all Dark Magic.",
 		"introduction": "Do respect the Commandments of the Code of Agam Rund.",
-		"declaringWar": "...",
-		"attacked": "...",
-		"introduction": "...",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -948,11 +931,11 @@
 		"startBias": ["Jungle"],
 		"style": "Human",
 		
-		"declaringWar": "...",
-		"attacked": "...",
-		"defeated": "...",
-		"afterPeace": "...",
-		"introduction": "...",	
+		"declaringWar": "By the eight arms of the Great Tiger! Die!",
+		"attacked": "Seems you don't know our gods very well. You're underestimating the power of She’ar Khawn.",
+		"defeated": "I guess it was our karma.",
+		"afterPeace": "Together, let's please our thousand gods!",
+		"introduction": "I salute the divine in you. Will you trade with us?",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -970,21 +953,52 @@
 		]
 	}
 	,
+	// Grand Cathay
+	{
+		"name": "Cathay",
+		"leaderName": "Wu",
+		"adjective": ["Cathayans"],
+		"style": "Human",
+		"outerColor": [255, 192, 203],
+		"innerColor": [75, 0, 130],
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"afterPeace": "Living in harmony is all that our people desire.",
+		"introduction": "...",	
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"uniques": ["Starts with [Far East]"],
+		"cities": ["Weijin","Nan-Gau","Shang-Yang","Shang Wu","Fu-Chow","Fu-Hung","Nan Chu","Heyang","Wang","Shuang Hsi"],
+
+		"civilopediaText": [
+			{"text": "Imperial Cathay is known for its immerse size, unified priesthood and omnipresent bureaucracy."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "..."},
+			{"text": "..."}
+		]
+	}
+	,
 	// Nippon
 	{
 		"name": "Nippon",
 		"leaderName": "Takagura",
 		"outerColor": [119, 136, 153],
-		"innerColor": [255,255,255],
+		"innerColor": [255,2,55,255],
 		"adjective": ["Nipponese"],
 		"startBias": ["Coast"],
 		"style": "Human",
 		
-		"declaringWar": "...",
-		"attacked": "...",
-		"defeated": "Even monkeys sometimes fall from the trees.",
+		"declaringWar": "Even monkeys sometimes fall from the trees.",
+		"attacked": "What a lack of honour. So despictable.",
+		"defeated": "Always know that you know nothing.",
 		"afterPeace": "Victory is ever in your grasp – even if you fail to achieve it.",
-		"introduction": "...",	
+		"introduction": "We bow to you. Will you fill the purses of our merchants or will you feed the blades of our samurai?",	
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
@@ -1231,21 +1245,4 @@
 	}
 
 	*/
-,
-	
-	
-	//Barbarian
-	{
-		"name": "Barbarians",
-		"outerColor": [0,0,0],
-		"innerColor": [185,10,10],
-		"style": "Barbarians",
-		"uniques": ["Can only heal by pillaging", 
-					"[Recon] units gain the [No Suicide] promotion", 
-					"[Sword] units gain the [No Suicide] promotion", 
-					"[Gunpowder] units gain the [No Suicide] promotion", 
-					"[Anti-Cav] units gain the [No Suicide] promotion", 
-					"[Armored] units gain the [No Suicide] promotion", 
-					"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
-	}
 ]

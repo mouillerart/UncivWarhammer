@@ -139,6 +139,7 @@
 	{
 		"name": "Plantation",
 		"turnsToBuild": 6,
+		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", 
@@ -613,7 +614,7 @@
 	{
 		"name": "Oracle Monument",
 		"uniqueTo": "Ulthuan",
-		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Contemplation",
@@ -623,7 +624,7 @@
 					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "O",
 		"civilopediaText": [
-			{"text": "A tall monument where the oracles, or the Ephor, resides and foretold the future of the Ulthuann and the probable victory of their army in the future war."}
+			{"text": "A tall monument where the oracles, or the Ephor, resides and foretold the future of the Ulthuan and the probable victory of their army in the future war."}
 			{"text": "Apart from fortune-telling, the oracles also sell information to the commoners and sometimes sell good luck charms."}
 		]
 	},

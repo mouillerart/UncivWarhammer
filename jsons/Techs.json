@@ -15,7 +15,7 @@
 			{
 				"name": "Old World",
 				"row": 3,
-				"uniques": ["Only available <for [Reikland]>","Only available <for [Kislev]>","Only available <for [^Tilea]>","Only available <for [Estalia]>"],
+				"uniques": ["Only available <for [Reikland]>","Only available <for [Kislev]>","Only available <for [Tilea]>","Only available <for [Estalia]>"],
 				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia"
 			},
 			{
@@ -132,9 +132,10 @@
 				"quote": "'The hungry flame sat in our guts...We ate the mountains to put it out... but the fire was still there...We climbed further still... We ate the Tall Ones' herds...Cavebeast was good meat... We climbed the peaks...Above the skies the giants dwell..'"
 			},
 			{
-				"name": "WAAGH!"
+				"name": "WAAGH"
 				"row": 13,
 				"prerequisites": ["Greenskin"],
+				"uniques": ["[+1] Movement <for [Melee] units>"],
 				"quote": ""
 			}
 		]

@@ -351,6 +351,23 @@
 		"weight": 10
 	},
 	{
+		"name": "Lost City of the Old Ones",
+		"type": "NaturalWonder",
+		"faith": 10,
+		"overrideStats": true,
+		"movementCost": 1,
+		"defenceBonus": 0.1,
+		"occursOn": ["Jungle"],
+		"turnsInto": "Jungle",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [River] tiles",
+					"Must be adjacent to [1] to [6] [Jungle] tiles",
+					"Grants [+500 Faith] to the first civilization to discover it",
+					"Tile provides yield without assigned population"],
+		"weight": 10
+	},
+	{
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
