@@ -2381,6 +2381,19 @@
 		]
 	},
 	{
+		"name": "Black Pyramid",
+		"cost": 1100,
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Necromancy",
+		"requiredBuilding": "Pyramid of Eternal Life",
+		"uniques": ["[2] Free Technologies"],
+		"civilopediaText": [
+			{"text": "Grants two Civilization Advances as soon as completed. May be built only if [Pyramid of Eternal Life] is built in the same city."}
+		]
+	},
+	{
 		"name": "Word of the Old Ones",
 		"isWonder": true,
 		"faith": 4,
@@ -2920,12 +2933,14 @@
 	
 	
 // todo	
+/*
 	{
 		"name": "Joust",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Tournaments",
 		"requiredResource": "Horses",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2935,6 +2950,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "True Dhar",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2944,6 +2960,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "High Magic",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2953,6 +2970,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Loren Magic",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2962,6 +2980,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Raw Magic",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2971,6 +2990,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Monster Breeding",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2980,6 +3000,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archery",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2990,6 +3011,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Machinery",
 		"requiredBuilding": "Archery Range",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -2999,6 +3021,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Mathematics",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3009,6 +3032,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Metallurgy",
 		"requiredBuilding": "Siege Workshop",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3018,6 +3042,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Navigation",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3028,6 +3053,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Steel",
 		"requiredBuilding": "Shipyard",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3037,6 +3063,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Warfare",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3046,6 +3073,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Smithing",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3054,7 +3082,8 @@
 		"name": "Vaul Forge",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"requiredTech": "Smithing",
+		"requiredTech": "Gromril Smithing",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3063,7 +3092,8 @@
 		"name": "Rune Forge",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"requiredTech": "Smithing",
+		"requiredTech": "Rune Smithing",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3075,6 +3105,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Fanaticism",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3084,6 +3115,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Fanaticism",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3094,6 +3126,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Construction",
 		"requiredBuilding": "Walls",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3104,6 +3137,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Engineering",
 		"requiredBuilding": "City Walls",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3113,6 +3147,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Lordship",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3122,6 +3157,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Engineering",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3131,6 +3167,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Herblore",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3141,6 +3178,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Philosophy",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3151,20 +3189,9 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Literature",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
-		]
-	},
-	{
-		"name": "Black Pyramid",
-		"isWonder": true,
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"requiredTech": "Necromancy",
-		"requiredBuilding": "Pyramid of Eternal Life",
-		"uniques": ["[2] Free Technologies"],
-		"civilopediaText": [
-			{"text": "Grants two Civilization Advances as soon as completed. May be built only if [Pyramid of Eternal Life] is built in the same city."}
 		]
 	},
 	{
@@ -3183,6 +3210,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Bloodbowl",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3193,6 +3221,7 @@
 		"uniqueTo": "Sylvania",
 		"hurryCostModifier": 0,
 		"requiredTech": "Lordship",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3202,6 +3231,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Tyranny",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3212,6 +3242,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Irrigation",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3221,6 +3252,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Tyranny",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3230,6 +3262,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Chaos Incursion",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3240,6 +3273,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Navigation",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3250,6 +3284,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Machinery",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3260,6 +3295,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Construction",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3270,6 +3306,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Trade",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3280,6 +3317,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Steel",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3289,15 +3327,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Guilds",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Harbor",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"requiredTech": "Sailing",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3307,6 +3337,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Warrior Code",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3316,6 +3347,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Trade",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3325,6 +3357,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Alchemy",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3334,6 +3367,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Literature",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3345,6 +3379,7 @@
 		"replaces": "Library",
 		"hurryCostModifier": 0,
 		"requiredTech": "Literature",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3354,15 +3389,17 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Military Science",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
 	},
 	{
-		"name": "Monument",
+		"name": "Realm Stone",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Lordship",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3372,6 +3409,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Astronomy",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3382,6 +3420,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Elemental Magic",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3392,6 +3431,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Alchemy",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3402,6 +3442,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Sanitation",
 		"requiredBuilding": "Aqueduct",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3413,6 +3454,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Silk",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": "The Silk Route increases tax revenue allocated to the treasury by 50% and causes its city to produce one extra commerce in every square that already produces at least one."}
 		]
@@ -3424,6 +3466,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Spices",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": "The Spice Road increases tax revenue allocated to the treasury by 50% and causes its city to produce one extra commerce in every square that already produces at least one."}
 		]
@@ -3434,6 +3477,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Guilds",
 		"requiredResource": "Cattle",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3444,6 +3488,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Civil Service",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3454,6 +3499,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Animal Husbandry",
 		"requiredNearbyImprovedResources": ["Furs","Deer"],
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3464,6 +3510,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Crafting",
 		"requiredNearbyImprovedResources": ["Cotton","Dyes","Furs","Silk","Sheep"],
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3473,6 +3520,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Brewing",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3482,6 +3530,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Literature",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3492,6 +3541,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Military Science",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3501,6 +3551,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Education",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3511,11 +3562,12 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Priesthood",
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
 	},
-
+*/
 	{
 		"name": "~limiter",
 		"uniques": ["Unbuildable", "Unsellable", 
