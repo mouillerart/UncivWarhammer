@@ -43,7 +43,7 @@ Available:
 * Cathay
 * Nippon
 * Amazons
-* Lustria
+* Slann
 
 City states
 * Marienburg
