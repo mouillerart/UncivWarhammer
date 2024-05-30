@@ -1,7 +1,4 @@
 [
-	// Archaic age
-	
-	// Always available
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -177,8 +174,6 @@
 		"uniques": ["Provides [1] [Megall]", "Provides [1] [Pearls]", "Provides [1] [Whales]", "Provides [1] [Crab]", 
 					"Must have an owned [Phantom Island] within [3] tiles", "Will not be displayed in Civilopedia"]
 	},
-	
-	// Column 2
 	{
 		"name": "Granary",
 		"food": 2,
@@ -236,7 +231,6 @@
 		]
 	},
 
-    // Magic buildings
 	{
 		"name": "Wizards' Guild",
 		"uniques": ["Provides [1] [Magician]","[+50]% [Science] [in this city]"],
@@ -371,7 +365,7 @@
 		"name": "The Bright College",
 		"cost": 750,
 		"isWonder": true,
-		"uniques": ["Free [Fireball] appears <every [20] turns>"],
+		"uniques": ["Free [Fireball] appears <when at war>"],
 		"requiredBuilding": "Wizards' Guild",
 		"requiredTech": "Lore of Fire",
 		"civilopediaText": [
@@ -466,9 +460,6 @@
 	},
 	
 	
-	// Classical age
-	
-	// Column 3
 	{
 		"name": "Joust",
 		"maintenance": 1,
@@ -510,11 +501,11 @@
 	{
 		"name": "Tomb",
 		"replaces": "Graveyard",
-		"uniqueTo": "Khemri"
+		"uniqueTo": "Khemri",
 		"happiness": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Free [Skeletal Warrior] appears <every [20] turns>"],
+		"uniques": ["Free [Skeletal Warrior] appears <when at war>"],
 		"requiredTech": "Ceremonial Burial",
 		"civilopediaText": [
 			{"text": "A place to celebrate the dead."}
@@ -587,7 +578,7 @@
 			{"text": "On the last day of winter, the Wood Elf chosen to become the new king of the Wild Hunt is garlanded with flowers and his naked skin decorated with ancient sigils. Finally, he is led into the Oak of Ages. The following morning, on the first day of spring, Ariel awakens from her slumbers and the reborn Orion thunders from the trees, the Wild Hunt howling at his heels."}
 		]
 	},
-	// Column 4
+
 	{
 		"name": "Lighthouse",
 		"cost": 85,
@@ -830,9 +821,6 @@
 		"quote": "If Gurun, Seram, Tanjung Pura, Hary, Pahang, Dompo, Bali, Sunda, Palembang, Temasek, are all defeated, I will break my fast.' - Gajah Mada"
 	},
 	
-	// Age of Magic
-	
-	// Column 5
 	{
 		"name": "Pyramid",
 		"culture": 3,
@@ -995,7 +983,7 @@
 					"[+8] population [in capital]"],
 		"requiredTech": "Ceremonial Burial",
 		"civilopediaText": [
-			{"text": "A burial site containing multiple corpses, usually resulting from a disaster, war, or crime. Mass graves are often created to quickly bury the dead for sanitation purposes, but may also be used in the aftermath of a famine, epidemic, or natural disaster."},
+			{"text": "A burial site containing multiple corpses, usually resulting from a disaster, war, or crime. Mass graves are often created to quickly bury the dead for sanitation purposes, but may also be used in the aftermath of a famine, epidemic, or natural disaster."}
         ]
 	},
 	{
@@ -1085,7 +1073,7 @@
 					"Cost increases by [25] per owned city"],
 		"requiredTech": "Iron Working"
 	},
-	// Column 6
+
 	{
 		"name": "Monastery",
 		"happiness": 1,
@@ -1266,7 +1254,7 @@
 		]
 	},
 	{
-		"name": "Zaghronk", // Blak Speech: Pit of mountain
+		"name": "Zaghronk", 
 		"replaces": "Aqueduct",
 		"uniqueTo": "Ogre Kingdoms",
 		"maintenance": 1,
@@ -1329,7 +1317,7 @@
 		"uniques": ["Research Priesthood vs Metal Casting", 
 					"Can be built in all cities", 
 					"[+15]% Production when constructing [Land] units [in this city]",
-					"[+1 Production] from [Iron] tiles [in this city]"
+					"[+1 Production] from [Iron] tiles [in this city]",
 					"All newly-trained [{Military} {Land}] units [in this city] receive the [Unwavering Faith] promotion"],
 		"requiredTech": "Priesthood",
 		"civilopediaText": [
@@ -1347,9 +1335,6 @@
 		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
 	},
 	
-	// Feudal age
-	
-	// Column 7
 	{
 		"name": "Harbor",
 		"cost": 165,
@@ -1406,7 +1391,6 @@
 					"All newly-trained [Ranged Gunpowder] units [in this city] receive the [Qigong] promotion", 
 					"All newly-trained [Mage] units [in this city] receive the [Qigong] promotion", 
 					"All newly-trained [Monk] units [in this city] receive the [Qigong] promotion", 
-					//"All newly-trained [Construct] units [in this city] receive the [Qigong] promotion", 
 					"All newly-trained [Tamer] units [in this city] receive the [Qigong] promotion"],
 		"replacementTextForUniques": "All newly-trained Non-Mounted Land units in this city receive the Qigong promotion",
 		"requiredTech": "Education",
@@ -1623,7 +1607,7 @@
 		"uniques": ["[+1 Happiness] per [2] social policies adopted"],
 		"quote": "'Architecture has recorded the Great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 	},
-	// Column 8
+
 	{
 		"name": "Observatory",
 		"maintenance": 0,
@@ -1762,9 +1746,6 @@
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
 	
-	// Renaissance age
-	
-	// Column 8
 	{
 		"name": "Bastar Dussehra",
 		"cost": 200,
@@ -1915,7 +1896,7 @@
 		"requiredTech": "Metallurgy",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
 	},
-	// Column 10
+
 	{
 		"name": "Seaport",
 		"hurryCostModifier": 25,
@@ -2006,9 +1987,6 @@
 		]
 	},
 	
-	// Industrial age
-	
-	// Column 11
 	{
 		"name": "Antique Heritage",
 		"culture": 4,
@@ -2056,7 +2034,7 @@
 					"Only available <in cities without a [Observatory]>"],
 		"requiredTech": "Dynamite"
 	},
-	// Column 12
+
 	{
 		"name": "Brewery",
 		"cost": 150,
@@ -2117,9 +2095,6 @@
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
 		
-	// Pre-Modern age
-	
-	// Column 13
 	{
 		"name": "Talents Audition",
 		"happiness": 3,
@@ -2168,7 +2143,7 @@
 			{"text": "An institute that maintains the integrity of a civilization, consider the advantages and disadvantages of waging war, and ensures the safety of civilians."}
 		]
 	},
-	// Column 14
+
 	{
 		"name": "Medical Hall",
 		"requiredBuilding": "Quality Seeds Station",
@@ -2207,9 +2182,6 @@
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
 	
-	// Modern age
-	
-	// Column 15
 	{
 		"name": "Breakthrough Chamber",
 		"cost": 300,
@@ -2240,7 +2212,7 @@
 		"requiredTech": "Lasers",
 		"quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
 	},
-	// Column 16
+
 	{
 		"name": "Dititra",
 		"isWonder": true,
@@ -2256,9 +2228,6 @@
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	
-	// Tree-specific wonders and buildings
-	
-	// Monuments of the Old Ones
 	{
 		"name": "Pyramid of the World Serpent",
 		"isWonder": true,
@@ -2278,7 +2247,7 @@
 		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [
-			{"text": "Rearing up from the coast of the Isthmus of Lustria, the Monument of the Moon is a tall, dread icon of fear, said to be built atop a long-dead necromancer's tomb. What riches or perils await beneath the deathly spire and in the catacombs will only be found by those with the courage to face their worst nightmares.",
+			{"text": "Rearing up from the coast of the Isthmus of Lustria, the Monument of the Moon is a tall, dread icon of fear, said to be built atop a long-dead necromancer's tomb. What riches or perils await beneath the deathly spire and in the catacombs will only be found by those with the courage to face their worst nightmares."},
 			{"text":"Such an atmosphere of terror saturates this place that every battle in this territory is fought in near darkness."}
 		]
 	},
@@ -2313,7 +2282,7 @@
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", 
 					 "[+2] Movement <for [{Water}] units>",
-					 "Free [Longship] appears <every [20] turns>"],
+					 "Free [Longship] appears"],
 		"requiredTech": "Compass",
 		"quote": "'' ― ",
 		"civilopediaText": [
@@ -2322,12 +2291,11 @@
 		]
 	},
 	
-	// Knightly orders
 	{
 		"name": "The Knights Panther",
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight Panther] appears <every [6] turns>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Knight Panther] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Knights Panther automatically produce Knight Panther. You need horses in the city to build it",
 		"requiredTech": "Old World",
 		"requiredResource": "Horses",
@@ -2341,7 +2309,7 @@
 		"name": "Order of the White Wolf",
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight of the White Wolf] appears <every [6] turns>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Knight of the White Wolf] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Order of the White Wolf automatically produces a Knight of the White Wolf every six turns. You need furs in the city to build it.",
 		"requiredTech": "Old World",
 		"requiredResource": "Furs",
@@ -2356,7 +2324,7 @@
 		"name": "Order of the Fiery Heart",
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight of the Fiery Heart] appears <every [5] turns>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Knight of the Fiery Heart] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Order of the Fiery Heart automatically produces a Knight of the Fiery Heart every five turns. You need incense in the city to build it.",
 		"requiredTech": "Old World",
 		"requiredResource": "Incense",
@@ -2371,7 +2339,7 @@
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
 		"uniqueTo": "Kislev",
-		"uniques": ["Free [Ranger-Templar] appears <every [6] turns>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Ranger-Templar] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Brotherhood of the Bear automatically produces a Ranger-Templar of Taal every six turns.",
 		"requiredTech": "Old World",
 		"quote": "'' ― ",
@@ -2382,7 +2350,6 @@
 	},
 
 	
-	// Sagas
 	{
 		"name": "Sigmar's Saga",
 		"isWonder": true,
@@ -2494,7 +2461,7 @@
 		"isWonder": true,
 		"faith": 10,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears <every [20] turns>"],
+		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears <when at war>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
 			{"text": "The Shrine of Asuryan, an annual destination of the Phoenix King, is located on the Island of Flame due north of Lothern, and is considered both the holiest place on Ulthuan, and the safest. It is also here that those born of Aenarion's Line are tested for the Curse that plagues his descendants."}
@@ -2550,7 +2517,6 @@
 	},
 
 	
-	// Diplomatic Victory
 	{
 		"name": "The Round Table",
 		"isWonder": true,
@@ -2561,7 +2527,6 @@
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
 	},
 	
-	// Cultural Victory
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
@@ -2570,7 +2535,6 @@
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 	},
 	
-	// Religious buildings
 	{
 		"name": "Shrine of the Ancient Gods",
 		"cost": 0,
@@ -2614,7 +2578,6 @@
 		"uniques": ["Unbuildable", "All newly-trained [Mounted] units [in this city] receive the [Depredation] promotion", "Hidden when religion is disabled"]
 	},
 	
-	// Hero Summoner
 	{
 		"name": "Castle Drachenfels",
 		"faith": 1,
@@ -2623,7 +2586,7 @@
 		"uniques": ["May buy [Constant Drachenfels] units for [100] [Faith] [in all cities] at an increasing price ([100])", 
 					"Free [Constant Drachenfels] appears"],
 		"replacementTextForUniques": "Unlock Constant Drachenfels for 100 Faith at an increasing price of 100",
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles",
 		"requiredTech": "Necromancy"
 	},
 	{
@@ -2632,7 +2595,7 @@
 		"isWonder": true,
 		"uniques": ["Free [Vlad von Carstein] appears"],
 		"replacementTextForUniques": "Unlock Vlad von Carstein for 100 Faith at an increasing price of 100",
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles",
 		"requiredTech": "Quintessence Force"
 	},
 	{
@@ -2662,7 +2625,7 @@
 			                "Gain a free [Portal] [in this city]", "Free [Aragand] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Aragand for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
@@ -2676,7 +2639,7 @@
 			                "Gain a free [Portal] [in this city]", "Free [Ungrim Ironfist] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Ungrim Ironfist for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
@@ -2690,7 +2653,7 @@
 			                "Gain a free [Portal] [in this city]", "Free [Pandji] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Pandji for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
@@ -2704,7 +2667,7 @@
 			                "Gain a free [Portal] [in this city]", "Free [Leonidas] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Leonidas for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
@@ -2718,10 +2681,10 @@
 			                "Gain a free [Portal] [in this city]", "Free [Louen Leoncoeur] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Louen Leoncoeur for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
-			{"text":"Rise Sir Louen, land-knight, slayer of monsters and bane of the dead. You have spirit I thought long lost to this land. I dub thee Louen Leoncoeur, Heart of the Lion."
-			"texte":"This building only available in Capital."}
+			{"text":"Rise Sir Louen, land-knight, slayer of monsters and bane of the dead. You have spirit I thought long lost to this land. I dub thee Louen Leoncoeur, Heart of the Lion."},
+				{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -2733,7 +2696,7 @@
 			                "Gain a free [Portal] [in this city]", "Free [Zhuge Liang] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Zhuge Liang for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
@@ -2747,7 +2710,7 @@
 			                "Gain a free [Portal] [in this city]", "Free [Borgio the Besieger] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Borgio for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
@@ -2762,7 +2725,7 @@
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>", 
 					"Must be next to [Coast]"],
 		"replacementTextForUniques": "Unlock Wulfrik the Wanderer for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
@@ -2777,20 +2740,19 @@
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>", 
 					"Must be next to [Coast]"],
 		"replacementTextForUniques": "Unlock Silenna Starguided for 200 Faith at an increasing price of 100",
-		"requiredTech": "Rise of Sigmar"
+		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
 	},
 	
-	// Unique Ability related
 	{
 		"name": "Door of Prosperity",
 		"uniqueTo": "Cathay",
 		"cost": 1,
 		"cityHealth": 5,
 		"uniques": ["Free Great Person", 
-					"Only available <if [Pillar of Learning] is constructed> <if [Pillar of Life] is constructed> <if [Pillar of Faith] is constructed> <if [Pillar of Wealth] is constructed>"
+					"Only available <if [Pillar of Learning] is constructed> <if [Pillar of Life] is constructed> <if [Pillar of Faith] is constructed> <if [Pillar of Wealth] is constructed>",
 					"Unsellable", 
 					"Will not be displayed in Civilopedia"],
 		"replacementTextForUniques": "Free Great Person",
@@ -2819,19 +2781,19 @@
 		"name": "Burial Tomb",
 		"happiness": 2,
 		"uniques": ["[+10]% growth [in this city]", 
-					"Unbuildable"],
+					"Unbuildable"]
 	},
 	{
 		"name": "Raise General I",
 		"uniqueTo": "Khemri",
 		"cost": 1,
 		"cityStrength": 1,
-		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [8] [Population]>",
+		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [6] [Population]>",
 					"[-3] population [in this city]", 
 					"Free [Great General] appears", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Free Great General appears",
+		"replacementTextForUniques": "Free Great General appears"
 	},
 	{
 		"name": "Raise General II",
@@ -2839,12 +2801,12 @@
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General I",
-		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [7] [Population]>",
+		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [8] [Population]>",
 					"[-2] population [in this city]", 
 					"Free [Great General] appears", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Free Great General appears",
+		"replacementTextForUniques": "Free Great General appears"
 	},
 	{
 		"name": "Raise General III",
@@ -2852,12 +2814,12 @@
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General II",
-		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [7] [Population]>",
+		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [10] [Population]>",
 					"[-2] population [in this city]", 
 					"Free [Great General] appears", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Free Great General appears",
+		"replacementTextForUniques": "Free Great General appears"
 	},
 	{
 		"name": "Raise General IV",
@@ -2865,12 +2827,12 @@
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General III",
-		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [2] [Population]>",
+		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [12] [Population]>",
 					"[-2] population [in this city]", 
 					"Free [Great General] appears", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Free Great General appears",
+		"replacementTextForUniques": "Free Great General appears"
 	},
 	{
 		"name": "Raise General V",
@@ -2878,12 +2840,12 @@
 		"cost": 1,
 		"cityStrength": 1,
 		"requiredBuilding": "Raise General IV",
-		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [2] [Population]>",
+		"uniques": ["Only available <in cities with a [Palace]> <in cities with at least [14] [Population]>",
 					"[-2] population [in this city]", 
 					"Free [Great General] appears", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Free Great General appears",
+		"replacementTextForUniques": "Free Great General appears"
 	},
 	{
 		"name": "Path of Sword",
@@ -2913,7 +2875,7 @@
 					"[+5]% Strength <for [Gunpowder] units> <for units with [Blitz]>", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Sword and Gunpowder units gain +5% Strength for each skill they learned from the skill tree",
+		"replacementTextForUniques": "Sword and Gunpowder units gain +5% Strength for each skill they learned from the skill tree"
 	},
 	{
 		"name": "Path of Spear",
@@ -2938,7 +2900,7 @@
 					"[+5]% Strength <for [Anti-Armor] units> <for units with [Blitz]>", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Anti-Cav and Anti-Armor units gain +5% Strength for each skill they learned from the skill tree",
+		"replacementTextForUniques": "Anti-Cav and Anti-Armor units gain +5% Strength for each skill they learned from the skill tree"
 	},
 	{
 		"name": "Andarass (1 gold - 1 science)",
@@ -2989,13 +2951,10 @@
 		"uniques": ["Unsellable", 
 					"Must be on [Fresh Water]", 
 					"Will not be displayed in Civilopedia", 
-					//"Automatically built in all cities where it is buildable", 
 					"[+1] population [in this city]"]
 	},
 	
 	
-// todo	
-/*
 	{
 		"name": "Dark Convent",
 		"maintenance": 1,
@@ -3618,10 +3577,9 @@
 			{"text": ""}
 		]
 	},
-*/
 	{
 		"name": "~limiter",
 		"uniques": ["Unbuildable", "Unsellable", 
-					"Will not be displayed in Civilopedia"],
+					"Will not be displayed in Civilopedia"]
 	}
 ]
