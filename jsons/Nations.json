@@ -175,7 +175,7 @@
 		"introduction": "Hello living people. Sooner or later, you'll be part of us.",	
 		
 		"neutralHello": "We can be friends forever.",
-		"hateHello": "You'll be dead soon.",
+		"hateHello": "I see dead people.",
 		"tradeRequest": "What are you willing to offer for eternity?",
 		
 		"uniques": ["Starts with [Undead Curse]",
@@ -574,7 +574,7 @@
 		"afterPeace": "Let 'em tell da King. Da east belongs to da Orcs. Da east belongs to Morglum. Da east is green.",
 		"introduction": "Stunties hide unnerground and pansy-elves hide in the trees. Thas why I prefers yer 'umans. They builds sorta 'ollow rocks wiht 'oles for comin' and goin' fru. They builds 'em on hills where you's have to climb a bit, but at least they's in the open, where a lad can get at 'em. So you can lob a few rocks at the walls, bash frew the holes, and get in there to nick all their gear, wivvout wunderin' if the roof is gonna fall on yer nut or if you's gonna fall off a branch. I like bashin' 'uman places. Only they don't call it bashin'; they calls it a seej.",	
 		
-		"neutralHello": "The future is green. The future ain't bright.",
+		"neutralHello": "The future ain't bright. The future is green.",
 		"hateHello": "Da Clans will destroy you.",
 		"tradeRequest": "Wanna trade or wanna be stomped?",
 		

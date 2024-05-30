@@ -536,13 +536,17 @@
 		]
 	},
 	{
-		"name": "Gerude",
+		"name": "Mureth Vai",
 		"culture": 1,
 		"isWonder": true,
 		"GreatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged] units [in all cities]"],
 		"requiredTech": "Archery",
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.'  - Robert Louis Stevenson"
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.'  - Robert Louis Stevenson",
+		"civilopediaText": [
+			{"text": "Mureth Vai is an archery contest held among the Wood Elves of Athel Loren once every decade. Its outcome is said to determine the greatest archer in the Old World. "}
+		]
+		
 	},
 	{
 		"name": "Walls",
@@ -570,13 +574,18 @@
 		]
 	},
 	{
-		"name": "Bondowoso",
+		"name": "Rebirth of Orion",
 		"culture": 1,
 		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Only available <after adopting [Liberty]>", "[-25]% construction time for [All] improvements", "[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
-		"quote": "'Build me 1000 candis tonight and I will marry you.' - Roro Jonggrang"
+		"quote": "'Build me 1000 candis tonight and I will marry you.' - Roro Jonggrang",
+		"civilopediaText": [
+			{"text": "The Rebirth of Orion is the process by which the Wood Elves' co-ruler Orion, the King in the Woods, is reborn each year, for the fate of this powerful being is tied to the cycle of the seasons."},
+			{"text": "When the snows retreat and the breath of spring is felt once more on the air, all of Athel Loren trembles with Orion's waking dreams. Soon after, the Wild Riders come for the Elf chosen to take up the mantle of the consort-king. Their method of selection is shrouded in mystery, and other Wood Elves hold it to be ill-luck to attract the attention of Orion's riders lest this influence the choice."},
+			{"text": "On the last day of winter, the Wood Elf chosen to become the new king of the Wild Hunt is garlanded with flowers and his naked skin decorated with ancient sigils. Finally, he is led into the Oak of Ages. The following morning, on the first day of spring, Ariel awakens from her slumbers and the reborn Orion thunders from the trees, the Wild Hunt howling at his heels."}
+		]
 	},
 	// Column 4
 	{
@@ -634,14 +643,17 @@
 		"requiredTech": "Chronicles"
 	},
 	{
-		"name": "Sukamerta",
+		"name": "Brodag",
 		"science": 3,
 		"culture": 1,
 		"GreatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Chronicles",
 		"uniques": ["Free Technology", "Gain a free [Paper Maker] [in this city]"],
-		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon",
+		"civilopediaText": [
+			{"text": "For Dwarfs, formal brewing competitions usually take place on Brodag, a festival of Grungni on 33 Valdazet (Brauzeit). The festivities are open to anyone in the settlement, and even the occasional Human or Halfling guest. It is a day of merriment, singing and storytelling. It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live."}
+		]
 	},
 	{
 		"name": "Stable",
@@ -713,14 +725,18 @@
 		"requiredTech": "Roads"
 	},
 	{
-		"name": "Dai Palgum",
+		"name": "Water's Turn",
 		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must be on [River]", "Gain a free [Water Mill] [in this city]", 
 					"[+1 Food, +1 Faith] from [River] tiles [in this city]", 
 					"Hidden when religion is disabled"],
 		"requiredTech": "Roads",
-		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'"
+		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'",
+		"civilopediaText": [
+			{"text": "Water's Turn is a local festival for the village of Dunkelbild in Middenland. Held on the first week of Plough-Tide, the village sits on the edge of a large, boggy lake that provides the populace with their fresh water. A few days after the Spring Equinox, the lake “turns”—the cooler water at the bottom swaps with the warmer water on top. This churns up a tremendous amount of algae and scum from the bottom, giving the top of the lake a sickly green colour and horrible smell. To celebrate the coming of spring, the townsfolk bathe in the lake and fill large barrels full of the scum-filled waters. This water is scattered over the newly planted crops and tossed onto barns and houses by the local Priest of Taal. The lake is said to have curative powers and the sick, lame, and elderly travel from miles around to have the priest anoint them with this Blessed Water. Those travelling into town can tell that the festival is underway by the pungent odour in the air, which can be smelled from miles away."}
+		]
+
 	},
 	{
 		"name": "Colosseum",
@@ -930,23 +946,31 @@
 		"requiredTech": "Philosophy"
 	},
 	{
-		"name": "'Ndragheta",
+		"name": "Waking Day",
 		"culture": 1,
 		"GreatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"uniques": ["[+25]% [Culture] [in this city]", "[-25]% Culture cost of natural border growth [in all cities]", 
 					"[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "Contemplation",
-		"quote": "'The temple is like no other building in the world. It has Towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+		"quote": "'The temple is like no other building in the world. It has Towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena",
+		"civilopediaText": [
+			{"text": "Ursun has only two holy days, but they are celebrated with great vigour and without fail. The first is Waking Day, which occurs in early spring."},
+			{"text": "In the north, it is typically done when the ice breaks or when the first birds of summer return. In the south, it is observed at the spring equinox. The purpose of the ceremony is to wake the bears from their hibernation. To do so, large groups—sometimes the entire stanitsa—gather in the forests at midday and make as much noise as possible. Pots and shields are banged, drums beaten, instruments played, and children yell; some participants even let off small charges of gunpowder. In the cities, there are fireworks and street parades—the din is incredible, and nobody can sleep through a good Waking Day ceremony."},
+			{"text": "In Erengrad, Waking Day has become a tourist attraction, and traders will remain for the event and the extensive drinking that accompanies it."}
+		]
 	},
 	{
-		"name": "Kalacha",
+		"name": "Beggar's Banquet",
 		"culture": 3,
 		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Contemplation",
-		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra diTileaty'  - Kalasan, translated by Santiko"
+		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra diTileaty'  - Kalasan, translated by Santiko",
+		"civilopediaText": [
+			{"text": "Every year on Ranald's Day, somewhere in Altdorf, numerous beggars of the city converge upon what is called the Beggar's Banquet. The down-and-outs with a plan, the grifters and small time con men, the bawds and dubious guides, tricksters, and petty gamblers meet up to pay their respects to Ranald. Whether they are honouring his protector aspect, or his deceiver aspect, or some other facet of the inscrutable deity, is down to each individual. The service is led by cloaked and masked priests of Ranald. After the service, each beggar donates what he can before the congregation feasts upon whatever the cult has managed to provide. Some of the wealthiest personages of Altdorf find their larder a little empty that night. Undoubtedly, the conversation over the feast is always about what new things can be stolen, who are the easiest marks, and what are the newest ways to part the rich and the naive from their money. The Brotherhood of Altdorf does not approve of the Beggar's Banquet and refuses to support it. It is too unrefined and indiscriminate for their tastes. This has caused a friction between some followers of Ranald."}
+		]
 	},
 	{
 		"name": "National Epic",
@@ -1027,14 +1051,17 @@
         ]
 	},
 	{
-		"name": "Cetho Lighyn",
+		"name": "Pie Week",
 		"GreatPersonPoints": {"Great Artist": 1},
 		"food": 8,
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
 		"uniques": ["Only available <after adopting [Tradition]>", "Gain a free [Garden] [in this city]"],
-		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
+		"quote": "'My only understanding of mathematics is that it allows to make pies.'  - Fizzlethorpe Bristlebane",
+		"civilopediaText": [
+            {"text": "Celebrated between the 1st-8th days of Erntezeit, this Halfling celebration is rapidly becoming a secular holiday throughout the entire Empire, as everyone gets swept up in the idea of eating delicious pies. The Halflings themselves do not ascribe any particular reverence to the occasion, something that has not been overlooked by those Humans who believe Halflings to be nothing but worthless, gluttonous layabouts. Human towns have begun including pie eating contests, awards for the best or most unusual pies, and other festivities. Business, other than that dedicated to the making of pies or the selling of alcohol to wash it down, often grinds to a halt during Pie Week."}
+        ]
 	},
 	{
 		"name": "Pillar of Wealth",
@@ -1221,7 +1248,12 @@
 		"uniques": ["Must be next to [Desert]", "Must be next to [Coast]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles [in this city]", 
 					"[+6 Culture] <after discovering [Navigation]>"],
 		"requiredTech": "Currency",
-		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...'  - Indiana Jones"
+		"quote": "'And he did smite and destroy his enemies with great vengeance and furious anger.'  - Translation from inscriptions in the tomb of King Amenemhetum of Zandri.",
+		"civilopediaText": [
+			{"text": "Zandri, the 'Fleetport of Terror', once known as 'The City of the Waves', was once a wealthy and powerful port city of Nehekhara, now the realm of the Undead Tomb Kings called the Land of the Dead. Zandri commands the waters off the coast of the Great Mortis Delta. Qu'aph, the god of serpents and subtlety in the Nehekharan Pantheon, is the patron god of the city."},
+			{"text": "In the city's harbour at the mouth of the Great Mortis River, ancient barges still float, writhing with dark magical energy and crewed by skeletons who bend their backs at the oars to the resonant boom of drums and the cracks of their taskmaster's whips."},
+			{"text": "Along the waters of the miles-wide Great Mortis River, and across the Charnel Deeps,[6a] and the Great Ocean to the north, the Tomb Fleets bring the terror of lost Nehekhara to distant realms. These imposing Undead armadas set out laden with skeletal legions and vengeful rulers thirsty for conquest, and return with blood-slick weapons and recovered treasures, plundered from Nehekhara in ages past.["}
+		]
 	},
 	{
 		"name": "Aqueduct",

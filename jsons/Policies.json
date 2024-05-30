@@ -11,7 +11,7 @@
 		},
 		"uniques": ["[+3 Culture] [in capital]", 
 					"[-25]% Culture cost of natural border growth [in all cities]", 
-					"Unlocks building Cetho Lighyn"
+					"Unlocks building Pie Week"
 		],
 		"policies": [
 			{
@@ -71,7 +71,7 @@
 			"Scientific": 20
 		},
 		"uniques": ["[+1 Culture] [in all cities]", 
-					"Unlocks building Bondowoso"
+					"Unlocks building Rebirth of Orion"
 		],
 		"policies": [
 			{
