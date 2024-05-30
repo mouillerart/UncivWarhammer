@@ -77,7 +77,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Fishing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]> technology",
+		"uniques": ["Cannot enter ocean tiles",
 					"May create improvements on water resources",
 					"Uncapturable"]
 	},
@@ -391,7 +391,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": ["[+25]% XP gained from combat", 
-					"Preachable"],
+					"Preachable", 
+					"Undead"],
 		"promotions": ["Highly Trained"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit",
@@ -562,6 +563,43 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A big-ape like creature that is resistant to cold. Tormund taught them sign language and how to use firearms, especially muskets."}
+		]
+	},
+	{
+		"name": "Tomb Captain",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 30,
+		"cost": 185,
+		"requiredTech": "Priesthood",
+		"obsoleteTech": "Lore of Death",
+		"upgradesTo": "Tomb King",
+		"uniques": ["Uncapturable","May capture killed [Wounded] units", 
+					"Undead"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Tomb King",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 35,
+		"cost": 300,
+		"requiredTech": "Lore of Death",
+		"uniques": ["Uncapturable","May capture killed [Wounded] units","Can see invisible [Land] units", 
+					"Undead"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "The Tomb Kings' mummified corpses have been awakened by magical, necromantic incantations, and their bodies are now inhabited by their undying, vengeful souls."},
+			{"text": "Reborn to a mocking imitation of life, transformed into hideous cadavers whose kingdoms have long since been plundered and lost, a Tomb King's rage fuels an unremitting need to conquer; they are the true monarchs of the dead, and they are coming to reclaim their rightful dominion."},
+			{"text": "Revived by the necromantic rituals of the Liche Priests, a Tomb King awakens from the sleep of death possessing all the ambition and lust for power they had in life. Every Tomb King seeks to reclaim their plundered treasures and restore their ancient glory."},
+			{"text": "If this means the subjugation and destruction of foreign lands, then the Tomb King's army, loyal even in death, rises from its rest at their command. Although it is the necromantic magic of the Liche Priests that animates the Tomb King's army, it is by the indomitable will of the Tomb King themselves that they move and fight. Every Tomb King is an aggressive warlord, able to instil their warriors with their own unyielding vigour.m"}
 		]
 	},
 	{
@@ -2577,7 +2615,7 @@
 		"movement": 2,
 		"strength": 20,
 		"requiredTech": "Metal Casting",
-		"upgradesTo": "Musketman",
+		"upgradesTo": "Tomb Captain",
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
 					"Unbuildable", "Cannot be purchased",

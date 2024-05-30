@@ -470,6 +470,17 @@
 	
 	// Column 3
 	{
+		"name": "Joust",
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Tournaments",
+		"uniques": ["[+1 Production] from [Horses] tiles [in this city]"],
+		"civilopediaText": [
+			{"text": "The Joust produces one happens, making one unhappy citizen content."}
+		]
+	},
+	{
 		"name": "Stone Works",
 		"happiness": 1,
 		"production": 1,
@@ -497,13 +508,32 @@
 		]
 	},
 	{
-		"name": "Aknamuki",
+		"name": "Tomb",
+		"replaces": "Graveyard",
+		"uniqueTo": "Khemri"
+		"happiness": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Free [Skeletal Warrior] appears <every [20] turns>"],
+		"requiredTech": "Ceremonial Burial",
+		"civilopediaText": [
+			{"text": "A place to celebrate the dead."}
+		]
+	},
+	{
+		"name": "Marshes of Madness",
 		"GreatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must have an owned [Marsh] within [3] tiles", "[+2 Food, +3 Science, +3 Production] from [Marsh] tiles [in this city]", 
 					"[+2 Gold] from [Truffles] tiles [in this city]"],
 		"requiredTech": "Calendar",
-		"quote": "'I rose from marsh mud, algae, equisetum, willows, sweet green, noisy birds and frogs' ― Lorine Niedecker"
+		"quote": "'Ushoran’s legions are all seeing and everywhere: in the shadows of your wagons, in the secrecy of your thoughts, and, here, among us, waiting to judge.' ― The Elder Petru.",
+		"civilopediaText": [
+			{"text": "The Marshes of Madness are a swampland in the heart of the Badlands. During the days of great Nehekhara, this region was known as the Sinking Marshes of Khernarch."},
+			{"text": "In the Marshes of Madness, The Tree of Beards is a holy place for the Greenskins and a shrine of unspeakable insult to the Dwarfs."},
+			{"text": "From afar, it presents an interesting vista to those that encounter it looking, like a Willow Tree of considerable size and age, but its true glory is revealed as one gets close enough to see the severed heads and Dwarf beards hanging from its branches."},
+			{"text": "Hair, scalps and beards tied one into the other, creating dreadlocks as the weather fuses blood and grime together into long tendrils. One might assume it would be densest at the bottom, but the local Greenskins force Goblins and Snotlings to climb the tree and hang their trophies upon every branch."}
+		]
 	},
 	{
 		"name": "Gerude",
@@ -2934,17 +2964,6 @@
 	
 // todo	
 /*
-	{
-		"name": "Joust",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"requiredTech": "Tournaments",
-		"requiredResource": "Horses",
-		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
 	{
 		"name": "Dark Convent",
 		"maintenance": 1,

@@ -174,9 +174,9 @@
 		"afterPeace": "You'll live a bit more then.",
 		"introduction": "Hello living people. Sooner or later, you'll be part of us.",	
 		
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
-		"tradeRequest": "I offers you this exceptional proposition.",
+		"neutralHello": "We can be friends forever.",
+		"hateHello": "You'll be dead soon.",
+		"tradeRequest": "What are you willing to offer for eternity?",
 		
 		"uniques": ["Starts with [Undead Curse]",
 					"Free [Skeletal Warrior] appears <upon founding a city> <before the [Feudal age]>", 
@@ -535,8 +535,8 @@
 		"afterPeace": "Next time we'll have a meal with you.",
 		"introduction": "Hello. We are hungry. Could we have you for dinner?",	
 		
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
+		"neutralHello": "You look appetizing.",
+		"hateHello": "Grrrr...",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Greenskin]",
@@ -574,9 +574,9 @@
 		"afterPeace": "Let 'em tell da King. Da east belongs to da Orcs. Da east belongs to Morglum. Da east is green.",
 		"introduction": "Stunties hide unnerground and pansy-elves hide in the trees. Thas why I prefers yer 'umans. They builds sorta 'ollow rocks wiht 'oles for comin' and goin' fru. They builds 'em on hills where you's have to climb a bit, but at least they's in the open, where a lad can get at 'em. So you can lob a few rocks at the walls, bash frew the holes, and get in there to nick all their gear, wivvout wunderin' if the roof is gonna fall on yer nut or if you's gonna fall off a branch. I like bashin' 'uman places. Only they don't call it bashin'; they calls it a seej.",	
 		
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
-		"tradeRequest": "I offers you this exceptional proposition.",
+		"neutralHello": "The future is green. The future ain't bright.",
+		"hateHello": "Da Clans will destroy you.",
+		"tradeRequest": "Wanna trade or wanna be stomped?",
 		
 
 		"uniques": ["Starts with [Greenskin]"],
@@ -615,9 +615,9 @@
 		"afterPeace": "We'll fink dat over. Or not.",
 		"introduction": "We'z Gobbos!!!",	
 		
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
-		"tradeRequest": "I offers you this exceptional proposition.",
+		"neutralHello": "We 'ave small talk.",
+		"hateHello": "You're ugly.",
+		"tradeRequest": "Goblins offer you dis. Fink fast.",
 		
 
 		"civilopediaText": [

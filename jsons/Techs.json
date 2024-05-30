@@ -121,14 +121,14 @@
 				"name": "Mysticism",
 				"row": 10,
 				"prerequisites": ["Rise of Sigmar"],
-				"uniques":["Gain enough Faith for a Pantheon"],
+				"uniques":["Gain a free [Pantheon] belief"],
 				"quote": ""
 			},
 			{
 				"name": "Insatiable Hunger",
 				"row": 12,
 				"prerequisites": ["Greenskin"],
-				"uniques": ["Only available <for [Ogre Kingdoms]>"],
+				"uniques": ["Only available <for [Ogre Kingdoms]>",  "[+4 Food] for every known Natural Wonder"],
 				"quote": "'The hungry flame sat in our guts...We ate the mountains to put it out... but the fire was still there...We climbed further still... We ate the Tall Ones' herds...Cavebeast was good meat... We climbed the peaks...Above the skies the giants dwell..'"
 			},
 			{
