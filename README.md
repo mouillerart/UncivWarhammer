@@ -22,8 +22,9 @@ Available:
 * Kislev
 * Sylvania
 * Dwarfs
-* Khemri
-* Araby
+* Khemri  
+  ![Skeletal Warrior](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Warrior.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Champion.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Guard.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Herald.png?raw=true)  ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Sepulchral%20Stalker.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20King.png?raw=true)
+* Araby 
 * Estalia
 * Tilea
 * Loren
@@ -47,7 +48,8 @@ Available:
 
 City states
 * Marienburg
-* The Moot (provides halflings)
+* The Moot  
+   ![Halfling Scout](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Halfling%20Scout.png?raw=true) ![Halfling Ranger](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Halfling%20Ranger.png?raw=true)
 * Lahmia
 * Dolgan
 * Zombie Pirates
