@@ -18,7 +18,8 @@ Modmod of Fantasia mixed with previous Civ3/Civ4 Warhammer extensions materials.
 ### Nations 
 Available:
 * Reikland (The Empire)
-* Bretonnia
+* Bretonnia  
+  ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20Errant.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Questing%20Knight.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20of%20the%20Realm.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Grail%20Knight.png?raw=true)
 * Kislev
 * Sylvania
 * Dwarfs
@@ -32,7 +33,8 @@ Available:
 * Albion
 * Ulthuan
 * Naggaroth
-* Skaven
+* Skaven  
+  ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Night%20Runner.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Gutter%20Runner.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Death%20Runner.png?raw=true)
 * Chaos Dwarfs
 * Ironclaw Orcs
 * Ogre Kingdoms
@@ -50,7 +52,8 @@ City states
 * Marienburg
 * The Moot  
    ![Halfling Scout](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Halfling%20Scout.png?raw=true) ![Halfling Ranger](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Halfling%20Ranger.png?raw=true)
-* Lahmia
+* Lahmia  
+  ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Lahmian%20Vampire.png?raw=true)
 * Dolgan
 * Zombie Pirates
 * Citadel of Dusk
