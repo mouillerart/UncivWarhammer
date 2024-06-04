@@ -17,7 +17,7 @@
 	{
 		"name": "Para",
 		"replaces": "Palace",
-		"uniqueTo": "Thallin",
+		"uniqueTo": "Ulthuan",
 		"isNationalWonder": true,
 		"production": 2,
 		"science": 2,
@@ -365,7 +365,7 @@
 		"name": "The Bright College",
 		"cost": 750,
 		"isWonder": true,
-		"uniques": ["Free [Fireball] appears <when at war>"],
+		"uniques": ["Free [Fireball] appears"],
 		"requiredBuilding": "Wizards' Guild",
 		"requiredTech": "Lore of Fire",
 		"civilopediaText": [
@@ -505,7 +505,7 @@
 		"happiness": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Free [Skeletal Warrior] appears <when at war>"],
+		"uniques": ["Free [Tomb Guard] appears"],
 		"requiredTech": "Ceremonial Burial",
 		"civilopediaText": [
 			{"text": "A place to celebrate the dead."}
@@ -746,7 +746,7 @@
 		"maintenance": 0,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold, +1 Happiness] [in this city] <when at war>"],
+		"uniques": ["[+2 Gold, +1 Happiness] [in this city]"],
 		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "An arena where qualification of Tharsara competition were held, sacred event for Drow to prove their self."}
@@ -2295,7 +2295,7 @@
 		"name": "The Knights Panther",
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight Panther] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Knight Panther] appears","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Knights Panther automatically produce Knight Panther. You need horses in the city to build it",
 		"requiredTech": "Old World",
 		"requiredResource": "Horses",
@@ -2309,7 +2309,7 @@
 		"name": "Order of the White Wolf",
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight of the White Wolf] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Knight of the White Wolf] appears","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Order of the White Wolf automatically produces a Knight of the White Wolf every six turns. You need furs in the city to build it.",
 		"requiredTech": "Old World",
 		"requiredResource": "Furs",
@@ -2324,7 +2324,7 @@
 		"name": "Order of the Fiery Heart",
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Free [Knight of the Fiery Heart] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Knight of the Fiery Heart] appears","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Order of the Fiery Heart automatically produces a Knight of the Fiery Heart every five turns. You need incense in the city to build it.",
 		"requiredTech": "Old World",
 		"requiredResource": "Incense",
@@ -2339,7 +2339,7 @@
 		"GreatPersonPoints": {"Great General": 1},
 		"isWonder": true,
 		"uniqueTo": "Kislev",
-		"uniques": ["Free [Ranger-Templar] appears <when at war>","Unbuildable <before discovering [Knightly Orders]>"],
+		"uniques": ["Free [Ranger-Templar] appears","Unbuildable <before discovering [Knightly Orders]>"],
 		"uniqueName": "The Brotherhood of the Bear automatically produces a Ranger-Templar of Taal every six turns.",
 		"requiredTech": "Old World",
 		"quote": "'' ― ",
@@ -2411,7 +2411,6 @@
 	},
 	{
 		"name": "Black Pyramid",
-		"cost": 1100,
 		"isWonder": true,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
@@ -2461,7 +2460,7 @@
 		"isWonder": true,
 		"faith": 10,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears <when at war>"],
+		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
 			{"text": "The Shrine of Asuryan, an annual destination of the Phoenix King, is located on the Island of Flame due north of Lothern, and is considered both the holiest place on Ulthuan, and the safest. It is also here that those born of Aenarion's Line are tested for the Curse that plagues his descendants."}
@@ -2645,28 +2644,28 @@
         ]
 	},
 	{
-		"name": "Pandji Portal",
+		"name": "Scarloc Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Pandji] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Scarloc] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Pandji] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Scarloc] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Pandji for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Scarloc for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
         ]
 	},
 	{
-		"name": "Leonidas Portal",
+		"name": "Leopold of Luccini Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Leonidas] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Leopold of Luccini] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Leonidas] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Leopold of Luccini] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Leonidas for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Leopold of Luccini for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}
@@ -2691,11 +2690,11 @@
 		"name": "Liang Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Zhuge Liang] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Doc Ashfield] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Zhuge Liang] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Doc Ashfield] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Zhuge Liang for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Doc Ashfield for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}

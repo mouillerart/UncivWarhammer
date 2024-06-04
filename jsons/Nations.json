@@ -465,7 +465,7 @@
 		"uniques": ["[+2 Food, +1 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Mountain] tiles>", 
 					"Free [Settler] appears <upon discovering [Calendar] technology>", 
 					"Free [Warrior] appears <upon constructing [Courthouse]> <upon discovering [Warrior Caste] technology>", 
-					"Free [Bladedancer] appears <upon constructing [Courthouse]> <upon discovering [Iron Working] technology>",
+					"Free [Gutter Runner] appears <upon constructing [Courthouse]> <upon discovering [Iron Working] technology>",
 					"Free [Longswordsman] appears <upon constructing [Courthouse]> <upon discovering [Steel] technology>",
 					"Free [Musketman] appears <upon constructing [Courthouse]> <upon discovering [Gunpowder] technology>",
 					"Free [Rifleman] appears <upon constructing [Courthouse]> <upon discovering [Rifling] technology>",
@@ -572,7 +572,7 @@
 		"attacked": "I'm gonna stomp 'em to dust. I'm gonna grind their bones. I'm gonna pile 'em up inna big fire and roast 'em. I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left. An' den I'm gonna get really mean.",
 		"defeated": "The only good stunty is a dead stunty, and the only thing better than a dead stunty is a dyin' stunty who tells yer where to find 'is mates.",
 		"afterPeace": "Let 'em tell da King. Da east belongs to da Orcs. Da east belongs to Morglum. Da east is green.",
-		"introduction": "Stunties hide unnerground and pansy-elves hide in the trees. Thas why I prefers yer 'umans. They builds sorta 'ollow rocks wiht 'oles for comin' and goin' fru. They builds 'em on hills where you's have to climb a bit, but at least they's in the open, where a lad can get at 'em. So you can lob a few rocks at the walls, bash frew the holes, and get in there to nick all their gear, wivvout wunderin' if the roof is gonna fall on yer nut or if you's gonna fall off a branch. I like bashin' 'uman places. Only they don't call it bashin'; they calls it a seej.",	
+		"introduction": "We's the Orks and you is NOT!",	
 		
 		"neutralHello": "The future ain't bright. The future is green.",
 		"hateHello": "Da Clans will destroy you.",

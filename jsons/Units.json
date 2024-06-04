@@ -11,6 +11,18 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Skaven Settler",
+		"replaces": "Settler",
+		"uniqueTo": "Skaven",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", 
+					"Excess Food converted to Production when under construction",
+					"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -161,7 +173,7 @@
 		"upgradesTo": "Halfling Ranger",
 		"obsoleteTech": "Mass Media",
 		"uniques": ["Invisible to non-adjacent units",
-					"May enter foreign tiles without open borders",
+					"May enter foreign tiles without open borders","Never appears as a Barbarian unit",
 					"May upgrade to [Halfling Ranger] through ruins-like effects"],
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -196,7 +208,7 @@
 		"upgradesTo": "Pathfinder",
 		"obsoleteTech": "Mass Media",
 		"uniques": ["[+1] Movement <in [Forest] tiles>", 
-					"[+1] Movement <in [Jungle] tiles>",
+					"[+1] Movement <in [Jungle] tiles>","Never appears as a Barbarian unit",
 					"May upgrade to [Crossbowman] through ruins-like effects"],
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -312,6 +324,38 @@
 		]
 	},
 	{
+		"name": "Night Runner",
+		"unitType": "Sword",
+		"uniqueTo": "Skaven",
+		"replaces": "Warrior",
+		"movement": 3,
+		"strength": 8,
+		"cost": 44,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Gutter Runner",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
+					"Heals [15] damage if it kills a unit", 
+					"Preachable"],
+		"promotions": ["Fight Howl"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Special Beastman unit for fighting in rough terrain."},
+			{"text": "Rough terrain:"},
+			{
+				"text": "Forest", 
+				"link": "Terrains/Forest"
+			},
+			{
+				"text": "Jungle", 
+				"link": "Terrains/Jungle"
+			},
+			{
+				"text": "Hill", 
+				"link":"Terrains/Hill"
+			}
+		]
+	},
+	{
 		"name": "Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
@@ -379,28 +423,6 @@
 		]
 	},
 	{
-		"name": "Tomb Guard",
-		"uniqueTo": "Khemri",
-		"unitType": "Construct",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 14,
-		"cost": 70,
-		"requiredResource": "Iron",
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": ["[+25]% XP gained from combat", 
-					"Preachable", 
-					"Undead"],
-		"promotions": ["Highly Trained"],
-		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Tomb Guard was created by Dathun, the longest prime minister of Khemri. As the name suggests, this Construct was made to guard the royal family's graves and safeguard royal records and treasures."}
-		]
-	},
-	{
 		"name": "Fanatic",
 		"unitType": "Sword",
 		"uniqueTo": "Reikland",
@@ -422,15 +444,15 @@
 		]
 	},
 	{
-		"name": "Bladedancer",
+		"name": "Gutter Runner",
 		"uniqueTo": "Skaven",
 		"replaces": "Swordsman",
 		"unitType": "Sword",
-		"movement": 2,
+		"movement": 3,
 		"strength": 17,
 		"cost": 75,
 		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
+		"upgradesTo": "Death Runner",
 		"obsoleteTech": "Steel",
 		"uniques": ["Preachable"],
 		"promotions": ["Elusive"],
@@ -438,7 +460,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "Notorious for its agility and nimble movements, Bladedancer is an elusive target to hit. They move like a wind."}
+			{"text": "Notorious for its agility and nimble movements, Gutter Runner is an elusive target to hit. They move like a wind."}
 		]
 	},
 	{
@@ -494,6 +516,25 @@
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Strong yet stubborn kin of Goblin. Orc is a melee unit specialized for raiding cities."}
+		]
+	},
+	{
+		"name": "Death Runner",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Skaven",
+		"movement": 3,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["[+10] HP when healing", 
+					"Preachable"],
+		"promotions": ["Plunderer"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Death Runners, also spelled Deathrunners, are the Champions of the Skaven Clan Eshin's Gutter Runner regiments, either leading a host of their lesser brethren or making up in whole a deadly cadre of assassins themselves."}
 		]
 	},
 	{
@@ -563,43 +604,6 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A big-ape like creature that is resistant to cold. Tormund taught them sign language and how to use firearms, especially muskets."}
-		]
-	},
-	{
-		"name": "Tomb Captain",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "Khemri",
-		"movement": 2,
-		"strength": 30,
-		"cost": 185,
-		"requiredTech": "Priesthood",
-		"obsoleteTech": "Lore of Death",
-		"upgradesTo": "Tomb King",
-		"uniques": ["Uncapturable","May capture killed [Wounded] units", 
-					"Undead"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Tomb King",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Khemri",
-		"movement": 2,
-		"strength": 35,
-		"cost": 300,
-		"requiredTech": "Lore of Death",
-		"uniques": ["Uncapturable","May capture killed [Wounded] units","Can see invisible [Land] units", 
-					"Undead"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "The Tomb Kings' mummified corpses have been awakened by magical, necromantic incantations, and their bodies are now inhabited by their undying, vengeful souls."},
-			{"text": "Reborn to a mocking imitation of life, transformed into hideous cadavers whose kingdoms have long since been plundered and lost, a Tomb King's rage fuels an unremitting need to conquer; they are the true monarchs of the dead, and they are coming to reclaim their rightful dominion."},
-			{"text": "Revived by the necromantic rituals of the Liche Priests, a Tomb King awakens from the sleep of death possessing all the ambition and lust for power they had in life. Every Tomb King seeks to reclaim their plundered treasures and restore their ancient glory."},
-			{"text": "If this means the subjugation and destruction of foreign lands, then the Tomb King's army, loyal even in death, rises from its rest at their command. Although it is the necromantic magic of the Liche Priests that animates the Tomb King's army, it is by the indomitable will of the Tomb King themselves that they move and fight. Every Tomb King is an aggressive warlord, able to instil their warriors with their own unyielding vigour.m"}
 		]
 	},
 	{
@@ -971,27 +975,6 @@
 		"unitType": "Mounted",
 		"replaces": "Light Knight",
 		"uniqueTo": "Naggaroth",
-		"movement": 4,
-		"strength": 20,
-		"cost": 115,
-		"requiredTech": "Stirrups",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Highlander"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Skeleton Rider",
-		"unitType": "Mounted",
-		"replaces": "Light Knight",
-		"uniqueTo": "Khemri",
 		"movement": 4,
 		"strength": 20,
 		"cost": 115,
@@ -1816,28 +1799,6 @@
 		]
 	},
 	{
-		"name": "Lich",
-		"unitType": "Mage",
-		"replaces": "Arch-Wizard",
-		"uniqueTo": "Khemri",
-		"movement": 2,
-		"strength": 26,
-		"rangedStrength": 28,
-		"cost": 220,
-		"requiredTech": "Magic Negation",
-		"obsoleteTech": "Mana Battery",
-		"upgradesTo": "Sorcerer",
-		"requiredResource": "Magician",
-		"uniques": ["Research Magic Negation vs Enlightenment", 
-					"May capture killed [Military] units <with [75]% chance>", 
-					"Preachable"],
-		"promotions": ["[Lich] ability"],
-		"attackSound": "artillery",
-		"civilopediaText": [
-			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."}
-		]
-	},
-	{
 		"name": "Sorcerer",
 		"unitType": "Mage",
 		"movement": 2,
@@ -2591,44 +2552,6 @@
 		]
 	},
 	{
-		"name": "Skeletal Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"upgradesTo": "Skeletal Champion",
-		"obsoleteTech": "Metal Casting",
-		"uniques": ["[-100]% maintenance costs", 
-					"Damage is ignored when determining unit Strength", 
-					"Unbuildable", "Cannot be purchased",
-					"Only available <in cities with a [~limiter]>", 
-					"Preachable", 
-					"Undead"],
-		"promotions": ["Great Generals I"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Unbuildable, this unit appears only when Khemri founding a city before the Feudal age."}
-		]
-	},
-	{
-		"name": "Skeletal Champion",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 20,
-		"requiredTech": "Metal Casting",
-		"upgradesTo": "Tomb Captain",
-		"uniques": ["[-100]% maintenance costs", 
-					"Damage is ignored when determining unit Strength", 
-					"Unbuildable", "Cannot be purchased",
-					"Only available <in cities with a [~limiter]>", 
-					"Preachable", 
-					"Undead"],
-		"promotions": ["Great Generals I"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Unbuildable, this unit appears only when Khemri founding a city starting from the Feudal age."}
-		]
-	},
-	{
 		"name": "Damphyr",
 		"unitType": "Civilian",
 		"uniqueTo": "Sylvania",
@@ -2663,7 +2586,7 @@
 		"requiredTech": "Necromancy",
 		"movement": 2,
 		"strength": 20,
-		"uniques": ["Ignore terrain cost"],
+		"uniques": ["Ignore terrain cost","Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": ""}
@@ -2779,14 +2702,14 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Leonidas",
+		"name": "Leopold of Luccini",
 		"unitType": "Anti-Cav Hero",
 		"movement": 2,
 		"strength": 25,
 		"requiredResource": "Hero Limiter",
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
-					"Only available <if [Leonidas Portal] is constructed>", 
+					"Only available <if [Leopold of Luccini Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
@@ -2808,7 +2731,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Pandji",
+		"name": "Scarloc",
 		"unitType": "Archery Hero", 		// Longbowman
 		"movement": 2,
 		"strength": 18,
@@ -2818,14 +2741,14 @@
 		"promotions": ["Great Generals I","Extended Range"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
-					"Only available <if [Pandji Portal] is constructed>", 
+					"Only available <if [Scarloc Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "crossbow"
 	},
 	
 	{
-		"name": "Zhuge Liang",
+		"name": "Doc Ashfield",
 		"unitType": "Archery Hero", 		// Chu-Ko-Nu
 		"movement": 2,
 		"strength": 20,
@@ -2950,7 +2873,7 @@
 	{
 		"name": "Para Artist",
 		"unitType": "Civilian",
-		"uniqueTo": "Thallin",
+		"uniqueTo": "Ulthuan",
 		"replaces": "Great Artist",
 		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>", 
 					"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
@@ -2959,7 +2882,7 @@
 					"Is part of Great Person group [All-Civ]"],
 		"movement": 2,
 		"civilopediaText": [
-			{"text": "Visionary Thallin people, often they appear almost simultaneously and trigger the very long era of greatness."},
+			{"text": "Visionary Ulthuan people, often they appear almost simultaneously and trigger the very long era of greatness."},
 			{"text": "Besides, they are very adept at instilling propaganda through various Great Works"}
 		]
 	},
@@ -3025,7 +2948,7 @@
 	{
 		"name": "Meka-Priest",
 		"unitType": "Civilian",
-		"uniqueTo": "Machinia",
+		"uniqueTo": "Chaos Dwarfs",
 		"replaces": "Great Prophet",
 		"uniques": ["Can instantly construct a [Meka-Monastery] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
 					"Can instantly construct a [Kyber Foundry] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
@@ -3077,21 +3000,6 @@
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Tactical minded warriors, often the best one at that, who could read the flow of battle and plan the strategies based on the situation their troops faced."}
-		]
-	},
-	{
-		"name": "Skroth",
-		"unitType": "Civilian",
-		"uniqueTo": "Khemri",
-		"replaces": "Great General",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", 
-					"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
-					"All adjacent units heal [+15] HP when healing", 
-					"Great Person - [War]", 
-					"Unbuildable", "Uncapturable",],
-		"movement": 5,
-		"civilopediaText": [
-			{"text": "An Khemri warlord, commanding a skralar of tens of thousand of wight and zombies. Every Skroth can ride an undead animal, but not every undead who can ride is a Skroth."}
 		]
 	},
 	{
@@ -3509,6 +3417,305 @@
 					"Beast"],
 		"attackSound": "nonmetalhit"
 	},
+	
+	// Khemri	
+	{
+		"name": "Skeletal Warrior",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 6,
+		"upgradesTo": "Skeletal Champion",
+		"obsoleteTech": "Metal Casting",
+		"requiredBuilding": "Tomb",
+		"uniques": ["[-100]% maintenance costs", 
+					"Damage is ignored when determining unit Strength", 
+					"Cannot be purchased",
+					"Only available <in cities with a [~limiter]>", 
+					"Never appears as a Barbarian unit",
+					"Free [Skeletal Warrior] appears <upon being defeated> <with [25]% chance>",
+					"Undead"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."}
+		]
+	},
+	{
+		"name": "Skeletal Champion",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"requiredTech": "Metal Casting",
+		"requiredBuilding": "Tomb",
+		"upgradesTo": "Tomb Captain",
+		"uniques": ["[-100]% maintenance costs", 
+					"Damage is ignored when determining unit Strength", 
+					"Cannot be purchased",
+					"Only available <in cities with a [~limiter]>",
+					"Free [Skeletal Champion] appears <upon being defeated> <with [25]% chance>",
+					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [25]% chance>", 
+					"Undead"],
+		"promotions": ["Great Generals I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."}
+		]
+	},
+	{
+		"name": "Tomb Captain",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 30,
+		"cost": 185,
+		"requiredTech": "Priesthood",
+		"obsoleteTech": "Lore of Death",
+		"requiredBuilding": "Tomb",
+		"upgradesTo": "Tomb King",
+		"uniques": ["Uncapturable",
+					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [50% chance>", 
+					"Free [Tomb Captain] appears <upon being defeated> <with [25]% chance>",
+					"Undead"],
+		"promotions": ["Great Generals II"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Tomb King",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 35,
+		"cost": 300,
+		"requiredTech": "Lore of Death",
+		"requiredBuilding": "Tomb",
+		"uniques": ["Uncapturable",
+					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [75% chance>", 
+					"Free [Tomb King] appears <upon being defeated> <with [25]% chance>",
+					"Can see invisible [Land] units", 
+					"Undead"],
+		"attackSound": "nonmetalhit",
+		"promotions": ["Great Generals III"],
+		"civilopediaText": [
+			{"text": "The Tomb Kings' mummified corpses have been awakened by magical, necromantic incantations, and their bodies are now inhabited by their undying, vengeful souls."},
+			{"text": "Reborn to a mocking imitation of life, transformed into hideous cadavers whose kingdoms have long since been plundered and lost, a Tomb King's rage fuels an unremitting need to conquer; they are the true monarchs of the dead, and they are coming to reclaim their rightful dominion."},
+			{"text": "Revived by the necromantic rituals of the Liche Priests, a Tomb King awakens from the sleep of death possessing all the ambition and lust for power they had in life. Every Tomb King seeks to reclaim their plundered treasures and restore their ancient glory."},
+			{"text": "If this means the subjugation and destruction of foreign lands, then the Tomb King's army, loyal even in death, rises from its rest at their command. Although it is the necromantic magic of the Liche Priests that animates the Tomb King's army, it is by the indomitable will of the Tomb King themselves that they move and fight. Every Tomb King is an aggressive warlord, able to instil their warriors with their own unyielding vigour.m"}
+		]
+	},
+	{
+		"name": "Tomb Swarms",
+		"unitType": "Recon",
+		"replaces": "Scout",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 6,
+		"cost": 25,
+		"upgradesTo": "Tomb Scorpion",
+		"obsoleteTech": "Mass Media",
+		"uniques": ["Invisible to non-adjacent units",
+					"May enter foreign tiles without open borders","Never appears as a Barbarian unit",
+					"May upgrade to [Tomb Scorpion] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A more discrete scout."}
+		]
+	},
+	{
+		"name": "Tomb Scorpion",
+		"replaces": "Ranger",
+		"uniqueTo": "Khemri",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 14,
+		"cost": 55,
+		"requiredTech": "Monster Taming",
+		"upgradesTo": "Pathfinder",
+		"obsoleteTech": "Mass Media",
+		"uniques": ["[+1] Movement <in [Desert] tiles>"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Stronger recon unit, specialized for scouting on wooded terrain."}
+		]
+	},
+	{
+		"name": "Skeletal Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 6,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"uniques": ["[-100]% maintenance costs", 
+					"Damage is ignored when determining unit Strength", 
+					"Cannot be purchased",
+					"Only available <in cities with a [~limiter]>", 
+					"Never appears as a Barbarian unit",
+					"Free [Skeletal Archer] appears <upon being defeated> <with [25]% chance>",
+					"Undead"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Skeleton Rider",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Khemri",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Free [Skeleton Rider] appears <upon being defeated> <with [25]% chance>",
+					"Preachable"],
+		"promotions": ["Highlander"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Skeletal Spearman",
+		"unitType": "Anti-Cav",
+		"replaces": "Spearman",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 12,
+		"cost": 60,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Ushabti",
+		"uniques": ["[+25]% XP gained from combat", 
+					"Free [Skeletal Spearman] appears <upon being defeated> <with [25]% chance>",
+					"Undead"],
+		"promotions": ["Highly Trained"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Skeletal Spearman was created by Dathun, the longest prime minister of Khemri. As the name suggests, this Construct was made to guard the royal family's graves and safeguard royal records and treasures."}
+		]
+	},
+	{
+		"name": "Ushabti",
+		"unitType": "Anti-Cav",
+		"replaces": "Pikeman",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Sepulchral Stalker",
+		"requiredBuilding": "Tomb",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>",
+					"Free [Ushabti] appears <upon being defeated> <with [25]% chance>",
+					"Undead"],
+		"attackSound": "metalhit" 
+	},
+	{
+		"name": "Tomb Guard",
+		"unitType": "Construct",
+		"replaces": "Stone Golem",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 14,
+		"cost": 90,
+		"requiredTech": "Roads",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Tomb Herald",
+		"requiredBuilding": "Tomb",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>",
+					"Free [Tomb Guard] appears <upon being defeated> <with [25]% chance>",
+					"Undead"],
+		"attackSound": "metalhit" 
+	},
+	{
+		"name": "Tomb Herald",
+		"unitType": "Construct",
+		"replaces": "Iron Golem",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 20,
+		"cost": 125,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Adamantite Golem",
+		"requiredResource": "Iron",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
+					"Free [Tomb Herald] appears <upon being defeated> <with [25]% chance>",
+					"Undead"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A large and powerful unit used to breach enemy fortifications. It has sturdy head and shoulder used to ram into buildings and has bonuses against structures, such as increased damage and resistance to counterattacks."}
+		]
+	},
+
+	{
+		"name": "Sepulchral Stalker",
+		"uniqueTo": "Khemri",
+		"replaces": "Halberdier",
+		"unitType": "Anti-Cav",
+		"movement": 2,
+		"strength": 27,
+		"cost": 180,
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Pike and Shot",
+		"requiredBuilding": "Tomb",
+		"promotions": ["Formation"],
+		"uniques": ["Invisible to non-adjacent units",
+					"Undead"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "'These sentinels mark the borders of the Tomb Kings' realm, submerged in the sand, waiting to strike at the unsuspecting.' —The Sepulchral Stalkers."}
+		]
+	},
+	{
+		"name": "Lich",
+		"unitType": "Mage",
+		"replaces": "Arch-Wizard",
+		"uniqueTo": "Khemri",
+		"movement": 2,
+		"strength": 26,
+		"rangedStrength": 28,
+		"cost": 220,
+		"requiredTech": "Magic Negation",
+		"obsoleteTech": "Mana Battery",
+		"upgradesTo": "Sorcerer",
+		"requiredResource": "Magician",
+		"uniques": ["Research Magic Negation vs Enlightenment", 
+					"May capture killed [Military] units <with [75]% chance>", 
+					"Preachable"],
+		"promotions": ["[Lich] ability"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."}
+		]
+	},
+	{
+		"name": "Tomb Prince",
+		"unitType": "Civilian",
+		"uniqueTo": "Khemri",
+		"replaces": "Great General",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", 
+					"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
+					"All adjacent units heal [+15] HP when healing", 
+					"Great Person - [War]", 
+					"Unbuildable", "Uncapturable",],
+		"movement": 5,
+		"civilopediaText": [
+			{"text": "An Khemri warlord, commanding a skralar of tens of thousand of wight and zombies. Every Tomb Prince can ride an undead animal, but not every undead who can ride is a Tomb Prince."}
+		]
+	},
+
 	
 	// Civilopedia Text
 	{
