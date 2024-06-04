@@ -11,68 +11,11 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Skaven Settler",
-		"replaces": "Settler",
-		"uniqueTo": "Skaven",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", 
-					"Excess Food converted to Production when under construction",
-					"Requires at least [2] population"],
-		"hurryCostModifier": 20
-	},
-	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 60,
 		"uniques": ["Can build [Land] improvements on tiles"],
-	},
-	{
-		"name": "Tavari Worker",
-		"replaces": "Worker",
-		"uniqueTo": "Ogre Kingdoms",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 48,
-		"uniques": ["Can build [Land] improvements on tiles"],
-		"promotions": ["Ignore terrain cost"],
-		"civilopediaText": [
-			{"text": "Cheaper and fast moving Worker. Tavari workers have gone through a series of education to increase their effectiveness during works."}
-		]
-	},
-	{
-		"name": "Rain Worker",
-		"replaces": "Worker",
-		"uniqueTo": "Beastmen",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 60,
-		"uniques": ["Can build [Farm] improvements on tiles", 
-					"Can build [Mine] improvements on tiles", 
-					"Can build [Trading post] improvements on tiles", 
-					"Can build [Ice-calator] improvements on tiles", 
-					"Can build [Terrace farm] improvements on tiles", 
-					"Can build [Camp] improvements on tiles", 
-					"Can build [Pasture] improvements on tiles", 
-					"Can build [Plantation] improvements on tiles", 
-					"Can build [Rainee's Plantation] improvements on tiles", 
-					"Can build [Quarry] improvements on tiles", 
-					"Can build [Taming] improvements on tiles", 
-					"Can build [Beacon of Power] improvements on tiles", 
-					"Can build [Fort] improvements on tiles", 
-					"Can build [Road] improvements on tiles", 
-					"Can build [Railroad] improvements on tiles", 
-					"Can build [Remove Jungle] improvements on tiles", 
-					"Can build [Remove Fallout] improvements on tiles", 
-					"Can build [Remove Marsh] improvements on tiles", 
-					"Can build [Remove Road] improvements on tiles", 
-					"Can build [Remove Railroad] improvements on tiles", 
-					//"Can build [Cancel improvement order] improvements on tiles", 
-					"Can build [Repair] improvements on tiles", 
-					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Can build Land improvements on tiles",
 	},
 	{
 		"name": "Canal Engineer",
@@ -92,20 +35,6 @@
 		"uniques": ["Cannot enter ocean tiles",
 					"May create improvements on water resources",
 					"Uncapturable"]
-	},
-	{
-		"name": "Siren",
-		"unitType": "Civilian Water",
-		"uniqueTo": "Ulthuan",
-		"replaces": "Work Boats",
-		"movement": 4,
-		"cost": 25,
-		"uniques": ["Available immediately", 
-					"May create improvements on water resources", 
-					"Uncapturable"],
-		"civilopediaText": [
-			{"text": "Siren available since the beginning of the game, and cheaper."}
-		]
 	},
 	
 	{
@@ -216,28 +145,6 @@
 		]
 	},
 	{
-		"name": "Adept",
-		"unitType": "Mage",
-		"uniqueTo": "Hordes of Chaos",
-		"replaces": "Ranger",
-		"movement": 2,
-		"strength": 10,
-		"rangedStrength": 10,
-		"cost": 55,
-		"requiredTech": "Raw Magic",
-		"obsoleteTech": "Enlightenment",
-		"upgradesTo": "Arch-Wizard",
-		"uniques": ["[+1] Movement <in [Forest] tiles>", 
-					"[+1] Movement <in [Jungle] tiles>", 
-					"Upgrade to Arch-Wizard vs Pathfinder",
-					"Preachable"],
-		"promotions": ["Seductive Submission"],
-		"attackSound": "whoosh",
-		"civilopediaText": [
-			{"text": "Life as a witch is very dangerous, therefore a special recon unit is trained. The main task of an Adept is to gather witchdraen, a term used to call witch children, and bring them to Draen Sanctuary. Witchdraen who have good potential will be trained by the Sisters of the Moon Thread."}
-		]
-	},
-	{
 		"name": "Pathfinder",
 		"unitType": "Recon",
 		"movement": 2,
@@ -292,70 +199,6 @@
 		]
 	},
 	{
-		"name": "Night Goblin",
-		"unitType": "Sword",
-		"uniqueTo": "Badmoon Goblins",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 44,
-		"obsoleteTech": "Iron Working",
-		"upgradesTo": "Swordsman",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
-					"Heals [15] damage if it kills a unit", 
-					"Preachable"],
-		"promotions": ["Fight Howl"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Special Beastman unit for fighting in rough terrain."},
-			{"text": "Rough terrain:"},
-			{
-				"text": "Forest", 
-				"link": "Terrains/Forest"
-			},
-			{
-				"text": "Jungle", 
-				"link": "Terrains/Jungle"
-			},
-			{
-				"text": "Hill", 
-				"link":"Terrains/Hill"
-			}
-		]
-	},
-	{
-		"name": "Night Runner",
-		"unitType": "Sword",
-		"uniqueTo": "Skaven",
-		"replaces": "Warrior",
-		"movement": 3,
-		"strength": 8,
-		"cost": 44,
-		"obsoleteTech": "Iron Working",
-		"upgradesTo": "Gutter Runner",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
-					"Heals [15] damage if it kills a unit", 
-					"Preachable"],
-		"promotions": ["Fight Howl"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Special Beastman unit for fighting in rough terrain."},
-			{"text": "Rough terrain:"},
-			{
-				"text": "Forest", 
-				"link": "Terrains/Forest"
-			},
-			{
-				"text": "Jungle", 
-				"link": "Terrains/Jungle"
-			},
-			{
-				"text": "Hill", 
-				"link":"Terrains/Hill"
-			}
-		]
-	},
-	{
 		"name": "Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
@@ -382,88 +225,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Divine Order",
-		"unitType": "Sword",
-		"uniqueTo": "Estalia",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Fanaticism",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"uniques": ["Preachable"],
-		"promotions": ["Divine Right","Sentry"],
-		"uniques": ["Research Fanaticism vs Iron Working",
-					"Can [Remove Foreign religions from your own cities] [3] times"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Devout and fanatic follower of the religion. May prevents and remove foreign religion.",}
-		]
-	},
-	{
-		"name": "Warhammer",
-		"unitType": "Sword",
-		"uniqueTo": "Dwarfs",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 17,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"uniques": ["Can build [Land] improvements on tiles", 
-					"Preachable"],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "As skillfull as the other Dwarf, Warhammer, despite being a warrior, can build Land improvements."}
-		]
-	},
-	{
-		"name": "Fanatic",
-		"unitType": "Sword",
-		"uniqueTo": "Reikland",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 16,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"hurryCostModifier": 10,
-		"uniques": ["[+10]% Strength when stacked with [Empire General]", 
-					"Preachable"],
-		"promotions": ["Impetus"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Also referred to as Empire Fanatics, are warriors who idolize Empire Generals, and become very strong when around them."}
-		]
-	},
-	{
-		"name": "Gutter Runner",
-		"uniqueTo": "Skaven",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 3,
-		"strength": 17,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Death Runner",
-		"obsoleteTech": "Steel",
-		"uniques": ["Preachable"],
-		"promotions": ["Elusive"],
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Notorious for its agility and nimble movements, Gutter Runner is an elusive target to hit. They move like a wind."}
-		]
-	},
-	{
 		"name": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -476,107 +237,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Axeman",
-		"uniqueTo": "Dwarfs",
-		"replaces": "Longswordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 22,
-		"cost": 120,
-		"requiredResource": "Iron",
-		"requiredTech": "Metal Casting",
-		"obsoleteTech": "Gunpowder",
-		"upgradesTo": "Musketman",
-		"uniques": ["Research Metal Casting vs Steel",
-					"[+15]% Strength <when attacking>", 
-					"[-10]% Strength <when defending> <vs [Melee] units>",
-					"Preachable"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{
-				"text": "Axeman fights with an ax crafted with Gulddin's magma. Heartsdurl, made by the legendary craftsman Durldin, served as the inspiration for the weapons for this troop.",
-				"link": "Technology/Steel"
-			}
-		]
-	},
-	{
-		"name": "Orc",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Ironclaw Orcs",
-		"movement": 2,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"obsoleteTech": "Gunpowder",
-		"upgradesTo": "Musketman",
-		"uniques": ["[+10] HP when healing", 
-					"Preachable"],
-		"promotions": ["Plunderer"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Strong yet stubborn kin of Goblin. Orc is a melee unit specialized for raiding cities."}
-		]
-	},
-	{
-		"name": "Death Runner",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Skaven",
-		"movement": 3,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"obsoleteTech": "Gunpowder",
-		"upgradesTo": "Musketman",
-		"uniques": ["[+10] HP when healing", 
-					"Preachable"],
-		"promotions": ["Plunderer"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Death Runners, also spelled Deathrunners, are the Champions of the Skaven Clan Eshin's Gutter Runner regiments, either leading a host of their lesser brethren or making up in whole a deadly cadre of assassins themselves."}
-		]
-	},
-	{
-		"name": "Rakshasa",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Araby",
-		"movement": 3,
-		"strength": 22,
-		"cost": 120,
-		"requiredResource": "Iron",
-		"requiredTech": "Steel",
-		"obsoleteTech": "Gunpowder",
-		"upgradesTo": "Musketman",
-		"uniques": ["Rough terrain penalty", 
-					"Preachable"],
-		"promotions": ["Shock","Charge"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "A giant so big that you can only see their legs. Or at least what is told by the Dwarni."}
-		]
-	},
-	{
-		"name": "Iron Templar",
-		"unitType": "Sword",
-		"uniqueTo": "Chaos Dwarfs",
-		"replaces": "Longswordsman",
-		"movement": 2,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": ["Preachable"],
-		"promotions": ["Regenerative Bio-Steel"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Its body is made of reinforced iron, it can easily replace damaged body parts and is resistant to impact."},
-		]
-	},
-	{
 		"name": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -587,24 +247,6 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
 		"attackSound": "shot"
-	},
-	{
-		"name": "Yeti",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "Norsca",
-		"movement": 2,
-		"strength": 30,
-		"cost": 185,
-		"requiredTech": "Gunpowder",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Rifleman",
-		"uniques": ["Preachable"],
-		"promotions": ["Snowman"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "A big-ape like creature that is resistant to cold. Tormund taught them sign language and how to use firearms, especially muskets."}
-		]
 	},
 	{
 		"name": "Petard",
@@ -633,25 +275,6 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"attackSound": "shot"
-	},
-	{
-		"name": "Entilon",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Beastmen",
-		"movement": 2,
-		"strength": 35,
-		"cost": 300,
-		"requiredTech": "Fertilizer",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"uniques": ["Research Fertilizer vs Rifling", 
-					"Preachable"],
-		"promotions": ["Woodsman","[Entilon] ability"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Stronger when fighting in Forest and Jungle, doesn't need Niter."}
-		]
 	},
 	{
 		"name": "Infantry",
@@ -745,25 +368,6 @@
 		"attackSound": "metalhit" 
 	},
 	{
-		"name": "Elite Spearman",
-		"unitType": "Anti-Cav",
-		"replaces": "Pikeman",
-		"uniqueTo": "Tilea",
-		"movement": 2,
-		"strength": 17,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Halberdier",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>", 
-					"Preachable"],
-		"promotions": ["Shock"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "A group of spearman directly chosen by Barret Barrtö and trained by the former Spear Hero, Anaxandridas."}
-		]
-	},
-	{
 		"name": "Halberdier",
 		"unitType": "Anti-Cav",
 		"movement": 2,
@@ -832,27 +436,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Wolf Rider",
-		"unitType": "Mounted",
-		"uniqueTo": "Ironclaw Orcs",
-		"replaces": "Horseman",
-		"movement": 3,
-		"strength": 12,
-		"cost": 70,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Fight Howl","Plunderer"],
-		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Before saddle-gob was invented, Goblin can't ride a horse because of its height. During that time, goblin ride wolf that is rideable for them and more agile in rough terrains."}
-		]
-	},
-	{
 		"name": "Marauder",
 		"unitType": "Mounted",
 		"uniqueTo": "Barbarians",
@@ -885,256 +468,6 @@
 					"[-33]% Strength <vs cities> <when attacking>", 
 					"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
-	},
-	{
-		"name": "Kalsharin",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Kislev",
-		"movement": 4,
-		"strength": 20,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "Knight with withdrawal ability and without city attacking penalty."}
-		]
-	},
-	{
-		"name": "Knight Errant",
-		"unitType": "Mounted",
-		"replaces": "Light Knight",
-		"uniqueTo": "Bretonnia",
-		"movement": 4,
-		"strength": 20,
-		"cost": 115,
-		"requiredTech": "Stirrups",
-		"requiredResource": "Horses",
-		"upgradesTo": "Questing Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "The young sons of noble Bretonnian families must prove themselves in battle to earn their spurs."}
-		]
-	},
-	{
-		"name": "Amazon Jaguar",
-		"unitType": "Mounted",
-		"replaces": "Light Knight",
-		"uniqueTo": "Amazonia",
-		"movement": 4,
-		"strength": 20,
-		"cost": 115,
-		"requiredTech": "Stirrups",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Ranger"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Wolf Rider",
-		"unitType": "Mounted",
-		"replaces": "Light Knight",
-		"uniqueTo": "Badmoon Goblins",
-		"movement": 4,
-		"strength": 20,
-		"cost": 115,
-		"requiredTech": "Stirrups",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Highlander"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Dark Rider",
-		"unitType": "Mounted",
-		"replaces": "Light Knight",
-		"uniqueTo": "Naggaroth",
-		"movement": 4,
-		"strength": 20,
-		"cost": 115,
-		"requiredTech": "Stirrups",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Highlander"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Knight of the Realm",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Bretonnia",
-		"movement": 4,
-		"strength": 24,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Questing Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "Should they survive to become fully honoured knights, knights errant are granted their own small landed estate to govern, called a knight's fee or tithe, and are obligated to defend that estate and Bretonnia should they be called to muster."}
-		]
-	},
-	{
-		"name": "Silverhelms",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Ulthuan",
-		"movement": 4,
-		"strength": 24,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Chaos Knight",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Hordes of Chaos",
-		"movement": 4,
-		"strength": 24,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Questing Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Cold Ones Knight",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Slann",
-		"movement": 4,
-		"strength": 24,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Questing Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Black Knight",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Sylvania",
-		"movement": 4,
-		"strength": 24,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Questing Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Boar Boyz",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Badmoon Goblins",
-		"movement": 4,
-		"strength": 24,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Questing Knight",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["Reactive Armor","Quick Study"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Questing Knight",
-		"unitType": "Mounted",
-		"uniqueTo": "Bretonnia",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Knightly Orders",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Grail Knight",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking",
-					"No defensive terrain bonus",
-					"Never appears as a Barbarian unit"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "These are brave individuals, revered as the land's most dedicated and selfless heroes. They willingly renounce all titles and worldly possessions, so to journey unto faraway lands, all in hopes of being deemed worthy by the Lady to become a blessed Grail Knight"}
-		]
 	},
 	{
 		"name": "Knight Panther",
@@ -1212,26 +545,6 @@
 
 	},
 	{
-		"name": "Grail Knight",
-		"unitType": "Cavalry Hero",
-		"uniqueTo": "Bretonnia",
-		"movement": 4,
-		"strength": 55,
-		"cost": 225,
-		"requiredTech": "Grail Quest",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking",
-					"No defensive terrain bonus",
-					"Never appears as a Barbarian unit"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "hese are the most powerful and revered individuals in all of Bretonnia, if not the entire human world, second only to the Lady in influence. They are considered living saints who represent the fearsome might and power of Bretonnia and answer only to the Lady herself; the rightful king of the realm can only be chosen from within their holy order"}
-		]
-
-	},
-	{
 		"name": "Knight",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -1249,99 +562,6 @@
 		"civilopediaText": [
 			{"text": ""}
 		]
-	},
-	{
-		"name": "Laskar",
-		"replaces": "Knight",
-		"uniqueTo": "Kislev",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"[-33]% Strength <vs cities> <when attacking>", 
-					"No defensive terrain bonus", 
-					"Preachable"],
-		"promotions": ["[Laskar] ability"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "Specialist on wiping out Melee units and its skill carried over when upgrading."}
-		]
-	},
-	{
-		"name": "Dullahan",
-		"unitType": "Mounted",
-		"uniqueTo": "Kurgan",
-		"replaces": "Knight",
-		"range": 1,
-		"movement": 5,
-		"strength": 17,
-		"rangedStrength": 18,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"[-33]% Strength <when fighting in [Fresh water] tiles>", 
-					"[-33]% Strength <when fighting in [Coastal] tiles>", 
-					"Preachable"],
-		"promotions": ["Great Generals I"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Hit and run headless-knight, less effective when fighting near Water."},
-			{"text": "See: "},
-			{"text": "Lakes", "link":"Terrains/Lakes"}
-			{"text": "Coast", "link":"Terrains/Coast"}
-		]
-	},
-	{
-		"name": "Cerberus",
-		"replaces": "Knight",
-		"uniqueTo": "Sylvania",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"Never appears as a Barbarian unit", 
-					"Preachable"],
-		"promotions": ["Intimidation","Bloodbath"],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "A three-headed hound used by Hordes of Chaos to march on war. Its appearance often scare those weak and unfaithful troops."}
-		]
-	},
-	{
-		"name": "Crusader",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Estalia",
-		"movement": 4,
-		"strength": 22,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", 
-					"No defensive terrain bonus", 
-					"[-33]% Strength <vs cities> <when attacking>", 
-					"Founds a new city <on foreign continents>", 
-					"Can be purchased for [120] [Faith] [in capital]", 
-					"Religious Unit"],
-		"attackSound": "horse",
-		"religiousStrength": 1000
 	},
 	{
 		"name": "Mammoth Rider",
@@ -1462,44 +682,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Realm Patrol",
-		"unitType": "Archery",
-		"uniqueTo": "Nippon",
-		"replaces": "Composite Bowman",
-		"movement": 2,
-		"strength": 9,
-		"rangedStrength": 12,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"uniques": ["Preachable"],
-		"promotions": ["[Realm Patrol] ability"],
-		"attackSound": "arrow",
-		"civilopediaText": [
-			{"text": "Special forces tasked with conducting patrols to ensure domestic security and quell rebellions."}
-		]
-	},
-	{
-		"name": "Onmyouji",
-		"unitType": "Mage",
-		"uniqueTo": "Cathay",
-		"replaces": "Composite Bowman",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 13,
-		"range": 1,
-		"cost": 70,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"uniques": ["Preachable"],
-		"attackSound": "whoosh",
-		"civilopediaText": [
-			{"text": "A practitioner of the art Onmyōdo, a master of yin-yang."},
-		]
-	},
-	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -1510,44 +692,6 @@
 		"upgradesTo": "Arbalester",
 		"obsoleteTech": "Military Science",
 		"attackSound": "crossbow"
-	},
-	{
-		"name": "Centaurs",
-		"unitType": "Archery",
-		"replaces": "Crossbowman",
-		"uniqueTo": "Beastmen",
-		"movement": 4,
-		"strength": 16,
-		"rangedStrength": 16,
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking", 
-					"Preachable"],
-		"attackSound": "crossbow",
-		"civilopediaText": [
-			{"text": "Thanue's marriage with Araros son of Aristasos, leader of Grimhorn clan, and his followers joined Niranna."}
-		]
-	},
-	{
-		"name": "Alessia",
-		"unitType": "Archery",
-		"replaces": "Crossbowman",
-		"uniqueTo": "Loren",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 15,
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Arbalester",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Preachable"],
-		"promotions": ["[Alessia] ability"],
-		"attackSound": "crossbow",
-		"civilopediaText": [
-			{"text": "Inflict less damage but it can throw second attack or move after the first attack (semi hit and run unit)."}
-		]
 	},
 	{
 		"name": "Skirmisher",
@@ -1760,27 +904,6 @@
 		]
 	},
 	{
-		"name": "Witcher",
-		"unitType": "Witcher",
-		"uniqueTo": "Reikland",
-		"movement": 3,
-		"strength": 24,
-		"cost": 160,
-		"requiredTech": "Elemental Magic",
-		"requiredResource": "Mutagen",
-		//"promotions": ["Kiss"],
-		"promotions": ["Beast Hunter"],
-		"replacementTextForUniques": "No defensive terrain penalty",
-		"uniques": ["[+10]% Strength <when defending> <in [Snow] tiles>", 
-					"[+15]% Strength <when defending> <in [Marsh] tiles>", 
-					"[+15]% Strength <when defending> <in [Fallout] tiles>", 
-					"[+10]% Strength <when defending> <in [Oasis] tiles>", 
-					"[+10]% Strength <when defending> <in [Flood plains] tiles>", 
-					"[+50]% Strength <when defending> <in [Suction Mud] tiles>", 
-					"Only available <with [Mutagen]>"],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Arch-Wizard",
 		"unitType": "Mage",
 		"movement": 2,
@@ -1879,28 +1002,6 @@
 		]
 	},
 	{
-		"name": "Ramming Troll",
-		"unitType": "Construct",
-		"replaces": "Iron Golem",
-		"uniqueTo": "Ogre Kingdoms",
-		"movement": 2,
-		"strength": 20,
-		"cost": 125,
-		"requiredTech": "Machinery",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Adamantite Golem",
-		"requiredResource": "Iron",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
-					"[-1] Sight", 
-					"Can pass through impassable tiles", 
-					"Preachable"],
-		"promotions": ["Troll's Skin"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "A large and powerful unit used to breach enemy fortifications. It has sturdy head and shoulder used to ram into buildings and has bonuses against structures, such as increased damage and resistance to counterattacks."}
-		]
-	},
-	{
 		"name": "Adamantite Golem",
 		"unitType": "Construct",
 		"movement": 2,
@@ -1914,26 +1015,6 @@
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Much more durable of Golem unit."}
-		]
-	},
-	{
-		"name": "Homunculus",
-		"unitType": "Construct",
-		"uniqueTo": "Albion",
-		"replaces": "Adamantite Golem",
-		"movement": 3,
-		"strength": 35,
-		"cost": 290,
-		"requiredTech": "Mana Channeling",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Carbon-Fiber Golem",
-		"requiredResource": "Philosopher's Stone",
-		"uniques": ["Research Mana Channeling vs Rifling", 
-					"Preachable"],
-		"promotions": ["March"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Homunculus is a more human-shaped and lighter Golem."}
 		]
 	},
 	{
@@ -2141,40 +1222,6 @@
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Longship",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Norsca",
-		"replaces": "Galleass",
-		"movement": 4,
-		"strength": 16,
-		"rangedStrength": 20,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Zeal Galleass", 
-		"unitType": "Ranged Water",
-		"uniqueTo": "Araby",
-		"replaces": "Galleass",
-		"movement": 4,
-		"strength": 16,
-		"rangedStrength": 20,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
-		"uniques": ["May withdraw before melee ([50]%)",
-					"Preachable"],
-		"attackSound": "arrow",
-		"civilopediaText": [
-			{"text": "Inflict stronger ranged attack and the only Galleass which can sail through Ocean.", "link":"Technology/Astronomy"}
-		]
 	},
 	{
 		"name": "Frigate",
@@ -2513,164 +1560,7 @@
 			{"text": "The great man-killing octopus, a legendary sea monster of enormous size."}
 		]
 	},
-	{
-		"name": "Hydra",
-		"uniqueTo": "Ulthuan",
-		"replaces": "Kraken",
-		"unitType": "Water Terror",
-		"movement": 6,
-		"strength": 70,
-		"rangedStrength": 50,
-		"cost": 400,
-		"requiredTech": "Pharmaceuticals",
-		"requiredResource": "Megall",
-		"uniques": ["[+75]% Strength <when attacking>", 
-					"Can enter ice tiles",
-					"Preachable"],
-		"promotions": ["Silent Running","Underwater Vision","Regenerative Tissue"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Also referred to as Lernaean Hydra, is a serpentine water monster in Greek and Roman mythology. While Kraken can only attack Water units, Hydra can attack both Water and Land units."}
-		]
-	},
 	
-	// Unique Ability related
-	{
-		"name": "Fury",
-		"unitType": "Missile",
-		"uniqueTo": "Hordes of Chaos",
-		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 25,
-		"range": 15,
-		"uniques": ["Unbuildable", 
-					"[+500]% Strength <vs [{Military} {Land}] units>", 
-					"[-100]% maintenance costs"],
-		"attackSound": "torpedo",
-		"civilopediaText": [
-			{"text": "One-hit-kill attack of Heaven, or Hell."}
-		]
-	},
-	{
-		"name": "Damphyr",
-		"unitType": "Civilian",
-		"uniqueTo": "Sylvania",
-		"movement": 2,
-		"uniques": ["Can instantly construct a [Vampire Castle] improvement <by consuming this unit>", 
-					"Uncapturable", "This Unit takes [100] damage <without [Vampiric Block]> <upon turn end>",
-					"Only available <with [Vampiric Block]>", 
-					"Will not be displayed in Civilopedia"],
-		"civilopediaText": [
-			{"text": "Damphyr main value is to construct Vampire Castle."}
-		]
-	},
-	{
-		"name": "Vlad von Carstein",
-		"unitType": "Vampire",
-		"uniqueTo": "Sylvania",
-		"movement": 2,
-		"strength": 24,
-		"uniques": ["Unbuildable", 
-					"Can build [Coffin] improvements on tiles", 
-					"[+5] HP when healing <in [Coffin] tiles>", 
-					"[-50]% Strength <when fighting in [Desert] tiles>"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Vlad von Carstein can heal faster in Coffin and become weak when fighting in Desert."}
-		]
-	},
-	{
-		"name": "Lahmian Vampire",
-		"unitType": "Vampire",
-		"requiredResource": "Pinnacle",
-		"requiredTech": "Necromancy",
-		"movement": 2,
-		"strength": 20,
-		"uniques": ["Ignore terrain cost","Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Orichalcum Golem",
-		"uniqueTo": "Chaos Dwarfs",
-		"unitType": "Construct",
-		"movement": 2,
-		"strength": 20,
-		"cost": 150,
-		"requiredResource": "Orichalcum Ingot",
-		"requiredTech": "Engineering",
-		"upgradesTo": "Orichalcum Golem Mk. II",
-		"obsoleteTech": "Enlightenment",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
-					"Cannot be purchased", 
-					"Rough terrain penalty", 
-					"Preachable"],
-		"promotions": ["Exposed Core"],
-		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "The only golem made of orichalcum, a rare yet strong metal."},
-			{"text": "Higba, king of Dwargon, always wanted to create a unique golem with unparalleled power. Unfortunately he died while riding his rudimentary Orichalcum Golem against Erhab."}
-		]
-	},
-	{
-		"name": "Orichalcum Golem Mk. II",
-		"uniqueTo": "Chaos Dwarfs",
-		"unitType": "Construct",
-		"movement": 2,
-		"strength": 32,
-		"cost": 220,
-		"requiredResource": "Orichalcum Ingot",
-		"requiredTech": "Enlightenment",
-		"upgradesTo": "Orichalcum Golem Mk. III",
-		"obsoleteTech": "Empowerment",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
-					"Cannot be purchased", 
-					"Rough terrain penalty", 
-					"Will not be displayed in Civilopedia", 
-					"Preachable"],
-		"promotions": ["Exposed Core"],
-		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Orichalcum Golem Mk. III",
-		"uniqueTo": "Chaos Dwarfs",
-		"unitType": "Construct",
-		"movement": 2,
-		"strength": 40,
-		"cost": 310,
-		"requiredResource": "Orichalcum Ingot",
-		"requiredTech": "Empowerment",
-		"upgradesTo": "Orichalcum Golem Omega",
-		"obsoleteTech": "Bionic Physiology",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
-					"Cannot be purchased", 
-					"Rough terrain penalty", 
-					"Will not be displayed in Civilopedia", "Orichalcum"],
-		"promotions": ["Exposed Core"],
-		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Orichalcum Golem Omega",
-		"unitType": "Construct",
-		"uniqueTo": "Chaos Dwarfs",
-		"movement": 2,
-		"strength": 60,
-		"cost": 390,
-		"requiredResource": "Orichalcum Ingot",
-		"requiredTech": "Bionic Physiology",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
-					"Cannot be purchased",
-					"Will not be displayed in Civilopedia", 
-					"Orichalcum"],
-		"promotions": ["Exposed Core"],
-		"hurryCostModifier": 20,
-		"attackSound": "gdrAttack"
-	},
 	
 	// Heroes
 	{
@@ -2856,37 +1746,6 @@
 		]
 	},
 	{
-		"name": "Maeron",
-		"unitType": "Civilian",
-		"uniqueTo": "Loren",
-		"replaces": "Great Artist",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", 
-					"Can instantly construct a [Sacred Grove] improvement <by consuming this unit>", 
-					"Great Person - [Culture]", 
-					"Unbuildable", "Uncapturable", 
-					"Is part of Great Person group [All-Civ]"],
-		"movement": 2,
-		"civilopediaText": [
-			{"text": "Visionary elves people, they can build and maintain the Sacred Grove which is a gathering place for all beauty and comfort."}
-		]
-	},
-	{
-		"name": "Para Artist",
-		"unitType": "Civilian",
-		"uniqueTo": "Ulthuan",
-		"replaces": "Great Artist",
-		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>", 
-					"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
-					"Great Person - [Culture]", 
-					"Unbuildable", "Uncapturable", 
-					"Is part of Great Person group [All-Civ]"],
-		"movement": 2,
-		"civilopediaText": [
-			{"text": "Visionary Ulthuan people, often they appear almost simultaneously and trigger the very long era of greatness."},
-			{"text": "Besides, they are very adept at instilling propaganda through various Great Works"}
-		]
-	},
-	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": ["Can hurry technology research", 
@@ -2946,29 +1805,6 @@
 		]
 	},
 	{
-		"name": "Meka-Priest",
-		"unitType": "Civilian",
-		"uniqueTo": "Chaos Dwarfs",
-		"replaces": "Great Prophet",
-		"uniques": ["Can instantly construct a [Meka-Monastery] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
-					"Can instantly construct a [Kyber Foundry] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
-					"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>", 
-					"Removes other religions when spreading religion", 
-					"May found a religion <by consuming this unit> <if it hasn't used other actions yet>", 
-					"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", 
-					"May enter foreign tiles without open borders", 
-					"[-1] Sight", 
-					"Great Person - [Faith]", 
-					"Unbuildable", "Uncapturable", "Religious Unit", 
-					"Hidden when religion is disabled", 
-					"Takes your religion over the one in their birth city"],
-		"movement": 2,
-		"religiousStrength": 1000,
-		"civilopediaText": [
-			{"text": "A religious leader who had almost all of their body parts replaced with machines. A Meka-Priest was highly respected by the Machinicus for representing Machine-God, their god."}
-		]
-	},
-	{
 		"name": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": ["Can instantly construct a [Cultivated farm] improvement <by consuming this unit>", 
@@ -3000,21 +1836,6 @@
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Tactical minded warriors, often the best one at that, who could read the flow of battle and plan the strategies based on the situation their troops faced."}
-		]
-	},
-	{
-		"name": "Empire General",
-		"unitType": "Civilian",
-		"uniqueTo": "Reikland",
-		"replaces": "Great General"
-		"uniques": ["[+30]% Strength bonus for [Military] units within [1] tiles", 
-					"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
-					"All adjacent units heal [+10] HP when healing", 
-					"Great Person - [War]", 
-					"Unbuildable", "Uncapturable"],
-		"movement": 2,
-		"civilopediaText": [
-			{"text": "To become Empire General, an Reiklander warrior must perform tremendous feats of bravery, daring and martial valor, as well as being ruthless and canny enough to avoid the machinations of his enemies and rivals."}
 		]
 	},
 	{
@@ -3077,36 +1898,11 @@
 		"replacementTextForUniques": "Prevents spreading of religion to the city it is next to, +10% Strength when adjacent to a Cleric unit",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "What makes them dangerous isn't their weaponry, but their fanaticism."},
+			{"text": "What makes them dangerous isn't their weaponry, but their Averland Swordsmanism."},
 			{
 				"text": "Warrior Monk only available after adopting Postulant",
 				"link": "Policy/Postulant", 
 			}
-		]
-	},
-	{
-		"name": "Shifu",
-		"unitType": "Monk",
-		"replaces": "Warrior Monk",
-		"uniqueTo": "Cathay",
-		"movement": 2,
-		"strength": 20,
-		"cost": 110,
-		"requiredTech": "Quintessence Force",
-		"obsoleteTech": "Biology",
-		"upgradesTo": "Shaolin",
-		"uniques": ["Prevents spreading of religion to the city it is next to", 
-					"Religious Unit",
-					"[+10]% Strength <when adjacent to a [Priest] unit>", "[+10]% Strength <when adjacent to a [Cleric] unit>",
-					"Research Quintessence Force vs Policy Postulant", 
-					"Can transform to [Longswordsman]", 
-					"Can transform to [Pikeman]", 
-					"Only available <in cities with a [Temple]>"],
-		//"promotions": ["Life Treasure"],
-		"promotions": ["Twilight Veil"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-		{"text": "Shifu unlocked after discovering Quintessence Force, but required a Temple."}
 		]
 	},
 	{
@@ -3418,7 +2214,588 @@
 		"attackSound": "nonmetalhit"
 	},
 	
-	// Khemri	
+// Nation specific units
+
+	// Reikland
+	{
+		"name": "Averland Swordsman",
+		"unitType": "Sword",
+		"uniqueTo": "Reikland",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 10,
+		"uniques": ["[+10]% Strength when stacked with [Empire General]", 
+					"Preachable"],
+		"promotions": ["Impetus"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Also referred to as Empire Averland Swordsmen, are warriors who idolize Empire Generals, and become very strong when around them."}
+		]
+	},
+	{
+		"name": "Witcher",
+		"unitType": "Witcher",
+		"uniqueTo": "Reikland",
+		"movement": 3,
+		"strength": 24,
+		"cost": 160,
+		"requiredTech": "Elemental Magic",
+		"requiredResource": "Mutagen",
+		//"promotions": ["Kiss"],
+		"promotions": ["Beast Hunter"],
+		"replacementTextForUniques": "No defensive terrain penalty",
+		"uniques": ["[+10]% Strength <when defending> <in [Snow] tiles>", 
+					"[+15]% Strength <when defending> <in [Marsh] tiles>", 
+					"[+15]% Strength <when defending> <in [Fallout] tiles>", 
+					"[+10]% Strength <when defending> <in [Oasis] tiles>", 
+					"[+10]% Strength <when defending> <in [Flood plains] tiles>", 
+					"[+50]% Strength <when defending> <in [Suction Mud] tiles>", 
+					"Only available <with [Mutagen]>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Empire General",
+		"unitType": "Civilian",
+		"uniqueTo": "Reikland",
+		"replaces": "Great General"
+		"uniques": ["[+30]% Strength bonus for [Military] units within [1] tiles", 
+					"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
+					"All adjacent units heal [+10] HP when healing", 
+					"Great Person - [War]", 
+					"Unbuildable", "Uncapturable"],
+		"movement": 2,
+		"civilopediaText": [
+			{"text": "To become Empire General, an Reiklander warrior must perform tremendous feats of bravery, daring and martial valor, as well as being ruthless and canny enough to avoid the machinations of his enemies and rivals."}
+		]
+	},
+	
+	// Bretonnia
+	{
+		"name": "Knight Errant",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "The young sons of noble Bretonnian families must prove themselves in battle to earn their spurs."}
+		]
+	},
+	{
+		"name": "Knight of the Realm",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Should they survive to become fully honoured knights, knights errant are granted their own small landed estate to govern, called a knight's fee or tithe, and are obligated to defend that estate and Bretonnia should they be called to muster."}
+		]
+	},
+	{
+		"name": "Questing Knight",
+		"unitType": "Mounted",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Knightly Orders",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Grail Knight",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "These are brave individuals, revered as the land's most dedicated and selfless heroes. They willingly renounce all titles and worldly possessions, so to journey unto faraway lands, all in hopes of being deemed worthy by the Lady to become a blessed Grail Knight"}
+		]
+	},
+	{
+		"name": "Grail Knight",
+		"unitType": "Cavalry Hero",
+		"uniqueTo": "Bretonnia",
+		"movement": 4,
+		"strength": 55,
+		"cost": 225,
+		"requiredTech": "Grail Quest",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "hese are the most powerful and revered individuals in all of Bretonnia, if not the entire human world, second only to the Lady in influence. They are considered living saints who represent the fearsome might and power of Bretonnia and answer only to the Lady herself; the rightful king of the realm can only be chosen from within their holy order"}
+		]
+
+	},
+	
+	// Kislev
+	{
+		"name": "Winged Lancer",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Kislev",
+		"movement": 4,
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Knight with withdrawal ability and without city attacking penalty."}
+		]
+	},
+	
+	// Tilea
+	{
+		"name": "Elite Spearman",
+		"unitType": "Anti-Cav",
+		"replaces": "Pikeman",
+		"uniqueTo": "Tilea",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Halberdier",
+		"uniques": ["[+25]% Strength <vs [Mounted] units>", 
+					"Preachable"],
+		"promotions": ["Shock"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A group of spearman directly chosen by Barret Barrtö and trained by the former Spear Hero, Anaxandridas."}
+		]
+	},
+
+	// Estalia
+	{
+		"name": "Divine Order",
+		"unitType": "Sword",
+		"uniqueTo": "Estalia",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Averland Swordsmanism",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["Preachable"],
+		"promotions": ["Divine Right","Sentry"],
+		"uniques": ["Researchv Averland Swordsmanism vs Iron Working",
+					"Can [Remove Foreign religions from your own cities] [3] times"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Devout and Averland Swordsman follower of the religion. May prevents and remove foreign religion.",}
+		]
+	},
+	{
+		"name": "Crusader",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Estalia",
+		"movement": 4,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"[-33]% Strength <vs cities> <when attacking>", 
+					"Founds a new city <on foreign continents>", 
+					"Can be purchased for [120] [Faith] [in capital]", 
+					"Religious Unit"],
+		"attackSound": "horse",
+		"religiousStrength": 1000
+	},
+	
+	// Sylvania
+	{
+		"name": "Black Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Sylvania",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Damphyr",
+		"unitType": "Civilian",
+		"uniqueTo": "Sylvania",
+		"movement": 2,
+		"uniques": ["Can instantly construct a [Vampire Castle] improvement <by consuming this unit>", 
+					"Uncapturable", "This Unit takes [100] damage <without [Vampiric Block]> <upon turn end>",
+					"Only available <with [Vampiric Block]>", 
+					"Will not be displayed in Civilopedia"],
+		"civilopediaText": [
+			{"text": "Damphyr main value is to construct Vampire Castle."}
+		]
+	},
+	{
+		"name": "Vlad von Carstein",
+		"unitType": "Vampire",
+		"uniqueTo": "Sylvania",
+		"movement": 2,
+		"strength": 24,
+		"uniques": ["Unbuildable", 
+					"Can build [Coffin] improvements on tiles", 
+					"[+5] HP when healing <in [Coffin] tiles>", 
+					"[-50]% Strength <when fighting in [Desert] tiles>"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Vlad von Carstein can heal faster in Coffin and become weak when fighting in Desert."}
+		]
+	},
+
+	// Albion	
+	{
+		"name": "Albion Giant",
+		"unitType": "Construct",
+		"uniqueTo": "Albion",
+		"replaces": "Adamantite Golem",
+		"movement": 3,
+		"strength": 35,
+		"cost": 290,
+		"requiredTech": "Mana Channeling",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Carbon-Fiber Golem",
+		"requiredResource": "Philosopher's Stone",
+		"uniques": ["Research Mana Channeling vs Rifling", 
+					"Preachable"],
+		"promotions": ["March"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Albion Giant is a more human-shaped and lighter Golem."}
+		]
+	},
+	
+	// Loren
+	{
+		"name": "Alessia",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Loren",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 15,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Arbalester",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Preachable"],
+		"promotions": ["[Alessia] ability"],
+		"attackSound": "crossbow",
+		"civilopediaText": [
+			{"text": "Inflict less damage but it can throw second attack or move after the first attack (semi hit and run unit)."}
+		]
+	},
+	{
+		"name": "Forest Spirit",
+		"unitType": "Civilian",
+		"uniqueTo": "Loren",
+		"replaces": "Great Artist",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+					"Can instantly construct a [Sacred Grove] improvement <by consuming this unit>", 
+					"Great Person - [Culture]", 
+					"Unbuildable", "Uncapturable", 
+					"Is part of Great Person group [All-Civ]"],
+		"movement": 2,
+		"civilopediaText": [
+			{"text": "Visionary elves people, they can build and maintain the Sacred Grove which is a gathering place for all beauty and comfort."}
+		]
+	},
+	
+	// Ulthuan
+	{
+		"name": "Sea Elf",
+		"unitType": "Civilian Water",
+		"uniqueTo": "Ulthuan",
+		"replaces": "Work Boats",
+		"movement": 4,
+		"cost": 25,
+		"uniques": ["Available immediately", 
+					"May create improvements on water resources", 
+					"Uncapturable"],
+		"civilopediaText": [
+			{"text": "Sea Elf available since the beginning of the game, and cheaper."}
+		]
+	},
+	{
+		"name": "Phoenix Guard",
+		"unitType": "Construct",
+		"replaces": "Stone Golem",
+		"uniqueTo": "Ulthuan",
+		"movement": 2,
+		"strength": 1,
+		"cost": 90,
+		"requiredTech": "Roads",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Iron Golem",
+		"requiredBuilding": "Tomb",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit" 
+	},
+	{
+		"name": "Silver Helm",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Ulthuan",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Merwyrm",
+		"uniqueTo": "Ulthuan",
+		"replaces": "Kraken",
+		"unitType": "Water Terror",
+		"movement": 6,
+		"strength": 70,
+		"rangedStrength": 50,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"requiredResource": "Megall",
+		"uniques": ["[+75]% Strength <when attacking>", 
+					"Can enter ice tiles",
+					"Preachable"],
+		"promotions": ["Silent Running","Underwater Vision","Regenerative Tissue"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A Merwyrm is one of the most ancient creatures to be found within the seas of the Old World, and like Sea Dragons, Merwyrm are distant kin to the mighty winged Dragons that once ruled the skies of the Known World. "},
+			{"text": "The Asur are known to call up Merwyrms out of the deeps as servants, similar to Sea Dragons enslaved by their dark kin. One of the most famous is Amanar of Lothern, and Sea Lord Aislinn used a Merwyrm during his campaign in the Sea of Claws. The Asur value the Merwyrms especially because they are able to survive on land, unlike other aquatic monsters."}
+		]
+	},
+	{
+		"name": "Para Artist",
+		"unitType": "Civilian",
+		"uniqueTo": "Ulthuan",
+		"replaces": "Great Artist",
+		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>", 
+					"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
+					"Great Person - [Culture]", 
+					"Unbuildable", "Uncapturable", 
+					"Is part of Great Person group [All-Civ]"],
+		"movement": 2,
+		"civilopediaText": [
+			{"text": "Visionary Ulthuan people, often they appear almost simultaneously and trigger the very long era of greatness."},
+			{"text": "Besides, they are very adept at instilling propaganda through various Great Works"}
+		]
+	},
+
+	// Naggaroth
+	{
+		"name": "Dark Rider",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Naggaroth",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Highlander"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+
+	// Norsca
+	{
+		"name": "Yeti",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Norsca",
+		"movement": 2,
+		"strength": 30,
+		"cost": 185,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"uniques": ["Preachable"],
+		"promotions": ["Snowman"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A big-ape like creature that is resistant to cold. Tormund taught them sign language and how to use firearms, especially muskets."}
+		]
+	},
+	{
+		"name": "Laskar",
+		"replaces": "Knight",
+		"uniqueTo": "Norsca",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"[-33]% Strength <vs cities> <when attacking>", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["[Laskar] ability"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Specialist on wiping out Melee units and its skill carried over when upgrading."}
+		]
+	},
+	{
+		"name": "Longship",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Norsca",
+		"replaces": "Galleass",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+	
+	// Kurgan
+	{
+		"name": "Rhinox Rider",
+		"unitType": "Mounted",
+		"uniqueTo": "Kurgan",
+		"replaces": "Knight",
+		"range": 1,
+		"movement": 5,
+		"strength": 17,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"[-33]% Strength <when fighting in [Fresh water] tiles>", 
+					"[-33]% Strength <when fighting in [Coastal] tiles>", 
+					"Preachable"],
+		"promotions": ["Great Generals I"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Hit and run headless-knight, less effective when fighting near Water."},
+			{"text": "See: "},
+			{"text": "Lakes", "link":"Terrains/Lakes"}
+			{"text": "Coast", "link":"Terrains/Coast"}
+		]
+	},
+	
+	// Araby
+	{
+		"name": "Mameluk",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Araby",
+		"movement": 3,
+		"strength": 22,
+		"cost": 120,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["Rough terrain penalty", 
+					"Preachable"],
+		"promotions": ["Shock","Charge"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A giant so big that you can only see their legs. Or at least what is told by the Dwarni."}
+		]
+	},
+	{
+		"name": "Zeal Galleass", 
+		"unitType": "Ranged Water",
+		"uniqueTo": "Araby",
+		"replaces": "Galleass",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["May withdraw before melee ([50]%)",
+					"Preachable"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Inflict stronger ranged attack and the only Galleass which can sail through Ocean.", "link":"Technology/Astronomy"}
+		]
+	},
+
+	// Khemri
 	{
 		"name": "Skeletal Warrior",
 		"unitType": "Sword",
@@ -3475,7 +2852,7 @@
 		"requiredBuilding": "Tomb",
 		"upgradesTo": "Tomb King",
 		"uniques": ["Uncapturable",
-					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [50% chance>", 
+					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [50]% chance>", 
 					"Free [Tomb Captain] appears <upon being defeated> <with [25]% chance>",
 					"Undead"],
 		"promotions": ["Great Generals II"],
@@ -3495,12 +2872,12 @@
 		"requiredTech": "Lore of Death",
 		"requiredBuilding": "Tomb",
 		"uniques": ["Uncapturable",
-					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [75% chance>", 
+					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [75]% chance>", 
 					"Free [Tomb King] appears <upon being defeated> <with [25]% chance>",
 					"Can see invisible [Land] units", 
 					"Undead"],
 		"attackSound": "nonmetalhit",
-		"promotions": ["Great Generals III"],
+		"promotions": ["Great Generals II"],
 		"civilopediaText": [
 			{"text": "The Tomb Kings' mummified corpses have been awakened by magical, necromantic incantations, and their bodies are now inhabited by their undying, vengeful souls."},
 			{"text": "Reborn to a mocking imitation of life, transformed into hideous cadavers whose kingdoms have long since been plundered and lost, a Tomb King's rage fuels an unremitting need to conquer; they are the true monarchs of the dead, and they are coming to reclaim their rightful dominion."},
@@ -3545,15 +2922,18 @@
 	},
 	{
 		"name": "Skeletal Archer",
+		"replaces": "Archer",
+		"uniqueTo": "Khemri",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 6,
 		"cost": 40,
 		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
-					"Cannot be purchased",
 					"Only available <in cities with a [~limiter]>", 
 					"Never appears as a Barbarian unit",
 					"Free [Skeletal Archer] appears <upon being defeated> <with [25]% chance>",
@@ -3716,6 +3096,732 @@
 		]
 	},
 
+	// Ind
+	
+	// Cathay
+	{
+		"name": "Celestial Mage",
+		"unitType": "Mage",
+		"uniqueTo": "Cathay",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 13,
+		"range": 1,
+		"cost": 70,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Preachable"],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "A practitioner of the art Onmyōdo, a master of yin-yang."},
+		]
+	},
+	{
+		"name": "Vimto Monk",
+		"unitType": "Monk",
+		"replaces": "Warrior Monk",
+		"uniqueTo": "Cathay",
+		"movement": 2,
+		"strength": 20,
+		"cost": 110,
+		"requiredTech": "Quintessence Force",
+		"obsoleteTech": "Biology",
+		"upgradesTo": "Shaolin",
+		"uniques": ["Prevents spreading of religion to the city it is next to", 
+					"Religious Unit",
+					"[+10]% Strength <when adjacent to a [Priest] unit>", "[+10]% Strength <when adjacent to a [Cleric] unit>",
+					"Research Quintessence Force vs Policy Postulant", 
+					"Can transform to [Longswordsman]", 
+					"Can transform to [Pikeman]", 
+					"Only available <in cities with a [Temple]>"],
+		//"promotions": ["Life Treasure"],
+		"promotions": ["Twilight Veil"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+		{"text": "Vimto Monk unlocked after discovering Quintessence Force, but required a Temple."}
+		]
+	},
+	
+	// Nippon
+	{
+		"name": "Realm Patrol",
+		"unitType": "Archery",
+		"uniqueTo": "Nippon",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Preachable"],
+		"promotions": ["[Realm Patrol] ability"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Special forces tasked with conducting patrols to ensure domestic security and quell rebellions."}
+		]
+	},
+
+	// Skaven
+	{
+		"name": "Skaven Settler",
+		"replaces": "Settler",
+		"uniqueTo": "Skaven",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", 
+					"Excess Food converted to Production when under construction",
+					"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Night Runner",
+		"unitType": "Sword",
+		"uniqueTo": "Skaven",
+		"replaces": "Warrior",
+		"movement": 3,
+		"strength": 8,
+		"cost": 44,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Gutter Runner",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
+					"Heals [15] damage if it kills a unit", 
+					"Preachable"],
+		"promotions": ["Fight Howl"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Special Beastman unit for fighting in rough terrain."},
+			{"text": "Rough terrain:"},
+			{
+				"text": "Forest", 
+				"link": "Terrains/Forest"
+			},
+			{
+				"text": "Jungle", 
+				"link": "Terrains/Jungle"
+			},
+			{
+				"text": "Hill", 
+				"link":"Terrains/Hill"
+			}
+		]
+	},
+	{
+		"name": "Gutter Runner",
+		"uniqueTo": "Skaven",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Death Runner",
+		"obsoleteTech": "Steel",
+		"uniques": ["Preachable"],
+		"promotions": ["Elusive"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Notorious for its agility and nimble movements, Gutter Runner is an elusive target to hit. They move like a wind."}
+		]
+	},
+	{
+		"name": "Death Runner",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Skaven",
+		"movement": 3,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["[+10] HP when healing", 
+					"Preachable"],
+		"promotions": ["Plunderer"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Death Runners, also spelled Deathrunners, are the Champions of the Skaven Clan Eshin's Gutter Runner regiments, either leading a host of their lesser brethren or making up in whole a deadly cadre of assassins themselves."}
+		]
+	},
+
+	// Ironclaw Orcs
+	{
+		"name": "Orc Boyz",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Ironclaw Orcs",
+		"movement": 2,
+		"strength": 6,
+		"upgradesTo": "Big Uns",
+		"obsoleteTech": "Metal Casting",
+		"uniques": [""],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Big Uns",
+		"uniqueTo": "Ironclaw Orcs",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Black Orc",
+		"obsoleteTech": "Steel",
+		"uniques": ["Preachable"],
+		"promotions": ["Elusive"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Notorious for its agility and nimble movements, Gutter Runner is an elusive target to hit. They move like a wind."}
+		]
+	},
+	{
+		"name": "Black Orc",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Ironclaw Orcs",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["[+10] HP when healing", 
+					"Preachable"],
+		"promotions": ["Plunderer"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Strong yet stubborn kin of Goblin. Orc is a melee unit specialized for raiding cities."}
+		]
+	},
+	{
+		"name": "Boar Boyz",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Ironclaw Orcs",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+
+	// Badmoon Goblins
+	{
+		"name": "Night Goblin",
+		"unitType": "Sword",
+		"uniqueTo": "Badmoon Goblins",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 44,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
+					"Heals [15] damage if it kills a unit", 
+					"Preachable"],
+		"promotions": ["Fight Howl"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Special Beastman unit for fighting in rough terrain."},
+			{"text": "Rough terrain:"},
+			{
+				"text": "Forest", 
+				"link": "Terrains/Forest"
+			},
+			{
+				"text": "Jungle", 
+				"link": "Terrains/Jungle"
+			},
+			{
+				"text": "Hill", 
+				"link":"Terrains/Hill"
+			}
+		]
+	},
+	{
+		"name": "Wolf Rider",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Badmoon Goblins",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Highlander"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+
+	// Ogre Kingdoms
+	{
+		"name": "Tavari Worker",
+		"replaces": "Worker",
+		"uniqueTo": "Ogre Kingdoms",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 48,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"promotions": ["Ignore terrain cost"],
+		"civilopediaText": [
+			{"text": "Cheaper and fast moving Worker. Tavari workers have gone through a series of education to increase their effectiveness during works."}
+		]
+	},
+	{
+		"name": "Ramming Troll",
+		"unitType": "Construct",
+		"replaces": "Iron Golem",
+		"uniqueTo": "Ogre Kingdoms",
+		"movement": 2,
+		"strength": 20,
+		"cost": 125,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Adamantite Golem",
+		"requiredResource": "Iron",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
+					"[-1] Sight", 
+					"Can pass through impassable tiles", 
+					"Preachable"],
+		"promotions": ["Troll's Skin"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A large and powerful unit used to breach enemy fortifications. It has sturdy head and shoulder used to ram into buildings and has bonuses against structures, such as increased damage and resistance to counterattacks."}
+		]
+	},
+	
+	// Slann
+	{
+		"name": "Cold Ones Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Slann",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+
+	// Amazonia
+	{
+		"name": "Amazon Jaguar",
+		"unitType": "Mounted",
+		"replaces": "Light Knight",
+		"uniqueTo": "Amazonia",
+		"movement": 4,
+		"strength": 20,
+		"cost": 115,
+		"requiredTech": "Stirrups",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Ranger"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+
+	// Dwarfs
+	{
+		"name": "Warhammer",
+		"unitType": "Sword",
+		"uniqueTo": "Dwarfs",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Land] improvements on tiles", 
+					"Preachable"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "As skillfull as the other Dwarf, Warhammer, despite being a warrior, can build Land improvements."}
+		]
+	},
+	{
+		"name": "Axeman",
+		"uniqueTo": "Dwarfs",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredResource": "Iron",
+		"requiredTech": "Metal Casting",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["Research Metal Casting vs Steel",
+					"[+15]% Strength <when attacking>", 
+					"[-10]% Strength <when defending> <vs [Melee] units>",
+					"Preachable"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{
+				"text": "Axeman fights with an ax crafted with Gulddin's magma. Heartsdurl, made by the legendary craftsman Durldin, served as the inspiration for the weapons for this troop.",
+				"link": "Technology/Steel"
+			}
+		]
+	},
+
+	// Chaos Dwarfs
+	{
+		"name": "Infernal Ironsworn",
+		"unitType": "Sword",
+		"uniqueTo": "Chaos Dwarfs",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Blunderbuss Squad",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["Preachable"],
+		"promotions": ["Regenerative Bio-Steel"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "The Infernal Ironsworn are the elite Chaos Dwarf Warriors of the Infernal Guard who serve as bodyguards for the sorcerer-prophets who command the Chaos Dwarfs' Legion of Azgorh."},
+		]
+	},
+	{
+		"name": "Blunderbuss Squad",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Chaos Dwarfs",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 20,
+		"cost": 185,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"uniques": ["Preachable"],
+		"promotions": ["Blitz"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A Chaos Dwarf Blunderbuss is among the most destructive hand-held firearms in the Known World. They are wielded by specially-trained Chaos Dwarf Warriors as the Chaos Dwarfs' primary ranged infantry."},
+			{"text": "The blunderbuss-armed Chaos Dwarf Warriors are also ferocious hand-to-hand fighters. Their preferred tactic is to give their enemy a single blast and follow up by charging into close combat."}
+		]
+	},
+	{
+		"name": "Orichalcum Golem",
+		"uniqueTo": "Chaos Dwarfs",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 20,
+		"cost": 150,
+		"requiredResource": "Orichalcum Ingot",
+		"requiredTech": "Engineering",
+		"upgradesTo": "Orichalcum Golem Mk. II",
+		"obsoleteTech": "Enlightenment",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
+					"Cannot be purchased", 
+					"Rough terrain penalty", 
+					"Preachable"],
+		"promotions": ["Exposed Core"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "The only golem made of orichalcum, a rare yet strong metal."},
+			{"text": "Higba, king of Dwargon, always wanted to create a unique golem with unparalleled power. Unfortunately he died while riding his rudimentary Orichalcum Golem against Erhab."}
+		]
+	},
+	{
+		"name": "Orichalcum Golem Mk. II",
+		"uniqueTo": "Chaos Dwarfs",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 32,
+		"cost": 220,
+		"requiredResource": "Orichalcum Ingot",
+		"requiredTech": "Enlightenment",
+		"upgradesTo": "Orichalcum Golem Mk. III",
+		"obsoleteTech": "Empowerment",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
+					"Cannot be purchased", 
+					"Rough terrain penalty", 
+					"Will not be displayed in Civilopedia", 
+					"Preachable"],
+		"promotions": ["Exposed Core"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Orichalcum Golem Mk. III",
+		"uniqueTo": "Chaos Dwarfs",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 40,
+		"cost": 310,
+		"requiredResource": "Orichalcum Ingot",
+		"requiredTech": "Empowerment",
+		"upgradesTo": "Orichalcum Golem Omega",
+		"obsoleteTech": "Bionic Physiology",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
+					"Cannot be purchased", 
+					"Rough terrain penalty", 
+					"Will not be displayed in Civilopedia", "Orichalcum"],
+		"promotions": ["Exposed Core"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Orichalcum Golem Omega",
+		"unitType": "Construct",
+		"uniqueTo": "Chaos Dwarfs",
+		"movement": 2,
+		"strength": 60,
+		"cost": 390,
+		"requiredResource": "Orichalcum Ingot",
+		"requiredTech": "Bionic Physiology",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles", 
+					"Cannot be purchased",
+					"Will not be displayed in Civilopedia", 
+					"Orichalcum"],
+		"promotions": ["Exposed Core"],
+		"hurryCostModifier": 20,
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Meka-Priest",
+		"unitType": "Civilian",
+		"uniqueTo": "Chaos Dwarfs",
+		"replaces": "Great Prophet",
+		"uniques": ["Can instantly construct a [Meka-Monastery] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
+					"Can instantly construct a [Kyber Foundry] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
+					"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>", 
+					"Removes other religions when spreading religion", 
+					"May found a religion <by consuming this unit> <if it hasn't used other actions yet>", 
+					"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", 
+					"May enter foreign tiles without open borders", 
+					"[-1] Sight", 
+					"Great Person - [Faith]", 
+					"Unbuildable", "Uncapturable", "Religious Unit", 
+					"Hidden when religion is disabled", 
+					"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000,
+		"civilopediaText": [
+			{"text": "A religious leader who had almost all of their body parts replaced with machines. A Meka-Priest was highly respected by the Machinicus for representing Machine-God, their god."}
+		]
+	},
+
+	// Beastmen
+	{
+		"name": "Rain Worker",
+		"replaces": "Worker",
+		"uniqueTo": "Beastmen",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 60,
+		"uniques": ["Can build [Farm] improvements on tiles", 
+					"Can build [Mine] improvements on tiles", 
+					"Can build [Trading post] improvements on tiles", 
+					"Can build [Ice-calator] improvements on tiles", 
+					"Can build [Terrace farm] improvements on tiles", 
+					"Can build [Camp] improvements on tiles", 
+					"Can build [Pasture] improvements on tiles", 
+					"Can build [Plantation] improvements on tiles", 
+					"Can build [Rainee's Plantation] improvements on tiles", 
+					"Can build [Quarry] improvements on tiles", 
+					"Can build [Taming] improvements on tiles", 
+					"Can build [Beacon of Power] improvements on tiles", 
+					"Can build [Fort] improvements on tiles", 
+					"Can build [Road] improvements on tiles", 
+					"Can build [Railroad] improvements on tiles", 
+					"Can build [Remove Jungle] improvements on tiles", 
+					"Can build [Remove Fallout] improvements on tiles", 
+					"Can build [Remove Marsh] improvements on tiles", 
+					"Can build [Remove Road] improvements on tiles", 
+					"Can build [Remove Railroad] improvements on tiles", 
+					//"Can build [Cancel improvement order] improvements on tiles", 
+					"Can build [Repair] improvements on tiles", 
+					"Will not be displayed in Civilopedia"],
+		"replacementTextForUniques": "Can build Land improvements on tiles",
+	},
+	{
+		"name": "Entilon",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Beastmen",
+		"movement": 2,
+		"strength": 35,
+		"cost": 300,
+		"requiredTech": "Fertilizer",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"uniques": ["Research Fertilizer vs Rifling", 
+					"Preachable"],
+		"promotions": ["Woodsman","[Entilon] ability"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Stronger when fighting in Forest and Jungle, doesn't need Niter."}
+		]
+	},
+	{
+		"name": "Cerberus",
+		"replaces": "Knight",
+		"uniqueTo": "Beastmen",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Never appears as a Barbarian unit", 
+					"Preachable"],
+		"promotions": ["Intimidation","Bloodbath"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "A three-headed hound used by Beasts of Chaos to march on war. Its appearance often scare those weak and unfaithful troops."}
+		]
+	},
+	{
+		"name": "Centaurs",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Beastmen",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Can move after attacking", 
+					"Preachable"],
+		"attackSound": "crossbow",
+		"civilopediaText": [
+			{"text": "Thanue's marriage with Araros son of Aristasos, leader of Grimhorn clan, and his followers joined Niranna."}
+		]
+	},
+	
+	// Hordes of Chaos
+	{
+		"name": "Adept",
+		"unitType": "Mage",
+		"uniqueTo": "Hordes of Chaos",
+		"replaces": "Ranger",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 55,
+		"requiredTech": "Raw Magic",
+		"obsoleteTech": "Enlightenment",
+		"upgradesTo": "Arch-Wizard",
+		"uniques": ["[+1] Movement <in [Forest] tiles>", 
+					"[+1] Movement <in [Jungle] tiles>", 
+					"Upgrade to Arch-Wizard vs Pathfinder",
+					"Preachable"],
+		"promotions": ["Seductive Submission"],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "Life as a witch is very dangerous, therefore a special recon unit is trained. The main task of an Adept is to gather witchdraen, a term used to call witch children, and bring them to Draen Sanctuary. Witchdraen who have good potential will be trained by the Sisters of the Moon Thread."}
+		]
+	},
+	{
+		"name": "Chaos Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Questing Knight",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Fury",
+		"unitType": "Missile",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 15,
+		"uniques": ["Unbuildable", 
+					"[+500]% Strength <vs [{Military} {Land}] units>", 
+					"[-100]% maintenance costs"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "One-hit-kill attack of Heaven, or Hell."}
+		]
+	},
+
+	{
+		"name": "Lahmian Vampire",
+		"unitType": "Vampire",
+		"requiredResource": "Pinnacle",
+		"requiredTech": "Necromancy",
+		"movement": 2,
+		"strength": 20,
+		"uniques": ["Ignore terrain cost","Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+
+	
+	
 	
 	// Civilopedia Text
 	{

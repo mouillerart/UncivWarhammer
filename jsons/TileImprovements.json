@@ -454,8 +454,8 @@
 					"Removes removable features when built", 
 					"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"],
 		"civilopediaText": [
-			{"text": "A sacred place constructed by a Maeron."},
-			{"text": "Home for artists, where a Maeron trains and teaches other Maeron candidates, a place that provides beauty and comfort."},
+			{"text": "A sacred place constructed by a Forest Spirit."},
+			{"text": "Home for artists, where a Forest Spirit trains and teaches other Forest Spirit candidates, a place that provides beauty and comfort."},
 			{"text": "Many great elves have had enlightenment in this place.."}
 		]
 	},

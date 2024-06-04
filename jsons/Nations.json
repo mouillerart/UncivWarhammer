@@ -275,7 +275,7 @@
 		"startBias": ["Coast"],
 		"favoredReligion": "Elven Gods",
 		"style": "Elven",
-		"outerColor": [6, 183, 186],
+		"outerColor": [5, 164, 167],
 		"innerColor": [255,255,255],
 		
 		"declaringWar": "The Gods demand your death.",
@@ -526,7 +526,7 @@
 		"adjective": ["Ogres"],
 		"favoredReligion": "Gork and Mork",
 		"style": "Goblin",
-		"outerColor": [255, 140, 0],
+		"outerColor": [216, 119, 0],
 		"innerColor": [255,255,255],
 		
 		"declaringWar": "Lunch time!",
@@ -603,7 +603,7 @@
 		"favoredReligion": "Gork and Mork",
 		"startBias": ["Hills","Forest"],
 		"style": "Goblin",
-		"outerColor": [230,185,26],
+		"outerColor": [172,138,19],
 		"innerColor": [255,255,255],
 		
 		"uniques": ["Starts with [Greenskin]"],

@@ -3113,7 +3113,7 @@
 		"uniqueTo": "Estalia",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"requiredTech": "Fanaticism",
+		"requiredTech": "Averland Swordsmanism",
 		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
@@ -3123,7 +3123,7 @@
 		"name": "Tribunal",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"requiredTech": "Fanaticism",
+		"requiredTech": "Averland Swordsmanism",
 		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
