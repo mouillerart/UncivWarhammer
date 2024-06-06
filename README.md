@@ -16,15 +16,63 @@ Modmod of Fantasia mixed with previous Civ3/Civ4 Warhammer extensions materials.
 ![](./map-wh-world.png)
 
 ### Nations 
-Available:
-* Reikland (The Empire)
-* Bretonnia  
-  ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20Errant.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Questing%20Knight.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20of%20the%20Realm.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Grail%20Knight.png?raw=true)
-* Kislev
-* Sylvania
-* Dwarfs
-* Khemri  
-  ![Skeletal Warrior](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Warrior.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Champion.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Guard.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Herald.png?raw=true)  ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Sepulchral%20Stalker.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20King.png?raw=true)
+#### Reikland (The Empire)
+#### Bretonnia  
+![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20Errant.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Questing%20Knight.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20of%20the%20Realm.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Grail%20Knight.png?raw=true)
+#### Kislev
+#### Sylvania
+#### Dwarfs
+#### Khemri  
+Sword units
+| Skeletal Warrior | Skeletal Champion | Tomb Captain | Tomb King |
+| --------------- | --------------- | --------------- | --------------- |
+| ![Skeletal Warrior](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Warrior.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Champion.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Captain.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20King.png?raw=true) |
+
+Scouting
+| Tomb Swarms | Tomb Scorpion |
+| --------------- | --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Swarms.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Scorpion.png?raw=true) |
+
+Archery
+| Skeletal Archer | 
+| --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Archer.png?raw=true) | 
+
+Tamers
+| Tomb Guard | Tomb Herald | Sepulchral Stalker |
+| --------------- | --------------- | --------------- | 
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Guard.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Herald.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Sepulchral%20Stalker.png?raw=true) |
+
+Anti-cavalry
+| Skeletal Spearman | Ushabti | Sepulchral Stalker |
+| --------------- | --------------- | --------------- | 
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeletal%20Spearman.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Ushabti.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Sepulchral%20Stalker.png?raw=true) |
+
+Cavalry
+| Skeleton Rider | Necropolis Knight |
+| --------------- | --------------- | 
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skeleton%20Rider.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Necropolis%20Knight.png?raw=true) |
+
+Golems
+| Necroserpent | Necrosphinx | Necrolith Colossus | Hierotitan |
+| --------------- | --------------- | --------------- | --------------- | 
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Necroserpent.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Necrosphinx.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Necrolith%20Colossus.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Hierotitan.png?raw=true)  |
+
+Magic
+| Lich |
+| --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Lich.png?raw=true) |
+
+Terror
+| Carrion | Dread Abyssal |
+| --------------- | --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Carrion.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Dread%20Abyssal.png?raw=true)  |
+
+Heroes
+| Tomb Prince |
+| --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Tomb%20Prince.png?raw=true) |
+
 * Araby 
 * Estalia
 * Tilea
@@ -48,7 +96,7 @@ Available:
 * Amazons
 * Slann
 
-City states
+#### City states
 * Marienburg
 * The Moot  
    ![Halfling Scout](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Halfling%20Scout.png?raw=true) ![Halfling Ranger](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Halfling%20Ranger.png?raw=true)
@@ -58,10 +106,7 @@ City states
 * Zombie Pirates
 * Citadel of Dusk
 
-Planned:
-* Border Princes
-* Ungols
-* Hung
+
 
 ### Religions
 * The Old Ones
