@@ -1898,7 +1898,7 @@
 		"replacementTextForUniques": "Prevents spreading of religion to the city it is next to, +10% Strength when adjacent to a Cleric unit",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "What makes them dangerous isn't their weaponry, but their Averland Swordsmanism."},
+			{"text": "What makes them dangerous isn't their weaponry, but their Fanaticism."},
 			{
 				"text": "Warrior Monk only available after adopting Postulant",
 				"link": "Policy/Postulant", 
@@ -2411,13 +2411,13 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
-		"requiredTech": "Averland Swordsmanism",
+		"requiredTech": "Fanaticism",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"uniques": ["Preachable"],
 		"promotions": ["Divine Right","Sentry"],
-		"uniques": ["Researchv Averland Swordsmanism vs Iron Working",
+		"uniques": ["Researchv Fanaticism vs Iron Working",
 					"Can [Remove Foreign religions from your own cities] [3] times"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -2803,13 +2803,13 @@
 		"uniqueTo": "Khemri",
 		"movement": 2,
 		"strength": 6,
+		"cost": 40,
 		"upgradesTo": "Skeletal Champion",
 		"obsoleteTech": "Metal Casting",
 		"requiredBuilding": "Tomb",
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
 					"Cannot be purchased",
-					"Only available <in cities with a [~limiter]>", 
 					"Never appears as a Barbarian unit",
 					"Free [Skeletal Warrior] appears <upon being defeated> <with [25]% chance>",
 					"Undead"],
@@ -2823,20 +2823,21 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
+		"cost": 80,
 		"requiredTech": "Metal Casting",
 		"requiredBuilding": "Tomb",
 		"upgradesTo": "Tomb Captain",
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
 					"Cannot be purchased",
-					"Only available <in cities with a [~limiter]>",
 					"Free [Skeletal Champion] appears <upon being defeated> <with [25]% chance>",
 					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [25]% chance>", 
 					"Undead"],
 		"promotions": ["Great Generals I"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."}
+			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."},
+			{"text": "Call of the dead: any killed unit has a 25% chance of being raised as [Skeletal Warrior]."}
 		]
 	},
 	{
@@ -2858,7 +2859,8 @@
 		"promotions": ["Great Generals II"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."},
+			{"text": "Call of the dead: any killed unit has a 50% chance of being raised as [Skeletal Warrior]."}
 		]
 	},
 	{
@@ -2882,7 +2884,7 @@
 			{"text": "The Tomb Kings' mummified corpses have been awakened by magical, necromantic incantations, and their bodies are now inhabited by their undying, vengeful souls."},
 			{"text": "Reborn to a mocking imitation of life, transformed into hideous cadavers whose kingdoms have long since been plundered and lost, a Tomb King's rage fuels an unremitting need to conquer; they are the true monarchs of the dead, and they are coming to reclaim their rightful dominion."},
 			{"text": "Revived by the necromantic rituals of the Liche Priests, a Tomb King awakens from the sleep of death possessing all the ambition and lust for power they had in life. Every Tomb King seeks to reclaim their plundered treasures and restore their ancient glory."},
-			{"text": "If this means the subjugation and destruction of foreign lands, then the Tomb King's army, loyal even in death, rises from its rest at their command. Although it is the necromantic magic of the Liche Priests that animates the Tomb King's army, it is by the indomitable will of the Tomb King themselves that they move and fight. Every Tomb King is an aggressive warlord, able to instil their warriors with their own unyielding vigour.m"}
+			{"text": "If this means the subjugation and destruction of foreign lands, then the Tomb King's army, loyal even in death, rises from its rest at their command. Although it is the necromantic magic of the Liche Priests that animates the Tomb King's army, it is by the indomitable will of the Tomb King themselves that they move and fight. Every Tomb King is an aggressive warlord, able to instil their warriors with their own unyielding vigour."}
 		]
 	},
 	{
@@ -2896,7 +2898,8 @@
 		"upgradesTo": "Tomb Scorpion",
 		"obsoleteTech": "Mass Media",
 		"uniques": ["Invisible to non-adjacent units",
-					"May enter foreign tiles without open borders","Never appears as a Barbarian unit",
+					"May enter foreign tiles without open borders",
+					"Never appears as a Barbarian unit",
 					"May upgrade to [Tomb Scorpion] through ruins-like effects"],
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -2914,7 +2917,8 @@
 		"requiredTech": "Monster Taming",
 		"upgradesTo": "Pathfinder",
 		"obsoleteTech": "Mass Media",
-		"uniques": ["[+1] Movement <in [Desert] tiles>"],
+		"uniques": ["Invisible to non-adjacent units",
+					"[+2] Movement <in [Desert] tiles>"],
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "Stronger recon unit, specialized for scouting on wooded terrain."}
@@ -2934,11 +2938,14 @@
 		"upgradesTo": "Composite Bowman",
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
-					"Only available <in cities with a [~limiter]>", 
 					"Never appears as a Barbarian unit",
 					"Free [Skeletal Archer] appears <upon being defeated> <with [25]% chance>",
 					"Undead"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."}
+		]
+
 	},
 	{
 		"name": "Skeleton Rider",
@@ -2950,9 +2957,10 @@
 		"cost": 115,
 		"requiredTech": "Stirrups",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Necropolis Knight",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", 
+		"uniques": ["[-100]% maintenance costs", 
+					"Can move after attacking", 
 					"No defensive terrain bonus", 
 					"Free [Skeleton Rider] appears <upon being defeated> <with [25]% chance>",
 					"Preachable"],
@@ -2960,6 +2968,27 @@
 		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": ""}
+		]
+	},
+	{
+		"name": "Necropolis Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Khemri",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Necropolis Knights are powerful, elite Undead warriors who ride atop giant snake-shaped animated statues known as 'Necroserpents' given to them by as a reward for their prowess and utter dedication to the Tomb King who is their sovereign lord. They are tethered to their mounts by a sharp hook, held firm in one mummified hand as the other wields a heavy spear that carves through mortal flesh. Their monstrous mounts shatter bones with every swipe of their tails and sink scimitar-sized fangs deep into soft flesh."}
 		]
 	},
 	{
@@ -3002,8 +3031,8 @@
 	},
 	{
 		"name": "Tomb Guard",
-		"unitType": "Construct",
-		"replaces": "Stone Golem",
+		"unitType": "Tamer",
+		"replaces": "Novice Beast Tamer",
 		"uniqueTo": "Khemri",
 		"movement": 2,
 		"strength": 14,
@@ -3019,15 +3048,15 @@
 	},
 	{
 		"name": "Tomb Herald",
-		"unitType": "Construct",
-		"replaces": "Iron Golem",
+		"unitType": "Tamer",
+		"replaces": "Educated Beast Tamer",
 		"uniqueTo": "Khemri",
 		"movement": 2,
 		"strength": 20,
 		"cost": 125,
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Adamantite Golem",
+		"upgradesTo": "Sepulchral Stalker",
 		"requiredResource": "Iron",
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
 					"Free [Tomb Herald] appears <upon being defeated> <with [25]% chance>",
@@ -3037,7 +3066,6 @@
 			{"text": "A large and powerful unit used to breach enemy fortifications. It has sturdy head and shoulder used to ram into buildings and has bonuses against structures, such as increased damage and resistance to counterattacks."}
 		]
 	},
-
 	{
 		"name": "Sepulchral Stalker",
 		"uniqueTo": "Khemri",
@@ -3058,6 +3086,111 @@
 			{"text": "'These sentinels mark the borders of the Tomb Kings' realm, submerged in the sand, waiting to strike at the unsuspecting.' —The Sepulchral Stalkers."}
 		]
 	},
+	{
+		"name": "Necroserpent",
+		"unitType": "Construct",
+		"uniqueTo": "Khemri",
+		"replaces": "Stone Golem",
+		"movement": 2,
+		"strength": 9,
+		"cost": 45,
+		"requiredTech": "Roads",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Necrosphinx",
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Stone Golem is the first created-creature of mankind knowledge, they are created for defensive purpose."}
+		]
+	},
+	{
+		"name": "Necrosphinx",
+		"unitType": "Construct",
+		"uniqueTo": "Khemri",
+		"replaces": "Iron Golem",
+		"movement": 2,
+		"strength": 20,
+		"cost": 110,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Necrolith Colossus",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Using armor, Iron Golems are more dependable."}
+		]
+	},
+	{
+		"name": "Necrolith Colossus",
+		"unitType": "Construct",
+		"uniqueTo": "Khemri",
+		"replaces": "Adamantite Golem",
+		"movement": 2,
+		"strength": 35,
+		"cost": 280,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Hierotitan",
+		"requiredResource": "Adamantium",
+		"promotions": ["Tortoise"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Much more durable of Golem unit."}
+		]
+	},
+	{
+		"name": "Hierotitan",
+		"unitType": "Construct",
+		"uniqueTo": "Khemri",
+		"replaces": "Carbon-Fiber Golem",
+		"movement": 2,
+		"strength": 70,
+		"cost": 385,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Adamantium",
+		"promotions": ["Tortoise"],
+		"uniques": ["Can pass through impassable tiles"],
+		"attackSound": "gdrAttack"
+	},
+	
+	{
+		"name": "Carrion",
+		"unitType": "Air Terror",
+		"uniqueTo": "Khemri",
+		"replaces": "Roc",
+		"movement": 5,
+		"strength": 26,
+		"cost": 195,
+		"requiredTech": "Magic Negation",
+		"obsoleteTech": "Mana Channeling",
+		"upgradesTo": "Dread Abyssal",
+		"uniques": ["Beast", 
+					"[+66]% Strength <vs [Dragon] units>", 
+					"Unable to capture cities"],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "Carrion are terrifying Undead birds of prey that resemble reanimated Giant Vultures which feast upon the carcasses of those that have fallen within the lands of ancient Nehekhara, now the Land of the Dead. Their broad wings, covered in feathers as black as midnight, darken the sky and spread the shadow of doom upon those dying in the desert. These Undead birds can smell blood from leagues away, and are drawn to battlefields, as well as unholy summonings, like moths to flame. Wherever Carrion are seen to fly, death and carnage are surely nearby."}
+		]
+	},
+	{
+		"name": "Dread Abyssal",
+		"unitType": "Air Terror",
+		"uniqueTo": "Khemri",
+		"replaces": "Griffon",
+		"movement": 5,
+		"strength": 35,
+		"cost": 320,
+		"requiredTech": "Mana Channeling",
+		"obsoleteTech": "Flight",
+		"uniques": ["Beast", 
+					"[+66]% Strength <vs [Dragon] units>", 
+					"Ignores Zone of Control", 
+					"Unable to capture cities"],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "The Dread Abyssals, known also as the Hounds of Usirian, are amongst the most legendary creatures within the Underworld. The priests of ancient Nehekhara taught that upon death, the soul travelled to the Underworld -- the fabled Realm of Souls. After passing through the nether kingdom's gates, the souls of the dead were separated according to their worthiness in life. Those the Nehekharan gods deemed to have lived a laudable existence entered a golden paradise, while the cursed or wretched were instead cast to the dreadful lower depths, to be hunted and devoured by the Hounds of Usirian."}
+		]
+	},
+
 	{
 		"name": "Lich",
 		"unitType": "Mage",

@@ -399,24 +399,6 @@
 		"weight": 10
 	},
 	{
-		"name": "Mount Snowpeak",
-		"type": "NaturalWonder",
-		"gold": 2,
-		"culture": 3,
-		"faith": 3,
-		"overrideStats": true,
-		"occursOn": ["Plains","Tundra"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [0] [Desert] tiles", 
-					"Must be adjacent to [1] to [6] [Tundra] tiles"
-					"Grants [Cold Resistant] ([+1 Movement in Snow]) to adjacent [Civilian] units for the rest of the game",
-					"Grants [Cold Resistant] ([+1 Movement in Snow, +10% Strength in Snow]) to adjacent [{Military} {Land}] units for the rest of the game"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
 		"name": "Arkatore",
 		"type": "NaturalWonder",
 		"food": 2,
@@ -475,6 +457,24 @@
 		"weight": 8
 	},
 	{
+		"name": "Mount Snowpeak",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"culture": 3,
+		"faith": 3,
+		"overrideStats": true,
+		"occursOn": ["Plains","Tundra"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+					"Must be adjacent to [0] [Desert] tiles", 
+					"Must be adjacent to [1] to [6] [Tundra] tiles"
+					"Grants [Cold Resistant] ([+1 Movement in Snow]) to adjacent [Civilian] units for the rest of the game",
+					"Grants [Cold Resistant] ([+1 Movement in Snow, +10% Strength in Snow]) to adjacent [{Military} {Land}] units for the rest of the game"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
 		"name": "Zamrud Khatulistiwa",
 		"type": "NaturalWonder",
 		"gold": 2,
@@ -484,7 +484,7 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 					"Must be adjacent to [0] [Tundra] tiles",
 					"Occurs on latitudes from [0] to [5] percent of distance equator to pole",
-					"Neighboring tiles provides +1 Gold"],
+					"Grants [+5 Gold] to the first civilization to discover it"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -501,7 +501,7 @@
 					"Must be adjacent to [0] [Grassland] tiles",
 					"Must be adjacent to [0] [Tundra] tiles",
 					"Must be adjacent to [1] to [6] [Desert] tiles",
-					"Neighboring tiles provides +1 Production"],
+					"Grants [+5 Production] to the first civilization to discover it"],
 		"turnsInto": "Desert",
 		"impassable": false,
 		"unbuildable": true,

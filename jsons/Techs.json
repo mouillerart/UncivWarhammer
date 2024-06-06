@@ -212,6 +212,7 @@
 			{
 				"name": "Raw Magic",
 				"row": 11,
+				"uniques": ["Unavailable <for [Kislev]>"],
 				"prerequisites": ["Mysticism"],
 				"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 			}
@@ -370,6 +371,7 @@
 			{
 				"name": "Elemental Magic",
 				"row": 10,
+				"uniques": ["Unavailable <for [Skaven]>"],
 				"prerequisites": ["Nature Lore","Raw Magic"],
 				"quote": ""
 			}
@@ -473,6 +475,7 @@
 			{
 				"name": "Mercenary Contracts",
 				"row": 4,
+				"uniques": ["Unavailable <for [Bretonnia]>"],
 				"prerequisites": ["Currency"],
 				"uniques": ["Military Units gifted from City-States start with [5] XP","Militaristic City-States grant units [3] times as fast when you are at war with a common nation","May buy [Melee] units with [Gold] [in all cities]"],
 				"quote": ""
@@ -589,6 +592,7 @@
 			{
 				"name": "Imperial roads",
 				"row": 3,
+				"uniques": ["Unavailable <for [Kislev]>"],
 				"prerequisites": ["Roads","Construction","Civil Service"],
 				"quote": ""
 			},
@@ -614,18 +618,21 @@
 			{
 				"name": "Meteoric Iron",
 				"row": 6,
+				"uniques": ["Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Smithing"],
 				"quote": ""
 			},
 			{
 				"name": "Monster Bonding",
 				"row": 13,
+				"uniques": ["Unavailable <for [Reikland]>"],
 				"prerequisites": ["Monster Breeding","Nature Lore"],
 				"quote": ""
 			},
 			{
 				"name": "Literature",
 				"row": 14,
+				"uniques": ["Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Priesthood"],
 				"quote": ""
 			},
@@ -636,7 +643,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Averland Swordsmanism",
+				"name": "Fanaticism",
 				"row": 16,
 				"prerequisites": ["Priesthood","Tyranny"],
 				"quote": ""
@@ -644,6 +651,7 @@
 			{
 				"name": "Winds of Magic",
 				"row": 17,
+				"uniques": ["Unavailable <for [Kislev]>","Unavailable <for [Skaven]>"],
 				"prerequisites": ["Philosophy","Raw Magic"],
 				"quote": ""
 			}
@@ -683,42 +691,49 @@
 			{
 				"name": "Lore of Change",
 				"row": 9,
+				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>"],
 				"prerequisites": ["Chaos","Corruption of Chaos"],
 				"quote": ""
 			},
 			{
 				"name": "Lore of Fire",
 				"row": 11,
+				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>","Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Warfare","Winds of Magic"],
 				"quote": ""
 			},
 			{
 				"name": "Lore of Life",
 				"row": 12,
+				"uniques": ["Unavailable <for [Khemri]>","Unavailable <for [Sylvania]>","Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Nature Lore","Winds of Magic"],
 				"quote": ""
 			},
 			{
 				"name": "Lore of Lights",
 				"row": 13,
+				"uniques": ["Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Mathematics","Winds of Magic"],
 				"quote": ""
 			},
 			{
 				"name": "Lore of Heavens",
 				"row": 14,
+				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>","Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Astrology","Winds of Magic"],
 				"quote": ""
 			},
 			{
 				"name": "Lore of Metals",
 				"row": 15,
+				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>","Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Metal Casting","Winds of Magic"],
 				"quote": ""
 			},
 			{
 				"name": "Lore of Shadows",
 				"row": 16,
+				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>"],
 				"prerequisites": ["Civil Service","Winds of Magic"],
 				"quote": ""
 			},
@@ -731,6 +746,7 @@
 			{
 				"name": "Lore of Death",
 				"row": 18,
+				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>","Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Ceremonial Burial","Winds of Magic"],
 				"quote": ""
 			}
@@ -775,6 +791,7 @@
 			{
 				"name": "Education",
 				"row": 3,
+				"uniques": ["Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Priesthood","Civil Service"],
 				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
@@ -801,6 +818,7 @@
 			{
 				"name": "Steel",
 				"row": 10,
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>","Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Metal Casting"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			}
@@ -876,6 +894,7 @@
 			{
 				"name": "Economics",
 				"row": 6,
+				"uniques": ["Unavailable <for [Kislev]>"],
 				"prerequisites": ["Loans and Saving"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
@@ -954,6 +973,7 @@
 			{
 				"name": "Rifling",
 				"row": 9,
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Military Science"],
 				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			}
@@ -1009,25 +1029,25 @@
 			{
 				"name": "Refrigeration",
 				"row": 3,
-				"prerequisites": ["Biology","Empowerment"],
+				"prerequisites": ["Biology","Empowerment","Dwarven Ingenuity"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
 				"name": "Replaceable Parts",
 				"row": 4,
-				"prerequisites": ["Empowerment"],
+				"prerequisites": ["Empowerment","Dwarven Ingenuity"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
 			{
 				"name": "Flight",
 				"row": 5,
-				"prerequisites": ["Mana Battery"],
+				"prerequisites": ["Mana Battery","Dwarven Ingenuity"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "Combustion",
 				"row": 8,
-				"prerequisites": ["Refining","Railroads"],
+				"prerequisites": ["Refining","Railroads","Dwarven Ingenuity"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			}
 		]

@@ -154,7 +154,7 @@
 	{
 		"name": "Manumem",
 		"replaces": "Monument",
-		"uniqueTo": "Polgar Sod'em",
+		"uniqueTo": "Albion",
 		"culture": 2,
 		"science": 1,
 		"cost": 40,
@@ -1341,7 +1341,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
-					"Connects Trade routes over water", "Must be next to [Coast]"],
+					"Connects trade routes over water", "Must be next to [Coast]"],
 		"requiredTech": "Compass",
 		"civilopediaText": [
             {"text": "A body of water sheltered by natural or artificial barriers to protect boat and ships."}
@@ -3113,7 +3113,7 @@
 		"uniqueTo": "Estalia",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"requiredTech": "Averland Swordsmanism",
+		"requiredTech": "Fanaticism",
 		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
@@ -3123,7 +3123,7 @@
 		"name": "Tribunal",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"requiredTech": "Averland Swordsmanism",
+		"requiredTech": "Fanaticism",
 		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
