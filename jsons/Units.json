@@ -3313,7 +3313,7 @@
 		"strength":18,
 		"cost": 80,
 		"requiredTech": "Iron Working",
-		"upgradesTo": "Skaven Chieftains",
+		"upgradesTo": "Skaven Chieftain",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"uniques": [""],
@@ -3325,7 +3325,7 @@
 		]
 	},
 	{
-		"name": "Skaven Chieftains",
+		"name": "Skaven Chieftain",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
 		"uniqueTo": "Skaven",
@@ -3387,14 +3387,14 @@
 		"cost": 300,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
+		"upgradesTo": "Stormfiend",
 		"attackSound": "shot",
 		"civilopediaText": [
 			{"text": "A multi-barreled whirling death-dealing machine known as the Ratling Gun is one of Clan Skryre's newest inventions. So successful and deadly is this piece of machinery to the Warlord Clans that Clan Skryre will always run out of Ratling Guns long before they run out of customers to sell them to."}
 		]
 	},
 	{
-		"name": "Doomwheel",
+		"name": "Stormfiend",
 		"unitType": "Gunpowder",
 		"replaces": "Infantry",
 		"uniqueTo": "Skaven",
@@ -3406,7 +3406,7 @@
 		"obsoleteTech": "Lasers",
 		"attackSound": "shot",
 		"civilopediaText": [
-			{"text": "At first sight, the Doomwheel may look less menacing and even comical compared to the other war-machines of the Skaven, but those that have faced one in battle know full well of its prowess. The design of the machine is so simple and yet so complex, so utterly Skaven in its inception that it's well beyond the understanding of even the top minds of the School of Engineers."}
+			{"text": "A Stormfiend is an even more potent evolution of the Skaven Rat Ogre first created during the End Times. It represents the ultimate and brutal combination of Clan Moulder's bio-engineering and Clan Skryre's sadistic techno-magic, which togther have created a hulking behemoth clad in bullet-proof metal armour and equipped with massive gatling cannons or armoured gauntlets around which warpstone energy swirls."}
 		]
 	},
 
@@ -3458,7 +3458,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Gunpowder",
-		"upgradesTo": "Musketman",
+		"upgradesTo": "Warpfire Thrower",
 		"uniques": ["[+10] HP when healing", 
 					"Preachable"],
 		"promotions": ["Plunderer"],
@@ -3629,7 +3629,7 @@
 		"strength": 12,
 		"cost": 70,
 		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Rat Ogre",
+		"upgradesTo": "Great Pox Rat",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking", 
 					"No defensive terrain bonus", 
@@ -3641,7 +3641,7 @@
 		]
 	},
 	{
-		"name": "Rat Ogre",
+		"name": "Great Pox Rat",
 		"unitType": "Mounted",
 		"replaces": "Knight",
 		"uniqueTo": "Skaven",
@@ -3649,7 +3649,7 @@
 		"strength": 24,
 		"cost": 135,
 		"requiredTech": "Chivalry",
-		"upgradesTo": "Hell-Pit Abomination",
+		"upgradesTo": "Brood Horror",
 		"obsoleteTech": "Quintessence Force",
 		"uniques": ["Can move after attacking", 
 					"No defensive terrain bonus", 
@@ -3657,12 +3657,12 @@
 		"promotions": ["Reactive Armor","Quick Study"],
 		"attackSound": "horse",
 		"civilopediaText": [
-			{"text": "The most infamous of Clan Moulder's many creations, these beasts are one of the largest and most fearsome creations at their disposal. Larger than any human, these beasts stand taller than two men, and have enough strength and muscle to fight a whole company of soldiers. A Rat Ogre is to an Ogre what an ordinary Skaven is to a human. Rat Ogres are usually covered with stitches, as many times their Clan Moulder masters have added 'modifications' to their already formidable bulk, either adding large saw-like blades, weapon attachments, and even an extra arm to those few Skaven Warlords willing to pay a few extra warp-tokens."}
+			{"text": "Great Pox Rats are abhorrent, bloated and hideously overgrown vermin that are bred as a form of combat-mount for many Skaven Warlords."}
 		]
 	},
 
 	{
-		"name": "Hell-Pit Abomination",
+		"name": "Brood Horror",
 		"unitType": "Mounted",
 		"uniqueTo": "Skaven",
 		"movement": 3,
@@ -3671,17 +3671,17 @@
 		"cost": 150,
 		"requiredTech": "Quintessence Force",
 		"obsoleteTech": "Mana Battery",
-		"upgradesTo": "Brood Horror",
+		"upgradesTo": "Hell-Pit Abomination",
 		"uniques": ["[+15]% Strength <when attacking> <with [10]% chance>", 
-					"Limited to [2] per Civilization", 
+					"Limited to [3] per Civilization", 
 					"Beast"],
 		"attackSound": "bombing",
 		"civilopediaText": [
-			{"text": "The greatest monster Clan Moulder has ever birthed, this monstrosity towers over any creation Clan Moulder has ever made in their long diabolic history. A massive beast standing taller than 8 men, and many, many times stronger, this engine of destruction is unstoppable on the battlefield, with many not having the courage to even look at the hideous sight."}
+			{"text": "Brood Horrors (sing. Brood Horror) are the greatest and most bloated of the Giant Rat species of the Old World, created and formed when one individual of a Giant Rat litter begins to mutate extraordinarily fast and begins to feast and devour the rest of its litter, growing at an alarming rate whilst increasing in both strength and savagery."}
 		]
 	},
 	{
-		"name": "Brood Horror",
+		"name": "Hell-Pit Abomination",
 		"unitType": "Sword",
 		"uniqueTo": "Skaven",
 		"movement": 3,
@@ -3694,7 +3694,46 @@
 		"promotions": ["Battlecry"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "Brood Horrors (sing. Brood Horror) are the greatest and most bloated of the Giant Rat species of the Old World, created and formed when one individual of a Giant Rat litter begins to mutate extraordinarily fast and begins to feast and devour the rest of its litter, growing at an alarming rate whilst increasing in both strength and savagery."}
+			{"text": "The greatest monster Clan Moulder has ever birthed, this monstrosity towers over any creation Clan Moulder has ever made in their long diabolic history. A massive beast standing taller than 8 men, and many, many times stronger, this engine of destruction is unstoppable on the battlefield, with many not having the courage to even look at the hideous sight."}
+		]
+	},
+
+	{
+		"name": "Doomwheel",
+		"unitType": "Armored",
+		"replaces": "Landship",
+		"uniqueTo": "Skaven",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Combustion",
+		"requiredResource": "Oil",
+		"upgradesTo": "Doom-Flayer",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{"text": "At first sight, the Doomwheel may look less menacing and even comical compared to the other war-machines of the Skaven, but those that have faced one in battle know full well of its prowess. The design of the machine is so simple and yet so complex, so utterly Skaven in its inception that it's well beyond the understanding of even the top minds of the School of Engineers."}
+		]
+	},
+	{
+		"name": "Doom-Flayer",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Skaven",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Never appears as a Barbarian unit"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{"text": "The Doom-Flayer is a motorised iron ball of whirling blades that was first deployed during the merciless underground battles against the Dwarfs of the Worlds Edge Mountains. "}
 		]
 	},
 
