@@ -18,7 +18,6 @@ Modmod of Fantasia mixed with previous Civ3/Civ4 Warhammer extensions materials.
 ### Nations 
 #### Reikland (The Empire)
 #### Bretonnia  
-![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20Errant.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Questing%20Knight.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Knight%20of%20the%20Realm.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Grail%20Knight.png?raw=true)
 #### Kislev
 #### Sylvania
 #### Dwarfs
@@ -82,7 +81,38 @@ Heroes
 * Ulthuan
 * Naggaroth
 * Skaven  
-  ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Night%20Runner.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Gutter%20Runner.png?raw=true) ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Death%20Runner.png?raw=true)
+Sword units
+
+| Clanrat | Stormvermin | Skaven Chieftain | Warpfire Thrower | Warplock Jezzail | Ratling Gun | Stormfiend |
+| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Clanrat.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Stormvermin.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skaven%20Chieftain.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warpfire%20Thrower.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warplock%2°Jezzail.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Ratling%20Gun.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Stormfiend.png?raw=true) |
+
+Scouting
+| Night Runner | Gutter Runner | Death Runner |
+| --------------- | --------------- | --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Night%20Runner.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Gutter%20Runner.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Death%20Runner.png?raw=true) |
+
+
+Anti-cavalry
+| Plague Monkn | Plague Censer-Bearer |
+| --------------- | --------------- | 
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague%20Monk.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague%20Censer-Bearer.png?raw=true) |
+
+Cavalry
+| Giant Rat | Great Pox Rat | Brood Horror | Hell-Pit Abomination |
+| --------------- | --------------- |  --------------- |  --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Giant%20Rat.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Great%20Pox%20Rat.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Brood%20Horror.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Hell-Pit%20Abomination.png?raw=true) |
+
+Siege
+| Plague-Claw Catapult | Screaming Bell | Warp-Lightning Cannon | Plague Furnace |
+| --------------- | --------------- | --------------- | --------------- |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague-Claw%20Catapult.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Screaming%20Bell.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warp-Lightning%20Cannon.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague%20Furnace.png?raw=true) |
+
+Armored
+| Doomwheel | Doom-Flayer |
+| --------------- | --------------- | 
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Doomwheel.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Doom-Flayer.png?raw=true) |
+
 * Chaos Dwarfs
 * Ironclaw Orcs
 * Ogre Kingdoms
