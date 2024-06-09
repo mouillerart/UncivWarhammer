@@ -196,7 +196,7 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Niter",
+		"name": "Warpstone",
 		"resourceType": "Strategic",
 		"revealedBy": "Gunpowder",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow"],

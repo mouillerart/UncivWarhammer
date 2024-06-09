@@ -509,6 +509,7 @@
 
 		"uniques": ["Starts with [Underworld]"],
 		"cities": ["Skavenblight","Hell Pit","The Black Chasm","Crookback Mountain","Foul Peak","City of Pillars","Queekwell","Bonestash","Fester Spike","Putrid Stump","Under-Altdorf","Under-Delberz","Under-Middenheim","Under-Nuln","Under-Remas","Bitter Stink","Under-Mousillon"],
+		"spyNames": ["00Skaven, license to kill-kill","Snikch","Veskit","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
 
 		"civilopediaText": [
 			{"text": "The Skaven are a race of evil rat-men who inhabit the underground of the Warhammer world. They gnaw at the roots of civilisation, eternally scheming and preparing for the day when their uncountable hordes will overrun the surface world. The only thing that keeps them in check is the constant internal strife between the clans making up their society, but one day the Grey Seers, who speak for the Horned Rat himself, will unify them and lead them to inevitable victory."},

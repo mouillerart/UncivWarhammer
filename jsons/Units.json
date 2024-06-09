@@ -92,24 +92,6 @@
 		]
 	},
 	{
-		"name": "Halfling Scout",
-		"unitType": "Recon",
-		"movement": 2,
-		"strength": 5,
-		"cost": 25,
-		"requiredTech": "Warrior Code",
-		"requiredResource": "Halfling",
-		"upgradesTo": "Halfling Ranger",
-		"obsoleteTech": "Mass Media",
-		"uniques": ["Invisible to non-adjacent units",
-					"May enter foreign tiles without open borders","Never appears as a Barbarian unit",
-					"May upgrade to [Halfling Ranger] through ruins-like effects"],
-		"attackSound": "arrow",
-		"civilopediaText": [
-			{"text": "A more discrete scout."}
-		]
-	},
-	{
 		"name": "Ranger",
 		"unitType": "Recon",
 		"movement": 2,
@@ -120,24 +102,6 @@
 		"obsoleteTech": "Mass Media",
 		"uniques": ["[+1] Movement <in [Forest] tiles>", 
 					"[+1] Movement <in [Jungle] tiles>",
-					"May upgrade to [Crossbowman] through ruins-like effects"],
-		"attackSound": "arrow",
-		"civilopediaText": [
-			{"text": "Stronger recon unit, specialized for scouting on wooded terrain."}
-		]
-	},
-	{
-		"name": "Halfling Ranger",
-		"unitType": "Recon",
-		"movement": 2,
-		"strength": 11,
-		"cost": 55,
-		"requiredTech": "Monster Taming",
-		"requiredResource": "Halfling",
-		"upgradesTo": "Pathfinder",
-		"obsoleteTech": "Mass Media",
-		"uniques": ["[+1] Movement <in [Forest] tiles>", 
-					"[+1] Movement <in [Jungle] tiles>","Never appears as a Barbarian unit",
 					"May upgrade to [Crossbowman] through ruins-like effects"],
 		"attackSound": "arrow",
 		"civilopediaText": [
@@ -242,7 +206,7 @@
 		"movement": 2,
 		"strength": 28,
 		"cost": 175,
-		"requiredResource": "Niter",
+		"requiredResource": "Warpstone",
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
@@ -254,7 +218,7 @@
 		"movement": 3,
 		"strength": 26,
 		"cost": 165,
-		"requiredResource": "Niter",
+		"requiredResource": "Warpstone",
 		"requiredTech": "Dynamite",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", 
 					"[+50]% Strength <vs [Military] units> <when attacking>", 
@@ -841,7 +805,7 @@
 		"strength": 19,
 		"rangedStrength": 28,
 		"cost": 280,
-		"requiredResource": "Niter",
+		"requiredResource": "Warpstone",
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Howitzer",
 		"obsoleteTech": "Dynamite",
@@ -861,7 +825,7 @@
 		"requiredTech": "Dynamite",
 		"obsoleteTech": "Rocketry",
 		"upgradesTo": "Rocket Artillery",
-		"requiredResource": "Niter",
+		"requiredResource": "Warpstone",
 		"uniques": ["No defensive terrain bonus", 
 					"Must set up to ranged attack", 
 					"Ranged attacks may be performed over obstacles", 
@@ -2836,7 +2800,7 @@
 		"promotions": ["Great Generals I"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."},
+			{"text": "Eter,nal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."},
 			{"text": "Call of the dead: any killed unit has a 25% chance of being raised as [Skeletal Warrior]."}
 		]
 	},
@@ -2980,7 +2944,7 @@
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
+		//"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking", 
 					"No defensive terrain bonus", 
@@ -3076,7 +3040,7 @@
 		"cost": 180,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Pike and Shot",
+		"upgradesTo": "Necrolith Colossus",
 		"requiredBuilding": "Tomb",
 		"promotions": ["Formation"],
 		"uniques": ["Invisible to non-adjacent units",
@@ -3130,7 +3094,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Hierotitan",
-		"requiredResource": "Adamantium",
+		"requiredResource": "Kyber",
 		"promotions": ["Tortoise"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -3145,8 +3109,8 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 385,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Adamantium",
+		"requiredTech": "Empowerment",
+		"requiredResource": "Kyber",
 		"promotions": ["Tortoise"],
 		"uniques": ["Can pass through impassable tiles"],
 		"attackSound": "gdrAttack"
@@ -3312,51 +3276,172 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Night Runner",
-		"unitType": "Sword",
+		"name": "Slave Rat",
+		"replaces": "Worker",
 		"uniqueTo": "Skaven",
-		"replaces": "Warrior",
-		"movement": 3,
-		"strength": 8,
-		"cost": 44,
-		"obsoleteTech": "Iron Working",
-		"upgradesTo": "Gutter Runner",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
-					"Heals [15] damage if it kills a unit", 
-					"Preachable"],
-		"promotions": ["Fight Howl"],
-		"attackSound": "nonmetalhit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 48,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"promotions": ["Ignore terrain cost"],
 		"civilopediaText": [
-			{"text": "Special Beastman unit for fighting in rough terrain."},
-			{"text": "Rough terrain:"},
-			{
-				"text": "Forest", 
-				"link": "Terrains/Forest"
-			},
-			{
-				"text": "Jungle", 
-				"link": "Terrains/Jungle"
-			},
-			{
-				"text": "Hill", 
-				"link":"Terrains/Hill"
-			}
+			{"text": "Although not official considered a part of the army, the Slaverats of many clans still play an important and vital role during the heat of battle. Their main purpose in the battlefield is to swarm head-long against the front of the enemy army, tiring or absorbing much of the fighting while the more proper soldiers of the clan rush in afterward to support them. They would also do menial tasks when not in the battlefield, which include labour, mining, tunnelling, or, in dire times, even becoming a reserve food supply for the Skaven army."}
+		]
+	},
+	{
+		"name": "Clanrat",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 6,
+		"cost": 40,
+		"upgradesTo": "Stormvermin",
+		"obsoleteTech": "Iron Working",
+		"uniques": [""],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Clanrats form the bulk of most Skaven armies. These warriors would naturally be considered nothing more than Skaven who have risen up to aid their clan during times of war. These troops are usually very lightly armoured, using a variety of weapons and armour scavenged or looted from many areas they have previously raided for goods and weapons."}
+		]
+	},
+	{
+		"name": "Stormvermin",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength":18,
+		"cost": 80,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Skaven Chieftains",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": [""],
+		"promotions": ["Elusive"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "These powerful Skaven warriors have been raised from infancy to be the most deadly killers and soldiers in the entire Skaven horde. Stormvermin are naturally black-furred Skaven, their fur marking them as the perfect warriors in their society. They would also be naturally heavily armoured, given the best food and gear available to them, and live much more luxurious lives than the ordinary Clanrat. These troops are only committed into the front when the battle is turning bad for the Skaven, and the need for more hardened warriors is required to ensure victory."}
+		]
+	},
+	{
+		"name": "Skaven Chieftains",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Warpfire Thrower",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Skaven Chieftains, or Clan Chieftains, are among the highest ranking warriors within a Skaven Clan, who are often given control over a smaller segment of the Clan to rule as they see fit."}
+		]
+	},
+	{
+		"name": "Warpfire Thrower",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 28,
+		"cost": 175,
+		"requiredResource": "Warpstone",
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Ratling Gun",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "One of the deadliest hand-held weapons in Clan Skryre's arsenal, this weapons team has within their possession an extremely potent and dangerous piece of machinery. The Warpfire-Thrower is a very crude hand-held flamethrower, that showers their foes in a whirlwind of greenish flame, fueled and fed by warpstone substances."}
+		]
+	},
+	{
+		"name": "Warplock Jezzails",
+		"unitType": "Gunpowder",
+		"replaces": "Petard",
+		"uniqueTo": "Skaven",
+		"movement": 3,
+		"strength": 26,
+		"cost": 165,
+		"requiredResource": "Warpstone",
+		"requiredTech": "Dynamite",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", 
+					"[+50]% Strength <vs [Military] units> <when attacking>", 
+					"Self-destructs when attacking", 
+					"Only available <in cities with a [Courthouse]>"],
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": "When the need for a more precise shot is required by its Paw-leader, most clans will employ the use of a deadly Warplock Jezzails team to pick off key individuals within an army. Jezzails are a two Skaven team of highly trained snipers employed for the use of assassinating important targets from an extremely long distance. Their rifles, called Jezzails, have the longest range of any rifle in the Old World, due in most part to the dangerous use of warpstone bullets as the main source of ammunition."}
+		]
+	},
+	{
+		"name": "Ratling Gun",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 38,
+		"cost": 300,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "A multi-barreled whirling death-dealing machine known as the Ratling Gun is one of Clan Skryre's newest inventions. So successful and deadly is this piece of machinery to the Warlord Clans that Clan Skryre will always run out of Ratling Guns long before they run out of customers to sell them to."}
+		]
+	},
+	{
+		"name": "Doomwheel",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Lightsaberman",
+		"obsoleteTech": "Lasers",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "At first sight, the Doomwheel may look less menacing and even comical compared to the other war-machines of the Skaven, but those that have faced one in battle know full well of its prowess. The design of the machine is so simple and yet so complex, so utterly Skaven in its inception that it's well beyond the understanding of even the top minds of the School of Engineers."}
+		]
+	},
+
+	{
+		"name": "Night Runner",
+		"unitType": "Recon",
+		"replaces": "Scout",
+		"uniqueTo": "Skaven",
+		"movement": 3,
+		"strength": 6,
+		"cost": 25,
+		"obsoleteTech": "Monster Taming",
+		"upgradesTo": "Gutter Runner",
+		"uniques": ["Invisible to non-adjacent units",
+					"[+15]% Strength <when fighting in [Rough terrain] tiles>", 
+					"Heals [15] damage if it kills a unit",
+					"May upgrade to [Gutter Runner] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A more discrete scout."}
 		]
 	},
 	{
 		"name": "Gutter Runner",
 		"uniqueTo": "Skaven",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
+		"replaces": "Ranger",
+		"unitType": "Recon",
 		"movement": 3,
 		"strength": 17,
 		"cost": 75,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Monster Taming",
 		"upgradesTo": "Death Runner",
 		"obsoleteTech": "Steel",
 		"uniques": ["Preachable"],
 		"promotions": ["Elusive"],
-		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -3365,8 +3450,8 @@
 	},
 	{
 		"name": "Death Runner",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
+		"unitType": "Recon",
+		"replaces": "Pathfinder",
 		"uniqueTo": "Skaven",
 		"movement": 3,
 		"strength": 24,
@@ -3380,6 +3465,236 @@
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Death Runners, also spelled Deathrunners, are the Champions of the Skaven Clan Eshin's Gutter Runner regiments, either leading a host of their lesser brethren or making up in whole a deadly cadre of assassins themselves."}
+		]
+	},
+
+	{
+		"name": "Plague Monk",
+		"unitType": "Anti-Cav",
+		"replaces": "Spearman",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Plague Censer-Bearer",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "The most common infantry fielded by Clan Pestilens, these groups of fanatics are utterly dedicated to spreading their corruption within the enemy ranks. When they are near the enemy, the Monks will go into a fanatical frenzy, killing their enemy with rusted swords and iron-tipped staffs to infect those they hurt with unimaginable diseases. Due to their diseased bulk, Plague Monks can survive injuries that would normally kill an ordinary Skaven."}
+		]
+	},
+	{
+		"name": "Plague Censer-Bearer",
+		"unitType": "Anti-Cav",
+		"replaces": "Pikeman",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Halberdier",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A plague censer is a hollow spiked metal ball attached to a lengthy chain meant to be used as a weapon by the Plague Censer-Bearers. Within the hollow spikes are lethal doses of warpstone and vile contagions that release a foul greenish cloud that will cause flesh to erupt into sores and fluid-filled blisters. The Censer-Bearers are fanatical in combat, never faltering or retreating, they continue on their murderous rampage until each and everyone one of them are cut down."}
+		]
+	},
+
+	{
+		"name": "Plague-Claw Catapult",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Screaming Bell",
+		"uniques": ["No defensive terrain bonus", 
+					"Must set up to ranged attack", 
+					"[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "For many years, Clan Pestilens has worked day and night to make the most perfect disease that will rid the world of all surface dwellers, and bring about the eventual conquest of the Skaven cause. While still failing as of yet, the by-product that was created during the brewing process has proven valuable as a weapon in and of its own."}
+		]
+	},
+	{
+		"name": "Screaming Bell",
+		"unitType": "Siege",
+		"replaces": "Trebuchet",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Warp-Lightning Cannon",
+		"uniques": ["No defensive terrain bonus", 
+					"Must set up to ranged attack", 
+					"[-1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "Of all the diabolical wonder weapons of the Skaven, none is as notorious as the altars known as the Screaming Bell. It is from these unholy altars that the Grey Seers preach their plans of total domination in the name of the Great Horned Rat. With magical invocations, the bells can suck the courage out of the enemy in a single, deafening bell-toll."}
+		]
+	},
+	{
+		"name": "Warp-Lightning Cannon",
+		"unitType": "Siege",
+		"replaces": "Cannon",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 19,
+		"rangedStrength": 28,
+		"cost": 280,
+		"requiredResource": "Warpstone",
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Plague Furnace",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["No defensive terrain bonus", 
+					"Must set up to ranged attack", 
+					"[-1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": "The warp-lightning cannon is the very pinnacle of Skaven ingenuity, a marvel of both magical and scientific engineering. This machine has the power to fire a very concentrated blast of pure warp-lightning at the very heart of an army so powerful and potent, that not even castle walls could hold against such an onslaught. When fired, the lightning arcs earthwards towards its victim, and erupts into a cloud of warp-lightning upon impact. The shot flash is too quick to follow, so only its vapour trail can trace the trajectory of the shot."}
+		]
+	},
+	{
+		"name": "Plague Furnace",
+		"unitType": "Siege",
+		"replaces": "Howitzer",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 36,
+		"rangedStrength": 48,
+		"range": 3,
+		"cost": 390,
+		"requiredTech": "Dynamite",
+		"obsoleteTech": "Rocketry",
+		"upgradesTo": "Rocket Artillery",
+		"requiredResource": "Warpstone",
+		"uniques": ["No defensive terrain bonus", 
+					"Must set up to ranged attack", 
+					"Ranged attacks may be performed over obstacles", 
+					"[-1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text": "The Plague Furnace is a disease-ridden altar to the Great Horned Rat and an unholy icon of Clan Pestilens' power. The Furnace is pushed into battle by chanting Plague Monks, the creaking of the iron-shod wheels audible above the drone of devotional maledictions."}
+		]
+	},
+
+	{
+		"name": "Packmaster",
+		"unitType": "Tamer",
+		"replaces": "Elite Beast Tamer",
+		"uniqueTo": "Skaven",
+		"movement": 2,
+		"strength": 40,
+		"cost": 290,
+		"requiredTech": "Archaeology",
+		"uniques": ["May capture killed [Slime] units <with [95]% chance>", 
+					"May capture killed [Peuchen] units <with [95]% chance>", 
+					"May capture killed [Sandworm] units <with [95]% chance>", 
+					"May capture killed [Entmates] units <with [95]% chance>", 
+					"May capture killed [Jackalope] units <with [95]% chance>", 
+					"May capture killed [Luan] units <with [95]% chance>", 
+					"May capture killed [Minotaur] units <with [95]% chance>", 
+					"May capture killed [Pegasus] units <with [95]% chance>", 
+					"May capture killed [Arachne] units <with [95]% chance>", 
+					"May capture killed [Unicorn] units <with [95]% chance>", 
+					"May capture killed [Cyclop] units <with [95]% chance>", 
+					"May capture killed [Titan] units <with [95]% chance>", 
+					"May capture killed [Leviathan] units <with [95]% chance>", 
+					"May capture killed [Megalodon] units <with [95]% chance>", 
+					"Never appears as a Barbarian unit"],
+		"replacementTextForUniques": "May capture killed Beast units with 95% chance",
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Packmasters are the trainers and handlers of Clan Moulder's various warbeasts and hulking monstrosities. These specially trained Skaven are experts at goading their charges - ferocious, half-mad creatures who can turn and attack with no warning. For this reason, Packmasters are themselves cagey and fierce warriors, for if they are not they quickly end up as another meal for their merciless packs. It is common practice for Clan Moulder to sell both beast packs and Packmaster handlers to the highest bidder."}
+		]
+	},
+
+	{
+		"name": "Giant Rat",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Skaven",
+		"movement": 4,
+		"strength": 12,
+		"cost": 70,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Rat Ogre",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "The most common and cheapest commodity Clan Moulder has to offer, these creatures might at a distance look like normal rats, but on closer inspection, they have a variety of mutations, a staple of Clan Moulder expertise. The Master-Moulders have long ago unlocked the secrets of breeding, mutating, and surgically augmenting the common rat into a fearsome beast. Standing bigger than the average dog, these rats have a variety of features that only increase their effectiveness in combat, including extra heads, over-sized incisors or claws, spiked tails, and even strong bony armour plates. The far more mutated ones have exposed ribs, massive boils, and even skinless flesh."}
+		]
+	},
+	{
+		"name": "Rat Ogre",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Skaven",
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Hell-Pit Abomination",
+		"obsoleteTech": "Quintessence Force",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Preachable"],
+		"promotions": ["Reactive Armor","Quick Study"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "The most infamous of Clan Moulder's many creations, these beasts are one of the largest and most fearsome creations at their disposal. Larger than any human, these beasts stand taller than two men, and have enough strength and muscle to fight a whole company of soldiers. A Rat Ogre is to an Ogre what an ordinary Skaven is to a human. Rat Ogres are usually covered with stitches, as many times their Clan Moulder masters have added 'modifications' to their already formidable bulk, either adding large saw-like blades, weapon attachments, and even an extra arm to those few Skaven Warlords willing to pay a few extra warp-tokens."}
+		]
+	},
+
+	{
+		"name": "Hell-Pit Abomination",
+		"unitType": "Mounted",
+		"uniqueTo": "Skaven",
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 55,
+		"cost": 150,
+		"requiredTech": "Quintessence Force",
+		"obsoleteTech": "Mana Battery",
+		"upgradesTo": "Brood Horror",
+		"uniques": ["[+15]% Strength <when attacking> <with [10]% chance>", 
+					"Limited to [2] per Civilization", 
+					"Beast"],
+		"attackSound": "bombing",
+		"civilopediaText": [
+			{"text": "The greatest monster Clan Moulder has ever birthed, this monstrosity towers over any creation Clan Moulder has ever made in their long diabolic history. A massive beast standing taller than 8 men, and many, many times stronger, this engine of destruction is unstoppable on the battlefield, with many not having the courage to even look at the hideous sight."}
+		]
+	},
+	{
+		"name": "Brood Horror",
+		"unitType": "Sword",
+		"uniqueTo": "Skaven",
+		"movement": 3,
+		"strength": 60,
+		"cost": 250,
+		"requiredTech": "Mana Battery",
+		"uniques": ["Ignores Zone of Control", 
+					"Limited to [3] per Civilization", 
+					"Beast"],
+		"promotions": ["Battlecry"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Brood Horrors (sing. Brood Horror) are the greatest and most bloated of the Giant Rat species of the Old World, created and formed when one individual of a Giant Rat litter begins to mutate extraordinarily fast and begins to feast and devour the rest of its litter, growing at an alarming rate whilst increasing in both strength and savagery."}
 		]
 	},
 
@@ -3936,6 +4251,44 @@
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "One-hit-kill attack of Heaven, or Hell."}
+		]
+	},
+
+// City state units
+	{
+		"name": "Halfling Scout",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"requiredTech": "Warrior Code",
+		"requiredResource": "Halfling",
+		"upgradesTo": "Halfling Ranger",
+		"obsoleteTech": "Mass Media",
+		"uniques": ["Invisible to non-adjacent units",
+					"May enter foreign tiles without open borders","Never appears as a Barbarian unit",
+					"May upgrade to [Halfling Ranger] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A more discrete scout."}
+		]
+	},
+	{
+		"name": "Halfling Ranger",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 11,
+		"cost": 55,
+		"requiredTech": "Monster Taming",
+		"requiredResource": "Halfling",
+		"upgradesTo": "Pathfinder",
+		"obsoleteTech": "Mass Media",
+		"uniques": ["[+1] Movement <in [Forest] tiles>", 
+					"[+1] Movement <in [Jungle] tiles>","Never appears as a Barbarian unit",
+					"May upgrade to [Crossbowman] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Stronger recon unit, specialized for scouting on wooded terrain."}
 		]
 	},
 

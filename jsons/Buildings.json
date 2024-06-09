@@ -2471,6 +2471,7 @@
 		"isWonder": true,
 		"faith": 4,
 		"science": 4,
+		"happiness": 10,
 		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Raw Magic]>","Empire enters golden age"],
 		"requiredTech": "Forest Mastery",
@@ -2484,7 +2485,7 @@
 		"isWonder": true,
 		"science": 4,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Chronicles]>"],
+		"uniques": ["Unbuildable <before discovering [Chronicles]>","[+2 Science] [<in [in all cities] cities>]"],
 		"requiredTech": "Dwarven Ingenuity",
 		"requiredBuilding": "Paper Maker",
 		"civilopediaText": [
@@ -2508,7 +2509,7 @@
 		"isWonder": true,
 		"faith": 4,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Chronicles]>"],
+		"uniques": ["Unbuildable <before discovering [Chronicles]>","[+20]% spy effectiveness [in all cities]","Gain an extra spy"],
 		"requiredTech": "Underworld",
 		"civilopediaText": [
 			{"text": "The insidious Council of Thirteen is the nefarious body comprised of twelve of the most powerful Skaven clan lords that rules over the Skaven Under-Empire. Its eponymous thirteenth member is symbolically the Horned Rat. Its mortal members are known as the 'Lords of Decay'."}
@@ -3497,7 +3498,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Civil Service",
-		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
+		"uniques": ["Unbuildable", "Unsellable", "Gain an extra spy", "Will not be displayed in Civilopedia"],
 		"civilopediaText": [
 			{"text": ""}
 		]
