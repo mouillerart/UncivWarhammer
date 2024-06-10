@@ -507,7 +507,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 
-		"uniques": ["Starts with [Underworld]"],
+		"uniques": ["Starts with [Underworld]","[-20]% enemy spy effectiveness [in all cities]"],
 		"cities": ["Skavenblight","Hell Pit","The Black Chasm","Crookback Mountain","Foul Peak","City of Pillars","Queekwell","Bonestash","Fester Spike","Putrid Stump","Under-Altdorf","Under-Delberz","Under-Middenheim","Under-Nuln","Under-Remas","Bitter Stink","Under-Mousillon"],
 		"spyNames": ["00Skaven, license to kill-kill","Snikch","Veskit","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
 
@@ -896,8 +896,8 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 		"style": "Human",
-		"outerColor": [105,159,105]
-		"innerColor": [211,180,60],
+		"outerColor": [79,120,79]
+		"innerColor": [222,198,108],
 		
 		"declaringWar": "Defend the weak who cannot defend themselves, against any and all unlawful oppressors.",
 		"attacked": "Bravely bear arms for Albion against its enemies, under the command of its king and his appointed generals.",
@@ -989,8 +989,8 @@
 	{
 		"name": "Nippon",
 		"leaderName": "Takagura",
-		"outerColor": [119, 136, 153],
-		"innerColor": [255,2,55,255],
+		"outerColor": [135, 145, 155],
+		"innerColor": [255,255,255],
 		"adjective": ["Nipponese"],
 		"startBias": ["Coast"],
 		"style": "Human",

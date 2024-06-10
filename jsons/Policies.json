@@ -188,6 +188,69 @@
 		]
 	},
 	{
+		"name": "Deception",
+		"era": "Ancient age",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 0,
+			"Diplomatic": 20,
+			"Domination": 10,
+			"Scientific": 10
+		},
+		"uniques": [
+			"Gain an extra spy"
+		],
+		"policies": [
+			{
+				"name": "Hidden Schemes",
+				"uniques": ["[Recon] units gain the [Camouflage] promotion"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Poisoning",
+				"uniques": ["[+10]% Strength <for [Military] units>"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Bribery",
+				"uniques": ["[+20]% [Gold] from Trade Routes",
+							"When conquering an encampment, earn [10] Gold and recruit a Barbarian unit"],
+				"requires": ["Hidden Schemes"],
+				"row": 2,
+				"column": 2
+			},
+            {
+                "name": "Disorder",
+                "uniques": [
+                    "Resting point for Influence with City-States is increased by [25]",
+                    "[+20]% spy effectiveness [in all cities]"
+                ],
+				"requires": ["Bribery"],
+                "row": 3,
+                "column": 2
+            },
+			{
+				"name": "Assassination",
+				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", 
+							"Provides [3] [Iron] <before the [Age of Magic]>",
+							"Provides [3] [Warpstone] <starting from the [Age of Magic]>"],
+				"requires": ["Bribery","Poisoning"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Deception Complete",
+                "uniques": [
+                    "[+100]% spy effectiveness [in all cities]",
+					"City-State territory always counts as friendly territory",
+					"Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns."
+                ]
+			}
+		]
+	},
+	{
 		"name": "Piety",
 		"era": "Age of Magic",
 		"priorities": {
@@ -487,7 +550,7 @@
 		]
 	},
 	{
-		"name": "Quixotic A",
+		"name": "Order",
 		"era": "Industrial age",
 		"priorities": {
 			"Neutral": 50,
@@ -498,7 +561,7 @@
 		},
 		"uniques": ["[+25]% Great Person generation [in all cities]", 
 					"[+3 Happiness] [in capital]", 
-					"Only available <before adopting [Quixotic B]>"],
+					"Only available <before adopting [Chaos]>"],
 		"policies": [
 			{
 				"name": "Civil Society",
@@ -534,7 +597,7 @@
 				"column": 4
 			},
 			{
-				"name": "Quixotic A Complete",
+				"name": "Order Complete",
 				"uniques": ["[+50]% Yield from every [Great Improvement]", 
 							"[+50]% Golden Age length", 
 							"[+1 Food, +1 Science, +1 Culture] [in all cities]"
@@ -543,7 +606,7 @@
 		]
 	},
 	{
-		"name": "Quixotic B",
+		"name": "Chaos",
 		"era": "Industrial age",
 		"priorities": {
 			"Neutral": 50,
@@ -554,7 +617,7 @@
 		},
 		"uniques": ["[-33]% maintenance costs <for [All] units>", 
 					"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately", 
-					"Only available <before adopting [Quixotic A]>"],
+					"Only available <before adopting [Order]>"],
 		"policies": [
 			{
 				"name": "Populism",
@@ -594,7 +657,7 @@
 				"column": 4
 			},
 			{
-				"name": "Quixotic B Complete",
+				"name": "Chaos Complete",
 				"uniques": ["[+2 Production] [in all cities]", 
 							"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>"
 				]
