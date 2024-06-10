@@ -194,8 +194,8 @@
 			"Neutral": 0,
 			"Cultural": 0,
 			"Diplomatic": 20,
-			"Domination": 10,
-			"Scientific": 10
+			"Domination": 0,
+			"Scientific": 20
 		},
 		"uniques": [
 			"Gain an extra spy"

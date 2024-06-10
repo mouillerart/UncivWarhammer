@@ -2774,8 +2774,7 @@
 					"Damage is ignored when determining unit Strength", 
 					"Cannot be purchased",
 					"Never appears as a Barbarian unit",
-					"Free [Skeletal Warrior] appears <upon being defeated> <with [25]% chance>",
-					"Undead"],
+					"Free [Skeletal Warrior] appears <upon being defeated> <with [25]% chance>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."}
@@ -2794,12 +2793,11 @@
 					"Damage is ignored when determining unit Strength", 
 					"Cannot be purchased",
 					"Free [Skeletal Champion] appears <upon being defeated> <with [25]% chance>",
-					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [25]% chance>", 
-					"Undead"],
+					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [25]% chance>"],
 		"promotions": ["Great Generals I"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Eter,nal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."},
+			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."},
 			{"text": "Call of the dead: any killed unit has a 25% chance of being raised as [Skeletal Warrior]."}
 		]
 	},
@@ -2817,8 +2815,7 @@
 		"upgradesTo": "Tomb King",
 		"uniques": ["Uncapturable",
 					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [50]% chance>", 
-					"Free [Tomb Captain] appears <upon being defeated> <with [25]% chance>",
-					"Undead"],
+					"Free [Tomb Captain] appears <upon being defeated> <with [25]% chance>"],
 		"promotions": ["Great Generals II"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -2839,8 +2836,7 @@
 		"uniques": ["Uncapturable",
 					"Free [Skeletal Warrior] appears <upon defeating a [Wounded] unit> <with [75]% chance>", 
 					"Free [Tomb King] appears <upon being defeated> <with [25]% chance>",
-					"Can see invisible [Land] units", 
-					"Undead"],
+					"Can see invisible [Land] units"],
 		"attackSound": "nonmetalhit",
 		"promotions": ["Great Generals II"],
 		"civilopediaText": [
@@ -2902,8 +2898,7 @@
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
 					"Never appears as a Barbarian unit",
-					"Free [Skeletal Archer] appears <upon being defeated> <with [25]% chance>",
-					"Undead"],
+					"Free [Skeletal Archer] appears <upon being defeated> <with [25]% chance>"],
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "Eternal army: -20% strength. Any unit with the eternal army promotion has a 25% chance of being resurrected."}
@@ -2966,8 +2961,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Ushabti",
 		"uniques": ["[+25]% XP gained from combat", 
-					"Free [Skeletal Spearman] appears <upon being defeated> <with [25]% chance>",
-					"Undead"],
+					"Free [Skeletal Spearman] appears <upon being defeated> <with [25]% chance>"],
 		"promotions": ["Highly Trained"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit",
@@ -2988,8 +2982,7 @@
 		"upgradesTo": "Sepulchral Stalker",
 		"requiredBuilding": "Tomb",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
-					"Free [Ushabti] appears <upon being defeated> <with [25]% chance>",
-					"Undead"],
+					"Free [Ushabti] appears <upon being defeated> <with [25]% chance>"],
 		"attackSound": "metalhit" 
 	},
 	{
@@ -3005,8 +2998,7 @@
 		"upgradesTo": "Tomb Herald",
 		"requiredBuilding": "Tomb",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
-					"Free [Tomb Guard] appears <upon being defeated> <with [25]% chance>",
-					"Undead"],
+					"Free [Tomb Guard] appears <upon being defeated> <with [25]% chance>"],
 		"attackSound": "metalhit" 
 	},
 	{
@@ -3022,8 +3014,7 @@
 		"upgradesTo": "Sepulchral Stalker",
 		"requiredResource": "Iron",
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
-					"Free [Tomb Herald] appears <upon being defeated> <with [25]% chance>",
-					"Undead"],
+					"Free [Tomb Herald] appears <upon being defeated> <with [25]% chance>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A large and powerful unit used to breach enemy fortifications. It has sturdy head and shoulder used to ram into buildings and has bonuses against structures, such as increased damage and resistance to counterattacks."}
@@ -3042,8 +3033,7 @@
 		"upgradesTo": "Necrolith Colossus",
 		"requiredBuilding": "Tomb",
 		"promotions": ["Formation"],
-		"uniques": ["Invisible to non-adjacent units",
-					"Undead"],
+		"uniques": ["Invisible to non-adjacent units"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "'These sentinels mark the borders of the Tomb Kings' realm, submerged in the sand, waiting to strike at the unsuspecting.' —The Sepulchral Stalkers."}
@@ -4338,7 +4328,7 @@
 		"requiredTech": "Necromancy",
 		"movement": 2,
 		"strength": 20,
-		"uniques": ["Ignore terrain cost","Never appears as a Barbarian unit"],
+		"uniques": ["Ignores terrain cost","Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": ""}

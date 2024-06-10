@@ -16,7 +16,13 @@
 				"name": "Old World",
 				"row": 3,
 				"uniques": ["Only available <for [Reikland]>","Only available <for [Kislev]>","Only available <for [Tilea]>","Only available <for [Estalia]>"],
-				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia"
+				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia",
+				"civilopediaText": [
+					{"text": "The Old World, called Elthin Arvan in the Eltharin language of the Elves, is the northwestern region of the Known World's sprawling eastern continent. It is the region of that great landmass where most of the realms of Men are located and is usually defined as the area west of the Worlds Edge Mountains, north of the Blood River and the Dwarf sea fortress of Barak Varr and south of the Troll Country. To its south lies the Badlands and the Southlands and eastward stretches the vast and mysterious Far East."},
+					{"text": "The Old World is home to the Human realms of the Empire, Kislev, Bretonnia, Tilea, Estalia, the independent city-state of Marienburg in the Wasteland, the Elven forest of Athel Loren, and the lawless Border Princes, as well as several Dwarf holds of the Karaz Ankor."},
+					{"text": "Contact with the High Elves and Dwarfs is maintained by most of the states of Men in the Old World, primarily for the pursuit of rich trading and commercial opportunities. However, the vast majority of the settled population of the Old World knows little about the wider world beyond the lands they call home."}
+				]
+
 			},
 			{
 				"name": "Knightly Virtues",
@@ -27,7 +33,11 @@
 			{
 				"name": "Dwarven Ingenuity",
 				"row": 5,
-				"uniques": ["Only available <for [Dwarfs]>","Only available <for [Chaos Dwarfs]>"],
+				"uniques": [
+					"Only available <for [Dwarfs]>","Only available <for [Chaos Dwarfs]>",
+					"[Recon] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>",
+					"[Sword] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>"
+					],
 				"quote": "This is a free advance granted to all dwarfs factions."
 			},
 			{
@@ -81,7 +91,12 @@
 			{
 				"name": "Underworld",
 				"row": 14,
-				"uniques": ["Only available <for [Skaven]>","Gain an extra spy"],
+				"uniques": [
+					"Only available <for [Skaven]>",
+					"Gain an extra spy",
+					"[Recon] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>",
+					"[Sword] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>"
+					],
 				"quote": "This is a free advance granted to Skaven"
 			},
 			{
@@ -281,21 +296,21 @@
 				"quote": ""
 			},
 			{
-				"name": "Loren Magic",
-				"row": 11,
-				"uniques": ["Only available <for [Loren]>"],
-				"prerequisites": ["Raw Magic"],
-				"quote": ""
-			},
-			{
 				"name": "Necromancy",
 				"row": 10,
 				"prerequisites": ["Ceremonial Burial","Raw Magic"],
 				"quote": ""
 			},
 			{
+				"name": "Loren Magic",
+				"row": 12,
+				"uniques": ["Only available <for [Loren]>"],
+				"prerequisites": ["Raw Magic"],
+				"quote": ""
+			},
+			{
 				"name": "Magic of the Horned Rat",
-				"row": 14,
+				"row": 13,
 				"uniques": ["Only available <for [Skaven]>"],
 				"prerequisites": ["Raw Magic"],
 				"quote": ""
@@ -430,6 +445,16 @@
 		"buildingCost": 115,
 		"wonderCost": 235,
 		"techs": [
+			{
+				"name": "Underway",
+				"row": 6,
+				"prerequisites": ["Roads","Construction"],
+				"quote": "",
+				"civilopediaText": [
+					{"text": "The Underway, called the Ungdrin Ankor in the Dwarf tongue of Khazalid, is the name given to the vast, inter-continental highway of subterranean tunnels constructed by the Dwarfs that had at one time stretched the entirety of the World's Edge Mountains from the frozen peaks of the north to the lush jungles of the south."},
+					{"text": "Monsters of all kind lurk in even the broadest and most structurally sound sections, with a significant population of Skaven and Night Goblin tribes also taking residence. In more recent years, Dwarf expeditionary armies have managed to clear and repair a few of these tunnels to help link the scattered Holds of the Dwarfs together."}
+				]
+			},			
 			{
 				"name": "Stirrups",
 				"row": 7,

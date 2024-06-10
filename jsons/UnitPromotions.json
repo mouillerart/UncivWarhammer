@@ -1047,6 +1047,10 @@
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
+		"name": "Coming from Beneath", 
+		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory"]
+	},
+	{
 		"name": "Reactive Armor", // Dwarfs
 		"uniques": ["May withdraw before melee ([66]%)"]
 	},

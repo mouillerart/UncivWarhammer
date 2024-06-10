@@ -30,6 +30,7 @@
 		"adjective": ["Reiklanders"],
 		"startBias": ["Fresh Water", "Forest"],
 		"preferredVictoryType": "Diplomatic",
+		"personality": "Monarch",
 		"favoredReligion": "Cult of Sigmar",
 		"style": "Human",
 		
@@ -84,6 +85,7 @@
 		"leaderName": "Gilles Le Breton",
 		"adjective": ["Bretonnians"],
 		"preferredVictoryType": "Diplomatic",
+		"personality": "Royarch",
 		"favoredReligion": "Lady of the Lake",
 		"style": "Human",
 		"outerColor": [0, 0, 204],
@@ -127,6 +129,7 @@
 		"startBias": ["Hill"],
 		"favoredReligion": "Ancestor Gods",
 		"preferredVictoryType": "Scientific",
+		"personality": "Monarch",
 		"style": "Dwarven",
 		"outerColor": [86, 151,216],
 		"innerColor": [255,255,255],
@@ -199,6 +202,7 @@
 		"outerColor": [105, 34,0]
 		"leaderName": "Tzarina Katarin Bokha",
 		"adjective": ["Kislevites"],
+		"personality": "Monarch",
 		"startBias": ["Tundra"],
 		"style": "Human",
 		"outerColor": [204, 255,255],
@@ -350,6 +354,7 @@
 		"leaderName": "Don Jose Paul",
 		"adjective": ["Estalians"],
 		"style": "Human",
+		"personality": "Monarch",
 		"outerColor": [209, 106, 10],
 		"innerColor": [0,0,0],
 		
@@ -381,6 +386,7 @@
 		"leaderName": "Borgio",
 		"adjective": ["Tileans"],
 		"style": "Human",
+		"personality": "Monarch",
 		"outerColor": [196, 182, 76],
 		"innerColor": [178, 0, 0],
 
@@ -490,7 +496,7 @@
 		"name": "Skaven",
 		"leaderName": "Skyre",
 		"adjective": ["Skaven"],
-		"startBias": ["Tundra"],
+		"startBias": ["Marsh"],
 		"style": "Beastmen",
 		"favoredReligion": "Cult of the Horned Rat",
 		"outerColor": [181, 101, 29],
@@ -515,8 +521,8 @@
 			{"text": "The Skaven are a race of evil rat-men who inhabit the underground of the Warhammer world. They gnaw at the roots of civilisation, eternally scheming and preparing for the day when their uncountable hordes will overrun the surface world. The only thing that keeps them in check is the constant internal strife between the clans making up their society, but one day the Grey Seers, who speak for the Horned Rat himself, will unify them and lead them to inevitable victory."},
 			{"separator": true},
 			{"text": "Tips to play:"},
-			{"text": "..."},
-			{"text": "..."}
+			{"text": "Spy, spy, spy!"},
+			{"text": "In Warhammer Full World map, Skavenblight is surrended by many human or elven nations. Go as fast as possible to create a skaven settler to found Hell Pit wherever possible. Sailing might help you to go beyond the Old World."}
 		]
 	}
 	,
@@ -607,7 +613,9 @@
 		"outerColor": [172,138,19],
 		"innerColor": [255,255,255],
 		
-		"uniques": ["Starts with [Greenskin]"],
+		"uniques": ["Starts with [Greenskin]",
+					"[Recon] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>",
+					"[Sword] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>"],
 		"cities": ["Crooked Moon","Moonjaw","Shifties","Red Eye","Burnin’ Face","Da Krawlas","Skull Crag","Yellow Eye","Dog Boyz","Creeping Death"],
 
 		"declaringWar": "I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.",
@@ -670,6 +678,7 @@
 		"adjective": ["Arabyans"],
 		"startBias": ["Desert","Oasis"],
 		"style": "Human",
+		"personality": "Monarch",
 		"outerColor": [255, 255, 0],
 		"innerColor": [255,0,0],
 		
@@ -895,6 +904,7 @@
 		"adjective": ["Albioners"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Monarch",
 		"style": "Human",
 		"outerColor": [79,120,79]
 		"innerColor": [222,198,108],
@@ -960,6 +970,7 @@
 		"leaderName": "Wu",
 		"adjective": ["Cathayans"],
 		"style": "Human",
+		"personality": "Monarch",
 		"outerColor": [255, 192, 203],
 		"innerColor": [75, 0, 130],
 		
@@ -994,6 +1005,7 @@
 		"adjective": ["Nipponese"],
 		"startBias": ["Coast"],
 		"style": "Human",
+		"personality": "Monarch",
 		
 		"declaringWar": "Even monkeys sometimes fall from the trees.",
 		"attacked": "What a lack of honour. So despictable.",
