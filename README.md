@@ -85,7 +85,7 @@ Sword units
 
 | Clanrat | Stormvermin | Skaven Chieftain | Warpfire Thrower | Warplock Jezzail | Ratling Gun | Stormfiend |
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
-| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Clanrat.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Stormvermin.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skaven%20Chieftain.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warpfire%20Thrower.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warplock%2°Jezzail.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Ratling%20Gun.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Stormfiend.png?raw=true) |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Clanrat.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Stormvermin.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Skaven%20Chieftain.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warpfire%20Thrower.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warplock%20Jezzail.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Ratling%20Gun.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Stormfiend.png?raw=true) |
 
 Scouting
 | Night Runner | Gutter Runner | Death Runner |
@@ -94,7 +94,7 @@ Scouting
 
 
 Anti-cavalry
-| Plague Monkn | Plague Censer-Bearer |
+| Plague Monk | Plague Censer-Bearer |
 | --------------- | --------------- | 
 | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague%20Monk.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague%20Censer-Bearer.png?raw=true) |
 
