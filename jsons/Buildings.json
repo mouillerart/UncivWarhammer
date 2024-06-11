@@ -2515,6 +2515,16 @@
 			{"text": "The insidious Council of Thirteen is the nefarious body comprised of twelve of the most powerful Skaven clan lords that rules over the Skaven Under-Empire. Its eponymous thirteenth member is symbolically the Horned Rat. Its mortal members are known as the 'Lords of Decay'."}
 		]
 	},
+	{
+		"name": "The Under-Empire",
+		"isWonder": true,
+		"uniqueTo": "Skaven",
+		"requiredTech": "Underway",
+		"uniques": ["Land units may cross [Mountain] tiles after the first [Melee] is earned","Land units may cross [Ocean] tiles after the first [Melee] is earned"],
+		"civilopediaText": [
+			{"text": "The Under-Empire, sometimes known as Skavendom, is the name given to the massive, inter-continental, subterranean empire of the Skaven comprised of uncounted miles of tunnels and passageways that stretch across the mortal world from the ice-capped mountains of the north to the damp swamp lands of the south, and from the great plains of the Far East to the lush jungles of Lustria in the west."}
+		]
+	},
 
 	
 	{

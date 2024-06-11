@@ -513,7 +513,8 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 
-		"uniques": ["Starts with [Underworld]","[-20]% enemy spy effectiveness [in all cities]"],
+		"uniques": ["Starts with [Underworld]",
+					"[-20]% enemy spy effectiveness [in all cities]"],
 		"cities": ["Skavenblight","Hell Pit","The Black Chasm","Crookback Mountain","Foul Peak","City of Pillars","Queekwell","Bonestash","Fester Spike","Putrid Stump","Under-Altdorf","Under-Delberz","Under-Middenheim","Under-Nuln","Under-Remas","Bitter Stink","Under-Mousillon"],
 		"spyNames": ["00Skaven, license to kill-kill","Snikch","Veskit","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
 
@@ -613,9 +614,7 @@
 		"outerColor": [172,138,19],
 		"innerColor": [255,255,255],
 		
-		"uniques": ["Starts with [Greenskin]",
-					"[Recon] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>",
-					"[Sword] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>"],
+		"uniques": ["Starts with [Greenskin]"],
 		"cities": ["Crooked Moon","Moonjaw","Shifties","Red Eye","Burnin’ Face","Da Krawlas","Skull Crag","Yellow Eye","Dog Boyz","Creeping Death"],
 
 		"declaringWar": "I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.",

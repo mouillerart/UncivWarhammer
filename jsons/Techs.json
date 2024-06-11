@@ -34,9 +34,7 @@
 				"name": "Dwarven Ingenuity",
 				"row": 5,
 				"uniques": [
-					"Only available <for [Dwarfs]>","Only available <for [Chaos Dwarfs]>",
-					"[Recon] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>",
-					"[Sword] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>"
+					"Only available <for [Dwarfs]>","Only available <for [Chaos Dwarfs]>"
 					],
 				"quote": "This is a free advance granted to all dwarfs factions."
 			},
@@ -93,9 +91,7 @@
 				"row": 14,
 				"uniques": [
 					"Only available <for [Skaven]>",
-					"Gain an extra spy",
-					"[Recon] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>",
-					"[Sword] units gain the [Coming from Beneath] promotion <upon discovering [Underway] technology>"
+					"Gain an extra spy"
 					],
 				"quote": "This is a free advance granted to Skaven"
 			},
@@ -449,7 +445,13 @@
 				"name": "Underway",
 				"row": 6,
 				"prerequisites": ["Roads","Construction"],
-				"quote": "",
+				"uniques": [
+					"Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>",
+					"Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>",
+					"Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>",
+					"[Recon] units gain the [Coming from Beneath] promotion",
+					"[Melee] units gain the [Coming from Beneath] promotion"],
+				"quote": "'They are watching me now, I know. They are in the walls, under the stones, in the canals, everywhere.' -Doctor Anton Wiessang, Master Necromancer, last diary entry.",
 				"civilopediaText": [
 					{"text": "The Underway, called the Ungdrin Ankor in the Dwarf tongue of Khazalid, is the name given to the vast, inter-continental highway of subterranean tunnels constructed by the Dwarfs that had at one time stretched the entirety of the World's Edge Mountains from the frozen peaks of the north to the lush jungles of the south."},
 					{"text": "Monsters of all kind lurk in even the broadest and most structurally sound sections, with a significant population of Skaven and Night Goblin tribes also taking residence. In more recent years, Dwarf expeditionary armies have managed to clear and repair a few of these tunnels to help link the scattered Holds of the Dwarfs together."}

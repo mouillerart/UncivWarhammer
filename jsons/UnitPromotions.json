@@ -1048,7 +1048,9 @@
 	},
 	{
 		"name": "Coming from Beneath", 
-		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory"]
+		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory",
+					"Only available <after discovering [Underway]>",
+					"Only available <for [Skaven]>"]
 	},
 	{
 		"name": "Reactive Armor", // Dwarfs
