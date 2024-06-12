@@ -104,9 +104,9 @@ Cavalry
 | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Giant%20Rat.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Great%20Pox%20Rat.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Brood%20Horror.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Hell-Pit%20Abomination.png?raw=true) |
 
 Siege
-| Plague-Claw Catapult | Screaming Bell | Warp-Lightning Cannon | Plague Furnace |
+| Plague-Claw Catapult | Screaming Bell | Plague Furnace | Warp-Lightning Cannon |
 | --------------- | --------------- | --------------- | --------------- |
-| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague-Claw%20Catapult.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Screaming%20Bell.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warp-Lightning%20Cannon.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague%20Furnace.png?raw=true) |
+| ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague-Claw%20Catapult.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Screaming%20Bell.png?raw=true) | ![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Plague%20Furnace.png?raw=true) |![](https://github.com/mouillerart/UncivWarhammer/blob/master/Images/TileSets/AbsoluteUnits/Units/Warp-Lightning%20Cannon.png?raw=true) | 
 
 Armored
 | Doomwheel | Doom-Flayer |
@@ -349,3 +349,4 @@ Nations unique techs (Ancient era)
 * [Unciv Fantasia mod](https://github.com/amfauzn/Fantasia), thanks to [amfauzn](https://github.com/amfauzn) and contributors
 * Civ3's [Warhammer 2.5 ](https://forums.civfanatics.com/resources/warhammer-fantasy-mod-2-5.3833/) extension
 * Civ4's [Warhammer Fantasy Battle](https://forums.civfanatics.com/threads/warhammer-conversion-beta-download-debug-thread.247207/)
+* [Warhammer Fantasy Fandom](https://warhammerfantasy.fandom.com)
