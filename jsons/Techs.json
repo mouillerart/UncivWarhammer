@@ -15,7 +15,7 @@
 			{
 				"name": "Old World",
 				"row": 3,
-				"uniques": ["Only available <for [Reikland]>","Only available <for [Kislev]>","Only available <for [Tilea]>","Only available <for [Estalia]>"],
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [ind]>","Unavailable <for [Araby]>","Unavailable <for [Dwarfs]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>","Unavailable <for [Badmoon Goblins]>"],
 				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia",
 				"civilopediaText": [
 					{"text": "The Old World, called Elthin Arvan in the Eltharin language of the Elves, is the northwestern region of the Known World's sprawling eastern continent. It is the region of that great landmass where most of the realms of Men are located and is usually defined as the area west of the Worlds Edge Mountains, north of the Blood River and the Dwarf sea fortress of Barak Varr and south of the Troll Country. To its south lies the Badlands and the Southlands and eastward stretches the vast and mysterious Far East."},
@@ -34,14 +34,14 @@
 				"name": "Dwarven Ingenuity",
 				"row": 5,
 				"uniques": [
-					"Only available <for [Dwarfs]>","Only available <for [Chaos Dwarfs]>"
+					"Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>","Unavailable <for [Badmoon Goblins]>"
 					],
 				"quote": "This is a free advance granted to all dwarfs factions."
 			},
 			{
 				"name": "Undead Curse",
 				"row": 6,
-				"uniques": ["Only available <for [Khemri]>","Only available <for [Sylvania]>","Only available <for [Lahmia]>"],
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Dwarfs]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>","Unavailable <for [Badmoon Goblins]>"],
 				"quote": "This is a free advance granted to all undead factions."
 			},
 			{
@@ -53,19 +53,19 @@
 			{
 				"name": "Arabyan Tradition",
 				"row": 8,
-				"uniques": ["Only available <for [Araby]>","Only available <for [Ind]>"],
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Dwarfs]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Sylvania]>","Unavailable <for [Khemri]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>","Unavailable <for [Badmoon Goblins]>"],
 				"quote": "This is a free advance granted to Araby and Ind."
 			},
 			{
 				"name": "Far East",
 				"row": 9,
-				"uniques": ["Only available <for [Cathay]>","Only available <for [Nippon]>","Only available <for [Ungols]>"],
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Dwarfs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>","Unavailable <for [Badmoon Goblins]>"],
 				"quote": "This is a free advance granted to Cathay, Nippon and Ungols."
 			},
 			{
 				"name": "Channeling",
 				"row": 10,
-				"uniques": ["Only available <for [Ulthuan]>","Only available <for [Albion]>"],
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Dwarfs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Badmoon Goblins]>"],
 				"quote": "This is a free advance granted to Ulthuan and Albion."
 			},
 			{
@@ -83,7 +83,7 @@
 			{
 				"name": "Greenskin",
 				"row": 13,
-				"uniques": ["Only available <for [Ironclaw Orcs]>","Only available <for [Badmoon Goblins]>","Only available <for [Hobgobelins]>","Only available <for [Ogre Kingdoms]>"],
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Kurgan]>","Unavailable <for [Dwarfs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>"],
 				"quote": "This is a free advance granted to Ironclaw Orcs and Crooked Moon Goblins."
 			},
 			{
@@ -98,8 +98,8 @@
 			{
 				"name": "Chaos",
 				"row": 15,
-				"uniques": ["Only available <for [Beastmen]>","Only available <for [Hordes of Chaos]>","Only available <for [Ironclaw Orcs]>","Only available <for [Badmoon Goblins]>","Only available <for [Hobgobelins]>","Only available <for [Ogre Kingdoms]>","Only available <for [Chaos Dwarfs]>"],
-				"quote": "This is a free advance granted to Beastmen, Hordes of Chaos, Chaos Dwarfs, Ironclaw Orcs and Crooked Moon Goblins."
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Dwarfs]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Badmoon Goblins]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>"],
+				"quote": "This is a free advance granted to Beastmen, Hordes of Chaos and Chaos Dwarfs."
 			}
 		]
 	},
@@ -307,7 +307,7 @@
 			{
 				"name": "Magic of the Horned Rat",
 				"row": 13,
-				"uniques": ["Only available <for [Skaven]>"],
+				"uniques": ["Only available <for [Skaven]>","[+50]% [Science] [in all cities]"],
 				"prerequisites": ["Raw Magic"],
 				"quote": ""
 			}
@@ -1056,25 +1056,25 @@
 			{
 				"name": "Refrigeration",
 				"row": 3,
-				"prerequisites": ["Biology","Empowerment","Dwarven Ingenuity"],
+				"prerequisites": ["Biology","Empowerment"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
 				"name": "Replaceable Parts",
 				"row": 4,
-				"prerequisites": ["Empowerment","Dwarven Ingenuity"],
+				"prerequisites": ["Empowerment"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
 			{
 				"name": "Flight",
 				"row": 5,
-				"prerequisites": ["Mana Battery","Dwarven Ingenuity"],
+				"prerequisites": ["Mana Battery"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "Combustion",
 				"row": 8,
-				"prerequisites": ["Refining","Railroads","Dwarven Ingenuity"],
+				"prerequisites": ["Refining","Railroads"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			}
 		]

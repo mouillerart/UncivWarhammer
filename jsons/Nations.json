@@ -30,7 +30,7 @@
 		"adjective": ["Reiklanders"],
 		"startBias": ["Fresh Water", "Forest"],
 		"preferredVictoryType": "Diplomatic",
-		"personality": "Monarch",
+		"personality": "God-Emperor",
 		"favoredReligion": "Cult of Sigmar",
 		"style": "Human",
 		
@@ -145,6 +145,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Dwarven Ingenuity]",
+			"Comment [Dwarven]",
 			"[+10]% Strength <within [2] tiles of a [Mountain]>", 
 			"Units ignore terrain costs when moving into any tile with Hills",
 			"Land units may cross [Mountain] tiles after the first [Great Person] is earned",
@@ -278,6 +279,7 @@
 		"adjective": ["High Elves"],
 		"startBias": ["Coast"],
 		"favoredReligion": "Elven Gods",
+		"personality": "Warborn",
 		"style": "Elven",
 		"outerColor": [5, 164, 167],
 		"innerColor": [255,255,255],
@@ -658,7 +660,7 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]"],
+		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]","Comment [Dwarven]"],
 		"cities": ["Zharr-Naggrund","Uzkulak","Gorgoth","Daemon's Stump","Black Fortress"],
 
 		"civilopediaText": [
@@ -715,6 +717,7 @@
 		"adjective": ["Hordes of Chaos"],
 		"favoredReligion": "Chaos Gods",
 		"preferredVictoryType": "Domination",
+		"personality": "Everchosen of Chaos",
 		"style": "Demonic",
 		"outerColor": [135, 78,51],
 		"innerColor": [255,255,255],
@@ -795,6 +798,7 @@
 		"leaderName": "Greysnarl",
 		"adjective": ["Beastmen"],
 		"startBias": ["Forest","Jungle"],
+		"personality": "Jungle Emperor",
 		"style": "Beastmen",
 		"favoredReligion": "Chaos Gods",
 		"preferredVictoryType": "Domination",
@@ -835,6 +839,7 @@
 		"leaderName": "Kroak",
 		"adjective": ["Lizardmen"],
 		"startBias": ["Jungle"],
+		"personality": "Ancient Prophet",
 		"style": "Lizardmen",
 		"favoredReligion": "The Old Ones",
 		"outerColor": [0, 139, 139],
@@ -969,7 +974,7 @@
 		"leaderName": "Wu",
 		"adjective": ["Cathayans"],
 		"style": "Human",
-		"personality": "Monarch",
+		"personality": "Harmonious Warchief",
 		"outerColor": [255, 192, 203],
 		"innerColor": [75, 0, 130],
 		

@@ -122,7 +122,7 @@
 		"faith": 2,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["Unbuildable <before discovering [Words of Salvation]>"],
+		"uniques": ["Unbuildable <before discovering [Mysticism]>"],
 		"requiredTech": "Old World",
 		"civilopediaText": [
 			{"text": ""}
@@ -2422,6 +2422,18 @@
 		]
 	},
 	{
+		"name": "Black Pillar of Commandments",
+		"isWonder": true,
+		"production": 4,
+		"isWonder": true,
+		"uniques": ["[3] Free Social Policies"],
+		"uniqueTo": "Skaven",
+		"requiredTech": "Magic of the Horned Rat",
+		"civilopediaText": [
+			{"text": "The Black Pillar of Commandments, also called the Pillar of Commandments or simply the Black Pillar, is a great pillar of black, obsidian-like stone made from pure warpstone located in the Skaven Under-Empire's subterranean capital city of Skavenblight. Upon it has been inscribed the 169 commandments of their deity the Horned Rat for his children the Skaven. The pillar has thirteen sides, each containing thirteen edicts from the Horned Rat himself. Many are contradictory, but this is seen as evidence that the Horned Rat is a cunning and duplicitous god, and expects the same from his verminous children."}
+		]
+	},
+	{
 		"name": "Word of the Old Ones",
 		"isWonder": true,
 		"faith": 4,
@@ -2509,7 +2521,7 @@
 		"isWonder": true,
 		"faith": 4,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Chronicles]>","[+20]% spy effectiveness [in all cities]","Gain an extra spy"],
+		"uniques": ["Unbuildable <before discovering [Chronicles]>","[+50]% spy effectiveness [in all cities]","Gain an extra spy"],
 		"requiredTech": "Underworld",
 		"civilopediaText": [
 			{"text": "The insidious Council of Thirteen is the nefarious body comprised of twelve of the most powerful Skaven clan lords that rules over the Skaven Under-Empire. Its eponymous thirteenth member is symbolically the Horned Rat. Its mortal members are known as the 'Lords of Decay'."}

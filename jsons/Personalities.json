@@ -109,7 +109,7 @@
 		],
     },
     {
-		// Used By: Aeronia
+		// Used By: Ulthuan
         "name": "Warborn", 
 		"preferredVictoryType": "Culture",
 		"production": 7.5,
@@ -144,7 +144,7 @@
 		],
     },
     {
-		// Used By: Imperia
+		// Used By: Reikland
         "name": "God-Emperor", 
 		"preferredVictoryType": "Cultural",
 		"production": 5.0,
@@ -179,7 +179,7 @@
 		],
     },
     {
-		// Used By: Onuqi
+		// Used By: Cathay
         "name": "Harmonious Warchief", 
 		"preferredVictoryType": "Cultural",
 		"production": 5.0,
@@ -214,7 +214,7 @@
 		],
     },
     {
-		// Used By: Ssu'vi.
+		// Used By: Slann.
         "name": "Ancient Prophet", 
 		"preferredVictoryType": "Culture",
 		"production": 5.0,
@@ -245,7 +245,7 @@
 		],
     },
     {
-		// Used By: Terazi.
+		// Used By: Beastmen.
         "name": "Jungle Emperor", 
 		"preferredVictoryType": "Domination",
 		"production": 5.0,

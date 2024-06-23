@@ -234,7 +234,7 @@
 			{
 				"name": "Assassination",
 				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", 
-							"Provides [3] [Iron] <before the [Age of Magic]>",
+							"Provides [3] [Iron]",
 							"Provides [3] [Warpstone] <starting from the [Age of Magic]>"],
 				"requires": ["Bribery","Poisoning"],
 				"row": 3,

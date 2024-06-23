@@ -441,7 +441,7 @@
 		"cost": 225,
 		"requiredTech": "Knightly Orders",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Unbuildable", "Only available <if [The Knights Panther] is constructed>", 
+		"uniques": ["Only available <if [The Knights Panther] is constructed>", 
 					"Can move after attacking",
 					"No defensive terrain bonus",
 					"Never appears as a Barbarian unit"],
@@ -459,7 +459,7 @@
 		"cost": 225,
 		"requiredTech": "Knightly Orders",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Unbuildable", "Only available <if [Order of the White Wolf] is constructed>", 
+		"uniques": ["Only available <if [Order of the White Wolf] is constructed>", 
 					"Can move after attacking",
 					"No defensive terrain bonus",
 					"Never appears as a Barbarian unit"],
@@ -477,7 +477,7 @@
 		"cost": 225,
 		"requiredTech": "Knightly Orders",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Unbuildable", "Only available <if [Order of the Fiery Heart] is constructed>", 
+		"uniques": ["Only available <if [Order of the Fiery Heart] is constructed>", 
 					"Can move after attacking",
 					"No defensive terrain bonus",
 					"[+25]% Strength <when attacking>"
@@ -496,7 +496,7 @@
 		"cost": 225,
 		"requiredTech": "Knightly Orders",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Unbuildable", "Only available <if [The Brotherhood of the Bear] is constructed>", 
+		"uniques": [ "Only available <if [The Brotherhood of the Bear] is constructed>", 
 					"Can move after attacking",
 					"[+1] Movement <in [Forest] tiles>", 
 					"[+1] Movement <in [Hill] tiles>", 
@@ -2783,6 +2783,8 @@
 	{
 		"name": "Skeletal Champion",
 		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Khemri",
 		"movement": 2,
 		"strength": 16,
 		"cost": 80,
@@ -3450,7 +3452,7 @@
 		"upgradesTo": "Warpfire Thrower",
 		"uniques": ["[+10] HP when healing", 
 					"Preachable"],
-		"promotions": ["Plunderer"],
+		"promotions": ["Elusive","Plunderer"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Death Runners, also spelled Deathrunners, are the Champions of the Skaven Clan Eshin's Gutter Runner regiments, either leading a host of their lesser brethren or making up in whole a deadly cadre of assassins themselves."}
@@ -3524,7 +3526,7 @@
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Gunpowder",
-		"upgradesTo": "Warp-Lightning Cannon",
+		"upgradesTo": "Plague Furnace",
 		"uniques": ["No defensive terrain bonus", 
 					"Must set up to ranged attack", 
 					"[-1] Sight", "Never appears as a Barbarian unit"],
@@ -3534,7 +3536,7 @@
 		]
 	},
 	{
-		"name": "Warp-Lightning Cannon",
+		"name": "Plague Furnace",
 		"unitType": "Siege",
 		"replaces": "Cannon",
 		"uniqueTo": "Skaven",
@@ -3544,7 +3546,7 @@
 		"cost": 280,
 		"requiredResource": "Warpstone",
 		"requiredTech": "Gunpowder",
-		"upgradesTo": "Plague Furnace",
+		"upgradesTo": "Warp-Lightning Cannon",
 		"obsoleteTech": "Dynamite",
 		"uniques": ["No defensive terrain bonus", 
 					"Must set up to ranged attack", 
@@ -3555,7 +3557,7 @@
 		]
 	},
 	{
-		"name": "Plague Furnace",
+		"name": "Warp-Lightning Cannon",
 		"unitType": "Siege",
 		"replaces": "Howitzer",
 		"uniqueTo": "Skaven",
