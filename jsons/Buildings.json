@@ -2644,7 +2644,7 @@
 		"cost": 5,
 		"uniques": ["May buy [Aragand] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Aragand] appears", 
+			        "Gain a free [Portal] [in this city]", "Free [Aragand] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Aragand for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",

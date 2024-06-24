@@ -305,8 +305,15 @@
 				"quote": ""
 			},
 			{
-				"name": "Magic of the Horned Rat",
+				"name": "Corruption of Chaos",
 				"row": 13,
+				"uniques": ["[Wounded] units gain the [Seductive Submission] promotion"],				
+				"prerequisites": ["Raw Magic","Warrior Code"],
+				"quote": ""
+			}
+			{
+				"name": "Magic of the Horned Rat",
+				"row": 14,
 				"uniques": ["Only available <for [Skaven]>","[+50]% [Science] [in all cities]"],
 				"prerequisites": ["Raw Magic"],
 				"quote": ""
@@ -556,12 +563,6 @@
 				"prerequisites": ["Raw Magic","Chaos"],
 				"quote": ""
 			},
-			{
-				"name": "Corruption of Chaos",
-				"row": 13,
-				"prerequisites": ["Raw Magic","Philosophy"],
-				"quote": ""
-			}
 		]
 	},
 	{

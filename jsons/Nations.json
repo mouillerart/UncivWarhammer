@@ -297,7 +297,8 @@
 		"uniques": ["Starts with [Channeling]",
 					"Enables embarkation for land units <starting from the [Ancient age]>", 
 					"Enables [All] units to enter ocean tiles <starting from the [Age of Magic]>",
-					"Defense bonus when embarked <for [All] units>"],
+					"Defense bonus when embarked <for [All] units>",
+					"Comment [Elven]"],
 		"cities": ["Avelorn","Eataine","Caledor","Ellyrion","Saphery","Yvresse","Cothique","Chrace","Nagarythe","Tiranoc"],
 
 		"civilopediaText": [
@@ -338,7 +339,8 @@
 					"Comment [Cannot build [Lumber mill] improvement]", 
 					"Comment [May build [Plantation] improvement without removing Forest]", 
 					"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
-					"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
+					"[+15]% Strength <in [Forest] tiles> <for [All] units>",
+					"Comment [Elven]"],
 		"cities": ["Athel Loren","Tor Lithanel","Torgovann","Cavaroc","Atylwyth","Cythral","Modryn","Talsyn","Wydrioth","Fyr Darric","Anmyr","Tirsyth","Arcwylon","Arranoc"],
 
 		"civilopediaText": [
@@ -470,15 +472,16 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["[+2 Food, +1 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Mountain] tiles>", 
+		"uniques": ["[+2 Food, +1 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Tundra] tiles>", 
 					"Free [Settler] appears <upon discovering [Calendar] technology>", 
 					"Free [Warrior] appears <upon constructing [Courthouse]> <upon discovering [Warrior Caste] technology>", 
-					"Free [Gutter Runner] appears <upon constructing [Courthouse]> <upon discovering [Iron Working] technology>",
+					"Free [Swordsman] appears <upon constructing [Courthouse]> <upon discovering [Iron Working] technology>",
 					"Free [Longswordsman] appears <upon constructing [Courthouse]> <upon discovering [Steel] technology>",
 					"Free [Musketman] appears <upon constructing [Courthouse]> <upon discovering [Gunpowder] technology>",
 					"Free [Rifleman] appears <upon constructing [Courthouse]> <upon discovering [Rifling] technology>",
 					"Free [Infantry] appears <upon constructing [Courthouse]> <upon discovering [Replaceable Parts] technology>",
-					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <upon discovering [Lasers] technology>"], 
+					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <upon discovering [Lasers] technology>",
+					"Comment [Elven]"], 
 		"cities": ["Naggarond","Ghrond","Karond Kar","Har Ganeth","Hag Graef","Clar Karond","","","",""],
 
 		"civilopediaText": [
@@ -549,7 +552,7 @@
 		"hateHello": "Grrrr...",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Greenskin]",
+		"uniques": ["Starts with [Greenskin]","Comment [Greenskin]",
 					"[+10]% Strength <for [{Melee} {Land}] units>", 
 					"No movement cost to pillage <for [Land] units>", 
 					"[+20]% Strength for cities <when defending>", 
@@ -589,7 +592,7 @@
 		"tradeRequest": "Wanna trade or wanna be stomped?",
 		
 
-		"uniques": ["Starts with [Greenskin]"],
+		"uniques": ["Starts with [Greenskin]","Comment [Greenskin]"],
 		"cities": ["Iron Rock","Maad Dog Pass","Fire Mountain","Black Fire Pass","Krimson Killerz","Blue Face","White Orcs","White Skullz","Yellow Eye","Red Fangs"],
 
 		"civilopediaText": [
@@ -616,7 +619,7 @@
 		"outerColor": [172,138,19],
 		"innerColor": [255,255,255],
 		
-		"uniques": ["Starts with [Greenskin]"],
+		"uniques": ["Starts with [Greenskin]","Comment [Greenskin]"],
 		"cities": ["Crooked Moon","Moonjaw","Shifties","Red Eye","Burnin’ Face","Da Krawlas","Skull Crag","Yellow Eye","Dog Boyz","Creeping Death"],
 
 		"declaringWar": "I'm gonna bash 'eads, break faces and jump up and down on da bits dat are left.",
@@ -734,12 +737,14 @@
 		
 
 		"uniques": ["Starts with [Chaos]",
+					"[+2 Food, +2 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Snow] tiles>",
 					"Enemy [Military] units must spend [1] extra movement points when inside your territory <if [Infernal Gate] is constructed>", 
 					"[+1 Happiness] from every [Barracks] <in cities with a [Infernal Gate]>", 
 					"[+1 Happiness] from every [Armory] <in cities with a [Infernal Gate]>", 
 					"[+1 Happiness] from every [Knight Academy] <in cities with a [Infernal Gate]>", 
 					"Gain a free [Black Hole] [in capital]", 
-					"[-1 Faith] from every [Portal] <before the [Age of Magic]>", 
+					"Receive a free Great Person at the end of every [comment] (every 394 years), after researching [Corruption of Chaos]. Each bonus person can only be chosen once.",
+					//"[-1 Faith] from every [Portal] <before the [Age of Magic]>", 
 					"Cannot build [Infantry Hero] units", 
 					"Cannot build [Anti-Cav Hero] units", 
 					"Cannot build [Cavalry Hero] units", 
