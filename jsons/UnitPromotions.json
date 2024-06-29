@@ -1088,6 +1088,10 @@
 		"uniques": ["May capture killed [Land] units"]
 	},
 	{
+		"name": "Aqshy", // Lore of Fire
+		"uniques": ["Can carry [1] [Fireblast] units"]
+	},
+	{
 		"name": "Snowman", // Norsca
 		"uniques": ["[+1] Movement <in [Tundra] tiles>", "Double movement in [Snow]"]
 	},

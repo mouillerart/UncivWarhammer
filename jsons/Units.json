@@ -934,6 +934,26 @@
 			{"text":"Mage unit, doesn't vulnerable in close combat."}
 		]
 	},
+
+	{
+		"name": "Shadowmancer",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["Camouflage"],
+		"requiredTech": "Lore of Shadows",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Grey College",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
 	
 	// Construct
 	{
