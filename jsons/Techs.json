@@ -308,7 +308,7 @@
 				"name": "Corruption of Chaos",
 				"row": 13,
 				"uniques": ["[Wounded] units gain the [Seductive Submission] promotion"],				
-				"prerequisites": ["Raw Magic","Warrior Code"],
+				"prerequisites": ["Raw Magic","Warrior Code","Chaos"],
 				"quote": ""
 			}
 			{
@@ -696,31 +696,31 @@
 				"name": "Grail Quest",
 				"row": 4,
 				"prerequisites": ["Knightly Virtues","Knightly Orders"],
-				"quote": "'That which 8is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
+				"quote": "'That which8is sacrosanct I shall preserve. That which is sublime I will protect. That which threatens I will destroy. For my holy wrath will know no bounds...'  —The Grail Vow."
 			},
 			{
 				"name": "Bloodlust of Khorne",
 				"row": 6,
-				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"prerequisites": ["Corruption of Chaos"],
 				"quote": ""
 			},
 			{
 				"name": "Slaanesh's Pleasures",
 				"row": 7,
-				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"prerequisites": ["Corruption of Chaos"],
 				"quote": ""
 			},
 			{
 				"name": "Gifts of the Plagued One",
 				"row": 8,
-				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"prerequisites": ["Corruption of Chaos"],
 				"quote": ""
 			},
 			{
 				"name": "Lore of Change",
 				"row": 9,
 				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>"],
-				"prerequisites": ["Chaos","Corruption of Chaos"],
+				"prerequisites": ["Corruption of Chaos"],
 				"quote": ""
 			},
 			{

@@ -3009,6 +3009,8 @@
 	},
 	{
 		"name": "Coven",
+		"science": 1,
+		"faith": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Raw Magic",
