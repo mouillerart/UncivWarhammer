@@ -1521,6 +1521,7 @@
 		"name": "Gemcutter",
 		"cost": 150,
 		"happiness": 1,
+		"gold": 2,
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Amber","Gems","Jade"],
 		"hurryCostModifier": 25,
@@ -3317,7 +3318,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Machinery",
-		"uniques": ["[32] Free Technologies"],
+		"uniques": ["[3] Free Technologies"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3349,7 +3350,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Steel",
-		"uniques": [],
+		"uniques": ["[+100]% [Production] [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3361,16 +3362,6 @@
 		"gold": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Guilds",
-		"uniques": [],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Heroic Epic",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"requiredTech": "Warrior Code",
 		"uniques": [],
 		"civilopediaText": [
 			{"text": ""}
@@ -3391,6 +3382,8 @@
 	{
 		"name": "Laboratory",
 		"maintenance": 1,
+		"production": 2,
+		"science": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Alchemy",
 		"uniques": [],
@@ -3428,7 +3421,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Military Science",
-		"uniques": [],
+		"uniques": ["New [Military] units start with [30] Experience [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3447,6 +3440,7 @@
 	{
 		"name": "Observatory",
 		"maintenance": 1,
+		"science": 4,
 		"hurryCostModifier": 0,
 		"requiredTech": "Astronomy",
 		"uniques": [],
@@ -3460,7 +3454,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Elemental Magic",
-		"uniques": [],
+		"uniques": ["Provides [3] [Magician]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3533,7 +3527,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Civil Service",
-		"uniques": [],
+		"uniques": ["[+50]% spy effectiveness [in all cities]","Gain an extra spy"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3541,6 +3535,7 @@
 	{
 		"name": "Tanner",
 		"maintenance": 1,
+		"production": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Animal Husbandry",
 		"requiredNearbyImprovedResources": ["Furs","Deer"],
@@ -3590,7 +3585,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Military Science",
-		"uniques": [],
+		"uniques": ["New [Military] units start with [45] Experience [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3613,7 +3608,7 @@
 		"faith": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Priesthood",
-		"uniques": [],
+		"uniques": ["[Land] Units adjacent to this city heal [+30] HP per turn when healing"],
 		"civilopediaText": [
 			{"text": ""}
 		]
