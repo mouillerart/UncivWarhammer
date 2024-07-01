@@ -496,7 +496,7 @@
 				"name": "Bloodbowl",
 				"cost": 95,
 				"row": 1,
-				"prerequisites": ["Trade","Brewing"],
+				"prerequisites": ["Tyranny","Brewing"],
 				"quote": ""
 			},
 			{

@@ -942,10 +942,143 @@
 		"strength": 48,
 		"rangedStrength": 55,
 		"cost": 350,
-		"promotions": ["Camouflage"],
+		"promotions": ["Camouflage","Reactive Armor"],
 		"requiredTech": "Lore of Shadows",
 		"requiredResource": "Magician",
 		"requiredBuilding": "The Grey College",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Celestial Wizard",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["De Vries' Extract","Fight Howl"],
+		"requiredTech": "Lore of Heavens",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Celestial College",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Gold Wizard",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["Plunderer","Alchemist Horizon"],
+		"requiredTech": "Lore of Metals",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Gold College",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Amethyst Wizard",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["Frightening Vibe","Vampiric Touch"],
+		"requiredTech": "Lore of Death",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Amethyst College",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Hierophant",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["Hereditary Herb","Strafe"],
+		"requiredTech": "Lore of Lights",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Light Order",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Druid",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["Hereditary Herb","Ignore terrain cost"],
+		"requiredTech": "Lore of Life",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Jade College",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Pyromancer",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["Fire Breath","Aqshy"],
+		"requiredTech": "Lore of Fire",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Bright College",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Amber Wizard",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 350,
+		"promotions": ["Pet Command","Pet Vision"],
+		"requiredTech": "Lore of Beasts",
+		"requiredResource": "Magician",
+		"requiredBuilding": "The Amber College",
 		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
 					"[+15]% Strength <vs [Military] units> <when attacking>", 
 					"[-10]% Strength <vs [Melee] units> <when defending>"],

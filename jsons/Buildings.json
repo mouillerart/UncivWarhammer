@@ -555,7 +555,7 @@
 		"uniqueTo": "Dwarfs",
 		"replaces": "Walls",
 		"cityStrength": 10,
-		"cityHealth": 25,
+		"cityHealth": 75,
 		"hurryCostModifier": 25,
 		"uniques": ["New [{Military} {Land}] units start with [15] Experience [in this city]", 
 					"Destroyed when the city is captured"],
@@ -1422,7 +1422,7 @@
 		"hurryCostModifier": 30,
 		"requiredBuilding": "Walls",
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Chivalry",
+		"requiredTech": "Lordship",
 		"civilopediaText": [
 			{"text": "A building designed to protect a Military force, civilian, and sometimes a civilization's ruler from its enemies."}
 		]
@@ -2980,6 +2980,8 @@
 	{
 		"name": "Dark Convent",
 		"maintenance": 1,
+		"faith": 2,
+		"production": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "True Dhar",
 		"uniques": [],
@@ -3115,6 +3117,7 @@
 	{
 		"name": "Vaul Forge",
 		"maintenance": 1,
+		"production": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Gromril Smithing",
 		"uniques": [],
@@ -3158,6 +3161,8 @@
 		"name": "City Walls",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
+		"cityStrength": 10,
+		"cityHealth": 50,
 		"requiredTech": "Construction",
 		"requiredBuilding": "Walls",
 		"uniques": [],
@@ -3171,16 +3176,6 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Engineering",
 		"requiredBuilding": "City Walls",
-		"uniques": [],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	{
-		"name": "Castle",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"requiredTech": "Lordship",
 		"uniques": [],
 		"civilopediaText": [
 			{"text": ""}
@@ -3201,7 +3196,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Herblore",
-		"uniques": [],
+		"uniques": ["[Land] Units adjacent to this city heal [+15] HP per turn when healing"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3212,7 +3207,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Philosophy",
-		"uniques": [],
+		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3223,7 +3218,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Literature",
-		"uniques": [],
+		"uniques": ["[2] Free Technologies"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3242,6 +3237,8 @@
 		"name": "Bloodweiser Stadium",
 		"isWonder": true,
 		"maintenance": 1,
+		"gold": 4,
+		"happiness": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Bloodbowl",
 		"uniques": [],
@@ -3274,6 +3271,7 @@
 		"name": "Floating Gardens",
 		"isWonder": true,
 		"maintenance": 1,
+		"food": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Irrigation",
 		"uniques": [],
@@ -3284,6 +3282,7 @@
 	{
 		"name": "Gallow",
 		"maintenance": 1,
+		"happiness": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Tyranny",
 		"uniques": [],
@@ -3318,7 +3317,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Machinery",
-		"uniques": [],
+		"uniques": ["[32] Free Technologies"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3358,6 +3357,8 @@
 	{
 		"name": "Grocer",
 		"maintenance": 1,
+		"food": 2,
+		"gold": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Guilds",
 		"uniques": [],
@@ -3378,6 +3379,8 @@
 	{
 		"name": "Inn",
 		"maintenance": 1,
+		"happiness": 2,
+		"gold": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Trade",
 		"uniques": [],
@@ -3398,6 +3401,7 @@
 	{
 		"name": "Library",
 		"maintenance": 1,
+		"science": 4,
 		"hurryCostModifier": 0,
 		"requiredTech": "Literature",
 		"uniques": [],
@@ -3408,6 +3412,8 @@
 	{
 		"name": "Arabyan Madrassa",
 		"maintenance": 1,
+		"science": 4,
+		"faith": 2,
 		"uniqueTo": "Araby",
 		"replaces": "Library",
 		"hurryCostModifier": 0,
@@ -3430,6 +3436,7 @@
 	{
 		"name": "Realm Stone",
 		"maintenance": 1,
+		"culture": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Lordship",
 		"uniques": [],
@@ -3461,6 +3468,8 @@
 	{
 		"name": "Philosopher's Stone",
 		"isWonder": true,
+		"science": 4,
+		"gold": 4,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Alchemy",
@@ -3484,6 +3493,7 @@
 		"name": "The Silk Route",
 		"isWonder": true,
 		"maintenance": 1,
+		"gold": 25,
 		"hurryCostModifier": 0,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Silk",
@@ -3496,6 +3506,7 @@
 		"name": "The Spice Road",
 		"isWonder": true,
 		"maintenance": 1,
+		"gold": 25,
 		"hurryCostModifier": 0,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Spices",
@@ -3507,6 +3518,7 @@
 	{
 		"name": "Slaughterhouse",
 		"maintenance": 1,
+		"food": 4,
 		"hurryCostModifier": 0,
 		"requiredTech": "Guilds",
 		"requiredResource": "Cattle",
@@ -3540,6 +3552,7 @@
 	{
 		"name": "Tailor",
 		"maintenance": 1,
+		"gold": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Crafting",
 		"requiredNearbyImprovedResources": ["Cotton","Dyes","Furs","Silk","Sheep"],
@@ -3551,6 +3564,8 @@
 	{
 		"name": "Tavern",
 		"maintenance": 1,
+		"gold": 2,
+		"happiness": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Brewing",
 		"uniques": [],
@@ -3561,6 +3576,7 @@
 	{
 		"name": "Theatre",
 		"maintenance": 1,
+		"culture": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Literature",
 		"uniques": [],
@@ -3582,6 +3598,7 @@
 	{
 		"name": "University",
 		"maintenance": 1,
+		"science": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Education",
 		"uniques": [],
@@ -3593,6 +3610,7 @@
 		"name": "Sisters of Shallya",
 		"isWonder": true,
 		"maintenance": 1,
+		"faith": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Priesthood",
 		"uniques": [],
