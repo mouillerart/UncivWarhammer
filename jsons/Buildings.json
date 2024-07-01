@@ -2993,6 +2993,8 @@
 	{
 		"name": "White Tower",
 		"maintenance": 1,
+		"faith": 2,
+		"science": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "High Magic",
 		"uniques": [],
@@ -3003,6 +3005,8 @@
 	{
 		"name": "Eternal Tower Wood",
 		"maintenance": 1,
+		"food": 2,
+		"production": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Loren Magic",
 		"uniques": [],
@@ -3027,7 +3031,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Monster Breeding",
-		"uniques": [],
+		"uniques": ["[+50]% Production when constructing [Tamer] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3037,7 +3041,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archery",
-		"uniques": [],
+		"uniques": ["[+25]% Production when constructing [Land] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3048,7 +3052,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Machinery",
 		"requiredBuilding": "Archery Range",
-		"uniques": [],
+		"uniques": ["[+50]% Production when constructing [Archery] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3058,7 +3062,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Mathematics",
-		"uniques": [],
+		"uniques": ["[+50]% Production when constructing [Siege] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3069,7 +3073,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Metallurgy",
 		"requiredBuilding": "Siege Workshop",
-		"uniques": [],
+		"uniques": ["[+100]% Production when constructing [Siege] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3079,7 +3083,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Navigation",
-		"uniques": [],
+		"uniques": ["[+25]% Production when constructing [Water] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3090,7 +3094,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Steel",
 		"requiredBuilding": "Shipyard",
-		"uniques": [],
+		"uniques": ["[+50]% Production when constructing [Water] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3100,7 +3104,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Warfare",
-		"uniques": [],
+		"uniques": ["[+50]% Production when constructing [Cavalry] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3110,7 +3114,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Smithing",
-		"uniques": [],
+		"uniques": ["[+50]% Production when constructing [Land] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3121,7 +3125,7 @@
 		"production": 10,
 		"hurryCostModifier": 0,
 		"requiredTech": "Gromril Smithing",
-		"uniques": [],
+		"uniques": ["[+100]% Production when constructing [Melee] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3131,7 +3135,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Rune Smithing",
-		"uniques": [],
+		"uniques": ["[+50]% Production when constructing [Mage] units [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3151,6 +3155,7 @@
 	{
 		"name": "Tribunal",
 		"maintenance": 1,
+		"happiness": 4,
 		"hurryCostModifier": 0,
 		"requiredTech": "Fanaticism",
 		"uniques": [],
