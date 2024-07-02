@@ -3344,6 +3344,7 @@
 		"isWonder": true,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
+		"requiredTech": "Currency",
 		"uniques": ["[+5 Gold] [in all cities]"],
 		"civilopediaText": [
 			{"text": ""}
