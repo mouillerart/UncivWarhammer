@@ -3334,7 +3334,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Construction",
-		"uniques": [],
+		"uniques": ["[+25]% City Strength from defensive buildings [in all cities]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3344,7 +3344,7 @@
 		"isWonder": true,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Unbuildable"],
+		"uniques": ["[+5 Gold] [in all cities]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3472,7 +3472,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Alchemy",
-		"uniques": [],
+		"uniques": ["Provides [3] [Magician]","Provides [3] [Philosopher's Stone]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3483,7 +3483,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Sanitation",
 		"requiredBuilding": "Aqueduct",
-		"uniques": [],
+		"uniques": ["[+2 Food] per [3] population [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
