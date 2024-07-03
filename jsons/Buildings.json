@@ -368,7 +368,6 @@
 	},
 	{
 		"name": "The Amber College",
-		"cost": 750,
 		"isWonder": true,
 		"requiredBuilding": "Wizards' Guild",
 		"maintenance": 1,
@@ -382,11 +381,11 @@
 	},
 	{
 		"name": "The Amethyst College",
-		"cost": 750,
 		"isWonder": true,
 		"requiredBuilding": "Wizards' Guild",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
+		"uniques": ["Free [Lich] appears"],
 		"requiredTech": "Lore of Death",
 		"civilopediaText": [
 			{"text": ""}
@@ -394,7 +393,6 @@
 	},
 	{
 		"name": "The Celestial College",
-		"cost": 750,
 		"isWonder": true,
 		"requiredBuilding": "Wizards' Guild",
 		"maintenance": 1,
@@ -407,7 +405,6 @@
 	},
 	{
 		"name": "The Gold College",
-		"cost": 750,
 		"isWonder": true,
 		"requiredBuilding": "Wizards' Guild",
 		"maintenance": 1,
@@ -420,19 +417,18 @@
 	},
 	{
 		"name": "The Grey College",
-		"cost": 750,
 		"isWonder": true,
 		"requiredBuilding": "Wizards' Guild",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Lore of Shadows",
+		"uniques": ["[+50]% spy effectiveness [in all cities]","Gain an extra spy"],
 		"civilopediaText": [
 			{"text": ""}
 		]
 	},
 	{
 		"name": "The Jade College",
-		"cost": 750,
 		"isWonder": true,
 		"requiredBuilding": "Wizards' Guild",
 		"maintenance": 1,
@@ -448,9 +444,10 @@
 	},
 	{
 		"name": "The Light Order",
-		"cost": 750,
 		"isWonder": true,
 		"requiredBuilding": "Wizards' Guild",
+		"percentStatBonus": {"science": 15},
+		"science": 10,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Lore of Lights",
