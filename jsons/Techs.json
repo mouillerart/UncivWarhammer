@@ -620,7 +620,7 @@
 			{
 				"name": "Imperial roads",
 				"row": 3,
-				"uniques": ["Unavailable <for [Kislev]>"],
+				"uniques": ["Unavailable <for [Kislev]>","Improves movement speed on roads"],
 				"prerequisites": ["Roads","Construction","Civil Service"],
 				"quote": ""
 			},
@@ -1090,7 +1090,7 @@
 			{
 				"name": "Pharmaceuticals",
 				"row": 3,
-				"uniques": ["Unlock better quick healing skill"],
+				"uniques": ["All healing effects doubled"],
 				"prerequisites": ["Refrigeration"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},

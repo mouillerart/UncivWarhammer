@@ -53,7 +53,7 @@
 		"name": "Spyglass",
 		"prerequisites": ["Scouting"],
 		"uniques": ["Can see over obstacles", 
-					"May withdraw before melee ([50]%)"],
+					"Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -460,7 +460,7 @@
 	{
 		"name": "Blizzard",
 		"prerequisites": ["Petri's Philter","Swallow"],
-		"uniques": ["May withdraw before melee ([50]%)"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Witcher"]
 	},
 	{
@@ -825,7 +825,7 @@
 	{
 		"name": "Clairvoyant",
 		"prerequisites": ["Silent Running","Hunt Instinc","Regenerative Tissue","Mana Flare"],
-		"uniques": ["May withdraw before melee ([50]%)"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Water Terror","Air Terror"]
 	},
 	
@@ -993,7 +993,7 @@
 	},
 	{
 		"name": "Elusive", // Skaven
-		"uniques": ["May withdraw before melee ([50]%)"]
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"]
 	},
 	{
 		"name": "Vampiric Touch", // Sylvania
@@ -1014,11 +1014,11 @@
 	},
 	{
 		"name": "Kiss", // Reikland
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Death's Messenger", // Shyish
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Beast Hunter", // Reikland
@@ -1032,7 +1032,7 @@
 	},
 	{
 		"name": "Unwavering Faith", // Estalia
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Trawl", // Ind
@@ -1054,7 +1054,7 @@
 	},
 	{
 		"name": "Reactive Armor", // Dwarfs
-		"uniques": ["May withdraw before melee ([66]%)"]
+		"uniques": ["Withdraws before melee combat <with [66]% chance>"]
 	},
 	{
 		"name": "[Laskar] ability", // Tilea
@@ -1068,7 +1068,7 @@
 	},
 	{
 		"name": "[Lich] ability", // Khemri
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Troll's Skin", // Ogre Kingdoms

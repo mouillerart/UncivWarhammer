@@ -202,8 +202,7 @@
 					"[+1 Food] from [Bananas] tiles [in this city]", 
 					"[+1 Food] from [Wheat] tiles [in this city]", 
 					"[+1 Food] from [Corn] tiles [in this city]", 
-					"[+1 Food] from [Citrus] tiles [in this city]",
-					"Unlock 2 Farmer specialist slot (+3 Food)"],
+					"[+1 Food] from [Citrus] tiles [in this city]"],
 		"requiredTech": "Agriculture",
 		"civilopediaText": [
 			{"text": "Not only for storing food, this building is equipped with a vertical planting system that can withstand the harsh cold."}
@@ -1159,9 +1158,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 10,
 		"cost": 140,
-		"uniques": ["Research Winds of Magic vs Winds of Magic", 
-					"Can be built in all cities", 
-					"[+1 Culture, +1 Faith] from [Ley Line] tiles [in this city]", 
+		"uniques": ["[+1 Culture, +1 Faith] from [Ley Line] tiles [in this city]", 
 					"[+1 Science] from [Ley Line] tiles [in this city]", 
 					"Provides [1] [Mutagen]"],
 		"requiredTech": "Winds of Magic",
@@ -1311,9 +1308,7 @@
 		"faith": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["Research Priesthood vs Metal Casting", 
-					"Can be built in all cities", 
-					"[+15]% Production when constructing [Land] units [in this city]",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
 					"[+1 Production] from [Iron] tiles [in this city]",
 					"All newly-trained [{Military} {Land}] units [in this city] receive the [Unwavering Faith] promotion"],
 		"requiredTech": "Priesthood",
@@ -1658,7 +1653,7 @@
 		"requiredBuilding": "Pyramid",
 		"maintenance": 0,
 		"requiredTech": "Acoustics",
-		"uniques": ["Generates 1 Great Artist Point", "Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured"],
 		"civilopediaText": [
             {"text": "As beautiful as its resident, Kislev's art isn't something to be underestimated."}
         ]
@@ -3331,7 +3326,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Construction",
-		"uniques": ["[+25]% City Strength from defensive buildings [in all cities]"],
+		"uniques": ["[+25]% City Strength from defensive buildings"],
 		"civilopediaText": [
 			{"text": ""}
 		]

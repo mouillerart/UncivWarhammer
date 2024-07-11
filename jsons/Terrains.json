@@ -295,11 +295,7 @@
 		"type": "TerrainFeature",
 		"occursOn": ["Coast"],
 		"movementCost": 2,
-		"uniques": ["Doesn't generate naturally",
-					"Units ending their turn on this terrain take [15] damage <for [Melee Water] units>",
-					"Units ending their turn on this terrain take [15] damage <for [Ranged Water] units>",
-					"Units ending their turn on this terrain take [15] damage <for [Submarine] units>",
-					"Units ending their turn on this terrain take [15] damage <for [Naval Carrier] units>"]
+		"uniques": ["Doesn't generate naturally"]
 	},
 
 	// Natural Wonders
@@ -420,8 +416,7 @@
 		"gold": 2,
 		"overrideStats": true,
 		"occursOn": ["Ocean"],
-		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles", 
-					"Provides a copy of each Strategic and Luxury resource generated on Coast"],
+		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles"],
 		"turnsInto": "Ocean",
 		"impassable": false,
 		"unbuildable": true,
@@ -447,10 +442,9 @@
 		"overrideStats": true,
 		"defenceBonus": 0.1,
 		"occursOn": ["Desert","Tundra","Plains","Grassland"],
-		"uniques": ["Fresh water", "Neighboring tiles provides +1 Food",
-					"Must be adjacent to [0] [Coast] tiles",
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 					"Must be adjacent to [0] [Mountain] tiles",
-					"Must be adjacent to [0] [Snow] tiles"],
+					"Must be adjacent to [0] [Snow] tiles","Fresh Water"],
 		"turnsInto": "Lakes",
 		//"impassable": false,
 		"unbuildable": true,
