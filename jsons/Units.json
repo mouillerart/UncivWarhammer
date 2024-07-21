@@ -3885,6 +3885,7 @@
 		"uniqueTo": "Ironclaw Orcs",
 		"movement": 2,
 		"strength": 6,
+		"cost": 30,
 		"upgradesTo": "Big Uns",
 		"obsoleteTech": "Iron Working",
 		"uniques": [""],

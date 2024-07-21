@@ -339,6 +339,7 @@
 					"Comment [Cannot build [Lumber mill] improvement]", 
 					"Comment [May build [Plantation] improvement without removing Forest]", 
 					"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
+					"[{Land}] units gain the [Woodsman] promotion",
 					"[+15]% Strength <in [Forest] tiles> <for [All] units>",
 					"Comment [Elven]"],
 		"cities": ["Athel Loren","Tor Lithanel","Torgovann","Cavaroc","Atylwyth","Cythral","Modryn","Talsyn","Wydrioth","Fyr Darric","Anmyr","Tirsyth","Arcwylon","Arranoc"],
