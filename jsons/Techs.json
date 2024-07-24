@@ -294,6 +294,7 @@
 			{
 				"name": "Necromancy",
 				"row": 10,
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Ulthuan]>"],
 				"prerequisites": ["Ceremonial Burial","Raw Magic"],
 				"quote": ""
 			},

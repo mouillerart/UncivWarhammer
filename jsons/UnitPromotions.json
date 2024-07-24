@@ -32,6 +32,16 @@
 		"unitTypes": ["Recon"]
 	},
 	{
+		"name": "Woodelf",
+		"uniques": ["[+1] Movement <in [Forest] tiles>", 
+					"[+1] Movement <in [Jungle] tiles>"],
+		"unitTypes": ["Civilian","Recon","Sword","Gunpowder","Anti-Cav","Anti-Armor","Mounted","Armored",
+			"Archery","Ranged Gunpowder","Siege",
+			"Mage","Construct","Vampire","Monk","Tamer",
+			"Airship","Air Terror","Water Terror",
+			"Infantry Hero","Anti-Cav Hero","Cavalry Hero","Archery Hero","Siege Hero","Evil Hero","Mage Hero"]
+	},
+	{
 		"name": "Highlander",
 		"uniques": ["[+1] Movement <in [Hill] tiles>"],
 		"unitTypes": ["Recon"]
