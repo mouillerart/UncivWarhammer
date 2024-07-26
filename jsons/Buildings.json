@@ -45,6 +45,19 @@
 		]
 	},
 	{
+		"name": "Dolmen",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Waystone",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Priesthood]>","Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]"],
+		"requiredTech": "Channeling",
+		"civilopediaText": [
+			{"text": "A religious building where the faithful can come together to worship."}
+		]
+	},
+	{
 		"name": "Old Ones Shrine",
 		"science": 1,
 		"faith": 2,
@@ -54,6 +67,19 @@
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [
 			{"text": "To those without Witchsight, the ancient, weathered waystones originally created and left by the Old Ones are now indistinguishable from ordinary standing stones."}
+		]
+	},
+	{
+		"name": "Old Ones Temple",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Old Ones Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Priesthood]>","Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]"],
+		"requiredTech": "Cold Ones",
+		"civilopediaText": [
+			{"text": "A religious building where the faithful can come together to worship."}
 		]
 	},
 	
@@ -67,6 +93,19 @@
 		"requiredTech": "Forest Mastery",
 		"civilopediaText": [
 			{"text": ""}
+		]
+	},
+	{
+		"name": "Elven Temple",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Elven Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Priesthood]>","Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]"],
+		"requiredTech": "Forest Mastery",
+		"civilopediaText": [
+			{"text": "A religious building where the faithful can come together to worship."}
 		]
 	},
 	{
@@ -118,6 +157,19 @@
 		]
 	},
 	{
+		"name": "Spirituality Temple",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Spirituality Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Priesthood]>","Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]"],
+		"requiredTech": "Far East",
+		"civilopediaText": [
+			{"text": "A religious building where the faithful can come together to worship."}
+		]
+	},
+	{
 		"name": "Salvation Shrine",
 		"faith": 2,
 		"cost": 40,
@@ -126,6 +178,19 @@
 		"requiredTech": "Old World",
 		"civilopediaText": [
 			{"text": ""}
+		]
+	},
+	{
+		"name": "Salvation Temple",
+		"replaces": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Salvation Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Priesthood]>","Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]"],
+		"requiredTech": "Old World",
+		"civilopediaText": [
+			{"text": "A religious building where the faithful can come together to worship."}
 		]
 	},
 	{
@@ -1083,6 +1148,63 @@
 					"[+15]% Production when constructing [Monk] units [in this city]", 
 					"Destroyed when the city is captured"],
 		"requiredTech": "Monasticism",
+		"civilopediaText": [
+			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
+		]
+	},
+	{
+		"name": "Elven Monastery",
+		"replaces": "Monastery",
+		"happiness": 1,
+		"requiredBuilding": "Elven Shrine",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Wine","Incense","Perfume"],
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Monasticism]>",
+					"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", 
+					"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", 
+					"[+15]% Production when constructing [Monk] units [in this city]", 
+					"Destroyed when the city is captured"],
+		"requiredTech": "Forest Mastery",
+		"civilopediaText": [
+			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
+		]
+	},
+	{
+		"name": "Salvation Monastery",
+		"replaces": "Monastery",
+		"happiness": 1,
+		"requiredBuilding": "Salvation Shrine",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Wine","Incense","Perfume"],
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Monasticism]>",
+					"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", 
+					"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", 
+					"[+15]% Production when constructing [Monk] units [in this city]", 
+					"Destroyed when the city is captured"],
+		"requiredTech": "Old World",
+		"civilopediaText": [
+			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
+		]
+	},
+	{
+		"name": "Lady's Monastery",
+		"replaces": "Monastery",
+		"happiness": 1,
+		"requiredBuilding": "Shrine of the Holy Grail",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Wine","Incense","Perfume"],
+		"hurryCostModifier": 25,
+		"uniques": ["Unbuildable <before discovering [Monasticism]>",
+					"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", 
+					"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", 
+					"[+15]% Production when constructing [Monk] units [in this city]", 
+					"Destroyed when the city is captured"],
+		"requiredTech": "Knightly Virtues",
 		"civilopediaText": [
 			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
 		]
