@@ -868,6 +868,28 @@
 		]
 	},
 	{
+		"name": "Grey Seer",
+		"unitType": "Mage",
+		"uniqueTo": "Skaven",
+		"replaces": "Wizard",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 125,
+		"requiredTech": "Magic of the Horned Rat",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Seer Lord",
+		"requiredResource": "Magician",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[-15]% Strength <vs [Melee] units> <when defending>"],
+		"promotions": ["Camouflage"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text": "The most fervent servants of the Horned Rat are known as Grey Seers. Raised from birth to serve their unholy master, the Grey Seers are the spiritual advisers of the Skaven legions. They commune with their horned god, offering advice and seemingly daring their leaders to discount it in favour of their own plots and plans. Who can argue with the will of a god? Who would risk his wrath by ignoring his emissaries?"} 
+		]
+	},
+	{
 		"name": "Arch-Wizard",
 		"unitType": "Mage",
 		"movement": 2,
@@ -947,6 +969,26 @@
 		"requiredResource": "Magician",
 		"uniques": ["Only available <if [The Grey College] is constructed>",
 					"[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
+	{
+		"name": "Seer Lord",
+		"unitType": "Mage",
+		"uniqueTo": "Skaven",
+		"replaces": "Shadowmancer",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 220,
+		"promotions": ["Camouflage","Reactive Armor"],
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Magician",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
 					"[+15]% Strength <vs [Military] units> <when attacking>", 
 					"[-10]% Strength <vs [Melee] units> <when defending>"],
 		"attackSound": "artillery",
@@ -3409,11 +3451,11 @@
 		"uniqueTo": "Skaven",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 106,
+		"cost": 80,
 		"uniques": ["Founds a new city <by consuming this unit>", 
-					"May Paradrop up to [10] tiles from inside friendly territory",
 					"Excess Food converted to Production when under construction",
 					"Requires at least [2] population"],
+		"promotions": ["Teleportation"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -3886,7 +3928,7 @@
 		"uniqueTo": "Ironclaw Orcs",
 		"movement": 2,
 		"strength": 6,
-		"cost": 30,
+		"cost": 25,
 		"upgradesTo": "Big Uns",
 		"obsoleteTech": "Iron Working",
 		"uniques": [""],

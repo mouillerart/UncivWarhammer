@@ -27,7 +27,7 @@
 			{
 				"name": "Knightly Virtues",
 				"row": 4,
-				"uniques": ["Only available <for [Bretonnia]>"],
+				"uniques": ["Only available <for [Bretonnia]>","Gain enough Faith for [70]% of a Great Prophet"],
 				"quote": "This is a free advance granted to Bretonnia"
 			},
 			{
@@ -71,13 +71,13 @@
 			{
 				"name": "Forest Mastery",
 				"row": 11,
-				"uniques": ["Only available <for [Loren]>"],
+				"uniques": ["Only available <for [Loren]>","Gain enough Faith for [70]% of a Great Prophet"],
 				"quote": "This is a free advance granted to Wood Elves."
 			},
 			{
 				"name": "Cold Ones",
 				"row": 12,
-				"uniques": ["Only available <for [Slann]>"],
+				"uniques": ["Only available <for [Slann]>","Gain enough Faith for [70]% of a Great Prophet"],
 				"quote": "This is a free advance granted to Slann."
 			},
 			{
@@ -301,21 +301,21 @@
 			{
 				"name": "Loren Magic",
 				"row": 12,
-				"uniques": ["Only available <for [Loren]>"],
+				"uniques": ["Only available <for [Loren]>","Gain enough Faith for [30]% of a Great Prophet"],
 				"prerequisites": ["Raw Magic"],
 				"quote": ""
 			},
 			{
 				"name": "Corruption of Chaos",
 				"row": 13,
-				"uniques": ["[Wounded] units gain the [Seductive Submission] promotion"],				
+				"uniques": ["[Wounded] units gain the [Seductive Submission] promotion","Gain enough Faith for [70]% of a Great Prophet"],				
 				"prerequisites": ["Raw Magic","Warrior Code","Chaos"],
 				"quote": ""
 			}
 			{
 				"name": "Magic of the Horned Rat",
 				"row": 14,
-				"uniques": ["Only available <for [Skaven]>","[+50]% [Science] [in all cities]"],
+				"uniques": ["Only available <for [Skaven]>","[+50]% [Science] [in all cities]","Gain enough Faith for [70]% of a Great Prophet"],
 				"prerequisites": ["Raw Magic"],
 				"quote": ""
 			}
@@ -806,7 +806,7 @@
 			{
 				"name": "Engineering",
 				"row": 2,
-				"prerequisites": ["Construction"],
+				"prerequisites": ["Imperial roads"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			}
@@ -814,7 +814,7 @@
 				"name": "Compass",
 				"cost": 475,
 				"row": 1,
-				"prerequisites": ["Astrology"],
+				"prerequisites": ["Astrology","Guilds"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
@@ -841,7 +841,7 @@
 			{
 				"name": "Physics",
 				"row": 9,
-				"prerequisites": ["Engineering","Metal Casting"],
+				"prerequisites": ["Engineering"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{

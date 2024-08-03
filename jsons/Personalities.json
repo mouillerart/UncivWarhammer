@@ -121,6 +121,10 @@
 		"faith": 5.0,
 		"military": 10.0,
 		"warMongering": 0.0,
+		"priorities": {
+			"Liberty": 20,
+			"Tradition": 20
+		},
 		"civilopediaText": [
 			{ "text": "Championed the \"Son of War\" by his people and his god, Sun Alar is a leader who believes that war is inevitable, but despises fighting for the sake of fighting. He would rather endorse cultural and infrastructural development than expansion or rapid scientific advancement, but would not hesitate to fight if threatened - as befits a Champion of Genesis." },
 			{
@@ -156,6 +160,11 @@
 		"faith": 3.0,
 		"military": 7.0,
 		"warMongering": 7.5,
+		"loyal": 7.5,
+		"priorities": {
+			"Liberty": 20,
+			"Honor": 20
+		},
 		"civilopediaText": [
 			{ "text": "Idolized by his people as a God, Danu - the immortal Emperor of Imperia - is a legendary leader that seeks to bring humanity to ever-greater prosperity. Once motivated by a love for humanity instilled in him by his mentor Angir (who himself was the ruler of the Neph Empire before it fell), he has since been corrupted by power, and is now motivated mostly by the praise he gets from his people. His arrogance has grown great over the years, and so has his thirst for conquest and expansion." },
 			{

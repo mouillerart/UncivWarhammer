@@ -194,8 +194,9 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", 
+		"techRequired": "Fishing",
+		"uniques": ["[+1 Food] <after discovering [Sailing]>", 
+					"[+1 Gold] <after discovering [Compass]>", 
 					"Can only be built to improve a resource", 
 					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"civilopediaText": [

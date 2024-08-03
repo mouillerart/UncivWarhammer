@@ -265,7 +265,7 @@
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
-				"uniques": ["Gain a free [Pantheon] belief"],
+				"uniques": ["Gain a free [Follower] belief"],
 				"row": 1,
 				"column": 2
 			},

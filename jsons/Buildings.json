@@ -3580,6 +3580,17 @@
 		]
 	},
 	{
+		"name": "Order of the Grey Seers",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Magic of the Horned Rat",
+		"uniques": ["Provides [3] [Magician]"],
+		"civilopediaText": [
+			{"text": "The Order of the Grey Seers, known officially as the Priesthood of the Horned Rat and informally as the 'Grey Seer Clan' among the Skaven, is the main religious organisation of the Under-Empire. Also called the Seer Council, Its members are known as the Grey Seers, the mage-priests of the Skaven god called the Horned Rat, serving as his prophets of ruin and destruction."}
+		]
+	},
+	{
 		"name": "Philosopher's Stone",
 		"isWonder": true,
 		"science": 4,

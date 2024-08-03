@@ -34,7 +34,8 @@
 	{
 		"name": "Woodelf",
 		"uniques": ["[+1] Movement <in [Forest] tiles>", 
-					"[+1] Movement <in [Jungle] tiles>"],
+					"[+1] Movement <in [Jungle] tiles>",
+					"Only available <for [Loren]>"],
 		"unitTypes": ["Civilian","Recon","Sword","Gunpowder","Anti-Cav","Anti-Armor","Mounted","Armored",
 			"Archery","Ranged Gunpowder","Siege",
 			"Mage","Construct","Vampire","Monk","Tamer",
