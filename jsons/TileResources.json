@@ -199,7 +199,7 @@
 		"name": "Warpstone",
 		"resourceType": "Strategic",
 		"revealedBy": "Gunpowder",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Marsh"],
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 2},

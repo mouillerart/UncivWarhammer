@@ -2732,12 +2732,12 @@
 		"replaces": "Stone Golem",
 		"uniqueTo": "Ulthuan",
 		"movement": 2,
-		"strength": 1,
+		"strength": 18,
 		"cost": 90,
 		"requiredTech": "Roads",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Iron Golem",
-		"requiredBuilding": "Tomb",
+		"requiredBuilding": "Waystone",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit" 
 	},
@@ -2760,6 +2760,25 @@
 		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": ""}
+		]
+	},
+	{
+		"name": "Loremaster",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 220,
+		"promotions": ["De Vries' Extract","Fight Howl","Strafe"],
+		"requiredTech": "High Magic",
+		"requiredResource": "Magician",
+		"uniques": ["Only available <if [Loremasters of Hoeth] is constructed>",
+					"[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
 		]
 	},
 	{
