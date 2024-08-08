@@ -454,9 +454,11 @@
 				"row": 6,
 				"prerequisites": ["Roads","Construction"],
 				"uniques": [
-					"Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>",
-					"Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>",
-					"Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>",
+					"Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>"
+					,"Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>",
+					"Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>",
+					"Unavailable <for [Kurgan]>","Unavailable <for [Ulthuan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>",
+					"Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>",
 					"[Recon] units gain the [Coming from Beneath] promotion",
 					"[Melee] units gain the [Coming from Beneath] promotion"],
 				"quote": "'They are watching me now, I know. They are in the walls, under the stones, in the canals, everywhere.' -Doctor Anton Wiessang, Master Necromancer, last diary entry.",
