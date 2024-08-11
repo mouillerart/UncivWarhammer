@@ -965,7 +965,7 @@
 			{
 				"name": "Fertilizer",
 				"row": 9,
-				"prerequisites": ["Alchemy"],
+				"prerequisites": ["Gunpowder"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			}
 		]

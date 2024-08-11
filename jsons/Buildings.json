@@ -3384,7 +3384,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Tyranny",
-		"uniques": [],
+		"uniques": [ "[-20]% enemy spy effectiveness [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3407,7 +3407,7 @@
 		"happiness": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Tyranny",
-		"uniques": [],
+		"uniques": [ "[-10]% enemy spy effectiveness [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3425,10 +3425,12 @@
 	{
 		"name": "Glittering Tower Lighthouse",
 		"isWonder": true,
+		"cityStrength": 40,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Navigation",
-		"uniques": [],
+		"uniques": ["Gain a free [Lighthouse] [in this city]", "Must be next to [Coast]", "[+2] Movement <for [{Military} {Water}] units>", 
+					"[+2] Sight <for [{Military} {Water}] units>"],
 		"civilopediaText": [
 			{"text": ""}
 		]

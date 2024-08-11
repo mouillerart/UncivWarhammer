@@ -59,7 +59,7 @@
 		"cities": ["Altdorf","Kemperbad","Eilhart","Ubersreik","Helmgart","Castle Reikguard","Dunkelberg","Diesdorf","Frederheim","Glumund",
 			"Gluckshalt","Holthusen","Bögenhafen","Grünburg","Tallerhof","Stromdorf","Schädelheim","Prie","Stimmigen","Schluesselschloss",
 			"Schloss Drakenburg","Schilderheim","Rottfurt","Zahnstadt","Wittgendorf","Wörlin","Wheburg","Weissbruck"],
-		//"spyNames": ["Heba","Sukaesih","Ma'at","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
+		"spyNames": ["Emmanuel Blanck","Agilwardus Kerche","Burgolf von Stimminge","Leon Einaugen","Hannes Herbort Kempster von Delbert","Herdeinus Telfair","Theodosius Hahn"],
 		"civilopediaText": [
 			{"text": "When the High Elves left their great towers in the Old World, the land was abandoned to the Orcs, Goblins and savage Human tribes. In those distant times, the fathers of Men were nothing but fur-clad savages, barely distinguishable from Orcs in the eyes of the haughty Elves. It was the Dwarfs who recognised the potential of Humanity, first as trading partners, but eventually as allies against the Orcs that infested the land."},
 			{"text": "The [Dwarfs] taught the Human tribes the secrets of metallurgy and swordmaking and, as a result of trade and further Dwarf encouragement, primitive Men began to grow in strength and ambition. "},
@@ -299,7 +299,7 @@
 					"Enables [All] units to enter ocean tiles <starting from the [Age of Magic]>",
 					"Defense bonus when embarked <for [All] units>",
 					"Comment [Elven]"],
-		"cities": ["Avelorn","Eataine","Caledor","Ellyrion","Saphery","Yvresse","Cothique","Chrace","Nagarythe","Tiranoc"],
+		"cities": ["Avelorn","Phoenix Gate","Gaen Vale","Griffon Gate","Ellyrion","Eataine","Caledor","Saphery","Yvresse","Cothique","Chrace","Nagarythe","Tiranoc"],
 
 		"civilopediaText": [
 			{"text": "'Though our fair homeland is beset on all sides, we shall resist, as our forefathers did before us. In these dark times, as our tainted brethren ravage our shores, we stand defiant and shall emerge victorious. For we are the Asur, the true kin of Aenarion, and Ulthuan shall never fall.' - Prince Tyrion, Defender of Ulthuan"},
