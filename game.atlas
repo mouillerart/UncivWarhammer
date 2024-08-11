@@ -2512,6 +2512,13 @@ TileSets/FantasyHex/Tiles/Lost City of the Old Ones
   orig: 64, 62
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Man-eating tree
+  rotate: false
+  xy: 1097, 38
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Pantanal
   rotate: false
   xy: 960, 68
@@ -2521,14 +2528,14 @@ TileSets/FantasyHex/Tiles/Pantanal
   index: -1
 TileSets/FantasyHex/Tiles/Seaside Stall
   rotate: false
-  xy: 1379, 60
+  xy: 1419, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Warpstone
   rotate: false
-  xy: 1899, 60
+  xy: 1939, 57
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2556,7 +2563,7 @@ TileSets/FantasyHex/Units/Bireme
   index: -1
 TileSets/FantasyHex/Units/Black Arquebusier
   rotate: false
-  xy: 1979, 66
+  xy: 1377, 29
   size: 30, 22
   orig: 30, 22
   offset: 0, 0
@@ -2570,7 +2577,7 @@ TileSets/FantasyHex/Units/Black Death
   index: -1
 TileSets/FantasyHex/Units/Black Legion
   rotate: false
-  xy: 1377, 29
+  xy: 502, 34
   size: 30, 23
   orig: 30, 23
   offset: 0, 0
@@ -2745,147 +2752,147 @@ TileSets/FantasyHex/Units/Maccabee
   index: -1
 TileSets/FantasyHex/Units/Necromancer
   rotate: false
-  xy: 1097, 38
+  xy: 1137, 38
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Nomadic Archer
   rotate: false
-  xy: 1137, 38
+  xy: 1177, 38
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Orc Archer
   rotate: false
-  xy: 1177, 38
+  xy: 1217, 38
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Orc Chariot Archer
   rotate: false
-  xy: 1217, 38
+  xy: 1257, 38
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Phalanx
   rotate: false
-  xy: 1257, 38
+  xy: 1297, 38
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Undead
   rotate: false
-  xy: 1297, 38
+  xy: 1337, 38
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ptolemaic Elephant
   rotate: false
-  xy: 1337, 37
+  xy: 1379, 59
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Serpent Priest
   rotate: false
-  xy: 1419, 60
+  xy: 1459, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siege Elephant
   rotate: false
-  xy: 1459, 60
+  xy: 1499, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeletal Champion
   rotate: false
-  xy: 1499, 60
+  xy: 1539, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeletal Warrior
   rotate: false
-  xy: 1539, 60
+  xy: 1579, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Slave Hunter
   rotate: false
-  xy: 1579, 60
+  xy: 1619, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Undead
   rotate: false
-  xy: 1619, 60
+  xy: 1659, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Undead
   rotate: false
-  xy: 1659, 60
+  xy: 1699, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tarantine Cavalry
   rotate: false
-  xy: 1699, 60
+  xy: 1739, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tomb Guard
   rotate: false
-  xy: 1739, 60
+  xy: 1779, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tomb Herald
   rotate: false
-  xy: 1779, 60
+  xy: 1819, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ulan
   rotate: false
-  xy: 1819, 60
+  xy: 1859, 59
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Undead Warrior
   rotate: false
-  xy: 1859, 59
+  xy: 1899, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Undead
   rotate: false
-  xy: 1859, 59
+  xy: 1899, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Witch-King
   rotate: false
-  xy: 1939, 57
+  xy: 1979, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
