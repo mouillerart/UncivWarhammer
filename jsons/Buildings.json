@@ -319,6 +319,22 @@
 
 	},
 	{
+		"name": "Dogs of War",
+		"GreatPersonPoints": {"Great General": 2},
+		"isWonder": true,
+		"uniques": ["Only available <for [Tilea]>",
+					"Militaristic City-States grant units [5] times as fast when you are at war with a common nation",
+					"Military Units gifted from City-States start with [30] XP",
+					"May buy [Melee] units for [100] [Gold] [in all cities] at an increasing price ([50])"],
+		"requiredTech": "Iron Working",
+		"quote": "'The Grungebringers will hold until paid their bloody gold' ― The Grungebringers' motto.",
+		"civilopediaText": [
+			{"text": "The Dogs of War, also known as Regiments of Renown, is a catch-all term used in the Old World to generally describe armies or bands of mercenaries from all across the Known World, fighting on behalf of anyone willing to pay their exorbitant prices. They are drawn to places where fortunes can be won by ruthless adventures. From the lush jungles of the New World to the misty isles of the Far East, and from the steamy swamplands of the Southlands to the harsh tundra of the Chaos Wastes, the mortal world is truly awash with rag-tag armies of sellswords who nurture the wishful dreams of loot, plunder and adventure."},
+			{"text": "Tilean mercenaries have a reputation for professionalism that other sell-swords do not. Other foreign mercenaries, such as Kossars from Kislev, the almost feral berserkers from Norsca, or the enormous Ogres who ply their trade in the Empire are often viewed with distrust if not open hostility."}
+		]
+
+	},
+	{
 		"name": "Aqshy",
 		"isNationalWonder": true,
 		"requiredBuilding": "Wizards' Guild",
@@ -3306,6 +3322,8 @@
 	{
 		"name": "Citadel",
 		"maintenance": 1,
+		"cityStrength": 20,
+		"cityHealth": 40,
 		"hurryCostModifier": 0,
 		"requiredTech": "Engineering",
 		"uniques": [],
@@ -3374,7 +3392,8 @@
 		"uniqueTo": "Sylvania",
 		"hurryCostModifier": 0,
 		"requiredTech": "Lordship",
-		"uniques": [],
+		"uniques": ["[-20]% enemy spy effectiveness [in this city]",
+					"[+50]% [Production] [in this city]"],
 		"civilopediaText": [
 			{"text": ""}
 		]
