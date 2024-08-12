@@ -1110,12 +1110,20 @@
 		"name": "No Suicide", // Barbarians Recon, Sword and Anti-Cav
 		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units", "[+10]% Strength <vs [Ranged] units> <when defending>"]
 	},
-	
-	
-	/*{
+
+	{
 		"name": "Life Treasure", // Cathay
 		"uniques": ["Access to life treasure skill"]
 	},
+	{
+		"name": "Golden Eyes",
+		"uniques": ["[+1] Sight", 
+					"[+1] Sight <in [Hill] tiles>", 
+					"Only available <for units with [Life Treasure]>"],
+		"unitTypes": ["Monk"]
+	}	
+	
+	/*
 	{
 		"name": "Dao Bone",
 		"uniques": ["[+50]% XP gained from combat", 
@@ -1140,11 +1148,5 @@
 					"Only available <for units with [Life Treasure]>"],
 		"unitTypes": ["Monk"]
 	},
-	{
-		"name": "Golden Eyes",
-		"uniques": ["[+1] Sight", 
-					"[+1] Sight <in [Hill] tiles>", 
-					"Only available <for units with [Life Treasure]>"],
-		"unitTypes": ["Monk"]
-	},*/
+,*/
 ]

@@ -149,7 +149,7 @@
 			"Comment [Dwarven]",
 			"[+10]% Strength <within [2] tiles of a [Mountain]>", 
 			"Units ignore terrain costs when moving into any tile with Hills",
-			"Land units may cross [Mountain] tiles after the first [Great Person] is earned",
+			"Land units may cross [Mountain] tiles aft5er the first [Great Person] is earned",
 			"Comment [Units ending their turn on [Mountain] tiles take [15] damage]"],
 		"cities": ["Karaz-a-Karak","Barak Varr","Karak Angazhar","Karak Azgaraz","Karak Bhufdar","Karak Eksfilaz","Karak Gantuk","Karak Grom","Karak Hirn","Karak Izor","Karak Kadrin","Karak Kaferkammaz","Karak Norn","Karak Ziflin","Zhufbar","Karak Azul"],
 		"spyNames": ["Rogir Greathelm","Dudduh Steelchaser","Zurgalbard Firefoot","Skigrom Goldenaxe","Khoaged Stoutshaper"],
@@ -174,6 +174,9 @@
 		"outerColor": [255, 205,0],
 		"innerColor": [0,0,0],
 
+		"startIntroPart1": "The Tomb Kings know nothing but rage and the desire to reclaim their lost kingdoms.",
+		//"startIntroPart2": "...",
+		
 		"declaringWar": "Lightning shall sunder the skies, the rivers will flow with blood and war will come to the land. The legions once more rise in eternal conquest...And death shall ride beside them.",
 		"attacked": "Damnation awaits those who would disturb our rest! Here be the souls of those that are lost...",
 		"defeated": "This death is ours. We choose it. We deny you your victory.",
@@ -211,6 +214,8 @@
 		"outerColor": [204, 255,255],
 		"innerColor": [0,0,0],
 
+		"startIntroPart1": "For generations, the sons of Kislev have fought and died on the barren plains of the far north.",
+
 		"declaringWar": "You're slow. We're fast.",
 		"attacked": "Today we fight for Kislev! Today we fight for her lost sons and daughters, for her proud mothers and fathers!",
 		"defeated": "You will die, like your weakling father died. Soulless. Honorless. Weeping. Ashamed.",
@@ -225,8 +230,8 @@
 					"Gain [250] [Gold] <upon conquering a city>", 
 					"[+1] Movement <for [Military] units> <when at war>", 
 					"[+1] Sight <for [{Military} {Land}] units>", 
-					"Provides [1] [Horses]"],
-		"cities": ["Kislev","Praag","Erengrad","Volksgrad","Belev","Kobrin","Krakjunov","Bolgasgrad","Patragresk","Preslav","Rakhov","Omensk","Zilair","Gdov","Chazask","Pinsk","Murmagrad","Dubna","Egorevsk","Oolnza","Nyrob","Yaransk","TZESKAGRAD","KROVAS","SHATSK","SELKOV","CHUDOVO","NIDZICA","PECHORA","VOLKOLOMSK","CHERNOZAVTRA","OPULENSK","LUKOYANOV"],
+					"Provides [3] [Horses]"],
+		"cities": ["Kislev","Praag","Erengrad","Volksgrad","Belev","Kobrin","Krakjunov","Bolgasgrad","Patragresk","Preslav","Rakhov","Omensk","Zilair","Gdov","Chazask","Pinsk","Murmagrad","Dubna","Egorevsk","Oolnza","Nyrob","Yaransk","Tzeskagrad","Krovas","Shatsk","Selkov"],
 
 		"civilopediaText": [
 			{"text": "The land of Kislev lies to the north and east of the Empire. As one travels eastwards the dense forests give way to open steppes stretching to the foothills of the World Edge Mountains. Beyond these formidable peaks lie barren wastes inhabited by tribes of greenskins of which the wolf-borne Hobgoblin hordes are the most numerous. To the north lies the desolate boulder-strewn Troll Country and beyond regions blighted by Chaos. It is said that in Kislev the winters are long and harsh, snow lies deep over the land and enemies are never far away."},
@@ -245,6 +250,8 @@
 		"adjective": ["Sylvanians"],
 		"outerColor": [255, 255,255],
 		"innerColor": [0,0,0],
+
+		"startIntroPart1": "'This land is my home, my birthright. The wind and rain are my allies. The trees and stones are my foot soldiers. The very earth will rise up against you should you try to take it from me. And my people will feast on your bones.' - Mannfred von Carstein, the Lord of Sylvania",
 
 		"introduction": "Please, come in and join me for dinner. I can see from the way you dress, you are a man of exquisite... taste.",
 		"declaringWar": "Surrender and serve me in life, or die and slave for me in death.",
@@ -369,6 +376,7 @@
 		"adjective": ["Estalians"],
 		"style": "Human",
 		"personality": "Monarch",
+		"favoredReligion": "Cult of Myrmidia",
 		"outerColor": [209, 106, 10],
 		"innerColor": [0,0,0],
 		
@@ -401,13 +409,14 @@
 		"adjective": ["Tileans"],
 		"style": "Human",
 		"personality": "Monarch",
+		"favoredReligion": "Cult of Myrmidia",
 		"outerColor": [196, 182, 76],
 		"innerColor": [178, 0, 0],
 
-		"afterPeace": "A small gesture can change destiny.",
 
 		"declaringWar": "Ey stupido. You're weak.",
 		"attacked": "De smarta-alek words for our castillos is dat dey remain a treat to communications. Dis is right. Anda iffa you don't get the letters from home, howa you gonna know how your mama is?",
+		"afterPeace": "A small gesture can change destiny.",
 		"defeated": "We're wava the white flag!",
 		"introduction": "There issa plenty of mercenaries in our lands. Use dem or dey may killa you.",	
 		
@@ -449,7 +458,9 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 
-		"uniques": ["Starts with [Norse Tradition]"],
+		"uniques": ["Starts with [Norse Tradition]",
+					"[+2 Food, +2 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Tundra] tiles>",
+					"Receive triple Gold from Barbarian encampments and pillaging Cities"],
 		"cities": ["Skjold","Skraevold","Vinnskor","Aeslings","Bjornlings","Sarls","Graelings","Vargs","Skaelings","Baersonglings","Wyrmkin","Wolfclaw","Stormravens","Sortsvinaer"],
 
 		"civilopediaText": [
@@ -469,6 +480,7 @@
 		"adjective": ["Dark Elves"],
 		"startBias": ["Tundra"],
 		"style": "Elven",
+		"favoredReligion": "Cult of Khaine",
 		"outerColor": [153, 51, 153],
 		"innerColor": [0,0,0],
 		
@@ -492,7 +504,7 @@
 					"Free [Infantry] appears <upon constructing [Courthouse]> <upon discovering [Replaceable Parts] technology>",
 					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <upon discovering [Lasers] technology>",
 					"Comment [Elven]"], 
-		"cities": ["Naggarond","Ghrond","Karond Kar","Har Ganeth","Hag Graef","Clar Karond","","","",""],
+		"cities": ["Naggarond","Ghrond","Karond Kar","Har Ganeth","Hag Graef","Clar Karond","Har Kaldra","Witch Gate","Addaioth","Vindicus","Zardok","Ladrielle","Drackla Spire","Ironspike"],
 
 		"civilopediaText": [
 			{"text": "'We shall strike down our foes with sharp steel and cold hearts. The weak die so that the strong prevail and none shall be spared. Then and only then will our enemies know the true meaning of fear' - Malekith, Witch King of Naggaroth."},
@@ -658,10 +670,14 @@
 		"leaderName": "Astragoth Ironhand",
 		"adjective": ["Chaos Dwarfs"],
 		"startBias": ["Tundra"],
-		"favoredReligion": "Chaos Gods",
+		"favoredReligion": "Cult of Hashut",
 		"style": "Dwarven",
 		"outerColor": [153, 51, 153],
 		"innerColor": [255,255,255],
+
+		"startIntroPart1": "'You may curse us, shun us, deny our existence, but that is no matter. You have done so for centuries. Had you not abandoned us, our vast family would never have been sundered. Thanks to your cowardice, we are strong and mighty, seeing the truths that have long been hidden from Dwarf eyes.' - Gakroth, Chaos Dwarf Sorcerer",
+		//"startIntroPart2": "...",
+		
 
 		"declaringWar": "My youngest Zharrling will be 5 years of age tomorrow, so we're giving him a birthday party for him and 20 of his friends. I'll be needing some slaves for the youngsters to play with as party favors.",
 		"attacked": "I will use Hashut's Blood to free me of this curse! Stone will return to flesh and then I shall fashion a throne at the top of Zhar-Naggrund, from which I'll will rule forever in the Great Bull's name.",
@@ -674,7 +690,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]","Comment [Dwarven]"],
-		"cities": ["Zharr-Naggrund","Uzkulak","Gorgoth","Daemon's Stump","Black Fortress"],
+		"cities": ["Zharr-Naggrund","Gates of Zharr","Uzkulak","Gorgoth","Daemon's Stump","Black Fortress","Vorag","Gash Kadrak"],
 
 		"civilopediaText": [
 			{"text": "The Chaos Dwarfs are the evil rulers of the Dark Lands, a massive bleak region littered with ziggurats and forges that churn out untold tonnes of ashes across the land in the name of industry. They have enslaved numerous races, particularly the Greenskins, and have an alliance with the Hobgoblin Hegemony that more than makes up for their own slow characteristics. "},
@@ -696,6 +712,9 @@
 		"outerColor": [255, 255, 0],
 		"innerColor": [255,0,0],
 		
+		"startIntroPart1": "'Find a way with the ships of the desert (camels). Navigate by the stars, and bring back the riches from under the noses of our rivals!' - Sultan of Lashiek to Ibn Jellaba",
+		//"startIntroPart2": "...",
+
 		"attacked": "May your souls be flayed by Djinn!",
 		"defeated": "Our lives were glorious. Our death is as much. We'll meet in St'oec.",
 		"introduction": "By the silver beard of Abdul ibn Ashid! What a surprise to meet you, stranger.",
@@ -708,7 +727,7 @@
 		
 
 		"uniques": ["Starts with [Arabyan Tradition]"],
-		"cities": ["Alhaka","Copher","Lashiek","Martek","Muktarhin"],
+		"cities": ["Lashiek","Copher","Alhaka","Martek","Muktarhin","Bel-Aliad","Bagar","Ka-Sabar","El-Haikk","Zarekten","Gazi","Amhabal","Dakisir","El-Khabbath","Ras Karim","Songhai","Shanidaar"],
 
 		"civilopediaText": [
 			{"text": "Araby is an arid region to the south of the Old World, populated by dark-skinned humans who worship a single god. They are known to wield dark powers, and are able to summon powerful spirits known as Djinni"},

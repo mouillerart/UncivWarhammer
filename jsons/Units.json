@@ -868,28 +868,6 @@
 		]
 	},
 	{
-		"name": "Grey Seer",
-		"unitType": "Mage",
-		"uniqueTo": "Skaven",
-		"replaces": "Wizard",
-		"movement": 2,
-		"strength": 25,
-		"rangedStrength": 25,
-		"range": 1,
-		"cost": 125,
-		"requiredTech": "Magic of the Horned Rat",
-		"obsoleteTech": "Gunpowder",
-		"upgradesTo": "Seer Lord",
-		"requiredResource": "Magician",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
-					"[-15]% Strength <vs [Melee] units> <when defending>"],
-		"promotions": ["Camouflage"],
-		"attackSound": "artillery",
-		"civilopediaText": [
-			{"text": "The most fervent servants of the Horned Rat are known as Grey Seers. Raised from birth to serve their unholy master, the Grey Seers are the spiritual advisers of the Skaven legions. They commune with their horned god, offering advice and seemingly daring their leaders to discount it in favour of their own plots and plans. Who can argue with the will of a god? Who would risk his wrath by ignoring his emissaries?"} 
-		]
-	},
-	{
 		"name": "Arch-Wizard",
 		"unitType": "Mage",
 		"movement": 2,
@@ -969,26 +947,6 @@
 		"requiredResource": "Magician",
 		"uniques": ["Only available <if [The Grey College] is constructed>",
 					"[+50]% Strength <vs cities> <when attacking>", 
-					"[+15]% Strength <vs [Military] units> <when attacking>", 
-					"[-10]% Strength <vs [Melee] units> <when defending>"],
-		"attackSound": "artillery",
-		"civilopediaText": [
-			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
-		]
-	},
-	{
-		"name": "Seer Lord",
-		"unitType": "Mage",
-		"uniqueTo": "Skaven",
-		"replaces": "Shadowmancer",
-		"movement": 2,
-		"strength": 48,
-		"rangedStrength": 55,
-		"cost": 220,
-		"promotions": ["Camouflage","Reactive Armor"],
-		"requiredTech": "Gunpowder",
-		"requiredResource": "Magician",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
 					"[+15]% Strength <vs [Military] units> <when attacking>", 
 					"[-10]% Strength <vs [Melee] units> <when defending>"],
 		"attackSound": "artillery",
@@ -2511,7 +2469,7 @@
 					"Never appears as a Barbarian unit"],
 		"attackSound": "horse",
 		"civilopediaText": [
-			{"text": "hese are the most powerful and revered individuals in all of Bretonnia, if not the entire human world, second only to the Lady in influence. They are considered living saints who represent the fearsome might and power of Bretonnia and answer only to the Lady herself; the rightful king of the realm can only be chosen from within their holy order"}
+			{"text": "These are the most powerful and revered individuals in all of Bretonnia, if not the entire human world, second only to the Lady in influence. They are considered living saints who represent the fearsome might and power of Bretonnia and answer only to the Lady herself; the rightful king of the realm can only be chosen from within their holy order"}
 		]
 
 	},
@@ -2538,6 +2496,25 @@
 			{"text": "Knight with withdrawal ability and without city attacking penalty."}
 		]
 	},
+	{
+		"name": "Elemental Bear",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 44,
+		"rangedStrength": 55,
+		"cost": 220,
+		"promotions": ["Snowman","Golden Eyes"],
+		"requiredTech": "Master of Ice",
+		"requiredResource": "Magician",
+		"uniques": ["Only available <for [Kislev]>",
+					"[+50%] Strength <in [Tundra] tiles>"
+					"[+50%] Strength <in [Ice] tiles>"
+					"[+15]% Strength <vs [Military] units> <when attacking>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Elemental Bears are beings brought into sentience by the faith and devotion of the Kislevite people, and imbued with the spirit of the land. They are a brutal force of nature, massive, terrifying creatures of magical wrath and freezing, elemental breath that rise from the earth to fight beside Kislev's children."}
+		]
+	},
 	
 	// Tilea
 	{
@@ -2561,6 +2538,41 @@
 	},
 
 	// Estalia
+	{
+		"name": "Warrior Priest",
+		"unitType": "Sword",
+		"uniqueTo": "Estalia",
+		"replaces": "Priest",
+		"movement": 2,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech": "Ceremonial Burial",
+		"obsoleteTech": "Priesthood",
+		"upgradesTo": "Priest of Myrmidia",
+		"uniques": ["[+1] Sight", 
+					"All adjacent units heal [+10] HP when healing"],
+		"civilopediaText": [
+			{"text": "Warrior Priests of Myrmidia are inspiring figures on the battlefield."}
+		]
+	},
+	{
+		"name": "Priest of Myrmidia",
+		"unitType": "Sword",
+		"uniqueTo": "Estalia",
+		"replaces": "Cleric",
+		"movement": 2,
+		"strength": 18,
+		"cost": 200,
+		"requiredTech": "Priesthood",
+		"obsoleteTech": "Mana Channeling",
+		"uniques": ["[+1] Sight", 
+					"All adjacent units heal [+25] HP when healing", 
+					"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+					"Uncapturable"],
+		"civilopediaText": [
+			{"text": "Moved by holy visions and characterized by an incorruptible soul these full-clad warriors are fierce fighters and leaders."}
+		]
+	},
 	{
 		"name": "Divine Order",
 		"unitType": "Sword",
@@ -2605,6 +2617,27 @@
 	},
 	
 	// Sylvania
+	{
+		"name": "Vampire Bat",
+		"unitType": "Recon",
+		"replaces": "Scout",
+		"uniqueTo": "Sylvania",
+		"movement": 4,
+		"strength": 6,
+		"cost": 25,
+		"upgradesTo": "Ranger",
+		"obsoleteTech": "Monster Taming",
+		"uniques": ["Invisible to non-adjacent units",
+					"May enter foreign tiles without open borders",
+					"Can perform Air Sweep",
+					"[+50]% Strength when performing Air Sweep"
+					"Never appears as a Barbarian unit",
+					"May upgrade to [Ranger] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Vampire Bats are bats that closely resemble normal bats in general features, but they are Undead and far larger, with wingspans of up to fifteen feet and bodies the size of large dogs."}
+		]
+	},
 	{
 		"name": "Black Knight",
 		"unitType": "Mounted",
@@ -2931,6 +2964,20 @@
 	
 	// Araby
 	{
+		"name": "Flying Carpet",
+		"unitType": "Airship",
+		"movement": 3,
+		"strength": 30,
+		"cost": 200,
+		"requiredTech": "Master of the Winds",
+		"upgradesTo": "Hybrid Airship",
+		"obsoleteTech": "Foresighting",
+		"uniques": ["Only available <for [Araby]>",
+					"Cannot attack",
+					"Can carry [2] [Land] units",
+					"Never appears as a Barbarian unit"]
+	},
+	{
 		"name": "Mameluk",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
@@ -2967,6 +3014,26 @@
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "Inflict stronger ranged attack and the only Galleass which can sail through Ocean.", "link":"Technology/Astronomy"}
+		]
+	},
+	{
+		"name": "Djinn",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 44,
+		"rangedStrength": 55,
+		"cost": 220,
+		"promotions": ["Indirect Fire","Daywalker"],
+		"requiredTech": "Master of the Earth",
+		"requiredResource": "Magician",
+		"uniques": ["Only available <for [Araby]>",
+					"[+2] Movement <in [Desert] tiles>"
+					"[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Djinn, also called Genies, are mystical, elemental spirits akin to Daemons, that reside in the deep deserts of Araby and the Land of the Dead. When a Djinn is said to be so powerful as to be capable of eclipsing the sun, it is referred to with the title of Royal Djinn"}
 		]
 	},
 
@@ -3790,7 +3857,48 @@
 			{"text": "The Plague Furnace is a disease-ridden altar to the Great Horned Rat and an unholy icon of Clan Pestilens' power. The Furnace is pushed into battle by chanting Plague Monks, the creaking of the iron-shod wheels audible above the drone of devotional maledictions."}
 		]
 	},
-
+	{
+		"name": "Grey Seer",
+		"unitType": "Mage",
+		"uniqueTo": "Skaven",
+		"replaces": "Wizard",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 125,
+		"requiredTech": "Magic of the Horned Rat",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Seer Lord",
+		"requiredResource": "Magician",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[-15]% Strength <vs [Melee] units> <when defending>"],
+		"promotions": ["Camouflage"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text": "The most fervent servants of the Horned Rat are known as Grey Seers. Raised from birth to serve their unholy master, the Grey Seers are the spiritual advisers of the Skaven legions. They commune with their horned god, offering advice and seemingly daring their leaders to discount it in favour of their own plots and plans. Who can argue with the will of a god? Who would risk his wrath by ignoring his emissaries?"} 
+		]
+	},
+	{
+		"name": "Seer Lord",
+		"unitType": "Mage",
+		"uniqueTo": "Skaven",
+		"replaces": "Shadowmancer",
+		"movement": 2,
+		"strength": 48,
+		"rangedStrength": 55,
+		"cost": 220,
+		"promotions": ["Camouflage","Reactive Armor"],
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Magician",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+15]% Strength <vs [Military] units> <when attacking>", 
+					"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
+		]
+	},
 	{
 		"name": "Packmaster",
 		"unitType": "Tamer",
@@ -4453,6 +4561,24 @@
 		"attackSound": "whoosh",
 		"civilopediaText": [
 			{"text": "Life as a witch is very dangerous, therefore a special recon unit is trained. The main task of an Adept is to gather witchdraen, a term used to call witch children, and bring them to Draen Sanctuary. Witchdraen who have good potential will be trained by the Sisters of the Moon Thread."}
+		]
+	},
+	{
+		"name": "K'daai",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 44,
+		"rangedStrength": 55,
+		"cost": 220,
+		"promotions": ["Indirect Fire","Owl's Eye"],
+		"requiredTech": "Master of Fire",
+		"uniques": ["Only available <for [Hordes of Chaos]>",
+					"Self-destructs when attacking", 
+					"Never appears as a Barbarian unit",n
+					"[+15]% Strength <vs [Military] units> <when attacking>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text":"These mighty Daemonic fire elementals are trapped by sorcery and science, and need to be laid to rest as cold and silent metal until they are required in battle. There they burn bright and terrible, but briefly, as almost mindless, elemental forces of destruction."}
 		]
 	},
 	{
