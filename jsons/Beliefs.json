@@ -118,7 +118,9 @@
     {
         "name": "Stone Circles",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]", "[+1 Faith] from every [Quarry] <with [1] to [6] neighboring [Quarry] tiles>"]
+        "uniques": ["[+2 Faith] from every [Quarry]", 
+					"[+1 Faith] from every [Quarry] <with [1] to [6] neighboring [Quarry] tiles>",
+					"[+1 Faith] from every [Mine]"]
     },
 	{
         "name": "Magnate's Prestige",
@@ -136,6 +138,18 @@
         "type": "Pantheon",
         "uniques": ["[+1 Production, +1 Food, +1 Culture, +1 Faith, +1 Science, +1 Gold, +1 Happiness] [in capital]"]
     },
+    {
+        "name": "God of the Forge",
+        "type": "Pantheon",
+        "uniques": [
+            "[+25]% Production when constructing [Military] units [in this city] <before the [Renaissance age]>"
+        ]
+    },
+	{
+		"name": "God of Destruction",
+		"type": "Pantheon",
+		"uniques": ["[+3 Faith] from every [City ruins]"]
+	},
 	
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
