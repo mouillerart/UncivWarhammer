@@ -325,6 +325,7 @@
 		"uniques": ["Only available <for [Tilea]>",
 					"Militaristic City-States grant units [5] times as fast when you are at war with a common nation",
 					"Military Units gifted from City-States start with [30] XP",
+					"When defeating a [Preachable] unit, earn [-20] Gold and recruit it <with [25]% chance>",
 					"May buy [Melee] units for [100] [Gold] [in all cities] at an increasing price ([50])"],
 		"requiredTech": "Iron Working",
 		"quote": "'The Grungebringers will hold until paid their bloody gold' ― The Grungebringers' motto.",
@@ -2690,7 +2691,9 @@
 		"culture": 1,
 		"GreatPersonPoints": {"Great Artist": 1,"Great Engineer": 1,"Great Merchant": 1,"Great Scientist": 1},
 		"requiredTech": "Radar",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", 
+					"Hidden when [Diplomatic] Victory is disabled", 
+					"Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
 	},
 	
@@ -2860,7 +2863,7 @@
 		"cost": 5,
 		"uniques": ["May buy [Doc Ashfield] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Doc Ashfield] appears", 
+			                "Gain a free [Portal] [in this city]", "Free [Liang] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Doc Ashfield for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",
@@ -3280,7 +3283,7 @@
 		"faith":"50",
 		"hurryCostModifier": 0,
 		"requiredTech": "Fanaticism",
-		"uniques": [],
+		"uniques": ["[3] free [Inquisitor] units appear"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -3435,13 +3438,17 @@
 		]
 	},
 	{
-		"name": "Gateway",
+		"name": "The Eye in the North",
 		"maintenance": 1,
+		"isWonder": true,
 		"hurryCostModifier": 0,
-		"requiredTech": "Chaos Incursion",
-		"uniques": [],
+		"requiredTech": "Corruption of Chaos",
+		"uniques": ["Free [Bloodletter] appears <every [11] turns> <after discovering [Bloodlust of Khorne]>",
+					"Free [Daemonette] appears <every [9] turns> <after discovering [Slaanesh's Pleasures]>",
+					"Free [Nurgling] appears <every [7] turns> <after discovering [Gifts of the Plagued One]>",
+					"Free [Pink Horror] appears <every [13] turns> <after discovering [Lore of Change]>"],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "In the furthest north, beyond the boundaries of sanity and the laws of nature, stands one of the wrecked gateways of the Old Ones, oozing darkness and spewing forth mutating, magical energy: the raw stuff of Chaos. It is a bleeding wound, a tear in the fabric of reality, a gateway to another dimension."}
 		]
 	},
 	{
@@ -3768,6 +3775,20 @@
 		"uniques": ["[Land] Units adjacent to this city heal [+30] HP per turn when healing"],
 		"civilopediaText": [
 			{"text": ""}
+		]
+	},
+	{
+		"name": "The End Times",
+		"isWonder": true,
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"requiredTech": "Chaos Incursion",
+		"uniques": ["Triggers victory"],
+		"quote": "'The Three-Eyed King has long awaited this moment, the hour of which his destiny is at last unveiled. He leads an army of madness and rage, against which no sane being would willingly stand. Perhaps I am not sane, as I will fight one last time. Not for victory, but for survival, for the hope that a spark can endure. It is a slender hope, and the laughter of the Dark Gods rings loud in my ears... These are the End Times...' — Prophecy of the End Times",
+		"civilopediaText": [
+			{"text": "The world is ending. Civilisation has collapsed, assailed by creatures of madness and decay. Ancient cities have been cast down, their defenders slaughtered or driven to live like beasts in the wild. The dead can not be counted. "},
+			{"text": "The hordes of Archaon Everchosen march from the wild north, having drowned the Old World in blood and fire."},
+			{"text": "This is the End Times: the mortal world is doomed, and from the ashes of the old, a new world emerges out of the darkness left behind in the void, following a cycle of creation and destruction that had been long in the making."}
 		]
 	},
 	{

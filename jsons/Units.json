@@ -1755,7 +1755,7 @@
 	},
 	
 	{
-		"name": "Doc Ashfield",
+		"name": "Liang",
 		"unitType": "Archery Hero", 		// Chu-Ko-Nu
 		"movement": 2,
 		"strength": 20,
@@ -1828,7 +1828,10 @@
 		"promotions": ["Intimidation"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
-					"[+15]% Strength bonus for [Military] units within [2] tiles", 
+					"[+15]% Strength bonus for [Military] units within [2] tiles",
+					"[+50]% Strength <starting from the [Age of Lore]>",
+					"[+100]% Strength <starting from the [Feudal age]>",
+					"[+150]% Strength <starting from the [Renaissance age]>",
 					"Only available <if [Black Hole] is constructed>",
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable, +15% Strength bonus for Military units within 2 tiles",
@@ -2507,8 +2510,8 @@
 		"requiredTech": "Master of Ice",
 		"requiredResource": "Magician",
 		"uniques": ["Only available <for [Kislev]>",
-					"[+50%] Strength <in [Tundra] tiles>"
-					"[+50%] Strength <in [Ice] tiles>"
+					"[+50]% Strength <in [Tundra] tiles>"
+					"[+50]% Strength <in [Ice] tiles>"
 					"[+15]% Strength <vs [Military] units> <when attacking>"],
 		"attackSound": "artillery",
 		"civilopediaText": [
@@ -4574,7 +4577,7 @@
 		"requiredTech": "Master of Fire",
 		"uniques": ["Only available <for [Hordes of Chaos]>",
 					"Self-destructs when attacking", 
-					"Never appears as a Barbarian unit",n
+					"Never appears as a Barbarian unit",
 					"[+15]% Strength <vs [Military] units> <when attacking>"],
 		"attackSound": "artillery",
 		"civilopediaText": [
@@ -4616,6 +4619,69 @@
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "One-hit-kill attack of Heaven, or Hell."}
+		]
+	},
+	{
+		"name": "Bloodletter",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 3,
+		"strength": 22,
+		"cost": 120,
+		"uniques": ["Unbuildable"],
+		"promotions": ["Intimidation"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A Bloodletter is a Lesser Daemon of Khorne, the Chaos God of war and murder, who serves as a foot soldier in the Blood God's Daemonic legions."},
+			{"text": "As they march, there can be heard a surrusant chanting, a litany of words that some claim are evil enchantments. Others swear they hear the names of fallen comrades, and indeed, these Daemons chant the names of those they have slain in battle."}
+		]
+	},
+	{
+		"name": "Pink Horror",
+		"unitType": "Recon",
+		"replaces": "Pathfinder",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 140,
+		"uniques": ["Unbuildable"],
+		"promotions": ["Aqshy"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Pink Horrors are Lesser Daemons of Tzeentch, the Chaos God of change and intrigue, and the footsoldiers of his Daemonic legions, identified by their luminescent pink skin and their squeals of high-pitched laughter."}
+		]
+	},
+	{
+		"name": "Nurgling",
+		"unitType": "Construct",
+		"replaces": "Iron Golem",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 2,
+		"strength": 20,
+		"cost": 110,
+		"uniques": ["Unbuildable"],
+		"promotions": ["Hunt Instinc"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Nurglings are Lesser Daemons of Nurgle that are the very image of Father Nurgle himself, having friendly, mischievous faces and bloated, green bodies fitted with disproportionate limbs. The only difference is their size; a Nurgling is no taller than a foot high."}
+		]
+	},
+	{
+		"name": "Daemonette",
+		"unitType": "Tamer",
+		"replaces": "Elite Beast Tamer",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 2,
+		"strength": 40,
+		"cost": 290,
+		"uniques": ["Unbuildable"],
+		"promotions": ["Seductive Submission"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A Daemonette is a Lesser Daemon of Slaanesh, the Chaos God of pleasure and pain, and the most numerous of all the Dark Prince's servants."}
 		]
 	},
 

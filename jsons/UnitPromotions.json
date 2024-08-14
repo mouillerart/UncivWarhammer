@@ -35,12 +35,7 @@
 		"name": "Woodelf",
 		"uniques": ["[+1] Movement <in [Forest] tiles>", 
 					"[+1] Movement <in [Jungle] tiles>",
-					"Only available <for [Loren]>"],
-		"unitTypes": ["Civilian","Recon","Sword","Gunpowder","Anti-Cav","Anti-Armor","Mounted","Armored",
-			"Archery","Ranged Gunpowder","Siege",
-			"Mage","Construct","Vampire","Monk","Tamer",
-			"Airship","Air Terror","Water Terror",
-			"Infantry Hero","Anti-Cav Hero","Cavalry Hero","Archery Hero","Siege Hero","Evil Hero","Mage Hero"]
+					"Only available <for [Loren]>"]
 	},
 	{
 		"name": "Highlander",
@@ -1123,6 +1118,13 @@
 		"unitTypes": ["Monk"]
 	}	
 	
+	{
+		"name": "Soul-eater", // Hordes of Chaos
+		"uniques": ["Earn [10]% of killed [Wounded] unit's [Cost] as [Faith]", 
+					"Only available <for [Hordes of Chaos]>",
+					"Only available <for units with [Seductive Submission]>"]
+	},
+
 	/*
 	{
 		"name": "Dao Bone",

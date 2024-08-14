@@ -722,7 +722,6 @@
 			{
 				"name": "Lore of Change",
 				"row": 9,
-				"uniques": ["Unavailable <for [Bretonnia]>","Unavailable <for [Kislev]>"],
 				"prerequisites": ["Corruption of Chaos"],
 				"quote": ""
 			},
@@ -793,6 +792,8 @@
 			{
 				"name": "Chaos Incursion",
 				"row": 7,
+				"uniques": ["May buy [Shrine of the End Times] buildings with [Faith] [in all cities]",
+							"May buy [The End Times] buildings with [Faith] [in capital]"],
 				"prerequisites": ["Bloodlust of Khorne","Slaanesh's Pleasures","Gifts of the Plagued One","Lore of Change"],
 				"quote": ""
 			}

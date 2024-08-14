@@ -148,6 +148,8 @@
 		"uniques": ["Starts with [Dwarven Ingenuity]",
 			"Comment [Dwarven]",
 			"[+10]% Strength <within [2] tiles of a [Mountain]>", 
+			"Earn [50]% of killed [Ironclaw Orcs] unit's [Cost] as [Gold]",
+			"Earn [50]% of killed [Badmoon Goblins] unit's [Cost] as [Gold]",
 			"Units ignore terrain costs when moving into any tile with Hills",
 			"Land units may cross [Mountain] tiles aft5er the first [Great Person] is earned",
 			"Comment [Units ending their turn on [Mountain] tiles take [15] damage]"],
@@ -230,6 +232,7 @@
 					"Gain [250] [Gold] <upon conquering a city>", 
 					"[+1] Movement <for [Military] units> <when at war>", 
 					"[+1] Sight <for [{Military} {Land}] units>", 
+					"May buy [Shrine of Ursun] buildings with [Faith] [in all cities]"
 					"Provides [3] [Horses]"],
 		"cities": ["Kislev","Praag","Erengrad","Volksgrad","Belev","Kobrin","Krakjunov","Bolgasgrad","Patragresk","Preslav","Rakhov","Omensk","Zilair","Gdov","Chazask","Pinsk","Murmagrad","Dubna","Egorevsk","Oolnza","Nyrob","Yaransk","Tzeskagrad","Krovas","Shatsk","Selkov"],
 
@@ -307,6 +310,7 @@
 					"Enables embarkation for land units <starting from the [Ancient age]>", 
 					"Enables [All] units to enter ocean tiles <starting from the [Age of Magic]>",
 					"Defense bonus when embarked <for [All] units>",
+					//"[+10]% Strength <vs [Naggaroth] units>", // the old enemy
 					"Comment [Elven]"],
 		"cities": ["Avelorn","Phoenix Gate","Gaen Vale","Griffon Gate","Ellyrion","Eataine","Caledor","Saphery","Yvresse","Cothique","Chrace","Nagarythe","Tiranoc"],
 
@@ -689,7 +693,12 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Dwarven Ingenuity]","Starts with [Chaos]","Comment [Dwarven]"],
+		"uniques": ["Starts with [Dwarven Ingenuity]",
+					"Starts with [Chaos]",
+					"Earn [50]% of killed [Dwarfs] unit's [Cost] as [Culture]", // slaver nation
+					"When defeating a [Badmoon Goblins] unit, earn [5] Gold and recruit it", 	// greenskin alliance
+					"When defeating a [Ironclaw Orcs] unit, earn [5] Gold and recruit it", 		// greenskin alliance
+					"Comment [Dwarven]"],
 		"cities": ["Zharr-Naggrund","Gates of Zharr","Uzkulak","Gorgoth","Daemon's Stump","Black Fortress","Vorag","Gash Kadrak"],
 
 		"civilopediaText": [
@@ -773,7 +782,6 @@
 					"[+1 Happiness] from every [Knight Academy] <in cities with a [Infernal Gate]>", 
 					"Gain a free [Black Hole] [in capital]", 
 					"Receive a free Great Person at the end of every [comment] (every 394 years), after researching [Corruption of Chaos]. Each bonus person can only be chosen once.",
-					//"[-1 Faith] from every [Portal] <before the [Age of Magic]>", 
 					"Cannot build [Infantry Hero] units", 
 					"Cannot build [Anti-Cav Hero] units", 
 					"Cannot build [Cavalry Hero] units", 
@@ -782,7 +790,7 @@
 					"Cannot build [Water Hero] units", 
 					"Cannot build [Melee Water Hero] units", 
 					"May buy [Archdemon Kor'vash] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Age of Magic]>"],
-		"cities": ["Inevitable City","Bastion Stair","Ebon Keep","Sands of Time","Horrorsong","Daemon Statue","Hatemarch","Strangled Gasp","Gaping Dark"],
+		"cities": ["Inevitable City","Bastion Stair","Ebon Keep","Sands of Time","Horrorsong","Daemon Statue","Hatemarch","Strangled Gasp","Gaping Dark","Zerulous","Infernius","Black Rock","Shifting Monolith","Twisted Towers"],
 
 		"civilopediaText": [
 			{"text": "In the cold wastes of the north, the followers of the gods of Chaos gather in their thousands. Hordes of barbaric marauders and armour-clad warriors pour forth from the bleak wastelands to wage war against the soft-bellied wastrels who inhabit the rich lands of the south. Daemonic legions advance with them, proof that the Northmen are truly the favoured of the gods. There can be no bystanders in this eternal war, for the Dark Gods and their chosen servants will never rest until the world truly becomes a Realm of Chaos. "},
