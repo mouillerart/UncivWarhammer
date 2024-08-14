@@ -151,7 +151,7 @@
 			"Earn [50]% of killed [Ironclaw Orcs] unit's [Cost] as [Gold]",
 			"Earn [50]% of killed [Badmoon Goblins] unit's [Cost] as [Gold]",
 			"Units ignore terrain costs when moving into any tile with Hills",
-			"Land units may cross [Mountain] tiles aft5er the first [Great Person] is earned",
+			"Land units may cross [Mountain] tiles after the first [Great Person] is earned",
 			"Comment [Units ending their turn on [Mountain] tiles take [15] damage]"],
 		"cities": ["Karaz-a-Karak","Barak Varr","Karak Angazhar","Karak Azgaraz","Karak Bhufdar","Karak Eksfilaz","Karak Gantuk","Karak Grom","Karak Hirn","Karak Izor","Karak Kadrin","Karak Kaferkammaz","Karak Norn","Karak Ziflin","Zhufbar","Karak Azul"],
 		"spyNames": ["Rogir Greathelm","Dudduh Steelchaser","Zurgalbard Firefoot","Skigrom Goldenaxe","Khoaged Stoutshaper"],
@@ -698,6 +698,8 @@
 					"Earn [50]% of killed [Dwarfs] unit's [Cost] as [Culture]", // slaver nation
 					"When defeating a [Badmoon Goblins] unit, earn [5] Gold and recruit it", 	// greenskin alliance
 					"When defeating a [Ironclaw Orcs] unit, earn [5] Gold and recruit it", 		// greenskin alliance
+					"Units ignore terrain costs when moving into any tile with Hills",
+					"Land units may cross [Mountain] tiles after the first [Great Person] is earned",
 					"Comment [Dwarven]"],
 		"cities": ["Zharr-Naggrund","Gates of Zharr","Uzkulak","Gorgoth","Daemon's Stump","Black Fortress","Vorag","Gash Kadrak"],
 
