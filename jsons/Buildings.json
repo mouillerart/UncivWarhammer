@@ -770,7 +770,7 @@
 	{
 		"name": "Fertile Catalyst",
 		"replaces": "Water Mill",
-		"uniqueTo": "'Nkuhanea",
+		"uniqueTo": "Dwarfs",
 		"maintenance": 2,
 		"food": 2,
 		"production": 1,

@@ -2633,7 +2633,7 @@
 		"uniques": ["Invisible to non-adjacent units",
 					"May enter foreign tiles without open borders",
 					"Can perform Air Sweep",
-					"[+50]% Strength when performing Air Sweep"
+					"[+50]% Strength when performing Air Sweep",
 					"Never appears as a Barbarian unit",
 					"May upgrade to [Ranger] through ruins-like effects"],
 		"attackSound": "arrow",
@@ -4546,6 +4546,37 @@
 	
 	// Hordes of Chaos
 	{
+		"name": "Chaos Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Hordes of Chaos",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Exalted Hero",
+		"uniques" : ["May upgrade to [Exalted Hero] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Exalted Hero",
+		"unitType": "Sword",
+		"uniqueTo": "Hordes of Chaos",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Adept",
 		"unitType": "Mage",
 		"uniqueTo": "Hordes of Chaos",
@@ -4629,12 +4660,33 @@
 		"movement": 3,
 		"strength": 22,
 		"cost": 120,
-		"uniques": ["Unbuildable"],
+		"uniques": ["Daemon",
+					"Unbuildable",
+					"Never appears as a Barbarian unit",
+					"May upgrade to [Bloodthirster] through ruins-like effects"],
 		"promotions": ["Intimidation"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "A Bloodletter is a Lesser Daemon of Khorne, the Chaos God of war and murder, who serves as a foot soldier in the Blood God's Daemonic legions."},
 			{"text": "As they march, there can be heard a surrusant chanting, a litany of words that some claim are evil enchantments. Others swear they hear the names of fallen comrades, and indeed, these Daemons chant the names of those they have slain in battle."}
+		]
+	},
+	{
+		"name": "Bloodthirster",
+		"unitType": "Air Terror",
+		"replaces": "Dragon Paladin",
+		"uniqueTo": "Hordes of Chaos",
+		"movement": 6,
+		"strength": 70,
+		"rangedStrength": 60,
+		"cost": 400,
+		"requiredTech": "Flight",
+		"uniques": ["Daemon",
+					"Ignores Zone of Control", 
+					"[+50]% Strength <vs [Air Terror] units> <when defending>"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "A Bloodthirster is a Greater Daemon of Khorne. Bloodthirsters are not only the most deadly of Khorne's Daemonic servants, but the mightiest of all Daemonic warriors."}
 		]
 	},
 	{
@@ -4647,7 +4699,8 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"cost": 140,
-		"uniques": ["Unbuildable"],
+		"uniques": ["Daemon",
+					"Unbuildable"],
 		"promotions": ["Aqshy"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -4662,7 +4715,8 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 110,
-		"uniques": ["Unbuildable"],
+		"uniques": ["Daemon",
+					"Unbuildable"],
 		"promotions": ["Hunt Instinc"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -4677,7 +4731,8 @@
 		"movement": 2,
 		"strength": 40,
 		"cost": 290,
-		"uniques": ["Unbuildable"],
+		"uniques": ["Daemon",
+					"Unbuildable"],
 		"promotions": ["Seductive Submission"],
 		"attackSound": "metalhit",
 		"civilopediaText": [

@@ -306,17 +306,17 @@
 				"quote": ""
 			},
 			{
-				"name": "Corruption of Chaos",
-				"row": 13,
-				"uniques": ["[Wounded] units gain the [Seductive Submission] promotion","Gain enough Faith for [70]% of a Great Prophet"],				
-				"prerequisites": ["Raw Magic","Warrior Code","Chaos"],
-				"quote": ""
-			}
-			{
 				"name": "Magic of the Horned Rat",
 				"row": 14,
 				"uniques": ["Only available <for [Skaven]>","[+50]% [Science] [in all cities]","Gain enough Faith for [70]% of a Great Prophet"],
 				"prerequisites": ["Raw Magic"],
+				"quote": ""
+			},
+			{
+				"name": "Corruption of Chaos",
+				"row": 15,
+				"uniques": ["Adopt [Chaos]","Gain enough Faith for [70]% of a Great Prophet"],				
+				"prerequisites": ["Raw Magic","Warrior Code","Chaos"],
 				"quote": ""
 			}
 		]
