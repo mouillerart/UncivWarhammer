@@ -4333,13 +4333,34 @@
 		"cost": 125,
 		"requiredTech": "Elemental Magic",
 		"obsoleteTech": "Enlightenment",
-		"upgradesTo": "Arch-Wizard",
+		"upgradesTo": "Mage-Priest",
 		"requiredResource": "Magician",
 		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
 					"[-15]% Strength <vs [Melee] units> <when defending>"],
 		"attackSound": "artillery",
 		"civilopediaText": [
 			{"text": "The Skink Priests are the most intelligent of their skittish kind, whose role within their society are to act as religious figures, magic-users and important emissaries for their mighty Slann."} 
+		]
+	},
+	{
+		"name": "Mage-Priest",
+		"unitType": "Mage",
+		"replaces": "Arch-Wizard",
+		"uniqueTo": "Slann",
+		"movement": 2,
+		"strength": 28,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 220,
+		"requiredTech": "Enlightenment",
+		"obsoleteTech": "Mana Battery",
+		"upgradesTo": "Sorcerer",
+		"requiredResource": "Magician",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[-15]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text": "As the Slann are among the most magically powerful beings present on the face of the Known World, these favoured servants of the Old Ones have considerable intellect and magical abilities beyond the minds of most of the other mortal races, and rule the Lizardmen as a venerated caste of semi-religious mage-priests. Though they are not physically menacing -- their bodies are toad-like with large heads and bulbous eyes -- with but a flick of their fingers, the Slann can topple cities, engulf foes in flames or open vast vents in the ground below. Enemy wizards find the mightiest incantations they try to employ unravelling before them as a Slann contemptuously waves its hand.["}
 		]
 	},
 	{
@@ -4402,6 +4423,25 @@
 		]
 	},
 	{
+		"name": "Coatl",
+		"unitType": "Air Terror", 
+		"replaces": "Roc",
+		"uniqueTo": "Slann",
+		"movement": 5,
+		"strength": 26,
+		"cost": 195,
+		"requiredTech": "Magic Negation",
+		"obsoleteTech": "Mana Channeling",
+		"upgradesTo": "Griffon",
+		"uniques": ["Beast", 
+					"[+66]% Strength <vs [Dragon] units>", 
+					"Unable to capture cities"],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "The Coatl is one of the most rare and enigmatic creatures to be found on the New World continent of Lustria. They often serve as allies and even mounts to the Lizardmen of that jungle continent."}
+		]
+	},
+	{
 		"name": "Terradon Rider",
 		"unitType": "Air Terror",
 		"replaces": "Dragonling Rider",
@@ -4418,6 +4458,27 @@
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "Terradon Riders are a fast moving force of scouts and aerial warriors that have patrolled the skies above the Lustrian Empire for centuries."}
+		]
+	},
+	{
+		"name": "Ripperdactyl Rider",
+		"unitType": "Air Terror",
+		"replaces": "Dragon Knight",
+		"uniqueTo": "Slann",
+		"movement": 5,
+		"strength": 36,
+		"rangedStrength": 36,
+		"range": 1,
+		"cost": 330,
+		"requiredTech": "Mana Channeling",
+		"obsoleteTech": "Flight",
+		"upgradesTo": "Dragon Paladin",
+		"requiredResource": "Dragon's Egg"
+		"uniques": ["Dragon",
+					"Ignores Zone of Control"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "Ripperdactyl Riders are amongst the greatest and most fearsome aerial warriors to ever soar across the skies of tropical Lustria. "}
 		]
 	},
 

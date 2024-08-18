@@ -907,7 +907,7 @@
 					"[+1 Faith, +1 Production] from every [Marsh] <with [3] to [6] neighboring [Marsh] tiles>",
 					"[+15]% Strength <in [Marsh] tiles> <for [All] units>",
 					"[-15]% Strength <in [Tundra] tiles> <for [All] units>",
-					"[-15]% Strength <in [Snow] tiles> <for [All] units>",
+					"[-30]% Strength <in [Snow] tiles> <for [All] units>",
 					"[{Military} {Land}] units gain the [Cold-One] promotion"],
 		"cities": ["Itza","Hexoatl","Tlaxtlan","Xlanhuapec","Axlotl","Huatl","Oyxl","Zlatlan","Pahuax","Tlanxla","Xahutec","Tlax","Chaqua","Quetza","Xhotl","Chupayotl","Spektazuma","Hualotl","Qu'ittax","Subatuun","Kaiax","Xlanzec, the City of Outsiders"],
 
