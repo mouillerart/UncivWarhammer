@@ -2365,9 +2365,10 @@
 	{
 		"name": "Pyramid of the World Serpent",
 		"isWonder": true,
-		"faith": 1,
+		"faith": 10,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Nature Lore]>"],
+		"uniques": ["Unbuildable <before discovering [Nature Lore]>",
+					"All newly-trained [Land] units [in this city] receive the [Pet Command] promotion"],
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [
 			{"text": "The Pyramid is sacred to the god Sotek and is a place of holy pilgrimage for the cold-blooded inhabitants of Lustria. Each year, Great heaps of treasure and magical artefacts are offered to the Serpent God and legend has it that the pyramid contains an artefact rumoured to give the bearer power over the beasts of the jungle."}
@@ -2376,7 +2377,9 @@
 	{
 		"name": "Monument of the Moon",
 		"isWonder": true,
-		"faith": 1,
+		"production": 2,
+		"cityStrength": 30,
+		"cityHealth": 50,
 		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
 		"requiredTech": "Cold Ones",
@@ -2389,8 +2392,9 @@
 		"name": "Temple of Constellations",
 		"isWonder": true,
 		"faith": 1,
-		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Elemental Magic]>"],
+		"cityStrength": 30,
+		"cityHealth": 50,
+		"uniques": ["Unbuildable <before discovering [Elemental Magic]>","Provides [3] [Magician]"],
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [
 			{"text": "The mysterious Temple of Constellations has all manner of arcane and mystical symbols carved into its walls. Battles fought here are particularly perilous for combatants due to incessant lightning storms that surround the temple"}
