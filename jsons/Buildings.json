@@ -38,7 +38,8 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["Unbuildable <before discovering [Mysticism]>"],
+		"uniques": ["Unbuildable <before discovering [Mysticism]>"
+					"Unavailable <for [Slann]>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
 			{"text": "A waystone, also called an Ogham Stone, a 'fay stone' or an 'elf stone' usually by Men, is a Towering, rune-carved menhir crafted in ancient times by the Elves of Ulthuan that channel and redirects the Winds of Magic through an entire network of such artefacts"}
@@ -980,7 +981,8 @@
 		"requiredBuilding": "Chaos Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
+		"uniques": ["Hidden when religion is disabled", 
+					"[+1 Faith] from [Incense] tiles [in this city]", 
 					"[+25]% Production when constructing [{Military} {Land}] units [in this city]"],
 		"requiredTech": "Philosophy",
 		"civilopediaText": [
@@ -1082,7 +1084,7 @@
 		"faith": 1,
 		"science": 1,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Magician]", "Free [Adept] appears"],
+		"uniques": ["Provides [1] [Magician]", "Free [Shaman] appears"],
 		"requiredTech": "Winds of Magic",
 		"civilopediaText": [
             {"text": "A place where the witchdraen is trained. Equipped with protective facilities for the witchdraens during the Day of Awakening."}
@@ -2581,7 +2583,7 @@
 		"isWonder": true,
 		"science": 10,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Astrology]>","[2] Free Technologies"],
+		"uniques": ["Unbuildable <before discovering [Astrology]>","[2] Free Technologies","Only available <for [Ulthuan]>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
 			{"text": "The White Tower of Hoeth was to be the Scholar-King's Greatest contribution to the rebirth of Ulthuan: a citadel of sorcery and scholarship, where the wisdom of the four corners of the world would be gathered, and grimoires of the most potent spells would be enshrined. For a thousand years, the Elves raised this vast sky-reaching structure, harnessing the secrets of artificer and mage in equal measure with every stone that was laid. Craftsmen laboured for nearly a millennium on intricate carvings. The Tower was woven round with spells of illusion and warding to protect this treasured knowledge"}
@@ -2604,7 +2606,7 @@
 		"isWonder": true,
 		"faith": 10,
 		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears"],
+		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears","Only available <for [Ulthuan]>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
 			{"text": "The Shrine of Asuryan, an annual destination of the Phoenix King, is located on the Island of Flame due north of Lothern, and is considered both the holiest place on Ulthuan, and the safest. It is also here that those born of Aenarion's Line are tested for the Curse that plagues his descendants."}
@@ -3367,6 +3369,18 @@
 		"uniques": ["[2] Free Technologies"],
 		"civilopediaText": [
 			{"text": ""}
+		]
+	},
+	{
+		"name": "Liber Malefic",
+		"isWonder": true,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "True Dhar",
+		"uniques": ["[2] Free Technologies",
+					"Gain a free [Infernal Gate] [in this city]"],
+		"civilopediaText": [
+			{"text": "Liber Malefic – a book written by Marius Hollseher detailing the Realm of Chaos and various Daemons that dwell within it. Two conflicting accounts are presented about this tome: either the author was a fever-struck hallucinating scribe, or he was the Elector Count of Stirland who was allowed to physically travel through the Chaos Realm."}
 		]
 	},
 	{

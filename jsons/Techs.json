@@ -65,8 +65,8 @@
 			{
 				"name": "Channeling",
 				"row": 10,
-				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Dwarfs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Badmoon Goblins]>"],
-				"quote": "This is a free advance granted to Ulthuan and Albion."
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Dwarfs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Naggaroth]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Badmoon Goblins]>"],
+				"quote": "This is a free advance granted to Ulthuan; Slann and Albion."
 			},
 			{
 				"name": "Forest Mastery",
@@ -558,13 +558,13 @@
 				"name": "High Magic",
 				"row": 11,
 				"prerequisites": ["Raw Magic","Channeling"],
-				"quote": ""
+				"quote": "Qhaysh, also called High Magic or True Magic, is the art of using all eight of the Winds of Magic in harmony and unison, allowing a wizard to channel and cast some of the most powerful spells known to mortal-kind. Exclusive to the Elves and Slann, High Magic spells are powerful, beyond the ken of Human minds to master and the ability of Men to cast. In fact, the spells the High Elf Archmage Teclis taught the Magisters of the Imperial Orders of Magic at their founding were but minor spells of True Magic. "
 			},
 			{
 				"name": "True Dhar",
 				"row": 12,
 				"prerequisites": ["Raw Magic","Chaos"],
-				"quote": ""
+				"quote": "Dhar, also called Dark Magic or, more rarely, Black Magic, is a form of magic that draws on all eight of the Winds of Magic yet does so in a corrupt and unbalanced way that can twist the physical environment, cause rampant mutation in the caster or bystanders, lead to the user's damnation by Chaos or otherwise damage reality itself."
 			},
 		]
 	},

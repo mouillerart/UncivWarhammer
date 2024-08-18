@@ -38,6 +38,12 @@
 					"Only available <for [Loren]>"]
 	},
 	{
+		"name": "Cold-One",
+		"uniques": ["[+1] Movement <in [Marsh] tiles>", 
+					"[+1] Movement <in [Jungle] tiles>",
+					"Only available <for [Slann]>"]
+	},
+	{
 		"name": "Highlander",
 		"uniques": ["[+1] Movement <in [Hill] tiles>"],
 		"unitTypes": ["Recon"]

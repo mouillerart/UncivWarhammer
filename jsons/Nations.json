@@ -791,7 +791,7 @@
 					"Cannot build [Siege Hero] units", 
 					"Cannot build [Water Hero] units", 
 					"Cannot build [Melee Water Hero] units", 
-					"May buy [Archdemon Kor'vash] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Age of Magic]>"],
+					"May buy [The Everchosen] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Age of Magic]>"],
 		"cities": ["Inevitable City","Bastion Stair","Ebon Keep","Sands of Time","Horrorsong","Daemon Statue","Hatemarch","Strangled Gasp","Gaping Dark","Zerulous","Infernius","Black Rock","Shifting Monolith","Twisted Towers"],
 
 		"civilopediaText": [
@@ -801,7 +801,7 @@
 			{"text": "Tips to play:"},
 			{"text": "Hordes of Chaos unique victory is the destruction of the world through the achievement of [The End Times]."},
 			{"text": "The Prophecy of End Times will provide Great People periodically. Use them at convenience."},
-			{"text": "Whevener possible, build [The Eye in the North] to open the gate to another dimension and let the daemonic hordes from the four major Gods of Chaos enter the world."},
+			{"text": "At some point, build [The Eye in the North] to open the gate to another dimension and let the daemonic hordes from the four major Gods of Chaos enter the world."},
 			{"text": "Then, kill as many opponents to gain enough faith to achieve the End Times."}
 		]
 	}
@@ -902,7 +902,13 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Cold Ones]"],
+		"uniques": ["Starts with [Cold Ones]",
+					"Starts with [Channeling]",
+					"[+1 Faith, +1 Production] from every [Marsh] <with [3] to [6] neighboring [Marsh] tiles>",
+					"[+15]% Strength <in [Marsh] tiles> <for [All] units>",
+					"[-15]% Strength <in [Tundra] tiles> <for [All] units>",
+					"[-15]% Strength <in [Snow] tiles> <for [All] units>",
+					"[{Military} {Land}] units gain the [Cold-One] promotion"],
 		"cities": ["Itza","Hexoatl","Tlaxtlan","Xlanhuapec","Axlotl","Huatl","Oyxl","Zlatlan","Pahuax","Tlanxla","Xahutec","Tlax","Chaqua","Quetza","Xhotl","Chupayotl","Spektazuma","Hualotl","Qu'ittax","Subatuun","Kaiax","Xlanzec, the City of Outsiders"],
 
 		"civilopediaText": [

@@ -1821,7 +1821,7 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Archdemon Kor'vash",
+		"name": "The Everchosen",
 		"unitType": "Evil Hero",
 		"movement": 2,
 		"strength": 25,
@@ -4219,6 +4219,130 @@
 	
 	// Slann
 	{
+		"name": "Saurus Warrior",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Slann",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Saurus Oldblood",
+		"uniques" : ["May upgrade to [Saurus Oldblood] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "The Saurus form one of the core species of the Lizardmen race, created by the Old Ones to be the warriors and guardians of their society. When the Temple-Cities are on the warpath, it is the Saurus who make up the hardened core of the fighting forces. This is of no surprise, for the Saurus were created solely for the purpose of warfare and nothing else. They are large and ferocious predator-warriors, so single-minded in their duties that they have no concept of thought, individuality or personality."}
+		]
+	},
+	{
+		"name": "Saurus Oldblood",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Slann",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Kroxigor",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A Saurus Oldblood is amongst the most powerful living Saurus warriors among the Lizardmen of Lustria, ancient beings who have been alive for several thousand years. "}
+		]
+	},
+	{
+		"name": "Kroxigor",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Slann",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Saurus Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "The Kroxigor form one of the core species of the Lizardmen race, created by the Old Ones as strong and obedient construction workers, labourers and in times of war, powerful warriors. Under the guidance of Skink overseers, Kroxigors accomplish many great tasks that would require a great amount of strength to muster, such as hauling and placing the massive stone blocks instrumental in the composition of the ziggurat temples."}
+		]
+	},
+	{
+		"name": "Saurus Musketman",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Slann",
+		"movement": 2,
+		"strength": 28,
+		"cost": 175,
+		"requiredResource": "Warpstone",
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Skink",
+		"unitType": "Recon",
+		"replaces": "Scout",
+		"uniqueTo": "Slann",
+		"movement": 4,
+		"strength": 6,
+		"cost": 25,
+		"upgradesTo": "Chameleon Skink",
+		"obsoleteTech": "Monster Taming",
+		"uniques": ["Never appears as a Barbarian unit",
+					"May upgrade to [Chameleon Skink] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "The Skinks form one of the core species of the Lizardmen race, created by the Old Ones to be the workers, artisans and crafters of their society. Both physically and mentally agile, Skinks are perfectly adapted to ensure the smooth day-to-day running of the temple-cities as well as operating the far-ranging patrols that sweep across the vast jungle continent. They are the mass workforce designed by the Old Ones to perform many different roles that requires a quick mind and a dexterous hand to operate, and without them, Lizardmen society would simply collapse."}
+		]
+	},
+	{
+		"name": "Chameleon Skink",
+		"unitType": "Recon",
+		"replaces": "Ranger",
+		"uniqueTo": "Slann",
+		"movement": 2,
+		"strength": 11,
+		"cost": 55,
+		"requiredTech": "Monster Taming",
+		"upgradesTo": "Pathfinder",
+		"obsoleteTech": "Mass Media",
+		"uniques": ["Invisible to non-adjacent units",
+					"Can see invisible [Military] units", 
+					"[+1] Movement <in [Forest] tiles>", 
+					"[+1] Movement <in [Jungle] tiles>",
+					"May upgrade to [Crossbowman] through ruins-like effects"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Chameleon Skinks are a subspecies of Skink that have a number of peculiarities that distinguish them from others of their own kind. They are able to move to within yards of their target without being seen, chiefly due to their chameleonic skin that can shift in texture and colour in a heartbeat to match the surroundings almost perfectly. Conversely, they have large protruding eyes that can move independently, allowing them to see everything around while still remaining perfectly motionless."}
+		]
+	},
+	{
+		"name": "Skink Priest",
+		"unitType": "Mage",
+		"replaces": "Wizard",
+		"uniqueTo": "Slann",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 125,
+		"requiredTech": "Elemental Magic",
+		"obsoleteTech": "Enlightenment",
+		"upgradesTo": "Arch-Wizard",
+		"requiredResource": "Magician",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[-15]% Strength <vs [Melee] units> <when defending>"],
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text": "The Skink Priests are the most intelligent of their skittish kind, whose role within their society are to act as religious figures, magic-users and important emissaries for their mighty Slann."} 
+		]
+	},
+	{
 		"name": "Cold Ones Knight",
 		"unitType": "Mounted",
 		"replaces": "Knight",
@@ -4227,8 +4351,8 @@
 		"strength": 24,
 		"cost": 135,
 		"requiredTech": "Cold Ones",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"upgradesTo": "Stegadon",
+		"obsoleteTech": "Quintessence Force",
 		"uniques": ["Only available <for [Slann]>",
 					"Can move after attacking", 
 					"No defensive terrain bonus", 
@@ -4237,7 +4361,63 @@
 		"promotions": ["Reactive Armor","Quick Study"],
 		"attackSound": "horse",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Cold Ones, called Nauglir in the Dark Elven Druhir tongue, are feral, carnivorous reptilian beasts that can be found on the New World continents of Lustria and Naggaroth. These species of giant reptiles are used as mounts by both the Dark Elves and the Lizardmen."}
+		]
+	},
+	{
+		"name": "Stegadon",
+		"unitType": "Mounted",
+		"uniqueTo": "Slann",
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 55,
+		"cost": 150,
+		"requiredTech": "Quintessence Force",
+		"obsoleteTech": "Mana Battery",
+		"upgradesTo": "Troglodon",
+		"uniques": ["[+15]% Strength <when attacking> <with [10]% chance>", 
+					"Limited to [3] per Civilization", 
+					"Beast"],
+		"attackSound": "bombing",
+		"civilopediaText": [
+			{"text": "Stegadons are mighty horned reptilian beasts that have dwelt within the primeval jungles of Lustria since long before the coming of the Old Ones. They are bulky creatures whose heads are covered by armoured crests, out of which project massive horns. With bony scales and spikes shielding their bodies, there are few predators that dare challenge them. Territorial and highly aggressive, Stegadons will charge any creature that intrudes upon their habitat. Other creatures stay well clear of these herds, for fear of being trampled or gored."}
+		]
+	},
+	{
+		"name": "Troglodon",
+		"unitType": "Mage",
+		"uniqueTo": "Slann",
+		"movement": 3,
+		"strength": 60,
+		"rangedStrength": 55,
+		"cost": 250,
+		"requiredTech": "Mana Battery",
+		"uniques": ["Ignores Zone of Control", 
+					"Limited to [3] per Civilization", 
+					"Beast"],
+		"promotions": ["Battlecry","Sharpen Eye"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Mounted on a Troglodon, a Skink Oracle travels the land, using his obscure divining powers to seek out lost artefacts of the Old Ones or to investigate disturbances felt in the Geomantic Web. As with the Skink Priests, Slann Mage-Priests can see the world through the eyes of a Skink Oracle and can cast spells through them. This telepathic link means the Oracles often appear just when they are most needed - further adding to the superstitions surrounding the mysterious Skinks and their revered mounts. All Lizardmen rally at the wailing cry of the Troglodon, for its eerie call stirs their savagery and proves they have the Old Ones' favour."}
+		]
+	},
+	{
+		"name": "Terradon Rider",
+		"unitType": "Air Terror",
+		"replaces": "Dragonling Rider",
+		"uniqueTo": "Slann",
+		"movement": 5,
+		"strength": 30,
+		"cost": 210,
+		"requiredTech": "Magic Negation",
+		"obsoleteTech": "Mana Channeling",
+		"upgradesTo": "Dragon Knight",
+		"requiredResource": "Dragon's Egg",
+		"promotions": ["Fire Breath"],
+		"uniques": ["Dragon"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "Terradon Riders are a fast moving force of scouts and aerial warriors that have patrolled the skies above the Lustrian Empire for centuries."}
 		]
 	},
 
@@ -4577,7 +4757,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Adept",
+		"name": "Shaman",
 		"unitType": "Mage",
 		"uniqueTo": "Hordes of Chaos",
 		"replaces": "Ranger",
@@ -4588,13 +4768,13 @@
 		"requiredTech": "Raw Magic",
 		"obsoleteTech": "Enlightenment",
 		"upgradesTo": "Arch-Wizard",
-		"uniques": ["[+1] Movement <in [Forest] tiles>", 
-					"[+1] Movement <in [Jungle] tiles>", 
+		"uniques": ["[+1] Movement <in [Tundra] tiles>", 
+					"[+1] Movement <in [Snow] tiles>", 
 					"Preachable"],
 		"promotions": ["Seductive Submission"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
-			{"text": "Life as a witch is very dangerous, therefore a special recon unit is trained. The main task of an Adept is to gather witchdraen, a term used to call witch children, and bring them to Draen Sanctuary. Witchdraen who have good potential will be trained by the Sisters of the Moon Thread."}
+			{"text": "Life as a witch is very dangerous, therefore a special recon unit is trained. The main task of a shaman is to gather witchdraen, a term used to call witch children, and bring them to Draen Sanctuary. Witchdraen who have good potential will be trained by the Sisters of the Moon Thread."}
 		]
 	},
 	{
@@ -4806,12 +4986,12 @@
 		"civilopediaText": [
 			{"text": "Each civilization in Fantasia may only summon 2 Hero(es)."},
 			{"text": "The first Hero is available by selecting the Portal according to the desired Hero (except Hordes of Chaos)"},
-			{"text": "Hordes of Chaos can't summon Hero, but gain access to summon Archdemon Kor'vash. Thus, Hordes of Chaos's Hero already defined."},
+			{"text": "Hordes of Chaos can't summon Hero, but gain access to summon The Everchosen. Thus, Hordes of Chaos's Hero already defined."},
 			{"text": "The second Hero is available after constructing Castle Drachenfels, which will provide Mage Hero: Constant Drachenfels."},
 			{"text": "Every Hero gets the same talent: Bonus vs Air Terror 25%, Bonus vs Water Terror 25%, Bonus vs Mythical Beast 100%."},
 			{"text": "In addition, each Hero inherit talent from his class."},
 			{"text": "For example Constant Drachenfels inherit talent: Bonus attack vs cities 50%, Bonus attack vs Construct 25%."},
-			{"text": "Special case for Archdemon Kor'vash, which inherit talent: Bonus attack vs Mage 33%."},
+			{"text": "Special case for The Everchosen, which inherit talent: Bonus attack vs Mage 33%."},
 			{"separator": true}
 		]
 	}
