@@ -64,8 +64,7 @@
 		"maintenance": 2,
 		"uniques": ["Unbuildable <before discovering [Agriculture]>",
 					"Must be next to [Marsh]",
-					"Free [Kroxigor] appears <every [20] turns> <after discovering [Iron Working]>",
-					"Free [Skink] appears <every [15] turns> <after discovering [Hunting]>",
+					"[+50]% Production when constructing [{Military} {Land}] units [in this city]",
 					"All newly-trained [Land] units [in this city] receive the [Pond-born] promotion"],
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [	
