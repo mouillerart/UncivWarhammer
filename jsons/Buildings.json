@@ -734,7 +734,7 @@
 		"isWonder": true,
 		"requiredTech": "Chronicles",
 		"uniques": ["Free Technology", "Gain a free [Paper Maker] [in this city]"],
-		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon",
+		"quote": "'It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live.' - Anonymous",
 		"civilopediaText": [
 			{"text": "For Dwarfs, formal brewing competitions usually take place on Brodag, a festival of Grungni on 33 Valdazet (Brauzeit). The festivities are open to anyone in the settlement, and even the occasional Human or Halfling guest. It is a day of merriment, singing and storytelling. It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live."}
 		]
@@ -2423,6 +2423,7 @@
 		"isWonder": true,
 		"uniques": [""],
 		"requiredTech": "Brewing",
+		"quote": "'There’s no beer as bitter as its history.' ― Old Dwarf saying",
 		"civilopediaText": [
 			{"text": "Bugman's Brewery is a brewing community founded by a Dwarf master brewer, Josef Bugman."}
 		]
@@ -2506,10 +2507,10 @@
 		"name": "Sigmar's Saga",
 		"isWonder": true,
 		"culture": 4,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Chronicles]>","Free Technology"],
 		"requiredTech": "Old World",
 		"requiredBuilding": "Paper Maker",
+		"quote": "'Then chiefs came to Sigmar, to his hold. Let us fight Goblins, let Orcs be fought! Sigmar, hammer-bearer lead us in war. And the tribes went forth. With iron of the Dwarfs, to do battle. With Goblins and Orcs. On the plain of battle, beside the mighty Stir. Met they the Goblin Hordes, eager for slaughter. The number of the Goblins was beyond counting. And the number of Orcs, was as the trees in the forest. And the number of Trolls, was more than boulders upon the mountain. And the number of men, was but a few. And the gods gave the victory, to the men. To the World's Edge the Goblins fled. But the greater number of them were dead.' ― The Legend of Sigmar",
 		"civilopediaText": [
 			{"text": "..."}
 		]
@@ -2518,10 +2519,10 @@
 		"name": "Revelation of the Lady",
 		"isWonder": true,
 		"faith": 4,
-		"isWonder": true,
 		"uniques": ["Gain a free [Follower] belief"],
 		"requiredTech": "Priesthood",
 		"requiredBuilding": "Shrine of the Holy Grail",
+		"quote": "'By the will of the Lady of the Lake, beneficent deity of all Bretonnia, by lance and by sword, are the lands of the king kept safe from Greenskins and the mutant Beastmen of the darkling forests, from malicious Daemons and the walking dead...' ― Bretonnia prayer",
 		"civilopediaText": [
 			{"text": "..."}
 		]
