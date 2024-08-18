@@ -59,6 +59,20 @@
 		]
 	},
 	{
+		"name": "Spawning Pond",
+		"cost": 40,
+		"maintenance": 2,
+		"uniques": ["Unbuildable <before discovering [Agriculture]>",
+					"Must be next to [Marsh]",
+					"Free [Kroxigor] appears <every [20] turns> <after discovering [Iron Working]>",
+					"Free [Skink] appears <every [15] turns> <after discovering [Hunting]>",
+					"All newly-trained [Land] units [in this city] receive the [Pond-born] promotion"],
+		"requiredTech": "Cold Ones",
+		"civilopediaText": [	
+			{"text": "The Lizardmen's core species such as the Slann, Saurus, Skinks and Kroxigors are not born from eggs, like their feral reptilian cousins, but are birth from special pools and ponds located within sacred regions of jungle. This birthing of a new generation of Lizardmen are called Spawnings. Every Temple-City has its own sacred ponds and expanses of marsh where these spawning events occur. Skinks and Kroxigors tend to spawn in ponds and swamps open to the sky, whereas Saurus and certain other Kroxigors are usually spawned in dank subterranean caverns. Pyramid Temples are frequently built over the top of the entrances to such caverns and outlying swamps are sometimes made into rectangular ponds encircled by stone."}
+		]
+	},
+	{
 		"name": "Old Ones Shrine",
 		"science": 1,
 		"faith": 2,

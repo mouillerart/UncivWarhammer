@@ -38,9 +38,15 @@
 					"Only available <for [Loren]>"]
 	},
 	{
-		"name": "Cold-One",
+		"name": "Cold Blood",
 		"uniques": ["[+1] Movement <in [Marsh] tiles>", 
 					"[+1] Movement <in [Jungle] tiles>",
+					"Only available <for [Slann]>"]
+	},
+	{
+		"name": "Pond-born",
+		"uniques": ["May travel on Water tiles without embarking",
+					"Cannot enter ocean tiles",
 					"Only available <for [Slann]>"]
 	},
 	{

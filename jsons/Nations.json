@@ -908,7 +908,7 @@
 					"[+15]% Strength <in [Marsh] tiles> <for [All] units>",
 					"[-15]% Strength <in [Tundra] tiles> <for [All] units>",
 					"[-30]% Strength <in [Snow] tiles> <for [All] units>",
-					"[{Military} {Land}] units gain the [Cold-One] promotion"],
+					"[{Military} {Land}] units gain the [Cold Blood] promotion"],
 		"cities": ["Itza","Hexoatl","Tlaxtlan","Xlanhuapec","Axlotl","Huatl","Oyxl","Zlatlan","Pahuax","Tlanxla","Xahutec","Tlax","Chaqua","Quetza","Xhotl","Chupayotl","Spektazuma","Hualotl","Qu'ittax","Subatuun","Kaiax","Xlanzec, the City of Outsiders"],
 
 		"civilopediaText": [
@@ -933,9 +933,9 @@
 
 		"declaringWar": "I am the hunter and you are my prey.",
 		"attacked": "We will defend the sacred sites to the last blood.",
-		"defeated": "Men, men, men.",
-		"afterPeace": "you'll have to clean this up. We won't do it for you.",
-		"introduction": "Oh. First men since Rothnikson. Welcome to the Sisterhood.",
+		"defeated": "Men, men, men. Don't tell you mom what you just did.",
+		"afterPeace": "You'll have to clean this up. We won't do it for you.",
+		"introduction": "Oh. You must be 'men'? Vague legends about you from Rothnikson. Welcome to the Sisterhood.",
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
