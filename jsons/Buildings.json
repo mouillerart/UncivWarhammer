@@ -727,15 +727,41 @@
 	},
 	{
 		"name": "Brodag",
+		"happiness": 3,
+		"culture": 1,
+		"GreatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"requiredTech": "Brewing",
+		"uniques": [],
+		"quote": "'It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live.' - Anonymous",
+		"civilopediaText": [
+			{"text": "For Dwarfs, formal brewing competitions usually take place on Brodag, a festival of Grungni on 33 Valdazet (Brauzeit). The festivities are open to anyone in the settlement, and even the occasional Human or Halfling guest. It is a day of merriment, singing and storytelling. It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live."}
+		]
+	},
+	{
+		"name": "Cult of Handrich",
+		"gold": 3,
+		"GreatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"requiredTech": "Trade",
+		"uniques": ["Gain a free [Market] [in this city]"],
+		"quote": "'It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live.' - Anonymous",
+		"civilopediaText": [
+			{"text": "The Cult of Handrich is the primary religious organisation dedicated to the worship of Handrich, the god of trade, commerce and merchants in the Old World. Handrich is also known as Haendryk in Marienburg, Mercopio in Tilea, O Prospero in Estalia, and in Bretonnia as Affairiche."}
+		]
+	},
+	{
+		"name": "Marco Polare's Travels",
 		"science": 3,
 		"culture": 1,
 		"GreatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Chronicles",
 		"uniques": ["Free Technology", "Gain a free [Paper Maker] [in this city]"],
-		"quote": "'It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live.' - Anonymous",
+		"quote": "'Paper? How interesting. Can you make money with it?' - Armanda de Pantaleon, Tilean trader",
 		"civilopediaText": [
-			{"text": "For Dwarfs, formal brewing competitions usually take place on Brodag, a festival of Grungni on 33 Valdazet (Brauzeit). The festivities are open to anyone in the settlement, and even the occasional Human or Halfling guest. It is a day of merriment, singing and storytelling. It is said of Brodag that if you can remember it the next morning, you will never forget it as long as you live."}
+			{"text": "Marco Polare was a Tilean explorer, merchant and adventurer who in 1247 IC reached Grand Cathay, and wrote of spying the Skaven under the great city of Weijin."},
+			{"text": "Polare's writings about the Far East included many of the legends of Grand Cathay, including stories of immortal eunuch sorcerers that drank the souls of Men, tales from the jungles of Ind and the Southlands about mad priests who tear out Men's hearts to feed to their Dark Gods, unarmed combat techniques from warrior-mystics of Cathay, and an odd thing called 'paper' to record messages and chronicles."}
 		]
 	},
 	{
@@ -2418,9 +2444,9 @@
 		"name": "Bugman's Brewery",
 		"isWonder": true,
 		"happiness": 2,
-		"gold": 2,
 		"isWonder": true,
-		"uniques": [""],
+		"uniques": ["[+25]% [Gold] <in cities with a [Tavern]>",
+					"[+10]% [Gold] <in cities with a [Inn]>"],
 		"requiredTech": "Brewing",
 		"quote": "'There’s no beer as bitter as its history.' ― Old Dwarf saying",
 		"civilopediaText": [
