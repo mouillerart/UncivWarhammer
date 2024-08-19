@@ -355,6 +355,7 @@
 					"Comment [May build [Quarry] improvement without removing Forest]", 
 					"Comment [May build [Farm] improvement without removing Forest]", 
 					"Comment [May build [Pasture] improvement without removing Forest]", 
+					"[-50]% Production when constructing [Settler] units [in all cities]"
 					"[+1 Culture, +1 Faith, +1 Food] from every [Forest] <with [3] to [6] neighboring [Forest] tiles>", 					
 					"[{Military} {Land}] units gain the [Woodelf] promotion",
 					"[+15]% Strength <in [Forest] tiles> <for [All] units>",

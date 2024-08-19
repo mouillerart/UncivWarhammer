@@ -89,6 +89,11 @@
         "uniques": ["[+5 Faith] from every [Natural Wonder]"]
     },
     {
+        "name": "Swamp Things",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food, +1 Production] from every [Marsh]"]
+    },
+    {
         "name": "Elder Tradition",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Plantation]"]
