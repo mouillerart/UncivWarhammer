@@ -4,60 +4,39 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+NationIcons/Cathay
+  rotate: false
+  xy: 912, 612
+  size: 608, 720
+  orig: 608, 720
+  offset: 0, 0
+  index: -1
+ReligionIcons/Cult of Hashut
+  rotate: false
+  xy: 912, 1340
+  size: 611, 631
+  orig: 611, 631
+  offset: 0, 0
+  index: -1
 ReligionIcons/Gork and Mork
   rotate: false
-  xy: 4, 548
+  xy: 4, 478
   size: 804, 585
   orig: 804, 585
   offset: 0, 0
   index: -1
+TechIcons/WAAGH
+  rotate: false
+  xy: 816, 4
+  size: 600, 600
+  orig: 600, 600
+  offset: 0, 0
+  index: -1
 UnitIcons/Necroserpent
   rotate: false
-  xy: 4, 1141
+  xy: 4, 1071
   size: 900, 900
   orig: 900, 900
-  offset: 0, 0
-  index: -1
-WonderImages/Black Pillar of Commandments
-  rotate: false
-  xy: 912, 1640
-  size: 799, 401
-  orig: 799, 401
-  offset: 0, 0
-  index: -1
-WonderImages/Brodag
-  rotate: false
-  xy: 4, 139
-  size: 799, 401
-  orig: 799, 401
-  offset: 0, 0
-  index: -1
-WonderImages/Bugman's Brewery
-  rotate: false
-  xy: 912, 1231
-  size: 799, 401
-  orig: 799, 401
-  offset: 0, 0
-  index: -1
-WonderImages/Council of Thirteen
-  rotate: false
-  xy: 912, 822
-  size: 799, 401
-  orig: 799, 401
-  offset: 0, 0
-  index: -1
-WonderImages/Cult of Handrich
-  rotate: false
-  xy: 816, 413
-  size: 799, 401
-  orig: 799, 401
-  offset: 0, 0
-  index: -1
-WonderImages/Dogs of War
-  rotate: false
-  xy: 811, 4
-  size: 799, 401
-  orig: 799, 401
   offset: 0, 0
   index: -1
 
@@ -66,67 +45,74 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Cathay
+BuildingIcons/Chamon
   rotate: false
-  xy: 1430, 4
-  size: 608, 720
-  orig: 608, 720
+  xy: 596, 1439
+  size: 520, 580
+  orig: 520, 580
   offset: 0, 0
   index: -1
-ReligionIcons/Cult of Hashut
+BuildingIcons/Ghur
   rotate: false
-  xy: 811, 93
-  size: 611, 631
-  orig: 611, 631
+  xy: 1044, 4
+  size: 508, 571
+  orig: 508, 571
   offset: 0, 0
   index: -1
-WonderImages/Marco Polare's Travels
+BuildingIcons/Ulgu
   rotate: false
-  xy: 4, 1550
-  size: 799, 401
-  orig: 799, 401
+  xy: 1124, 1590
+  size: 520, 429
+  orig: 520, 429
   offset: 0, 0
   index: -1
-WonderImages/Marshes of Madness
+LeaderIcons/Azhag
   rotate: false
-  xy: 4, 1141
-  size: 799, 401
-  orig: 799, 401
+  xy: 596, 919
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
-WonderImages/Pie Week
+LeaderIcons/Gorbad
   rotate: false
-  xy: 811, 1550
-  size: 799, 401
-  orig: 799, 401
+  xy: 4, 614
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
-WonderImages/Pyramid of the World Serpent
+LeaderIcons/Kurgan
   rotate: false
-  xy: 4, 732
-  size: 799, 401
-  orig: 799, 401
+  xy: 4, 1134
+  size: 584, 885
+  orig: 584, 885
   offset: 0, 0
   index: -1
-WonderImages/Revelation of the Lady
+LeaderIcons/Witch King Malekith
   rotate: false
-  xy: 811, 1141
-  size: 799, 401
-  orig: 799, 401
+  xy: 524, 399
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
-WonderImages/Sigmar's Saga
+LeaderIcons/Xen Huong
   rotate: false
-  xy: 4, 323
-  size: 799, 401
-  orig: 799, 401
+  xy: 4, 94
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
-WonderImages/Word of the Old Ones
+ReligionIcons/Cult of the Horned Rat
   rotate: false
-  xy: 811, 732
-  size: 799, 401
-  orig: 799, 401
+  xy: 1124, 1103
+  size: 519, 479
+  orig: 519, 479
+  offset: 0, 0
+  index: -1
+UnitIcons/Necrosphinx
+  rotate: false
+  xy: 1116, 583
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
 
@@ -135,74 +121,137 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Chamon
+BuildingIcons/Aqshy
   rotate: false
-  xy: 612, 1463
-  size: 520, 580
-  orig: 520, 580
+  xy: 4, 936
+  size: 500, 518
+  orig: 500, 518
   offset: 0, 0
   index: -1
-BuildingIcons/Ulgu
+BuildingIcons/Azyr
   rotate: false
-  xy: 4, 113
-  size: 520, 429
-  orig: 520, 429
+  xy: 4, 440
+  size: 480, 488
+  orig: 480, 488
   offset: 0, 0
   index: -1
-LeaderIcons/Azhag
+BuildingIcons/Ghyran
   rotate: false
-  xy: 1140, 1044
-  size: 512, 512
-  orig: 512, 512
+  xy: 4, 1462
+  size: 508, 557
+  orig: 508, 557
   offset: 0, 0
   index: -1
-LeaderIcons/Gorbad
+BuildingIcons/Shyish
   rotate: false
-  xy: 612, 943
-  size: 512, 512
-  orig: 512, 512
+  xy: 520, 1489
+  size: 500, 530
+  orig: 500, 530
   offset: 0, 0
   index: -1
-LeaderIcons/Kurgan
+LeaderIcons/Aenarion
   rotate: false
-  xy: 4, 550
-  size: 584, 885
-  orig: 584, 885
+  xy: 512, 942
+  size: 400, 512
+  orig: 400, 512
   offset: 0, 0
   index: -1
-LeaderIcons/Witch King Malekith
+LeaderIcons/Akabar
   rotate: false
-  xy: 1132, 524
-  size: 512, 512
-  orig: 512, 512
+  xy: 920, 969
+  size: 400, 512
+  orig: 400, 512
   offset: 0, 0
   index: -1
-LeaderIcons/Xen Huong
+LeaderIcons/Archaon
   rotate: false
-  xy: 1116, 4
-  size: 512, 512
-  orig: 512, 512
+  xy: 492, 416
+  size: 400, 512
+  orig: 400, 512
   offset: 0, 0
   index: -1
-ReligionIcons/Cult of the Horned Rat
+LeaderIcons/Ariel
   rotate: false
-  xy: 1140, 1564
-  size: 519, 479
-  orig: 519, 479
+  xy: 412, 4
+  size: 400, 404
+  orig: 400, 404
   offset: 0, 0
   index: -1
-TechIcons/WAAGH
+LeaderIcons/Astragoth Ironhand
   rotate: false
-  xy: 4, 1443
-  size: 600, 600
-  orig: 600, 600
+  xy: 900, 422
+  size: 400, 512
+  orig: 400, 512
   offset: 0, 0
   index: -1
-UnitIcons/Necrosphinx
+NationIcons/Albion
   rotate: false
-  xy: 596, 423
-  size: 512, 512
-  orig: 512, 512
+  xy: 1028, 1561
+  size: 464, 458
+  orig: 464, 458
+  offset: 0, 0
+  index: -1
+ReligionIcons/Cult of Myrmidia
+  rotate: false
+  xy: 1500, 986
+  size: 445, 1033
+  orig: 445, 1033
+  offset: 0, 0
+  index: -1
+WonderImages/Aragand Portal
+  rotate: false
+  xy: 4, 231
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Bald Mountainess
+  rotate: false
+  xy: 4, 22
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Bath Gate
+  rotate: false
+  xy: 900, 213
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Bauxbatons Circle
+  rotate: false
+  xy: 820, 4
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Beggar's Banquet
+  rotate: false
+  xy: 1228, 4
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Black Pillar of Commandments
+  rotate: false
+  xy: 1636, 777
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Bloodweiser Stadium
+  rotate: false
+  xy: 1636, 568
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Border Princes
+  rotate: false
+  xy: 1636, 359
+  size: 400, 201
+  orig: 400, 201
   offset: 0, 0
   index: -1
 
@@ -211,95 +260,193 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Aqshy
+BuildingIcons/Immortality Temple
   rotate: false
-  xy: 1036, 1522
-  size: 500, 518
-  orig: 500, 518
-  offset: 0, 0
-  index: -1
-BuildingIcons/Azyr
-  rotate: false
-  xy: 1036, 1026
-  size: 480, 488
-  orig: 480, 488
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ghur
-  rotate: false
-  xy: 4, 1469
-  size: 508, 571
-  orig: 508, 571
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ghyran
-  rotate: false
-  xy: 520, 1483
-  size: 508, 557
-  orig: 508, 557
-  offset: 0, 0
-  index: -1
-BuildingIcons/Shyish
-  rotate: false
-  xy: 1544, 1510
-  size: 500, 530
-  orig: 500, 530
-  offset: 0, 0
-  index: -1
-LeaderIcons/Aenarion
-  rotate: false
-  xy: 4, 949
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Akabar
-  rotate: false
-  xy: 1524, 524
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Archaon
-  rotate: false
-  xy: 973, 506
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Ariel
-  rotate: false
-  xy: 4, 537
-  size: 400, 404
-  orig: 400, 404
-  offset: 0, 0
-  index: -1
-LeaderIcons/Astragoth Ironhand
-  rotate: false
-  xy: 4, 17
-  size: 400, 512
-  orig: 400, 512
+  xy: 1228, 330
+  size: 400, 400
+  orig: 400, 400
   offset: 0, 0
   index: -1
 LeaderIcons/Borgio
   rotate: false
-  xy: 1381, 4
+  xy: 4, 1467
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
-NationIcons/Albion
+LeaderIcons/Count Mannfred von Carstein
   rotate: false
-  xy: 1524, 1044
-  size: 464, 458
-  orig: 464, 458
+  xy: 4, 529
+  size: 400, 512
+  orig: 400, 512
   offset: 0, 0
   index: -1
-ReligionIcons/Cult of Myrmidia
+LeaderIcons/Don Jose Paul
   rotate: false
-  xy: 520, 442
-  size: 445, 1033
-  orig: 445, 1033
+  xy: 4, 9
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Dork
+  rotate: false
+  xy: 412, 840
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Emperor Karl Franz
+  rotate: false
+  xy: 820, 1258
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Gilles Le Breton
+  rotate: false
+  xy: 1228, 1258
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Greysnarl
+  rotate: false
+  xy: 1636, 1258
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Groth Onefinger
+  rotate: false
+  xy: 1228, 738
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/High King Thorgrim Grudgebearer
+  rotate: false
+  xy: 1636, 738
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Hung
+  rotate: false
+  xy: 820, 320
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Jaffar
+  rotate: false
+  xy: 1636, 218
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+WonderImages/Brodag
+  rotate: false
+  xy: 4, 1258
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Bugman's Brewery
+  rotate: false
+  xy: 412, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Castle Drachenfels
+  rotate: false
+  xy: 4, 1049
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Council of Thirteen
+  rotate: false
+  xy: 412, 1569
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Cult of Handrich
+  rotate: false
+  xy: 820, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Dogs of War
+  rotate: false
+  xy: 412, 1360
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Fleetport of Terror
+  rotate: false
+  xy: 1228, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Floating Gardens
+  rotate: false
+  xy: 412, 631
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Fog of Klabautermann
+  rotate: false
+  xy: 820, 1049
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Glaciruptor
+  rotate: false
+  xy: 1636, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/God's Messenger Monument
+  rotate: false
+  xy: 412, 422
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Golden Anchor Statue
+  rotate: false
+  xy: 820, 840
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Idol of the Seven Lords
+  rotate: false
+  xy: 412, 213
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Jagaddhita
+  rotate: false
+  xy: 412, 4
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Kotta
+  rotate: false
+  xy: 820, 111
+  size: 400, 201
+  orig: 400, 201
   offset: 0, 0
   index: -1
 
@@ -308,123 +455,270 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Immortality Temple
-  rotate: false
-  xy: 4, 4
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Count Mannfred von Carstein
-  rotate: false
-  xy: 4, 1452
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Don Jose Paul
-  rotate: false
-  xy: 4, 932
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Dork
-  rotate: false
-  xy: 412, 1452
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Emperor Karl Franz
-  rotate: false
-  xy: 4, 412
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Gilles Le Breton
-  rotate: false
-  xy: 412, 932
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Greysnarl
-  rotate: false
-  xy: 820, 1452
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Groth Onefinger
-  rotate: false
-  xy: 412, 412
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/High King Thorgrim Grudgebearer
-  rotate: false
-  xy: 820, 932
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Hung
-  rotate: false
-  xy: 1228, 1452
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
-LeaderIcons/Jaffar
-  rotate: false
-  xy: 820, 412
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
 LeaderIcons/Kroak
   rotate: false
-  xy: 1228, 932
+  xy: 4, 1467
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
 LeaderIcons/Miranoto no Yoshigata
   rotate: false
-  xy: 1228, 412
+  xy: 4, 221
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
 LeaderIcons/Ragnar
   rotate: false
-  xy: 1636, 1144
+  xy: 412, 422
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
 LeaderIcons/Settra the Imperishable
   rotate: false
-  xy: 1636, 624
+  xy: 820, 422
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
 LeaderIcons/Skyre
   rotate: false
-  xy: 1636, 104
+  xy: 1228, 631
+  size: 400, 512
+  orig: 400, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/Takagura
+  rotate: false
+  xy: 1636, 1049
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
 ReligionIcons/Lady of the Lake
   rotate: false
-  xy: 1636, 1664
+  xy: 4, 1159
   size: 400, 300
   orig: 400, 300
+  offset: 0, 0
+  index: -1
+WonderImages/Leopold of Luccini Portal
+  rotate: false
+  xy: 412, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Liang Portal
+  rotate: false
+  xy: 4, 950
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Louen Leoncoeur Portal
+  rotate: false
+  xy: 412, 1569
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Marco Polare's Travels
+  rotate: false
+  xy: 820, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Marshes of Madness
+  rotate: false
+  xy: 4, 741
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Maso Commune
+  rotate: false
+  xy: 412, 1360
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Monument of the Moon
+  rotate: false
+  xy: 820, 1569
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Mountain of Loneliness
+  rotate: false
+  xy: 1228, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Mureth Vai
+  rotate: false
+  xy: 412, 1151
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Order of Maesters
+  rotate: false
+  xy: 4, 12
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Philosopher's Stone
+  rotate: false
+  xy: 820, 1360
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Pie Week
+  rotate: false
+  xy: 1228, 1569
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Platinum Star
+  rotate: false
+  xy: 1636, 1778
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Pyramid of Eternal Life
+  rotate: false
+  xy: 412, 942
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Pyramid of the World Serpent
+  rotate: false
+  xy: 820, 1151
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Rebirth of Orion
+  rotate: false
+  xy: 1228, 1360
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Revelation of the Lady
+  rotate: false
+  xy: 1636, 1569
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Scarloc Portal
+  rotate: false
+  xy: 820, 942
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Sigmar's Saga
+  rotate: false
+  xy: 412, 213
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Silenna Starguided Portal
+  rotate: false
+  xy: 1228, 1151
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Temple of Constellations
+  rotate: false
+  xy: 820, 213
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Amber College
+  rotate: false
+  xy: 1228, 422
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Amethyst College
+  rotate: false
+  xy: 1636, 840
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Bright College
+  rotate: false
+  xy: 1228, 213
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Celestial College
+  rotate: false
+  xy: 1636, 631
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Gold College
+  rotate: false
+  xy: 1636, 422
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Great Lighthouse
+  rotate: false
+  xy: 1636, 213
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Great Voyage
+  rotate: false
+  xy: 412, 4
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Great WatchTower
+  rotate: false
+  xy: 820, 4
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Grey College
+  rotate: false
+  xy: 1228, 4
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Jade College
+  rotate: false
+  xy: 1636, 4
+  size: 400, 201
+  orig: 400, 201
   offset: 0, 0
   index: -1
 
@@ -435,296 +729,282 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Brotherhood of the Bear
   rotate: false
-  xy: 1283, 10
+  xy: 1280, 790
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Order of the White Wolf
   rotate: false
-  xy: 1068, 274
+  xy: 334, 353
   size: 276, 598
   orig: 276, 598
   offset: 0, 0
   index: -1
-BuildingIcons/The Knights Panther
-  rotate: false
-  xy: 1598, 70
-  size: 225, 477
-  orig: 225, 477
-  offset: 0, 0
-  index: -1
 LeaderIcons/Penthesilea
   rotate: false
-  xy: 4, 7
+  xy: 1636, 1066
   size: 369, 457
   orig: 369, 457
   offset: 0, 0
   index: -1
-LeaderIcons/Takagura
-  rotate: false
-  xy: 4, 1512
-  size: 400, 512
-  orig: 400, 512
-  offset: 0, 0
-  index: -1
 LeaderIcons/Tzarina Katarin Bokha
   rotate: false
-  xy: 4, 992
+  xy: 1636, 1531
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
 LeaderIcons/Wu
   rotate: false
-  xy: 4, 472
+  xy: 820, 1113
   size: 400, 512
   orig: 400, 512
   offset: 0, 0
   index: -1
 NationIcons/Araby
   rotate: false
-  xy: 750, 880
+  xy: 4, 739
   size: 322, 321
   orig: 322, 321
   offset: 0, 0
   index: -1
 NationIcons/Badmoon Goblins
   rotate: false
-  xy: 412, 480
+  xy: 4, 146
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Bretonnia
   rotate: false
-  xy: 1019, 10
+  xy: 1016, 790
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Chaos Dwarfs
   rotate: false
-  xy: 1547, 1768
+  xy: 268, 89
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Citadel of Dusk
   rotate: false
-  xy: 1080, 1768
+  xy: 532, 89
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Dolgan
   rotate: false
-  xy: 768, 1768
+  xy: 618, 526
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Estalia
   rotate: false
-  xy: 768, 1504
+  xy: 882, 526
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Ind
   rotate: false
-  xy: 381, 102
+  xy: 1228, 1054
   size: 362, 362
   orig: 362, 362
   offset: 0, 0
   index: -1
 NationIcons/Kislev
   rotate: false
-  xy: 1547, 802
+  xy: 796, 4
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
 NationIcons/Nippon
   rotate: false
-  xy: 751, 228
+  xy: 4, 410
   size: 260, 321
   orig: 260, 321
   offset: 0, 0
   index: -1
 NationIcons/Norsca
   rotate: false
-  xy: 1032, 1504
+  xy: 1410, 335
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Ogre Kingdoms
   rotate: false
-  xy: 750, 557
+  xy: 698, 790
   size: 310, 315
   orig: 310, 315
   offset: 0, 0
   index: -1
 NationIcons/Slann
   rotate: false
-  xy: 1032, 1240
+  xy: 1674, 335
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-NationIcons/The Moot
-  rotate: false
-  xy: 1839, 719
-  size: 203, 261
-  orig: 203, 261
-  offset: 0, 0
-  index: -1
 NationIcons/Tilea
   rotate: false
-  xy: 1080, 976
+  xy: 796, 262
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Ulthuan
   rotate: false
-  xy: 1296, 1327
+  xy: 1060, 85
   size: 255, 433
   orig: 255, 433
   offset: 0, 0
   index: -1
-NationIcons/Zombie Pirates
-  rotate: false
-  xy: 1602, 1215
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
 PolicyBranchIcons/Chaos
   rotate: false
-  xy: 1344, 1060
+  xy: 1323, 68
   size: 250, 259
   orig: 250, 259
   offset: 0, 0
   index: -1
 ReligionIcons/Chaos Gods
   rotate: false
-  xy: 1344, 1060
+  xy: 1323, 68
   size: 250, 259
   orig: 250, 259
   offset: 0, 0
   index: -1
 UnitIcons/Chaos Warrior
   rotate: false
-  xy: 1344, 1060
+  xy: 1323, 68
   size: 250, 259
   orig: 250, 259
   offset: 0, 0
   index: -1
 ReligionIcons/Ancestor Gods
   rotate: false
-  xy: 412, 744
+  xy: 360, 959
   size: 330, 457
   orig: 330, 457
   offset: 0, 0
   index: -1
 ReligionIcons/Cult of Sigmar
   rotate: false
-  xy: 1559, 1473
+  xy: 1581, 40
   size: 250, 287
   orig: 250, 287
   offset: 0, 0
   index: -1
-ReligionIcons/The Old Ones
-  rotate: false
-  xy: 1805, 988
-  size: 220, 219
-  orig: 220, 219
-  offset: 0, 0
-  index: -1
-TechIcons/Cold Ones
-  rotate: false
-  xy: 1352, 309
-  size: 238, 238
-  orig: 238, 238
-  offset: 0, 0
-  index: -1
-TechIcons/High Magic
-  rotate: false
-  xy: 1831, 352
-  size: 210, 209
-  orig: 210, 209
-  offset: 0, 0
-  index: -1
 TechIcons/Knightly Virtues
   rotate: false
-  xy: 412, 1565
+  xy: 1598, 599
   size: 348, 459
   orig: 348, 459
   offset: 0, 0
   index: -1
-TechIcons/Lore of Beasts
-  rotate: false
-  xy: 1352, 555
-  size: 246, 239
-  orig: 246, 239
-  offset: 0, 0
-  index: -1
-TechIcons/Lore of Heavens
-  rotate: false
-  xy: 1831, 140
-  size: 207, 204
-  orig: 207, 204
-  offset: 0, 0
-  index: -1
-TechIcons/Master of Ice
-  rotate: false
-  xy: 1811, 1808
-  size: 225, 216
-  orig: 225, 216
-  offset: 0, 0
-  index: -1
-TechIcons/Master of Water
-  rotate: false
-  xy: 751, 4
-  size: 225, 216
-  orig: 225, 216
-  offset: 0, 0
-  index: -1
-TechIcons/Master of the Winds
-  rotate: false
-  xy: 1817, 1584
-  size: 225, 216
-  orig: 225, 216
-  offset: 0, 0
-  index: -1
 TechIcons/Rise of Sigmar
   rotate: false
-  xy: 412, 1209
+  xy: 4, 1068
   size: 348, 348
   orig: 348, 348
   offset: 0, 0
   index: -1
 UnitIcons/Halfling Ranger
   rotate: false
-  xy: 768, 1240
+  xy: 1146, 526
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Halfling Scout
   rotate: false
-  xy: 768, 1240
+  xy: 1146, 526
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-UnitIcons/Ushabti
+WonderImages/The Knights Panther
   rotate: false
-  xy: 1606, 569
-  size: 225, 225
-  orig: 225, 225
+  xy: 4, 1842
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Light Order
+  rotate: false
+  xy: 412, 1842
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Oak of Ages
+  rotate: false
+  xy: 820, 1842
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/The Oracle
+  rotate: false
+  xy: 1228, 1842
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Ulick Myne
+  rotate: false
+  xy: 4, 1633
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Ungrim Ironfist Portal
+  rotate: false
+  xy: 412, 1633
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Waking Day
+  rotate: false
+  xy: 820, 1633
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Water's Turn
+  rotate: false
+  xy: 1228, 1633
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Wind Mastery
+  rotate: false
+  xy: 4, 1424
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Word of the Old Ones
+  rotate: false
+  xy: 412, 1424
+  size: 400, 201
+  orig: 400, 201
+  offset: 0, 0
+  index: -1
+WonderImages/Wulfrik Portal
+  rotate: false
+  xy: 1228, 1424
+  size: 400, 201
+  orig: 400, 201
   offset: 0, 0
   index: -1
 
@@ -735,2471 +1015,2555 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Ancestor Tree
   rotate: false
-  xy: 664, 988
+  xy: 1077, 1034
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Arabyan Madrassa
   rotate: false
-  xy: 772, 988
+  xy: 1077, 926
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Beggar's Banquet
   rotate: false
-  xy: 663, 880
+  xy: 1077, 602
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Blood bowl
   rotate: false
-  xy: 1218, 880
+  xy: 1185, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bloodtalon Rider
   rotate: false
-  xy: 4, 1828
+  xy: 1385, 1827
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Bloodweiser Stadium
   rotate: false
-  xy: 1434, 880
+  xy: 1185, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Brodag
   rotate: false
-  xy: 160, 860
+  xy: 1185, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bugman's Brewery
   rotate: false
-  xy: 987, 854
+  xy: 1077, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Chameran Drakerider
   rotate: false
-  xy: 212, 1828
+  xy: 1593, 1827
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Curative Spire
   rotate: false
-  xy: 643, 772
+  xy: 1293, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Elder Council
   rotate: false
-  xy: 1419, 772
+  xy: 1424, 1095
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Energy Barrier
   rotate: false
-  xy: 1527, 772
+  xy: 1532, 1095
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Gateway
   rotate: false
-  xy: 1668, 1828
+  xy: 924, 1610
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/GnomishForge
   rotate: false
-  xy: 1743, 745
+  xy: 1401, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Bastion
   rotate: false
-  xy: 376, 722
+  xy: 1401, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Grocer
   rotate: false
-  xy: 1851, 665
+  xy: 1401, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hellfire Thrower
   rotate: false
-  xy: 4, 1620
+  xy: 1132, 1558
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Immortality Shrine
   rotate: false
-  xy: 1399, 664
+  xy: 1617, 879
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Lich King's Tomb
   rotate: false
-  xy: 1723, 637
+  xy: 1509, 555
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Grave
   rotate: false
-  xy: 1240, 556
+  xy: 1833, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Memento Mori
   rotate: false
-  xy: 1456, 556
+  xy: 1725, 447
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mint
   rotate: false
-  xy: 868, 530
+  xy: 1833, 447
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Monastery
   rotate: false
-  xy: 1564, 529
+  xy: 1833, 339
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Monument
   rotate: false
-  xy: 1672, 529
+  xy: 1485, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mureth Vai
   rotate: false
-  xy: 4, 508
+  xy: 1593, 231
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Observatory
   rotate: false
-  xy: 652, 448
+  xy: 1941, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ogham Stone
   rotate: false
-  xy: 976, 448
+  xy: 1941, 555
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Waystone
   rotate: false
-  xy: 976, 448
+  xy: 1941, 555
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pie Week
   rotate: false
-  xy: 1408, 448
+  xy: 253, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Prophet Of The Sun
   rotate: false
-  xy: 212, 1412
+  xy: 237, 1114
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Public School
   rotate: false
-  xy: 760, 422
+  xy: 1701, 123
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pyramid of Eternal Life
   rotate: false
-  xy: 420, 1412
+  xy: 237, 906
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Rebirth of Orion
   rotate: false
-  xy: 1624, 421
+  xy: 1038, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine of Old Faith
   rotate: false
-  xy: 652, 340
+  xy: 1362, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine of Ursun
   rotate: false
-  xy: 976, 340
+  xy: 1470, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine of the Ancient Gods
   rotate: false
-  xy: 1084, 340
+  xy: 1578, 15
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine of the Elder
   rotate: false
-  xy: 1192, 340
+  xy: 1686, 15
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine of the End Times
   rotate: false
-  xy: 1300, 340
+  xy: 1794, 15
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Temple
+BuildingIcons/The Knights Panther
   rotate: false
-  xy: 652, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/The Great Library
-  rotate: false
-  xy: 976, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/The Great Lighthouse
-  rotate: false
-  xy: 1084, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Tomb
-  rotate: false
-  xy: 1300, 232
-  size: 100, 100
-  orig: 100, 100
+  xy: 4, 597
+  size: 225, 477
+  orig: 225, 477
   offset: 0, 0
   index: -1
 BuildingIcons/Verdant Pylon
   rotate: false
-  xy: 628, 1412
+  xy: 237, 698
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Waking Day
-  rotate: false
-  xy: 1732, 125
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Water's Turn
-  rotate: false
-  xy: 976, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Windmill
-  rotate: false
-  xy: 1084, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Wizard's Guild
-  rotate: false
-  xy: 1300, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 LeaderIcons/Agam Rund
   rotate: false
-  xy: 427, 938
+  xy: 1208, 1192
   size: 120, 150
   orig: 120, 150
   offset: 0, 0
   index: -1
 NationIcons/Amazonia
   rotate: false
-  xy: 1876, 1862
+  xy: 232, 132
   size: 166, 166
   orig: 166, 166
   offset: 0, 0
   index: -1
 NationIcons/Dwarfs
   rotate: false
-  xy: 1203, 772
+  xy: 1293, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Hordes of Chaos
   rotate: false
-  xy: 296, 888
+  xy: 1077, 1142
   size: 123, 200
   orig: 123, 200
   offset: 0, 0
   index: -1
 NationIcons/Ironclaw Orcs
   rotate: false
-  xy: 836, 1412
+  xy: 237, 490
   size: 176, 200
   orig: 176, 200
   offset: 0, 0
   index: -1
 NationIcons/Khemri
   rotate: false
-  xy: 420, 1620
+  xy: 1132, 1350
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Kurgan
   rotate: false
-  xy: 162, 1254
+  xy: 603, 497
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 NationIcons/Loren
   rotate: false
-  xy: 544, 556
+  xy: 1833, 771
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Marienburg
   rotate: false
-  xy: 836, 1620
+  xy: 1548, 1411
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Naggaroth
   rotate: false
-  xy: 1460, 1620
+  xy: 1548, 1203
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Reikland
   rotate: false
-  xy: 4, 940
+  xy: 767, 1447
   size: 148, 148
   orig: 148, 148
   offset: 0, 0
   index: -1
 NationIcons/Sartosa
   rotate: false
-  xy: 1652, 1146
+  xy: 722, 23
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 NationIcons/Skaven
   rotate: false
-  xy: 1408, 356
+  xy: 1902, 31
   size: 100, 84
   orig: 100, 84
   offset: 0, 0
   index: -1
+NationIcons/The Moot
+  rotate: false
+  xy: 1174, 1766
+  size: 203, 261
+  orig: 203, 261
+  offset: 0, 0
+  index: -1
+NationIcons/Zombie Pirates
+  rotate: false
+  xy: 4, 1777
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
 ReligionIcons/Elven Gods
   rotate: false
-  xy: 1900, 989
+  xy: 4, 7
   size: 133, 122
   orig: 133, 122
   offset: 0, 0
   index: -1
 ReligionIcons/Nehekharan Pantheon
   rotate: false
-  xy: 1876, 1593
+  xy: 445, 1334
   size: 156, 261
   orig: 156, 261
   offset: 0, 0
   index: -1
+ReligionIcons/The Old Ones
+  rotate: false
+  xy: 4, 137
+  size: 220, 219
+  orig: 220, 219
+  offset: 0, 0
+  index: -1
 TechIcons/Arabyan Tradition
   rotate: false
-  xy: 1900, 881
+  xy: 1077, 818
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Astrology
   rotate: false
-  xy: 555, 880
+  xy: 1077, 710
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Bloodlust of Khorne
   rotate: false
-  xy: 1326, 880
+  xy: 1185, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Brewing
   rotate: false
-  xy: 1542, 880
+  xy: 1185, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Byakuren's Way Of Peace
   rotate: false
-  xy: 1650, 853
+  xy: 1053, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Castles
   rotate: false
-  xy: 4, 832
+  xy: 1161, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Channeling
   rotate: false
-  xy: 427, 830
+  xy: 1269, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Chaos Incursion
   rotate: false
-  xy: 420, 1828
+  xy: 1801, 1827
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Chronicles
   rotate: false
-  xy: 268, 780
+  xy: 1293, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TechIcons/Cold Ones
+  rotate: false
+  xy: 262, 1789
+  size: 238, 238
+  orig: 238, 238
+  offset: 0, 0
+  index: -1
 TechIcons/Contemplation
   rotate: false
-  xy: 836, 1828
+  xy: 1593, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Crafting
   rotate: false
-  xy: 535, 772
+  xy: 1293, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Divine Services
   rotate: false
-  xy: 751, 772
+  xy: 1293, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Dwarven Ingenuity
   rotate: false
-  xy: 1311, 772
+  xy: 1316, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Far East
   rotate: false
-  xy: 1044, 1828
+  xy: 1801, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Festivals
   rotate: false
-  xy: 859, 746
+  xy: 1748, 1095
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Feudalism
   rotate: false
-  xy: 1252, 1828
+  xy: 508, 1603
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 967, 746
+  xy: 1856, 1095
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Forest Mastery
   rotate: false
-  xy: 1460, 1828
+  xy: 716, 1603
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+TechIcons/High Magic
+  rotate: false
+  xy: 741, 1818
+  size: 210, 209
+  orig: 210, 209
+  offset: 0, 0
+  index: -1
 TechIcons/High Walls
   rotate: false
-  xy: 1075, 664
+  xy: 1509, 879
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Horseback Riding
   rotate: false
-  xy: 1183, 664
+  xy: 1617, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/House Of Eternity
   rotate: false
-  xy: 1291, 664
+  xy: 1509, 771
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hunting
   rotate: false
-  xy: 212, 1620
+  xy: 924, 1402
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Iron Working
   rotate: false
-  xy: 1507, 664
+  xy: 1725, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Irrigation
   rotate: false
-  xy: 112, 644
+  xy: 1509, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Literature
   rotate: false
-  xy: 628, 1620
+  xy: 1340, 1411
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Lordship
   rotate: false
-  xy: 4, 616
+  xy: 1617, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TechIcons/Lore of Beasts
+  rotate: false
+  xy: 4, 1530
+  size: 246, 239
+  orig: 246, 239
+  offset: 0, 0
+  index: -1
 TechIcons/Lore of Change
   rotate: false
-  xy: 328, 614
+  xy: 1725, 771
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Lore of Fire
   rotate: false
-  xy: 220, 564
+  xy: 1833, 879
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TechIcons/Lore of Heavens
+  rotate: false
+  xy: 959, 1823
+  size: 207, 204
+  orig: 207, 204
+  offset: 0, 0
+  index: -1
 TechIcons/Lore of Lights
   rotate: false
-  xy: 1831, 557
+  xy: 1509, 447
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Lore of Metals
   rotate: false
-  xy: 1939, 557
+  xy: 1617, 555
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Lore of Shadows
   rotate: false
-  xy: 436, 556
+  xy: 1725, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Loren Magic
   rotate: false
-  xy: 652, 556
+  xy: 1509, 339
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mother Tree
   rotate: false
-  xy: 652, 556
+  xy: 1509, 339
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Magic Cauldron
   rotate: false
-  xy: 1024, 556
+  xy: 1617, 447
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Masonry
   rotate: false
-  xy: 1132, 556
+  xy: 1725, 555
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TechIcons/Master of Ice
+  rotate: false
+  xy: 4, 1306
+  size: 225, 216
+  orig: 225, 216
+  offset: 0, 0
+  index: -1
+TechIcons/Master of Water
+  rotate: false
+  xy: 508, 1811
+  size: 225, 216
+  orig: 225, 216
+  offset: 0, 0
+  index: -1
 TechIcons/Master of the Earth
   rotate: false
-  xy: 1044, 1620
+  xy: 1756, 1411
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+TechIcons/Master of the Winds
+  rotate: false
+  xy: 4, 1082
+  size: 225, 216
+  orig: 225, 216
+  offset: 0, 0
+  index: -1
 TechIcons/Mathematics
   rotate: false
-  xy: 1348, 556
+  xy: 1617, 339
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Metal Casting
   rotate: false
-  xy: 112, 536
+  xy: 1833, 555
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Military Science
   rotate: false
-  xy: 760, 530
+  xy: 1725, 339
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mysticism
   rotate: false
-  xy: 1252, 1620
+  xy: 1340, 1203
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Nature Lore
   rotate: false
-  xy: 328, 506
+  xy: 1701, 231
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Necromancy
   rotate: false
-  xy: 1888, 449
+  xy: 1941, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Norse Tradition
   rotate: false
-  xy: 1668, 1620
+  xy: 1756, 1203
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Old World
   rotate: false
-  xy: 1084, 448
+  xy: 1941, 447
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Old World2
   rotate: false
-  xy: 1192, 448
+  xy: 1941, 339
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Pottery
-  rotate: false
-  xy: 1074, 16
-  size: 95, 100
-  orig: 95, 100
-  offset: 0, 0
-  index: -1
 TechIcons/Priesthood
   rotate: false
-  xy: 4, 1412
+  xy: 237, 1322
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Raw Magic
   rotate: false
-  xy: 1516, 421
+  xy: 1917, 123
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Rifling
   rotate: false
-  xy: 4, 400
+  xy: 1038, 62
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sailing
   rotate: false
-  xy: 328, 398
+  xy: 1146, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sanitation
   rotate: false
-  xy: 220, 348
+  xy: 1254, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Shipbuilding
   rotate: false
-  xy: 544, 340
+  xy: 1254, 4
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Steel
-  rotate: false
-  xy: 1840, 233
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Stirrups
-  rotate: false
-  xy: 436, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/True Dhar
-  rotate: false
-  xy: 1624, 205
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Tyranny
-  rotate: false
-  xy: 4, 184
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Undead Curse
-  rotate: false
-  xy: 328, 182
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Underground Geyser Center
-  rotate: false
-  xy: 1408, 140
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Winds of Magic
-  rotate: false
-  xy: 1192, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Words of Salvation
-  rotate: false
-  xy: 760, 98
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Albion Giant
-  rotate: false
-  xy: 1948, 360
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Giant
-  rotate: false
-  xy: 1948, 360
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Arbiter
-  rotate: false
-  xy: 1948, 271
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Archdemon Azaniroth
-  rotate: false
-  xy: 1948, 182
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Basalt Construct
-  rotate: false
-  xy: 868, 117
-  size: 95, 81
-  orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Black Night
   rotate: false
-  xy: 1110, 880
+  xy: 1208, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Bladedancer
-  rotate: false
-  xy: 1516, 116
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Bloodfiend
-  rotate: false
-  xy: 1619, 116
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Bloodletter
   rotate: false
-  xy: 1204, 1462
+  xy: 609, 1445
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bloodthirster
   rotate: false
-  xy: 1362, 1462
+  xy: 445, 1176
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Brood Horror
   rotate: false
-  xy: 879, 854
+  xy: 1185, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Carrion
   rotate: false
-  xy: 1758, 853
+  xy: 1185, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Chameleon Skink
   rotate: false
-  xy: 1520, 1462
+  xy: 445, 1018
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Chaos Warrior
   rotate: false
-  xy: 1678, 1462
+  xy: 445, 860
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Clanrat
   rotate: false
-  xy: 1866, 773
+  xy: 1293, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Coatl
   rotate: false
-  xy: 1836, 1435
+  xy: 445, 702
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cold Ones Knight
   rotate: false
-  xy: 1204, 1304
+  xy: 609, 1287
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Daemonette
   rotate: false
-  xy: 1362, 1304
+  xy: 603, 1129
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Devotee
-  rotate: false
-  xy: 4, 95
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Doom-Flayer
   rotate: false
-  xy: 1520, 1304
+  xy: 603, 971
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Doomwheel
   rotate: false
-  xy: 1678, 1304
+  xy: 603, 813
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Dread Abyssal
   rotate: false
-  xy: 1095, 772
+  xy: 1293, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Elven Ranger
-  rotate: false
-  xy: 328, 93
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Exalted Hero
   rotate: false
-  xy: 1020, 1278
+  xy: 603, 655
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Giant Rat
   rotate: false
-  xy: 1635, 745
+  xy: 1377, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Grail Knight
   rotate: false
-  xy: 4, 724
+  xy: 1401, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great Pox Rat
   rotate: false
-  xy: 220, 672
+  xy: 1401, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Grey Seer
-  rotate: false
-  xy: 1948, 93
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Grovetender
-  rotate: false
-  xy: 1408, 51
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Halfling Scout
   rotate: false
-  xy: 484, 664
+  xy: 1401, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Hell-Pit Abomination
   rotate: false
-  xy: 592, 664
+  xy: 1401, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Hierotitan
   rotate: false
-  xy: 700, 664
+  xy: 1509, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Jaguar Warrior
   rotate: false
-  xy: 1836, 1277
+  xy: 445, 544
   size: 150, 150
   orig: 150, 150
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Katak
-  rotate: false
-  xy: 220, 43
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Kobold Taskmaster
-  rotate: false
-  xy: 1722, 36
-  size: 95, 81
-  orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Kroxigor
   rotate: false
-  xy: 4, 1254
+  xy: 421, 386
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Lich
-  rotate: false
-  xy: 1825, 36
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Mage-Priest
   rotate: false
-  xy: 320, 1254
+  xy: 579, 339
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Necrolith Colossus
   rotate: false
-  xy: 220, 456
+  xy: 1809, 231
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Necroserpent
   rotate: false
-  xy: 436, 448
+  xy: 1941, 879
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Necrosphinx
   rotate: false
-  xy: 544, 448
+  xy: 1941, 771
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Nerubian Weaver
-  rotate: false
-  xy: 431, 35
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Nurgling
   rotate: false
-  xy: 478, 1254
+  xy: 421, 228
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Orc Boyz
-  rotate: false
-  xy: 534, 35
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Orion
-  rotate: false
-  xy: 637, 35
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Paladin
-  rotate: false
-  xy: 971, 35
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Pink Horror
   rotate: false
-  xy: 636, 1254
+  xy: 579, 181
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Plague Censer-Bearer
   rotate: false
-  xy: 794, 1254
+  xy: 406, 70
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Plague Furnace
   rotate: false
-  xy: 112, 428
+  xy: 1593, 123
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Plague Monk
   rotate: false
-  xy: 1178, 1146
+  xy: 564, 23
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Plague-Claw Catapult
   rotate: false
-  xy: 1336, 1146
+  xy: 737, 339
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Priest of Cog
-  rotate: false
-  xy: 1177, 35
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Ratling Gun
   rotate: false
-  xy: 868, 422
+  xy: 1809, 123
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ripperdactyl Rider
   rotate: false
-  xy: 1494, 1146
+  xy: 737, 181
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Rockspewer
-  rotate: false
-  xy: 1280, 35
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Saurus Musketman
   rotate: false
-  xy: 952, 1120
+  xy: 880, 23
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Saurus Oldblood
   rotate: false
-  xy: 1810, 1119
+  xy: 262, 1631
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Saurus Warrior
   rotate: false
-  xy: 4, 1096
+  xy: 761, 1129
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Scarloc.png
   rotate: false
-  xy: 162, 1096
+  xy: 761, 971
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Screaming Bell
   rotate: false
-  xy: 1840, 341
+  xy: 1470, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Sepulchral Stalker
   rotate: false
-  xy: 436, 340
+  xy: 1146, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Shaman
   rotate: false
-  xy: 320, 1096
+  xy: 761, 813
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Skaven Chieftain
-  rotate: false
-  xy: 112, 320
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Skaven Settler
-  rotate: false
-  xy: 868, 28
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Skeletal Archer
-  rotate: false
-  xy: 760, 314
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Skeletal Champion
-  rotate: false
-  xy: 1516, 313
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Skeletal Spearman 
-  rotate: false
-  xy: 4, 292
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Skeletal Spearman 2
-  rotate: false
-  xy: 328, 290
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Skeletal Warrior
   rotate: false
-  xy: 555, 988
+  xy: 895, 188
   size: 101, 100
   orig: 101, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Skeleton Rider
-  rotate: false
-  xy: 1408, 248
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Skink
   rotate: false
-  xy: 478, 1096
+  xy: 761, 655
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Skink Priest
   rotate: false
-  xy: 636, 1096
+  xy: 761, 497
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Stegadon
   rotate: false
-  xy: 794, 1096
+  xy: 919, 1244
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Stormfiend
   rotate: false
-  xy: 1110, 988
+  xy: 919, 1086
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Stormvermin
-  rotate: false
-  xy: 544, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Stormwing
-  rotate: false
-  xy: 1511, 27
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Summoned Undead
-  rotate: false
-  xy: 1614, 27
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Templar
-  rotate: false
-  xy: 107, 15
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Terradon Rider
   rotate: false
-  xy: 1268, 988
+  xy: 919, 928
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/The Everchosen
   rotate: false
-  xy: 1426, 988
+  xy: 919, 770
   size: 150, 150
   orig: 150, 150
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Tomb Captain
-  rotate: false
-  xy: 112, 212
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tomb Swarms
   rotate: false
-  xy: 1584, 988
+  xy: 919, 612
   size: 150, 150
   orig: 150, 150
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Treant Worker
-  rotate: false
-  xy: 740, 9
-  size: 95, 81
-  orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Troglodon
   rotate: false
-  xy: 952, 962
+  xy: 919, 454
   size: 150, 150
   orig: 150, 150
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Troll Headhunter
-  rotate: false
-  xy: 4, 6
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Ungrim Ironfist
-  rotate: false
-  xy: 220, 132
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ushabti
   rotate: false
-  xy: 1742, 961
+  xy: 895, 296
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Warlock
-  rotate: false
-  xy: 323, 4
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Warp-Lightning Cannon
-  rotate: false
-  xy: 436, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Warpfire Thrower
-  rotate: false
-  xy: 544, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Warplock Jezzail
-  rotate: false
-  xy: 652, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Wrecker Maceman
-  rotate: false
-  xy: 1928, 4
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/Shipwreck
   rotate: false
-  xy: 160, 968
+  xy: 767, 1319
   size: 128, 120
   orig: 128, 120
   offset: 0, 0
   index: -1
 UnitIcons/Big Uns
   rotate: false
-  xy: 771, 880
+  xy: 1077, 494
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Greenskin
   rotate: false
-  xy: 771, 880
+  xy: 1077, 494
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Black Orc
   rotate: false
-  xy: 771, 880
+  xy: 1077, 494
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Orc Boyz
   rotate: false
-  xy: 771, 880
+  xy: 1077, 494
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Clanrat
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Death Runner
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Giant Rat
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Great Pox Rat
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Gutter Runner
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Night Runner
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Plague Censer-Bearer
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Plague Monk
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Skaven Chieftain
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Skaven Settler
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Slave Rat
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Stormvermin
   rotate: false
-  xy: 628, 1828
+  xy: 1385, 1619
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Exalted Hero
   rotate: false
-  xy: 112, 752
+  xy: 1640, 1095
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lahmian Vampire
   rotate: false
-  xy: 808, 638
+  xy: 1617, 771
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lich
   rotate: false
-  xy: 916, 638
+  xy: 1725, 879
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lich King
   rotate: false
-  xy: 1615, 637
+  xy: 1833, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tomb King
   rotate: false
-  xy: 1615, 637
+  xy: 1833, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Necromancer
   rotate: false
-  xy: 1780, 449
+  xy: 1917, 231
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Oracle
   rotate: false
-  xy: 1300, 448
+  xy: 145, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scarloc
   rotate: false
-  xy: 1732, 341
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Skeletal Archer
-  rotate: false
-  xy: 868, 314
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Skeletal Spearman
-  rotate: false
-  xy: 868, 314
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Skeletal Warrior
-  rotate: false
-  xy: 868, 314
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Skeletal Champion
-  rotate: false
-  xy: 1624, 313
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Skeleton Warrior
-  rotate: false
-  xy: 220, 240
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Skroth
-  rotate: false
-  xy: 1732, 233
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Titan
-  rotate: false
-  xy: 1192, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tomb Captain
-  rotate: false
-  xy: 760, 206
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tomb Guard
-  rotate: false
-  xy: 760, 206
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tomb Herald
-  rotate: false
-  xy: 760, 206
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tomb Prince
-  rotate: false
-  xy: 868, 206
+  xy: 1362, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tomb Scorpion
   rotate: false
-  xy: 1020, 1436
+  xy: 237, 306
   size: 176, 176
   orig: 176, 176
   offset: 0, 0
   index: -1
-UnitIcons/Tomb Swarms
+UnitIcons/Ushabti
   rotate: false
-  xy: 1516, 205
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Warlocks
-  rotate: false
-  xy: 1840, 125
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Wolf Rider
-  rotate: false
-  xy: 112, 104
-  size: 100, 100
-  orig: 100, 100
+  xy: 4, 364
+  size: 225, 225
+  orig: 225, 225
   offset: 0, 0
   index: -1
 
 game8.png
-size: 2048, 256
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Temple
+  rotate: false
+  xy: 328, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Great Library
+  rotate: false
+  xy: 436, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Great Lighthouse
+  rotate: false
+  xy: 4, 373
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tomb
+  rotate: false
+  xy: 220, 589
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Waking Day
+  rotate: false
+  xy: 652, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Water's Turn
+  rotate: false
+  xy: 436, 589
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Windmill
+  rotate: false
+  xy: 544, 697
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wizard's Guild
+  rotate: false
+  xy: 760, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Beastmen
   rotate: false
-  xy: 4, 62
+  xy: 647, 519
   size: 83, 100
   orig: 83, 100
   offset: 0, 0
   index: -1
 NationIcons/Sylvania
   rotate: false
-  xy: 195, 151
+  xy: 738, 519
   size: 80, 100
   orig: 80, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Deception
   rotate: false
-  xy: 878, 118
+  xy: 381, 67
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Assassination
   rotate: false
-  xy: 4, 4
+  xy: 323, 67
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Bribery
   rotate: false
-  xy: 669, 64
+  xy: 318, 9
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Disorder
   rotate: false
-  xy: 936, 118
+  xy: 376, 9
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Hidden Schemes
   rotate: false
-  xy: 994, 118
+  xy: 539, 372
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Poisoning
   rotate: false
-  xy: 1052, 118
+  xy: 534, 314
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+TechIcons/Pottery
+  rotate: false
+  xy: 1795, 913
+  size: 95, 100
+  orig: 95, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Steel
+  rotate: false
+  xy: 4, 481
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Stirrups
+  rotate: false
+  xy: 112, 589
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/True Dhar
+  rotate: false
+  xy: 112, 373
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tyranny
+  rotate: false
+  xy: 220, 481
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Undead Curse
+  rotate: false
+  xy: 328, 589
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Underground Geyser Center
+  rotate: false
+  xy: 436, 697
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Winds of Magic
+  rotate: false
+  xy: 652, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Words of Salvation
+  rotate: false
+  xy: 112, 157
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Albion Giant
+  rotate: false
+  xy: 220, 284
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Giant
+  rotate: false
+  xy: 220, 284
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Arbiter
+  rotate: false
+  xy: 328, 392
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Archdemon Azaniroth
+  rotate: false
+  xy: 436, 500
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Axeman
   rotate: false
-  xy: 878, 176
+  xy: 1378, 849
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Basalt Construct
+  rotate: false
+  xy: 544, 608
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Big Uns
   rotate: false
-  xy: 961, 176
+  xy: 1461, 849
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Black Orc
   rotate: false
-  xy: 1044, 176
+  xy: 1544, 849
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Bladedancer
+  rotate: false
+  xy: 652, 716
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Bloodfiend
+  rotate: false
+  xy: 760, 824
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Centaur Warchief
   rotate: false
-  xy: 283, 186
+  xy: 730, 446
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Death Runner
   rotate: false
-  xy: 1127, 176
+  xy: 1627, 849
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Devotee
+  rotate: false
+  xy: 868, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Dragon Knight
   rotate: false
-  xy: 368, 186
+  xy: 868, 859
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Elven Ranger
+  rotate: false
+  xy: 112, 68
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Grey Seer
+  rotate: false
+  xy: 220, 195
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Grovetender
+  rotate: false
+  xy: 971, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Gryphon
   rotate: false
-  xy: 453, 186
+  xy: 953, 859
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Gutter Runner
   rotate: false
-  xy: 1210, 176
+  xy: 1710, 849
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Halfling Ranger
   rotate: false
-  xy: 1293, 176
+  xy: 1793, 830
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Katak
+  rotate: false
+  xy: 1074, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Knight Errant
   rotate: false
-  xy: 449, 103
+  xy: 1693, 766
   size: 66, 75
   orig: 66, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Knight of the Realm
   rotate: false
-  xy: 1376, 176
+  xy: 863, 776
   size: 75, 75
   orig: 75, 75
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Kobold Taskmaster
+  rotate: false
+  xy: 1177, 932
+  size: 95, 81
+  orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Lahmian Vampire
   rotate: false
-  xy: 1459, 176
+  xy: 946, 776
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Lich
+  rotate: false
+  xy: 1280, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Louen Leoncoeur
   rotate: false
-  xy: 1542, 176
+  xy: 1029, 776
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Necropolis Knight
   rotate: false
-  xy: 523, 103
+  xy: 1767, 747
   size: 66, 75
   orig: 66, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Nerubian Weaver
+  rotate: false
+  xy: 1383, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Night Goblin
   rotate: false
-  xy: 1625, 176
+  xy: 1112, 776
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Night Runner
   rotate: false
-  xy: 1708, 176
+  xy: 1195, 776
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Orc Boyz
+  rotate: false
+  xy: 1486, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Orion
+  rotate: false
+  xy: 1589, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Paladin
+  rotate: false
+  xy: 1692, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Pitlord
   rotate: false
-  xy: 538, 186
+  xy: 1038, 859
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Priest of Cog
+  rotate: false
+  xy: 1898, 932
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Questing Knight
   rotate: false
-  xy: 813, 103
+  xy: 1913, 760
   size: 57, 75
   orig: 57, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Rockspewer
+  rotate: false
+  xy: 220, 106
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Scarloc
   rotate: false
-  xy: 107, 176
+  xy: 642, 436
   size: 80, 75
   orig: 80, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Skaven Chieftain
+  rotate: false
+  xy: 4, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Skaven Settler
+  rotate: false
+  xy: 215, 17
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Skeletal Archer
+  rotate: false
+  xy: 4, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Skeletal Champion
+  rotate: false
+  xy: 4, 697
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Skeletal Spearman 
+  rotate: false
+  xy: 220, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Skeletal Spearman 2
+  rotate: false
+  xy: 4, 589
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Skeleton Rider
+  rotate: false
+  xy: 112, 697
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Stormvermin
+  rotate: false
+  xy: 220, 697
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Stormwing
+  rotate: false
+  xy: 328, 303
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Summoned Undead
+  rotate: false
+  xy: 323, 214
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Templar
+  rotate: false
+  xy: 323, 125
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tomb Captain
+  rotate: false
+  xy: 328, 697
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Tomb Guard
   rotate: false
-  xy: 1791, 176
+  xy: 1278, 776
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tomb Herald
   rotate: false
-  xy: 1874, 176
+  xy: 1361, 766
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tomb King
   rotate: false
-  xy: 1957, 176
+  xy: 1444, 766
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tomb Scorpion
   rotate: false
-  xy: 283, 119
+  xy: 1527, 782
   size: 75, 59
   orig: 75, 59
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Treant Worker
+  rotate: false
+  xy: 436, 411
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Troll Headhunter
+  rotate: false
+  xy: 431, 322
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Tsukaima
   rotate: false
-  xy: 623, 186
+  xy: 1123, 859
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Ungrim Ironfist
+  rotate: false
+  xy: 544, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Wardrummer
   rotate: false
-  xy: 708, 186
+  xy: 1208, 859
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Warhammer
   rotate: false
-  xy: 366, 103
+  xy: 1610, 766
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Warlock
+  rotate: false
+  xy: 544, 519
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Warp-Lightning Cannon
+  rotate: false
+  xy: 112, 265
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Warpfire Thrower
+  rotate: false
+  xy: 220, 373
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Warplock Jezzail
+  rotate: false
+  xy: 328, 481
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Wolf Rider
   rotate: false
-  xy: 1110, 118
+  xy: 2001, 963
   size: 42, 50
   orig: 42, 50
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Wrecker Maceman
+  rotate: false
+  xy: 539, 430
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Wyvern Rider
   rotate: false
-  xy: 793, 186
+  xy: 1293, 859
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Zealot
   rotate: false
-  xy: 4, 170
+  xy: 652, 627
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Colossal Head
   rotate: false
-  xy: 1440, 140
+  xy: 755, 752
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Delicate Arch
   rotate: false
-  xy: 597, 122
+  xy: 1841, 766
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert Plantation
   rotate: false
-  xy: 1600, 140
+  xy: 795, 716
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Eye of the Sahara
   rotate: false
-  xy: 669, 122
+  xy: 112, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kurgan
   rotate: false
-  xy: 62, 26
+  xy: 466, 214
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lost City of the Old Ones
   rotate: false
-  xy: 741, 116
+  xy: 1876, 843
   size: 64, 62
   orig: 64, 62
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Man-eating tree
   rotate: false
-  xy: 1280, 104
+  xy: 1607, 730
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pantanal
   rotate: false
-  xy: 597, 58
+  xy: 1948, 868
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Seaside Stall
   rotate: false
-  xy: 1600, 104
+  xy: 1727, 694
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Warpstone
   rotate: false
-  xy: 887, 82
+  xy: 835, 704
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Undead
   rotate: false
-  xy: 1160, 140
+  xy: 4, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Artaxiad Noble
   rotate: false
-  xy: 1200, 140
+  xy: 597, 394
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bireme
   rotate: false
-  xy: 1240, 140
+  xy: 44, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Arquebusier
   rotate: false
-  xy: 967, 88
+  xy: 2001, 933
   size: 30, 22
   orig: 30, 22
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Death
   rotate: false
-  xy: 1280, 140
+  xy: 597, 358
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Legion
   rotate: false
-  xy: 1005, 87
+  xy: 835, 673
   size: 30, 23
   orig: 30, 23
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bone Dragon
   rotate: false
-  xy: 1320, 140
+  xy: 592, 322
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Undead
   rotate: false
-  xy: 1360, 140
+  xy: 760, 788
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Undead
   rotate: false
-  xy: 1400, 140
+  xy: 800, 788
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Undead
   rotate: false
-  xy: 1480, 140
+  xy: 755, 716
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Undead
   rotate: false
-  xy: 1520, 140
+  xy: 795, 752
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Desert Archer
   rotate: false
-  xy: 1560, 140
+  xy: 755, 680
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Elven Archer
   rotate: false
-  xy: 1640, 140
+  xy: 755, 644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Elven Chariot Archer
   rotate: false
-  xy: 1680, 140
+  xy: 795, 680
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ent
   rotate: false
-  xy: 1720, 140
+  xy: 795, 644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halfling Ranger
   rotate: false
-  xy: 1760, 140
+  xy: 1841, 730
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halfling Scout
   rotate: false
-  xy: 1800, 140
+  xy: 431, 286
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hand-Axe
   rotate: false
-  xy: 1840, 140
+  xy: 471, 286
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Heavy Chariot
   rotate: false
-  xy: 1880, 140
+  xy: 426, 250
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Undead
   rotate: false
-  xy: 1920, 140
+  xy: 426, 214
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Undead
   rotate: false
-  xy: 1960, 140
+  xy: 466, 250
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jagunjagun
   rotate: false
-  xy: 2000, 140
+  xy: 426, 178
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lahmian Vampire
   rotate: false
-  xy: 727, 80
+  xy: 426, 142
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Undead
   rotate: false
-  xy: 727, 80
+  xy: 426, 142
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tomb Captain
   rotate: false
-  xy: 727, 80
+  xy: 426, 142
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lancer-Undead
   rotate: false
-  xy: 767, 79
+  xy: 466, 177
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/LandUnit-Undead
   rotate: false
-  xy: 1160, 104
+  xy: 466, 141
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lich King
   rotate: false
-  xy: 1200, 101
+  xy: 1527, 743
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tomb King
   rotate: false
-  xy: 1200, 101
+  xy: 1527, 743
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Maccabee
   rotate: false
-  xy: 1240, 104
+  xy: 1567, 746
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Necromancer
   rotate: false
-  xy: 1320, 104
+  xy: 1647, 730
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Nomadic Archer
   rotate: false
-  xy: 1360, 104
+  xy: 1687, 730
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Orc Archer
   rotate: false
-  xy: 1400, 104
+  xy: 1727, 730
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Orc Chariot Archer
   rotate: false
-  xy: 1440, 104
+  xy: 1567, 710
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Phalanx
   rotate: false
-  xy: 1480, 104
+  xy: 1607, 694
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Undead
   rotate: false
-  xy: 1520, 104
+  xy: 1647, 694
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ptolemaic Elephant
   rotate: false
-  xy: 1560, 103
+  xy: 1687, 693
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Serpent Priest
   rotate: false
-  xy: 1640, 104
+  xy: 1767, 711
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siege Elephant
   rotate: false
-  xy: 1680, 104
+  xy: 1767, 675
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeletal Champion
   rotate: false
-  xy: 1720, 104
+  xy: 1727, 658
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeletal Warrior
   rotate: false
-  xy: 1760, 104
+  xy: 1767, 639
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Slave Hunter
   rotate: false
-  xy: 1800, 104
+  xy: 1978, 832
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Undead
   rotate: false
-  xy: 1840, 104
+  xy: 1978, 796
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Undead
   rotate: false
-  xy: 1880, 104
+  xy: 1978, 760
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tarantine Cavalry
   rotate: false
-  xy: 1920, 104
+  xy: 730, 410
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tomb Guard
   rotate: false
-  xy: 1960, 104
+  xy: 770, 410
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tomb Herald
   rotate: false
-  xy: 2000, 104
+  xy: 592, 286
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ulan
   rotate: false
-  xy: 807, 67
+  xy: 835, 740
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Undead Warrior
   rotate: false
-  xy: 847, 67
+  xy: 875, 740
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Undead
   rotate: false
-  xy: 847, 67
+  xy: 875, 740
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Witch-King
   rotate: false
-  xy: 927, 82
+  xy: 915, 740
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeletal Archer
+  rotate: false
+  xy: 112, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeletal Spearman
+  rotate: false
+  xy: 112, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeletal Warrior
+  rotate: false
+  xy: 112, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeletal Champion
+  rotate: false
+  xy: 112, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeleton Warrior
+  rotate: false
+  xy: 220, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skroth
+  rotate: false
+  xy: 328, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Titan
+  rotate: false
+  xy: 112, 481
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tomb Captain
+  rotate: false
+  xy: 436, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tomb Guard
+  rotate: false
+  xy: 436, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tomb Herald
+  rotate: false
+  xy: 436, 805
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tomb Prince
+  rotate: false
+  xy: 544, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tomb Swarms
+  rotate: false
+  xy: 4, 265
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Warlocks
+  rotate: false
+  xy: 4, 157
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wolf Rider
+  rotate: false
+  xy: 4, 49
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
