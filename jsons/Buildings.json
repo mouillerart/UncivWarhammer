@@ -1123,7 +1123,8 @@
 		"faith": 1,
 		"science": 1,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Magician]", "Free [Shaman] appears"],
+		"uniques": ["Provides [1] [Magician]", 
+					"Free [Shaman] appears"],
 		"requiredTech": "Winds of Magic",
 		"civilopediaText": [
             {"text": "A place where the witchdraen is trained. Equipped with protective facilities for the witchdraens during the Day of Awakening."}
@@ -2405,7 +2406,6 @@
 		"name": "Pyramid of the World Serpent",
 		"isWonder": true,
 		"faith": 10,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Nature Lore]>",
 					"All newly-trained [Land] units [in this city] receive the [Pet Command] promotion"],
 		"requiredTech": "Cold Ones",
@@ -2419,7 +2419,6 @@
 		"production": 2,
 		"cityStrength": 30,
 		"cityHealth": 50,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [
@@ -2444,7 +2443,6 @@
 		"name": "Bugman's Brewery",
 		"isWonder": true,
 		"happiness": 2,
-		"isWonder": true,
 		"uniques": ["[+25]% [Gold] <in cities with a [Tavern]>",
 					"[+10]% [Gold] <in cities with a [Inn]>"],
 		"requiredTech": "Brewing",
@@ -2556,7 +2554,6 @@
 		"name": "Mosque of Ormuzd",
 		"isWonder": true,
 		"faith": 4,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Priesthood]>"],
 		"requiredTech": "Arabyan Tradition",
 		"civilopediaText": [
@@ -2567,7 +2564,6 @@
 		"name": "The Kong Miao",
 		"isWonder": true,
 		"science": 4,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Philosophy]>"],
 		"requiredTech": "Far East",
 		"civilopediaText": [
@@ -2578,7 +2574,6 @@
 		"name": "Pyramid of Eternal Life",
 		"isWonder": true,
 		"science": 4,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Necromancy]>","[+25]% [Food] [in all cities]"],
 		"uniqueTo": "Khemri",
 		"requiredTech": "Undead Curse",
@@ -2603,7 +2598,6 @@
 		"name": "Black Pillar of Commandments",
 		"isWonder": true,
 		"production": 4,
-		"isWonder": true,
 		"uniques": ["[3] Free Social Policies"],
 		"uniqueTo": "Skaven",
 		"requiredTech": "Magic of the Horned Rat",
@@ -2615,7 +2609,6 @@
 		"name": "Word of the Old Ones",
 		"isWonder": true,
 		"faith": 4,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Chronicles]>"],
 		"requiredTech": "Cold Ones",
 		"civilopediaText": [
@@ -2626,7 +2619,6 @@
 		"name": "White Tower of Hoeth",
 		"isWonder": true,
 		"science": 10,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Astrology]>","[2] Free Technologies","Only available <for [Ulthuan]>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
@@ -2637,20 +2629,20 @@
 		"name": "The Book of Days",
 		"isWonder": true,
 		"culture": 4,
-		"isWonder": true,
 		"uniques": ["Unbuildable <before discovering [Literature]>","[2] Free Technologies"],
 		"requiredTech": "Channeling",
 		"requiredBuilding": "Paper Maker",
 		"civilopediaText": [
-			{"text": "As work on the White Tower progressed, Bel-Korhadris founded the order of Loremasters who would be both the guardians and pupils of the knowledge assembled within. Every discipline, from warfare and sorcery to Alchemy and astromancy, was to be studied. many famed scholars and sorcerers gathered at Hoeth, and such an exchange of knowledge occurred as had not been seen before, and has not been seen since. In the shadow of the needle-pointed spire, thousands of the wisest philosophers debated their knowledge. Within the Library, a cadre of Loremasters began to inscribe the Book of Days, the Great history of the Elven people on which all future histories would be based.."}
+			{"text": "As work on the White Tower progressed, Bel-Korhadris founded the order of Loremasters who would be both the guardians and pupils of the knowledge assembled within. Every discipline, from warfare and sorcery to Alchemy and astromancy, was to be studied. Many famed scholars and sorcerers gathered at Hoeth, and such an exchange of knowledge occurred as had not been seen before, and has not been seen since. In the shadow of the needle-pointed spire, thousands of the wisest philosophers debated their knowledge. Within the Library, a cadre of Loremasters began to inscribe the Book of Days, the Great history of the Elven people on which all future histories would be based.."}
 		]
 	},
 	{
 		"name": "Shrine of Asuryan",
 		"isWonder": true,
 		"faith": 10,
-		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Contemplation]>","Free [Phoenix Guard] appears","Only available <for [Ulthuan]>"],
+		"uniques": ["Unbuildable <before discovering [Contemplation]>",
+					"Free [Phoenix Guard] appears",
+					"Only available <for [Ulthuan]>"],
 		"requiredTech": "Channeling",
 		"civilopediaText": [
 			{"text": "The Shrine of Asuryan, an annual destination of the Phoenix King, is located on the Island of Flame due north of Lothern, and is considered both the holiest place on Ulthuan, and the safest. It is also here that those born of Aenarion's Line are tested for the Curse that plagues his descendants."}
@@ -2676,8 +2668,8 @@
 		"faith": 4,
 		"science": 4,
 		"happiness": 10,
-		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Raw Magic]>","Empire enters golden age"],
+		"uniques": ["Unbuildable <before discovering [Raw Magic]>",
+					"Empire enters golden age"],
 		"requiredTech": "Forest Mastery",
 		"requiredBuilding": "Elven Shrine",
 		"civilopediaText": [
@@ -2688,8 +2680,8 @@
 		"name": "The Great Book of Grudges",
 		"isWonder": true,
 		"science": 4,
-		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Chronicles]>","[+2 Science] [<in [in all cities] cities>]"],
+		"uniques": ["Unbuildable <before discovering [Chronicles]>",
+					"[+2 Science] [<in [in all cities] cities>]"],
 		"requiredTech": "Dwarven Ingenuity",
 		"requiredBuilding": "Paper Maker",
 		"civilopediaText": [
@@ -2700,8 +2692,8 @@
 		"name": "Cauldron of Blood",
 		"isWonder": true,
 		"faith": 4,
-		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Necromancy]>"],
+		"uniques": ["Unbuildable <before discovering [Necromancy]>",
+					"[Land] Units adjacent to this city heal [+30] HP per turn when healing"],
 		"requiredTech": "Chaos",
 		"requiredBuilding": "Chaos Shrine",
 		"civilopediaText": [
@@ -2712,8 +2704,9 @@
 		"name": "Council of Thirteen",
 		"isWonder": true,
 		"faith": 4,
-		"isWonder": true,
-		"uniques": ["Unbuildable <before discovering [Chronicles]>","[+50]% spy effectiveness [in all cities]","Gain an extra spy"],
+		"uniques": ["Unbuildable <before discovering [Chronicles]>",
+					"[+50]% spy effectiveness [in all cities]",
+					"Gain an extra spy"],
 		"requiredTech": "Underworld",
 		"civilopediaText": [
 			{"text": "The insidious Council of Thirteen is the nefarious body comprised of twelve of the most powerful Skaven clan lords that rules over the Skaven Under-Empire. Its eponymous thirteenth member is symbolically the Horned Rat. Its mortal members are known as the 'Lords of Decay'."}
@@ -2757,7 +2750,8 @@
 		"faith": 1,
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "[+5]% [Food] [in this city]", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "[+5]% [Food] [in this city]", 
+					"Hidden when religion is disabled"]
 	},
 	{
 		"name": "Shrine of the Elder",
@@ -2838,7 +2832,8 @@
 		"cost": 5,
 		"uniques": ["May buy [Aragand] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			        "Gain a free [Portal] [in this city]", "Free [Aragand] appears", 
+			        "Gain a free [Portal] [in this city]", 
+					"Free [Aragand] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Aragand for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",
@@ -2852,7 +2847,8 @@
 		"cost": 5,
 		"uniques": ["May buy [Ungrim Ironfist] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
-			                "Gain a free [Portal] [in this city]", "Free [Ungrim Ironfist] appears", 
+			        "Gain a free [Portal] [in this city]", 
+					"Free [Ungrim Ironfist] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
 		"replacementTextForUniques": "Unlock Ungrim Ironfist for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",
@@ -3501,10 +3497,10 @@
 		"isWonder": true,
 		"hurryCostModifier": 0,
 		"requiredTech": "Corruption of Chaos",
-		"uniques": ["Free [Bloodletter] appears <every [11] turns> <after discovering [Bloodlust of Khorne]>",
-					"Free [Daemonette] appears <every [9] turns> <after discovering [Slaanesh's Pleasures]>",
-					"Free [Nurgling] appears <every [7] turns> <after discovering [Gifts of the Plagued One]>",
-					"Free [Pink Horror] appears <every [13] turns> <after discovering [Lore of Change]>"],
+		"uniques": ["Free [Bloodletter] appears <after discovering [Bloodlust of Khorne]> <every [11] turns>",
+					"Free [Daemonette] appears <after discovering [Slaanesh's Pleasures]> <every [9] turns>",
+					"Free [Nurgling] appears <after discovering [Gifts of the Plagued One]> <every [7] turns>",
+					"Free [Pink Horror] <after discovering [Lore of Change]> appears <every [13] turns>"],
 		"civilopediaText": [
 			{"text": "In the furthest north, beyond the boundaries of sanity and the laws of nature, stands one of the wrecked gateways of the Old Ones, oozing darkness and spewing forth mutating, magical energy: the raw stuff of Chaos. It is a bleeding wound, a tear in the fabric of reality, a gateway to another dimension."}
 		]
