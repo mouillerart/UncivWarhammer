@@ -3837,7 +3837,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 0,
 		"requiredTech": "Chaos Incursion",
-		"uniques": ["Triggers victory"],
+		"uniques": ["Triggers a global alert upon build start","Triggers victory"],
 		"quote": "'The Three-Eyed King has long awaited this moment, the hour of which his destiny is at last unveiled. He leads an army of madness and rage, against which no sane being would willingly stand. Perhaps I am not sane, as I will fight one last time. Not for victory, but for survival, for the hope that a spark can endure. It is a slender hope, and the laughter of the Dark Gods rings loud in my ears... These are the End Times...' — Prophecy of the End Times",
 		"civilopediaText": [
 			{"text": "The world is ending. Civilisation has collapsed, assailed by creatures of madness and decay. Ancient cities have been cast down, their defenders slaughtered or driven to live like beasts in the wild. The dead can not be counted. "},
