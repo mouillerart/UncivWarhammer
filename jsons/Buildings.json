@@ -2911,11 +2911,11 @@
 		"name": "Liang Portal",
 		"isWonder": true,
 		"cost": 5,
-		"uniques": ["May buy [Doc Ashfield] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
+		"uniques": ["May buy [Liang] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Instantly consumes [1] [Portal Limiter]",
 			                "Gain a free [Portal] [in this city]", "Free [Liang] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Age of Magic]>"],
-		"replacementTextForUniques": "Unlock Doc Ashfield for 200 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Liang for 200 Faith at an increasing price of 100",
 		"requiredTech": "Rise of Sigmar",
 		"civilopediaText": [
 			{"text":"This building only available in Capital."}

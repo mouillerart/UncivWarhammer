@@ -15,7 +15,7 @@
 			{
 				"name": "Old World",
 				"row": 3,
-				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [ind]>","Unavailable <for [Araby]>","Unavailable <for [Dwarfs]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>","Unavailable <for [Badmoon Goblins]>"],
+				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Ind]>","Unavailable <for [Araby]>","Unavailable <for [Dwarfs]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Chaos Dwarfs]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>","Unavailable <for [Badmoon Goblins]>"],
 				"quote": "This is a free advance granted to Reikland, Kislev, Tilea and Estalia",
 				"civilopediaText": [
 					{"text": "The Old World, called Elthin Arvan in the Eltharin language of the Elves, is the northwestern region of the Known World's sprawling eastern continent. It is the region of that great landmass where most of the realms of Men are located and is usually defined as the area west of the Worlds Edge Mountains, north of the Blood River and the Dwarf sea fortress of Barak Varr and south of the Troll Country. To its south lies the Badlands and the Southlands and eastward stretches the vast and mysterious Far East."},
@@ -143,7 +143,7 @@
 				"quote": "'The hungry flame sat in our guts...We ate the mountains to put it out... but the fire was still there...We climbed further still... We ate the Tall Ones' herds...Cavebeast was good meat... We climbed the peaks...Above the skies the giants dwell..'"
 			},
 			{
-				"name": "WAAGH"
+				"name": "WAAGH",
 				"row": 13,
 				"prerequisites": ["Greenskin"],
 				"uniques": ["[+1] Movement <for [Melee] units>"],
@@ -512,9 +512,8 @@
 			{
 				"name": "Mercenary Contracts",
 				"row": 4,
-				"uniques": ["Unavailable <for [Bretonnia]>"],
 				"prerequisites": ["Currency"],
-				"uniques": ["Military Units gifted from City-States start with [5] XP","Militaristic City-States grant units [3] times as fast when you are at war with a common nation","May buy [Melee] units with [Gold] [in all cities]"],
+				"uniques": ["Military Units gifted from City-States start with [5] XP","Militaristic City-States grant units [3] times as fast when you are at war with a common nation","May buy [Melee] units with [Gold] [in all cities]", "Unavailable <for [Bretonnia]>"],
 				"quote": ""
 			},
 			{
@@ -565,7 +564,7 @@
 				"row": 12,
 				"prerequisites": ["Raw Magic","Chaos"],
 				"quote": "Dhar, also called Dark Magic or, more rarely, Black Magic, is a form of magic that draws on all eight of the Winds of Magic yet does so in a corrupt and unbalanced way that can twist the physical environment, cause rampant mutation in the caster or bystanders, lead to the user's damnation by Chaos or otherwise damage reality itself."
-			},
+			}
 		]
 	},
 	{
@@ -812,7 +811,7 @@
 				"prerequisites": ["Imperial roads"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
-			}
+			},
 			{
 				"name": "Compass",
 				"cost": 475,
@@ -823,9 +822,8 @@
 			{
 				"name": "Education",
 				"row": 3,
-				"uniques": ["Unavailable <for [Beastmen]>"],
 				"prerequisites": ["Priesthood","Civil Service"],
-				"uniques": ["Enables conversion of city production to [Science]"],
+				"uniques": ["Enables conversion of city production to [Science], Unavailable <for [Beastmen]>"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
@@ -1185,7 +1183,7 @@
 				"quote": "'It is obvious that while science is struggling to bring Heaven to Earth some men are using its materials in the construction of Hell.' - Herbert Hoover"
 			}
 		]
-	}
+	},
 	{
 		"columnNumber": 23,
 		"era": "Future age",
